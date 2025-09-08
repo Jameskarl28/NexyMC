@@ -1,0 +1,809 @@
+DefaultTocopper:
+  rank: 'default'
+  next: 'copper'
+  requirements:
+    - 'playtime-minutes 50'
+    - 'money 1000'
+    - 'block-break STONE 50'
+    - 'block-break DIRT 30'
+    - 'mob-kills ZOMBIE 10'
+    - 'mob-kills SKELETON 10'
+    - 'advancement husbandry/plant_seed'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &7&lDefault &dto &6&lCopper 1
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#STONE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#STONE').progress | money}} / {{ rank.requirement('block-break#STONE').total | money }} Stone
+        &c{{rank.requirement('block-break#DIRT').done ? '&a' : '&c'}}{{ rank.requirement('block-break#DIRT').progress | money}} / {{ rank.requirement('block-break#DIRT').total | money }} Dirt  
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#ZOMBIE').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#ZOMBIE').progress | money}} / {{ rank.requirement('mob-kills#ZOMBIE').total | money }} Zombie
+        &c{{rank.requirement('mob-kills#SKELETON').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#SKELETON').progress | money}} / {{ rank.requirement('mob-kills#SKELETON').total | money }} Skeleton
+      &5Advancement:
+        &fComplete the "&e&l&nA Seedy Place&f"
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fち","bold":true,"color":"gold"}'
+copperTocopper2:
+  rank: 'copper'
+  next: 'copper2' 
+  requirements:
+    - 'playtime-minutes 100'
+    - 'money 10000'
+    - 'block-break IRON_ORE 30'
+    - 'block-break COAL_ORE 30'
+    - 'mob-kills CREEPER 15'
+    - 'mob-kills SPIDER 15'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &6&lCopper 1 &dto &6&lCopper 2
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#IRON_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#IRON_ORE').progress | money}} / {{ rank.requirement('block-break#IRON_ORE').total | money }} Iron Ore
+        &c{{rank.requirement('block-break#COAL_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#COAL_ORE').progress | money}} / {{ rank.requirement('block-break#COAL_ORE').total | money }} Coal Ore  
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#CREEPER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#CREEPER').progress | money}} / {{ rank.requirement('mob-kills#CREEPER').total | money }} Creeper
+        &c{{rank.requirement('mob-kills#SPIDER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#SPIDER').progress | money}} / {{ rank.requirement('mob-kills#SPIDER').total | money }} Spider
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fだ","bold":true,"color":"gold"}'
+copper2Tocopper3:
+  rank: 'copper2'
+  next: 'copper3'
+  requirements:
+    - 'playtime-minutes 250'
+    - 'money 20000'
+    - 'block-break GOLD_ORE 30'
+    - 'block-break LAPIS_ORE 30'
+    - 'mob-kills PHANTOM 10'
+    - 'mob-kills GLOW_SQUID 10'
+  rankup:
+    requirements-not-met: | 
+      &dRequirements to rankup from &6&lCopper 2 &dto &6&lCopper 3
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#GOLD_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#GOLD_ORE').progress | money}} / {{ rank.requirement('block-break#GOLD_ORE').total | money }} Gold Ore 
+        &c{{rank.requirement('block-break#LAPIS_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#LAPIS_ORE').progress | money}} / {{ rank.requirement('block-break#LAPIS_ORE').total | money }} Lapis Ore  
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#PHANTOM').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#PHANTOM').progress | money}} / {{ rank.requirement('mob-kills#PHANTOM').total | money }} Phantom
+        &c{{rank.requirement('mob-kills#GLOW_SQUID').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#GLOW_SQUID').progress | money}} / {{ rank.requirement('mob-kills#GLOW_SQUID').total | money }} Glow Squid
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fた","bold":true,"color":"gold"}'
+copper3Toiron:
+  rank: 'copper3'
+  next: 'iron'
+  requirements:
+    - 'playtime-minutes 750'
+    - 'money 50000'
+    - 'craft-item BEEHIVE 30'
+    - 'block-break EMERALD_ORE 20'
+    - 'mob-kills PILLAGER 50'
+    - 'mob-kills VINDICATOR 50'
+    - 'advancement adventure/voluntary_exile'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &6&lCopper 3 &dto &f&lIron 1
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#EMERALD_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#EMERALD_ORE').progress | money}} / {{ rank.requirement('block-break#EMERALD_ORE').total | money }} Emerald Ore
+      &eCraft Item:
+        &c{{rank.requirement('craft-item#BEEHIVE').done ? '&a' : '&c'}}{{ rank.requirement('craft-item#BEEHIVE').progress | money}} / {{ rank.requirement('craft-item#BEEHIVE').total | money }} Beehive  
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#PILLAGER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#PILLAGER').progress | money}} / {{ rank.requirement('mob-kills#PILLAGER').total | money }} Pillager
+        &c{{rank.requirement('mob-kills#VINDICATOR').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#VINDICATOR').progress | money}} / {{ rank.requirement('mob-kills#VINDICATOR').total | money }} Vindicator
+      &5Advancement:
+        &fComplete the "&e&l&nVoluntary Exile&f"
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fぞ","bold":true,"color":"gold"}'
+ironToiron2:
+  rank: 'iron'
+  next: 'iron2'
+  requirements:
+    - 'playtime-minutes 1500'
+    - 'money 70000'
+    - 'block-break REDSTONE_ORE 128'
+    - 'block-break LAPIS_ORE 128'
+    - 'mob-kills MOOSHROOM 20'
+    - 'item GOAT_HORN 5'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &f&lIron 1 &dto &f&lIron 2
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#REDSTONE_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#REDSTONE_ORE').progress | money}} / {{ rank.requirement('block-break#REDSTONE_ORE').total | money }} Redstone Ore 
+        &c{{rank.requirement('block-break#LAPIS_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#LAPIS_ORE').progress | money}} / {{ rank.requirement('block-break#LAPIS_ORE').total | money }} Lapis Ore  
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#MOOSHROOM').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#MOOSHROOM').progress | money}} / {{ rank.requirement('mob-kills#MOOSHROOM').total | money }} Mooshroom
+      &eGather: 
+        &c{{rank.requirement('item#GOAT_HORN').done ? '&a' : '&c'}}{{ rank.requirement('item#GOAT_HORN').progress | money}} / {{ rank.requirement('item#GOAT_HORN').total | money }} Goat Horn
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fそ","bold":true,"color":"gold"}'
+iron2Toiron3:
+  rank: 'iron2'
+  next: 'iron3'
+  requirements:
+    - 'playtime-minutes 2500'
+    - 'money 100000'
+    - 'block-break NETHER_QUARTZ_ORE 500'
+    - 'craft-item RED_NETHER_BRICKS 64'
+    - 'item WITHER_ROSE 10'
+    - 'mob-kills WITHER 10'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &f&lIron 2 &dto &f&lIron 3
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#NETHER_QUARTZ_ORE').done ? '&a' : '&c'}}{{ rank.requirement('block-break#NETHER_QUARTZ_ORE').progress | money}} / {{ rank.requirement('block-break#NETHER_QUARTZ_ORE').total | money }} Nether Quartz Ore  
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#WITHER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WITHER').progress | money}} / {{ rank.requirement('mob-kills#WITHER').total | money }} Wither
+      &eCraft Item:
+        &c{{rank.requirement('craft-item#RED_NETHER_BRICKS').done ? '&a' : '&c'}}{{ rank.requirement('craft-item#RED_NETHER_BRICKS').progress | money}} / {{ rank.requirement('craft-item#RED_NETHER_BRICKS').total | money }} Red Nether Bricks 
+      &eGather: 
+        &c{{rank.requirement('item#WITHER_ROSE').done ? '&a' : '&c'}}{{ rank.requirement('item#WITHER_ROSE').progress | money}} / {{ rank.requirement('item#WITHER_ROSE').total | money }} Wither Rose 
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fぜ","bold":true,"color":"gold"}'
+iron3Togold:
+  rank: 'iron3'
+  next: 'gold'
+  requirements:
+    - 'playtime-minutes 3500'
+    - 'money 125000'
+    - 'craft-item MUSIC_DISC_5 1'
+    - 'mob-kills HUSK 100'
+    - 'mob-kills STRAY 100'
+    - 'advancement nether/explore_nether'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &f&lIron 3 &dto &e&lGold 1
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#HUSK').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#HUSK').progress | money}} / {{ rank.requirement('mob-kills#HUSK').total | money }} Husk
+        &c{{rank.requirement('mob-kills#STRAY').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#STRAY').progress | money}} / {{ rank.requirement('mob-kills#STRAY').total | money }} Stray
+      &eCraft Item:
+        &c{{rank.requirement('craft-item#MUSIC_DISC_5').done ? '&a' : '&c'}}{{ rank.requirement('craft-item#MUSIC_DISC_5').progress | money}} / {{ rank.requirement('craft-item#MUSIC_DISC_5').total | money }} Samuel Åberg - 5 
+      &5Advancement:
+        &fComplete the "&e&l&nHot Tourist Destinations&f"
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fせ","bold":true,"color":"gold"}'
+goldTogold2:
+  rank: 'gold'
+  next: 'gold2'
+  requirements:
+    - 'playtime-minutes 4500'
+    - 'money 200000'
+    - 'block-break BAMBOO 640'
+    - 'itemh ANCIENT_DEBRIS 20'
+    - 'mob-kills HOGLIN 50'
+    - 'mob-kills GHAST 10'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &e&lGold 1 &dto &e&lGold 2
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#BAMBOO').done ? '&a' : '&c'}}{{ rank.requirement('block-break#BAMBOO').progress | money}} / {{ rank.requirement('block-break#BAMBOO').total | money }} Bamboo
+      &eGather: 
+        &c{{rank.requirement('itemh#ANCIENT_DEBRIS').done ? '&a' : '&c'}}{{ rank.requirement('itemh#ANCIENT_DEBRIS').progress | money}} / {{ rank.requirement('itemh#ANCIENT_DEBRIS').total | money }} Ancient Debris 
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#HOGLIN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#HOGLIN').progress | money}} / {{ rank.requirement('mob-kills#HOGLIN').total | money }} Hoglin
+        &c{{rank.requirement('mob-kills#GHAST').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#GHAST').progress | money}} / {{ rank.requirement('mob-kills#GHAST').total | money }} Ghast
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fず","bold":true,"color":"gold"}'
+gold2Togold3:
+  rank: 'gold2'
+  next: 'gold3'
+  requirements:
+    - 'playtime-minutes 6000'
+    - 'money 400000'
+    - 'item EMERALD_ORE 20'
+    - 'item CRIMSON_FUNGUS 40'
+    - 'mob-kills RAVAGER 10'
+    - 'mob-kills SILVERFISH 3'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &e&lGold 2 &dto &e&lGold 3
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eGather: 
+        &c{{rank.requirement('item#EMERALD_ORE').done ? '&a' : '&c'}}{{ rank.requirement('item#EMERALD_ORE').progress | money}} / {{ rank.requirement('item#EMERALD_ORE').total | money }} Emerald Ore
+        &c{{rank.requirement('item#CRIMSON_FUNGUS').done ? '&a' : '&c'}}{{ rank.requirement('item#CRIMSON_FUNGUS').progress | money}} / {{ rank.requirement('item#CRIMSON_FUNGUS').total | money }} Crimson Fungus
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#RAVAGER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#RAVAGER').progress | money}} / {{ rank.requirement('mob-kills#RAVAGER').total | money }} Ravager
+        &c{{rank.requirement('mob-kills#SILVERFISH').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#SILVERFISH').progress | money}} / {{ rank.requirement('mob-kills#SILVERFISH').total | money }} Silverfish
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fす","bold":true,"color":"gold"}'
+gold3Toamethyst:
+  rank: 'gold3'
+  next: 'amethyst'
+  requirements:
+    - 'playtime-minutes 7000'
+    - 'money 600000'
+    - 'block-break AMETHYST_BLOCK 256'
+    - 'block-break ANCIENT_DEBRIS 75'
+    - 'mob-kills MAGMA_CUBE 100'
+    - 'mob-kills GHAST 50'
+    - 'advancement adventure/two_birds_one_arrow'
+  rankup:
+    requirements-not-met: |
+     &dRequirements to rankup from &e&lGold 3 &dto &5&lAmethyst 1
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eBlock Breaks:
+        &c{{rank.requirement('block-break#ANCIENT_DEBRIS').done ? '&a' : '&c'}}{{ rank.requirement('block-break#ANCIENT_DEBRIS').progress | money}} / {{ rank.requirement('block-break#ANCIENT_DEBRIS').total | money }} Ancient Debris
+        &c{{rank.requirement('block-break#AMETHYST_BLOCK').done ? '&a' : '&c'}}{{ rank.requirement('block-break#AMETHYST_BLOCK').progress | money}} / {{ rank.requirement('block-break#AMETHYST_BLOCK').total | money }} Amethyst Block
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#MAGMA_CUBE').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#MAGMA_CUBE').progress | money}} / {{ rank.requirement('mob-kills#MAGMA_CUBE').total | money }} Magma Cube
+        &c{{rank.requirement('mob-kills#GHAST').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#GHAST').progress | money}} / {{ rank.requirement('mob-kills#GHAST').total | money }} Ghast
+      &5Advancement:
+        &fComplete the "&e&l&nTwo Birds, One Arrow&f"
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fじ","bold":true,"color":"gold"}'
+amethystToamethyst2:
+  rank: 'amethyst'
+  next: 'amethyst2'
+  requirements:
+    - 'playtime-minutes 8000'
+    - 'money 800000'
+    - 'item DEEPSLATE_DIAMOND_ORE 300'
+    - 'item OBSIDIAN 200'
+    - 'mob-kills PIGLIN_BRUTE 75'
+    - 'mob-kills ENDERMAN 250'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &5&lAmethyst 1 &dto &5&lAmethyst 2
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eGather: 
+        &c{{rank.requirement('item#DEEPSLATE_DIAMOND_ORE').done ? '&a' : '&c'}}{{ rank.requirement('item#DEEPSLATE_DIAMOND_ORE').progress | money}} / {{ rank.requirement('item#DEEPSLATE_DIAMOND_ORE').total | money }} Deepslate Diamond Ore
+        &c{{rank.requirement('item#OBSIDIAN').done ? '&a' : '&c'}}{{ rank.requirement('item#OBSIDIAN').progress | money}} / {{ rank.requirement('item#OBSIDIAN').total | money }} Obsidian
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#PIGLIN_BRUTE').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#PIGLIN_BRUTE').progress | money}} / {{ rank.requirement('mob-kills#PIGLIN_BRUTE').total | money }} Piglin Brute
+        &c{{rank.requirement('mob-kills#ENDERMAN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#ENDERMAN').progress | money}} / {{ rank.requirement('mob-kills#ENDERMAN').total | money }} Enderman
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fし","bold":true,"color":"gold"}'
+amethyst2Toamethyst3:
+  rank: 'amethyst2'
+  next: 'amethyst3'
+  requirements:
+    - 'playtime-minutes 9000'
+    - 'money 1500000'
+    - 'item ANCIENT_DEBRIS 100'
+    - 'item CHORUS_PLANT 250'
+    - 'mob-kills WITHER 20'
+    - 'mob-kills GUARDIAN 50'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &5&lAmethyst 2 &dto &5&lAmethyst 3
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &eGather: 
+        &c{{rank.requirement('item#ANCIENT_DEBRIS').done ? '&a' : '&c'}}{{ rank.requirement('item#ANCIENT_DEBRIS').progress | money}} / {{ rank.requirement('item#ANCIENT_DEBRIS').total | money }} Ancient Debris
+        &c{{rank.requirement('item#CHORUS_PLANT').done ? '&a' : '&c'}}{{ rank.requirement('item#CHORUS_PLANT').progress | money}} / {{ rank.requirement('item#CHORUS_PLANT').total | money }} Chorus Plant
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#WITHER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WITHER').progress | money}} / {{ rank.requirement('mob-kills#WITHER').total | money }} Wither
+        &c{{rank.requirement('mob-kills#GUARDIAN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#GUARDIAN').progress | money}} / {{ rank.requirement('mob-kills#GUARDIAN').total | money }} Guardian
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fざ","bold":true,"color":"gold"}'
+amethyst3Todiamond:
+  rank: 'amethyst3'
+  next: 'diamond'
+  requirements:
+    - 'playtime-minutes 10000'
+    - 'money 2000000'
+    - 'craft-item RESPAWN_ANCHOR 16'
+    - 'item TORCHFLOWER 10'
+    - 'mob-kills SHULKER 30'
+    - 'mob-kills WITCH 30'
+    - 'advancement end/levitate'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &5&lAmethyst 3 &dto &b&lDiamond 1
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &6Craft Item: 
+        &c{{rank.requirement('craft-item#RESPAWN_ANCHOR').done ? '&a' : '&c'}}{{ rank.requirement('craft-item#RESPAWN_ANCHOR').progress | money}} / {{ rank.requirement('craft-item#RESPAWN_ANCHOR').total | money }} Respawn Anchor
+      &6Gather: 
+        &c{{rank.requirement('item#TORCHFLOWER').done ? '&a' : '&c'}}{{ rank.requirement('item#TORCHFLOWER').progress | money}} / {{ rank.requirement('item#TORCHFLOWER').total | money }} TorchFlower
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#SHULKER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#SHULKER').progress | money}} / {{ rank.requirement('mob-kills#SHULKER').total | money }} Shulker
+        &c{{rank.requirement('mob-kills#WITCH').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WITCH').progress | money}} / {{ rank.requirement('mob-kills#WITCH').total | money }} Witch
+      &5Advancement:
+        &fComplete the "&e&l&nGreat View From Up Here&f"
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fさ","bold":true,"color":"gold"}'
+
+diamondTodiamond2:
+  rank: 'diamond'
+  next: 'diamond2'
+  requirements:
+    - 'playtime-minutes 11000'
+    - 'money 3000000'
+    - 'item PITCHER_PLANT 32'
+    - 'item GILDED_BLACKSTONE 30'
+    - 'mob-kills WITHER 30'
+    - 'mob-kills WARDEN 10'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &b&lDiamond 1 &dto &b&lDiamond 2
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &6Gather: 
+        &c{{rank.requirement('item#PITCHER_PLANT').done ? '&a' : '&c'}}{{ rank.requirement('item#PITCHER_PLANT').progress | money}} / {{ rank.requirement('item#PITCHER_PLANT').total | money }} Pitcher Plant
+        &c{{rank.requirement('item#GILDED_BLACKSTONE').done ? '&a' : '&c'}}{{ rank.requirement('item#GILDED_BLACKSTONE').progress | money}} / {{ rank.requirement('item#GILDED_BLACKSTONE').total | money }} Gilded Blackstone
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#WITHER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WITHER').progress | money}} / {{ rank.requirement('mob-kills#WITHER').total | money }} Wither
+        &c{{rank.requirement('mob-kills#WARDEN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WARDEN').progress | money}} / {{ rank.requirement('mob-kills#WARDEN').total | money }} Warden
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fご","bold":true,"color":"gold"}'
+diamond2Todiamond3:
+  rank: 'diamond2'
+  next: 'diamond3'
+  requirements:
+    - 'playtime-minutes 12000'
+    - 'money 4000000'
+    - 'itemh DEEPSLATE_DIAMOND_ORE 550'
+    - 'itemh ANCIENT_DEBRIS 300'
+    - 'mob-kills GUARDIAN 100'
+    - 'mob-kills ELDER_GUARDIAN 5'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &b&lDiamond 2 &dto &b&lDiamond 3
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &6Gather: 
+        &c{{rank.requirement('itemh#DEEPSLATE_DIAMOND_ORE').done ? '&a' : '&c'}}{{ rank.requirement('itemh#DEEPSLATE_DIAMOND_ORE').progress | money}} / {{ rank.requirement('itemh#DEEPSLATE_DIAMOND_ORE').total | money }} Deepslate Diamond Ore
+        &c{{rank.requirement('itemh#ANCIENT_DEBRIS').done ? '&a' : '&c'}}{{ rank.requirement('itemh#ANCIENT_DEBRIS').progress | money}} / {{ rank.requirement('itemh#ANCIENT_DEBRIS').total | money }} Ancient Debris
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#GUARDIAN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#GUARDIAN').progress | money}} / {{ rank.requirement('mob-kills#GUARDIAN').total | money }} Guardian
+        &c{{rank.requirement('mob-kills#ELDER_GUARDIAN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#ELDER_GUARDIAN').progress | money}} / {{ rank.requirement('mob-kills#ELDER_GUARDIAN').total | money }} Elder Guardian
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fこ","bold":true,"color":"gold"}'
+    
+diamond3Tonetherite:
+  rank: 'diamond3'
+  next: 'netherite'
+  requirements:
+    - 'playtime-minutes 13000'
+    - 'money 5000000'
+    - 'itemh DEEPSLATE_DIAMOND_ORE 650'
+    - 'craft-item CALIBRATED_SCULK_SENSOR 50'
+    - 'mob-kills VEX 30'
+    - 'mob-kills EVOKER 20'
+    - 'advancement adventure/kill_all_mobs'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &b&lDiamond 3 &dto &8&lNetherite 1
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &6Gather: 
+        &c{{rank.requirement('itemh#DEEPSLATE_DIAMOND_ORE').done ? '&a' : '&c'}}{{ rank.requirement('itemh#DEEPSLATE_DIAMOND_ORE').progress | money}} / {{ rank.requirement('itemh#DEEPSLATE_DIAMOND_ORE').total | money }} Deepslate Diamond Ore
+      &6Craft Item:
+        &c{{rank.requirement('craft-item#CALIBRATED_SCULK_SENSOR').done ? '&a' : '&c'}}{{ rank.requirement('craft-item#CALIBRATED_SCULK_SENSOR').progress | money}} / {{ rank.requirement('craft-item#CALIBRATED_SCULK_SENSOR').total | money }} Calibrated Sculk Sensor
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#VEX').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#VEX').progress | money}} / {{ rank.requirement('mob-kills#VEX').total | money }} Vex
+        &c{{rank.requirement('mob-kills#EVOKER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#EVOKER').progress | money}} / {{ rank.requirement('mob-kills#EVOKER').total | money }} Evoker
+      &5Advancement:
+        &fComplete the "&e&l&nMonsters Hunted&f"
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fげ","bold":true,"color":"gold"}'
+netheriteTonetherite2:
+  rank: 'netherite'
+  next: 'netherite2'
+  requirements:
+    - 'playtime-minutes 14000'
+    - 'money 10000000'
+    - 'craft-item END_CRYSTAL 64'
+    - 'item EXPOSED_CUT_COPPER 320'
+    - 'mob-kills SHULKER 75'
+    - 'mob-kills RABBIT 16'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &8&lNetherite 1 &dto &8&lNetherite 2
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &6Gather: 
+        &c{{rank.requirement('item#EXPOSED_CUT_COPPER').done ? '&a' : '&c'}}{{ rank.requirement('item#EXPOSED_CUT_COPPER').progress | money}} / {{ rank.requirement('item#EXPOSED_CUT_COPPER').total | money }} Exposed Cut Copper
+      &6Craft Item:
+        &c{{rank.requirement('craft-item#END_CRYSTAL').done ? '&a' : '&c'}}{{ rank.requirement('craft-item#END_CRYSTAL').progress | money}} / {{ rank.requirement('craft-item#END_CRYSTAL').total | money }} End Crystal
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#SHULKER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#SHULKER').progress | money}} / {{ rank.requirement('mob-kills#SHULKER').total | money }} Shulker
+        &c{{rank.requirement('mob-kills#RABBIT').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#RABBIT').progress | money}} / {{ rank.requirement('mob-kills#RABBIT').total | money }} Rabbit
+  gui:
+   rows: 4
+   rankup:
+    material: LIME_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%'
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
+    - 'title {PLAYER} title {"text":"Rankup &fけ","bold":true,"color":"gold"}'
+    
+netherite2Tonetherite3:
+  rank: 'netherite2'
+  next: 'netherite3'
+  requirements:
+    - 'playtime-minutes 20000'
+    - 'money 50000000'
+    - 'item RABBIT_FOOT 20'
+    - 'item CONDUIT 5'
+    - 'item HEART_OF_THE_SEA 10'
+    - 'mob-kills SHULKER 100'
+    - 'mob-kills RABBIT 50'
+    - 'mob-kills WITHER 100'
+    - 'mob-kills ZOGLIN 100'
+    - 'mob-kills WARDEN 100'
+  rankup:
+    requirements-not-met: |
+      &dRequirements to rankup from &8&lNetherite 2 &dto &8&lNetherite 3
+      &6Playtime:
+        &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
+      &6Money:
+        &c{{rank.requirement('money').done ? '&a' : '&c'}}₱%rankup_requirement_money_done% / ₱%rankup_requirement_money%
+      &6Gather: 
+        &c{{rank.requirement('item#RABBIT_FOOT').done ? '&a' : '&c'}}{{ rank.requirement('item#RABBIT_FOOT').progress | money}} / {{ rank.requirement('item#RABBIT_FOOT').total | money }} Rabbit's Foot
+        &c{{rank.requirement('item#CONDUIT').done ? '&a' : '&c'}}{{ rank.requirement('item#CONDUIT').progress | money}} / {{ rank.requirement('item#CONDUIT').total | money }} Conduit
+        &c{{rank.requirement('item#HEART_OF_THE_SEA').done ? '&a' : '&c'}}{{ rank.requirement('item#HEART_OF_THE_SEA').progress | money}} / {{ rank.requirement('item#HEART_OF_THE_SEA').total | money }} Heart of the Sea
+      &eMob Kills:
+        &c{{rank.requirement('mob-kills#SHULKER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#SHULKER').progress | money}} / {{ rank.requirement('mob-kills#SHULKER').total | money }} Shulker
+        &c{{rank.requirement('mob-kills#RABBIT').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#RABBIT').progress | money}} / {{ rank.requirement('mob-kills#RABBIT').total | money }} Rabbit
+        &c{{rank.requirement('mob-kills#WITHER').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WITHER').progress | money}} / {{ rank.requirement('mob-kills#WITHER').total | money }} Wither
+        &c{{rank.requirement('mob-kills#ZOGLIN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#ZOGLIN').progress | money}} / {{ rank.requirement('mob-kills#ZOGLIN').total | money }} Zoglin
+        &c{{rank.requirement('mob-kills#WARDEN').done ? '&a' : '&c'}}{{ rank.requirement('mob-kills#WARDEN').progress | money}} / {{ rank.requirement('mob-kills#WARDEN').total | money }} Warden
+  gui:
+   rows: 4
+   rankup:
+    material: GREEN_STAINED_GLASS_PANE
+    index: 10-12 19-21
+    name: '&a&lᴄᴏɴꜰɪʀᴍ'
+    lore: '&6ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛᴏ ʀᴀɴᴋᴜᴘ ᴛᴏ &6{RANK}'
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    index: 14-16 23-25
+    name: '&6&lᴄᴀɴᴄᴇʟ'
+  fill:
+    name: ' '
+    material: BLACK_STAINED_GLASS_PANE    
+  commands:
+    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%' 
+    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~' 
+    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal' 
+    - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}' 
+    - 'title {PLAYER} title {"text":"ʏᴏᴜ ᴀʀᴇ ᴀᴛ ᴛʜᴇ ʜɪɢʜᴇꜱᴛ ʀᴀɴᴋ.","bold":true,"color":"gold"}' 

@@ -1,0 +1,31 @@
+info:
+  namespace: "icons"
+font_images:
+  rankup:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "rankup.png"
+    scale_ratio: 9
+    y_position: 8
+    symbol: "α"
+  claims:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "claims.png"
+    scale_ratio: 9
+    y_position: 8
+    symbol: "β"
+  balance:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "balance.png"
+    scale_ratio: 9
+    y_position: 8
+    symbol: "γ"
+  pinata:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "pinata.png"
+    scale_ratio: 9
+    y_position: 8
+    symbol: "δ"
