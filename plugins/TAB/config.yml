@@ -90,7 +90,7 @@ bossbar:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
-  enabled: false
+  enabled: true
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false
@@ -102,20 +102,12 @@ scoreboard:
       title: 'ぅ'
       lines:
       - ''
-      - ''
       - '#FFC0CB&lProfile'
-      - ' ・#F8A000☄ &fʀᴀɴᴋ: %luckperms_prefix%'
-      - ' ・&b💼 &fᴊᴏʙꜱ: &7%jobsr_user_joinedjobcount%&8/&7%jobsr_maxjobs%'
-      - ' ・&d⛏ &fꜱᴋɪʟʟ ᴀᴠᴇʀᴀɢᴇ: &d%aureliumskills_power%'
-      - ' ・&a✐ &fᴄʟᴀɪᴍꜱ: &a%griefprevention_remainingclaims_formatted%'
+      - ' &fα #FFC0CBRank: %luckperms_prefix%'
+      - ' &fβ #FFC0CBClaims: #ADD8E6%griefprevention_remainingclaims_formatted%'
+      - ' &fγ #FFC0CBBalance: #ADD8E6%vault_eco_balance_formatted%'
       - ''
-      - ' ・&e₱ &fᴍᴏɴᴇʏ: &e%vault_eco_balance_formatted%'
-      - ' ・&b☆ &fꜱᴛᴀʀꜱ: &b☆%playerpoints_points_formatted%'
-      - ' ・&6⛃ &fᴛᴏᴋᴇɴꜱ: &6⛃%flaretokens_get_commas_tokens%'
-      - ''
-      - ' ・&6🪅 &fᴘɪɴᴀᴛᴀ: &f&6%pinataparty_current_votes%&f/&6%pinataparty_votes_needed%'
-      - ''
-      - ' ・&6🌏 &fᴡᴏʀʟᴅ: &f%world%'
+      - ' &fδ #FFC0CBPinata:'
       - ''
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
