@@ -47,7 +47,7 @@ scoreboard-teams:
   invisible-nametags: false
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,vip,starlie3,starlie2,starlie1,twinkle3,twinkle2,twinkle1,glitter3,glitter2,glitter1,puffy3,puffy2,puffy1,sprinkle3,sprinkle2,sprinkle1,default"
+    - "GROUPS:owner,admin,mod,helper,builder,vip,starlie3,starlie2,starlie1,sparkle3,sparkle2,sparkle1,twinkle3,twinkle2,twinkle1,glitter3,glitter2,glitter1,puffy3,puffy2,puffy1,sprinkle3,sprinkle2,sprinkle1,default"
     - "PLACEHOLDER_A_TO_Z:%player%"
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false

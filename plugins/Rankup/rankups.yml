@@ -1,6 +1,6 @@
-DefaultTocopper:
+nexiesTocopper:
   rank: 'default'
-  next: 'copper'
+  next: 'sprinkle1'
   requirements:
     - 'playtime-minutes 50'
     - 'money 1000'
@@ -11,7 +11,7 @@ DefaultTocopper:
     - 'advancement husbandry/plant_seed'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &7&lDefault &dto &6&lCopper 1
+      &dRequirements to rankup from &7&lNexies &dto &6&lSprinkle 1
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -44,9 +44,9 @@ DefaultTocopper:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fち","bold":true,"color":"gold"}'
-copperTocopper2:
-  rank: 'copper'
-  next: 'copper2' 
+sprinkle1Tosprinkle2:
+  rank: 'sprinkle1'
+  next: 'sprinkle2' 
   requirements:
     - 'playtime-minutes 100'
     - 'money 10000'
@@ -56,7 +56,7 @@ copperTocopper2:
     - 'mob-kills SPIDER 15'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &6&lCopper 1 &dto &6&lCopper 2
+      &dRequirements to rankup from &6&lSprinkle 1 &dto &6&lSprinkle 2
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -87,9 +87,9 @@ copperTocopper2:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fだ","bold":true,"color":"gold"}'
-copper2Tocopper3:
-  rank: 'copper2'
-  next: 'copper3'
+sprinkle2Tosprinkle3:
+  rank: 'sprinkle2'
+  next: 'sprinkle3'
   requirements:
     - 'playtime-minutes 250'
     - 'money 20000'
@@ -99,7 +99,7 @@ copper2Tocopper3:
     - 'mob-kills GLOW_SQUID 10'
   rankup:
     requirements-not-met: | 
-      &dRequirements to rankup from &6&lCopper 2 &dto &6&lCopper 3
+      &dRequirements to rankup from &6&lSprinkle 2 &dto &6&lSprinkle3 3
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -130,9 +130,9 @@ copper2Tocopper3:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fた","bold":true,"color":"gold"}'
-copper3Toiron:
-  rank: 'copper3'
-  next: 'iron'
+sprinkle3Topuffy1:
+  rank: 'sprinkle3'
+  next: 'puffy1'
   requirements:
     - 'playtime-minutes 750'
     - 'money 50000'
@@ -143,7 +143,7 @@ copper3Toiron:
     - 'advancement adventure/voluntary_exile'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &6&lCopper 3 &dto &f&lIron 1
+      &dRequirements to rankup from &6&lSprinkle 3 &dto &f&lPuffy 1
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -177,9 +177,9 @@ copper3Toiron:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fぞ","bold":true,"color":"gold"}'
-ironToiron2:
-  rank: 'iron'
-  next: 'iron2'
+puffy1Topuffy2:
+  rank: 'puffy1'
+  next: 'puffy2'
   requirements:
     - 'playtime-minutes 1500'
     - 'money 70000'
@@ -189,7 +189,7 @@ ironToiron2:
     - 'item GOAT_HORN 5'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &f&lIron 1 &dto &f&lIron 2
+      &dRequirements to rankup from &f&lPuffy 1 &dto &f&lPuffy 2
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -221,9 +221,9 @@ ironToiron2:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fそ","bold":true,"color":"gold"}'
-iron2Toiron3:
-  rank: 'iron2'
-  next: 'iron3'
+puffy2Topuffy3:
+  rank: 'puffy2'
+  next: 'puffy3'
   requirements:
     - 'playtime-minutes 2500'
     - 'money 100000'
@@ -233,7 +233,7 @@ iron2Toiron3:
     - 'mob-kills WITHER 10'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &f&lIron 2 &dto &f&lIron 3
+      &dRequirements to rankup from &f&lPffy 2 &dto &f&lPuffy 3
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -266,9 +266,9 @@ iron2Toiron3:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fぜ","bold":true,"color":"gold"}'
-iron3Togold:
-  rank: 'iron3'
-  next: 'gold'
+puffy3Toglitter1:
+  rank: 'puffy3'
+  next: 'glitter1'
   requirements:
     - 'playtime-minutes 3500'
     - 'money 125000'
@@ -278,7 +278,7 @@ iron3Togold:
     - 'advancement nether/explore_nether'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &f&lIron 3 &dto &e&lGold 1
+      &dRequirements to rankup from &f&lPuffy 3 &dto &e&lGlitter 1
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -310,9 +310,9 @@ iron3Togold:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fせ","bold":true,"color":"gold"}'
-goldTogold2:
-  rank: 'gold'
-  next: 'gold2'
+glitter1Toglitter2:
+  rank: 'glitter1'
+  next: 'glitter2'
   requirements:
     - 'playtime-minutes 4500'
     - 'money 200000'
@@ -322,7 +322,7 @@ goldTogold2:
     - 'mob-kills GHAST 10'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &e&lGold 1 &dto &e&lGold 2
+      &dRequirements to rankup from &e&lGlitter 1 &dto &e&lGlitter 2
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -354,9 +354,9 @@ goldTogold2:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fず","bold":true,"color":"gold"}'
-gold2Togold3:
-  rank: 'gold2'
-  next: 'gold3'
+glitter2Toglitter3:
+  rank: 'glitter2'
+  next: 'glitter3'
   requirements:
     - 'playtime-minutes 6000'
     - 'money 400000'
@@ -366,7 +366,7 @@ gold2Togold3:
     - 'mob-kills SILVERFISH 3'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &e&lGold 2 &dto &e&lGold 3
+      &dRequirements to rankup from &e&lGlitter 2 &dto &e&lGlitter 3
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -397,9 +397,9 @@ gold2Togold3:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fす","bold":true,"color":"gold"}'
-gold3Toamethyst:
-  rank: 'gold3'
-  next: 'amethyst'
+glitter3Totwinkle1:
+  rank: 'glitter3'
+  next: 'twinkle1'
   requirements:
     - 'playtime-minutes 7000'
     - 'money 600000'
@@ -410,7 +410,7 @@ gold3Toamethyst:
     - 'advancement adventure/two_birds_one_arrow'
   rankup:
     requirements-not-met: |
-     &dRequirements to rankup from &e&lGold 3 &dto &5&lAmethyst 1
+     &dRequirements to rankup from &e&lGlitter 3 &dto &5&lTwinkle 1
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -443,9 +443,9 @@ gold3Toamethyst:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fじ","bold":true,"color":"gold"}'
-amethystToamethyst2:
-  rank: 'amethyst'
-  next: 'amethyst2'
+twinkle1Totwinkle2:
+  rank: 'twinkle1'
+  next: 'twinkle2'
   requirements:
     - 'playtime-minutes 8000'
     - 'money 800000'
@@ -455,7 +455,7 @@ amethystToamethyst2:
     - 'mob-kills ENDERMAN 250'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &5&lAmethyst 1 &dto &5&lAmethyst 2
+      &dRequirements to rankup from &5&lTwinkle 1 &dto &5&lTwinkle 2
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -486,9 +486,9 @@ amethystToamethyst2:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fし","bold":true,"color":"gold"}'
-amethyst2Toamethyst3:
-  rank: 'amethyst2'
-  next: 'amethyst3'
+twinkle2Totwinkle3:
+  rank: 'twinkle2'
+  next: 'twinkle3'
   requirements:
     - 'playtime-minutes 9000'
     - 'money 1500000'
@@ -498,7 +498,7 @@ amethyst2Toamethyst3:
     - 'mob-kills GUARDIAN 50'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &5&lAmethyst 2 &dto &5&lAmethyst 3
+      &dRequirements to rankup from &5&lTwinkle 2 &dto &5&lTwinkle 3
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -529,9 +529,9 @@ amethyst2Toamethyst3:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fざ","bold":true,"color":"gold"}'
-amethyst3Todiamond:
-  rank: 'amethyst3'
-  next: 'diamond'
+twinkle3Tosparkle1:
+  rank: 'twinkle3'
+  next: 'sparkle1'
   requirements:
     - 'playtime-minutes 10000'
     - 'money 2000000'
@@ -542,7 +542,7 @@ amethyst3Todiamond:
     - 'advancement end/levitate'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &5&lAmethyst 3 &dto &b&lDiamond 1
+      &dRequirements to rankup from &5&lTwinkle 3 &dto &b&lSparkle 1
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -577,9 +577,9 @@ amethyst3Todiamond:
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fさ","bold":true,"color":"gold"}'
 
-diamondTodiamond2:
-  rank: 'diamond'
-  next: 'diamond2'
+sparkle1Tosparkle2:
+  rank: 'sparkle1'
+  next: 'sparkle2'
   requirements:
     - 'playtime-minutes 11000'
     - 'money 3000000'
@@ -589,7 +589,7 @@ diamondTodiamond2:
     - 'mob-kills WARDEN 10'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &b&lDiamond 1 &dto &b&lDiamond 2
+      &dRequirements to rankup from &b&lSparkle 1 &dto &b&lSparkle 2
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -620,9 +620,9 @@ diamondTodiamond2:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fご","bold":true,"color":"gold"}'
-diamond2Todiamond3:
-  rank: 'diamond2'
-  next: 'diamond3'
+sparkle2Tosparkle3:
+  rank: 'sparkle2'
+  next: 'sparkle3'
   requirements:
     - 'playtime-minutes 12000'
     - 'money 4000000'
@@ -632,7 +632,7 @@ diamond2Todiamond3:
     - 'mob-kills ELDER_GUARDIAN 5'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &b&lDiamond 2 &dto &b&lDiamond 3
+      &dRequirements to rankup from &b&lSparkle 2 &dto &b&lSparkle 3
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -664,9 +664,9 @@ diamond2Todiamond3:
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fこ","bold":true,"color":"gold"}'
     
-diamond3Tonetherite:
-  rank: 'diamond3'
-  next: 'netherite'
+sparkle3Tostarlie1:
+  rank: 'sparkle3'
+  next: 'starlie1'
   requirements:
     - 'playtime-minutes 13000'
     - 'money 5000000'
@@ -677,7 +677,7 @@ diamond3Tonetherite:
     - 'advancement adventure/kill_all_mobs'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &b&lDiamond 3 &dto &8&lNetherite 1
+      &dRequirements to rankup from &b&lSparkle 3 &dto &8&lStarlie 1
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -711,9 +711,9 @@ diamond3Tonetherite:
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fげ","bold":true,"color":"gold"}'
-netheriteTonetherite2:
-  rank: 'netherite'
-  next: 'netherite2'
+starlie1Tostarlie2:
+  rank: 'starlie1'
+  next: 'starlie2'
   requirements:
     - 'playtime-minutes 14000'
     - 'money 10000000'
@@ -723,7 +723,7 @@ netheriteTonetherite2:
     - 'mob-kills RABBIT 16'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &8&lNetherite 1 &dto &8&lNetherite 2
+      &dRequirements to rankup from &8&lStarlie 1 &dto &8&lStarlie 2
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
@@ -756,9 +756,9 @@ netheriteTonetherite2:
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
     - 'title {PLAYER} title {"text":"Rankup &fけ","bold":true,"color":"gold"}'
     
-netherite2Tonetherite3:
-  rank: 'netherite2'
-  next: 'netherite3'
+starlie2Tostarlie3:
+  rank: 'starlie2'
+  next: 'starlie3'
   requirements:
     - 'playtime-minutes 20000'
     - 'money 50000000'
@@ -772,7 +772,7 @@ netherite2Tonetherite3:
     - 'mob-kills WARDEN 100'
   rankup:
     requirements-not-met: |
-      &dRequirements to rankup from &8&lNetherite 2 &dto &8&lNetherite 3
+      &dRequirements to rankup from &8&lStarlie 2 &dto &8&lStarlie 3
       &6Playtime:
         &c{{rank.requirement('playtime-minutes').done ? '&a' : '&c'}} %rankup_requirement_playtime-minutes_done% minutes / %rankup_requirement_playtime-minutes% minutes
       &6Money:
