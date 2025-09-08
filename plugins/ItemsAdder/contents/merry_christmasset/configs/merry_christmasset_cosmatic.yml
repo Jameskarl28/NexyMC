@@ -1,0 +1,79 @@
+  
+info:
+  namespace: merry_christmasset
+items:
+  merry_christmas_cosmetics_head:
+    display_name: Merry Christmas Head Cosmetics
+    permission: merry_christmas.head_cosmetics
+    resource:
+      generate: false
+      material: POTION
+      model_path: helmet
+      model_id: 7630000
+
+  merry_christmas_cosmetics_backpack:
+    display_name: Merry Christmas Backpack Cosmetics
+    permission: merry_christmas.backpack_cosmetics
+    resource:
+      generate: false
+      material: POTION
+      model_path: backpack_cosmetics
+      model_id: 7630001
+  merry_christmas_cosmetics_backpack_self:
+    display_name: Merry Christmas Backpack Cosmetics Self
+    permission: merry_christmas.backpack_cosmetics_self
+    resource:
+      generate: false
+      material: POTION
+      model_path: backpack_cosmetics_self
+      model_id: 7630002      
+  merry_christmas_cosmetics_backpack_self_2:
+    display_name: Merry Christmas Backpack Cosmetics Self 2
+    permission: merry_christmas.backpack_cosmetics_self_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: backpack_cosmetics_self_2
+      model_id: 7630003      
+  merry_christmas_cosmetics_backpack_normal_2:
+    display_name: Merry Christmas Backpack Cosmetics Normal 2
+    permission: merry_christmas.backpack_cosmetics_normal_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: backpack_cosmetics_normal_2
+      model_id: 7630007      
+
+
+  merry_christmas_cosmetics_wings:
+    display_name: Merry Christmas Wings Cosmetics
+    permission: merry_christmas.wings_cosmetics
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics
+      model_id: 7630004
+  merry_christmas_cosmetics_wings_self:
+    display_name: Merry Christmas Wings Cosmetics Self
+    permission: merry_christmas.wings_cosmetics_self
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics_self
+      model_id: 7630005
+  merry_christmas_cosmetics_wings_self_2:
+    display_name: Merry Christmas Wings Cosmetics Self 2
+    permission: merry_christmas.wings_cosmetics_self_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics_self_2
+      model_id: 7630006
+  merry_christmas_cosmetics_wings_normal_2:
+    display_name: Merry Christmas Wings Cosmetics Normal 2
+    permission: merry_christmas.wings_cosmetics_normal_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics_normal_2
+      model_id: 7630008

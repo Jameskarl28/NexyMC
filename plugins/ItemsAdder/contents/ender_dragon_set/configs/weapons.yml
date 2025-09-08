@@ -1,0 +1,109 @@
+info:
+  namespace: ender_dragon_set
+items:
+  ender_sword:
+    display_name: <gradient:#A43285:#A43285>・Ender Dragon Sword・
+    permission: ender_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:                  
+      - item/ender_dragon/ender_sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  ender_pickaxe:
+    display_name: <gradient:#A43285:#A43285>・Ender Dragon Pickaxe・
+    permission: ender_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/ender_dragon/ender_pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  ender_axe:
+    display_name: <gradient:#A43285:#A43285>・Ender Dragon Axe・
+    permission: ender_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/ender_dragon/ender_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  ender_shovel:
+    display_name: <gradient:#A43285:#A43285>・Ender Dragon Shovel・
+    permission: ender_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/ender_dragon/ender_shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  ender_hoe:
+    display_name: <gradient:#A43285:#A43285>・Ender Dragon Hoe・
+    permission: ender_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/ender_dragon/ender_hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  ender_bow:
+    display_name: <gradient:#A43285:#A43285>・Ender Dragon Bow・
+    permission: ender_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/ender_dragon/ender_bow
+    enchants:
+      - POWER:5
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'

@@ -1,0 +1,751 @@
+info:
+  namespace: omstore
+items:
+  sticks_armorstand:
+    display_name: Sticks
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/sticks_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        solid: false
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1.
+          length_offset: 0
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  wooden_chair2_armorstand:
+    display_name: Wooden Chair
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_chair2_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        solid: true
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1.
+          length_offset: 0
+      furniture_sit:
+        sit_height: 0.9
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  wooden_chair_armorstand:
+    display_name: Wooden Chair
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_chair_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        solid: true
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1.
+          length_offset: 0
+      furniture_sit:
+        sit_height: 0.9
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  wooden_table_armorstand:
+    display_name: Wooden Table
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_table_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  wooden_pot_armorstand:
+    display_name: Tree Pot
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_pot_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  wooden_halflog_armorstand:
+    display_name: Half Oak Log
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_halflog_o
+    behaviours:
+      furniture:
+
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.7
+  tent_armorstand:
+    display_name: Tent
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/tent_o
+    behaviours:
+      furniture:
+
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  cradle_beach:
+    display_name: Cradle Beach
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/cradle_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.9
+  cradle_forest:
+    display_name: Cradle Forest
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/cradle_forest
+    behaviours:
+      furniture:
+
+        fixed_rotation: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.9
+  camping_armorstand:
+    display_name: Camping
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/camping_o
+    behaviours:
+      furniture:
+
+
+        fixed_rotation: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 3
+          height: 2
+          width_offset: 1.0
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break    
+  wooden_fench_armorstand:
+    display_name: Wooden Fench
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_fench_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: true
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  torch_armorstand:
+    display_name: Torch
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/torch_o
+    behaviours:
+      furniture:
+
+        light_level: 10
+        fixed_rotation: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  wooden_tallchair_armorstand:
+    display_name: Taller Chair
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_tallchair_o
+    behaviours:
+      furniture:
+
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 1.55
+  wooden_double_armchair_armorstand:
+    display_name: Wooden Double Armchair
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_double_armchair_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: true
+        solid: true
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  2
+          height: 1
+          width_offset: 0.5
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.8
+  wooden_single_armchair_armorstand:
+    display_name: Wooden Single Armchair
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_single_armchair_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: false
+        solid: true
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.8       
+  wooden_bench_table_armorstand:
+    display_name: Wooden Bench Table
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_bench_table_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: true
+        solid: true
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  2
+          height: 1
+          width_offset: 0.5
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  sleepingbag_beach_armorstand:
+    display_name: Sleepingbag Beach
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/sleepingbag_beach_o
+    behaviours:
+      furniture:
+
+
+        fixed_rotation: false
+        solid: false
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.5
+  sleeping_bag_forest:
+    display_name: Sleepingbag Forest
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/sleeping_bag_o
+    behaviours:
+      furniture:
+
+
+        fixed_rotation: false
+        solid: false
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.5
+  sleeping_bagroll_armorstand:
+    display_name: Sleepingbag Roll
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/sleeping_bagroll_o
+    behaviours:
+      furniture:
+
+
+        fixed_rotation: false
+        solid: false
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 2
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.7
+  sleeping_bagroll_beach_armorstand:
+    display_name: Sleepingbag Roll Beach
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/sleeping_bagroll_beach_o
+    behaviours:
+      furniture:
+
+
+        fixed_rotation: false
+        solid: false
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      furniture_sit:
+        sit_height: 0.7     
+  wooden_side_table_armorstand:
+    display_name: Wooden Side Table
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/wooden_side_table_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: false
+        solid: true
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+  beach_chair_armorstand:
+    display_name: Chair Beach
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/beach_chair_o
+    behaviours:
+      furniture:
+
+
+        gravity: false
+        fixed_rotation: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+      furniture_sit:
+        sit_height: 0.9
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break        
+  forest_chair_armorstand:
+    display_name: Chair Forest
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/forest_chair_o
+    behaviours:
+      furniture:
+
+
+        gravity: false
+        fixed_rotation: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+      furniture_sit:
+        sit_height: 0.9
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break             
+  umbrella_armorstand:
+    display_name: Umbrella
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/umbrella_o
+    behaviours:
+      furniture:
+
+        fixed_rotation: false
+        solid: false
+        opposite_direction: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width:  1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break         
+  smallchair_beach_armorstand:
+    display_name: Smallchair Beach
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/smallchair_beach_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+      furniture_sit:
+        sit_height: 0.8
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break  
+  smallchair_forest_armorstand:
+    display_name: Smallchair Forest
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/smallchair_forest_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+      furniture_sit:
+        sit_height: 0.8
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break  
+  bed_forest_armorstand:
+    display_name: Bed Forest
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/bed_forest_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: true
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 2.5
+          width: 1
+          height: 1
+          length_offset: 1
+      furniture_sit:
+        sit_height: 0.8
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break  
+  bed_beach_armorstand:
+    display_name: Bed Beach
+    permission: oshop.wooden1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: woodpack_1/bed_beach_o
+    behaviours:
+      furniture:
+
+        gravity: false
+        fixed_rotation: true
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 2.5
+          width: 1
+          height: 1
+          length_offset: 1
+      furniture_sit:
+        sit_height: 0.8
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break  

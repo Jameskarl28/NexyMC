@@ -1,0 +1,94 @@
+info:
+  namespace: amethyst_armor_set
+items:
+  amethyst_sword:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Sword・
+    permission: amethyst_sword
+
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:                  
+      - item/amethyst_armor/amethyst_sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  amethyst_pickaxe:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Pickaxe・
+    permission: amethyst_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  amethyst_axe:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Axe・
+    permission: amethyst_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      
+  amethyst_shovel:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Shovel・
+    permission: amethyst_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+
+  amethyst_bow:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Bow・
+    permission: amethyst_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_bow
+    enchants:
+      - POWER:5
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+      

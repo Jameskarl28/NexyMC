@@ -1,0 +1,104 @@
+info:
+  namespace: warden_set
+items:
+  warden_sword:
+    display_name: <gradient:#03A3A3:#03A3A3>・Warden Sword v2・
+    permission: warden_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:                  
+      - item/warden/warden_sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  warden_pickaxe:
+    display_name: <gradient:#03A3A3:#03A3A3>・Warden Pickaxe v2・
+    permission: warden_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/warden/warden_pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  warden_axe:
+    display_name: <gradient:#03A3A3:#03A3A3>・Warden Axe v2・
+    permission: warden_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/warden/warden_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  warden_shovel:
+    display_name: <gradient:#03A3A3:#03A3A3>・Warden Shovel v2・
+    permission: warden_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/warden/warden_shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  warden_hoe:
+    display_name: <gradient:#03A3A3:#03A3A3>・Warden Hoe v2・
+    permission: warden_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/warden/warden_hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  warden_bow:
+    display_name: <gradient:#03A3A3:#03A3A3>・Warden Bow v2・
+    permission: warden_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/warden/warden_bow
+    enchants:
+      - POWER:5
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'

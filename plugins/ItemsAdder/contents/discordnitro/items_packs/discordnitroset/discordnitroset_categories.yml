@@ -1,0 +1,34 @@
+info:
+  namespace: discordnitroset
+categories:
+  discordnitroset:
+    enabled: true
+    skip_if_already: false
+    icon: "discordnitroset:discordnitro_bow"
+    name: Discord Nitro Animated Weapons & Tools Set
+    permission: ia.menu
+    items:
+      - "discordnitroset:discordnitro_sword"
+      - "discordnitroset:discordnitro_spear"
+      - "discordnitroset:discordnitro_hammer"
+      - "discordnitroset:discordnitro_crossbow"
+      - "discordnitroset:discordnitro_bow"
+      - "discordnitroset:discordnitro_axe"
+      - "discordnitroset:discordnitro_hoe"
+      - "discordnitroset:discordnitro_pickaxe"
+      - "discordnitroset:discordnitro_shovel"
+      - "discordnitroset:discordnitro_fishing_rod"
+      - "discordnitroset:discordnitro_shield"
+      - "discordnitroset:discordnitro_chest"
+      - "discordnitroset:discordnitro_chest_opening"
+      - "discordnitroset:discordnitro_key"
+      - "discordnitroset:discordnitro_helmet_icon"
+      - "discordnitroset:discordnitrochestplate"
+      - "discordnitroset:discordnitroleggings"
+      - "discordnitroset:discordnitroboots"
+      - "discordnitroset:discordnitro_helmet"
+      - "discordnitroset:discordnitro_wings"
+      - "discordnitroset:discordnitro_scythe"
+      - "discordnitroset:discordnitro_staff"
+      - "discordnitroset:discordnitro_greatsword"
+      - "discordnitroset:discordnitro_trident"

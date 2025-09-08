@@ -1,0 +1,34 @@
+info:
+  namespace: valentineset
+categories:
+  valentineset:
+    enabled: true
+    skip_if_already: false
+    icon: "valentineset:valentine_sword"
+    name: Valentine Weapons & Tools Set
+    permission: valentineset.menu
+    items:
+      - "valentineset:valentine_sword"
+      - "valentineset:valentine_spear"
+      - "valentineset:valentine_trident"
+      - "valentineset:valentine_hammer"
+      - "valentineset:valentine_scythe"
+      - "valentineset:valentine_staff"
+      - "valentineset:valentine_bow"
+      - "valentineset:valentine_crossbow"
+      - "valentineset:valentine_axe"
+      - "valentineset:valentine_hoe"
+      - "valentineset:valentine_pickaxe"
+      - "valentineset:valentine_shovel"
+      - "valentineset:valentine_fishing_rod"
+      - "valentineset:valentine_shield"
+      - "valentineset:valentine_chest"
+      - "valentineset:valentine_greatsword"
+      - "valentineset:valentine_key"
+      - "valentineset:valentinechestplate"
+      - "valentineset:valentineleggings"
+      - "valentineset:valentineboots"
+      - "valentineset:valentinehelmet"
+      - "valentineset:valentine_head"
+      - "valentineset:valentine_wings"
+      - "valentineset:valentine_bouquet"

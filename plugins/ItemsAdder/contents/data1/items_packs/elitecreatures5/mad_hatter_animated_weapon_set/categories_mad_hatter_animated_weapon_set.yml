@@ -1,0 +1,40 @@
+info:
+  namespace: elitecreatures
+categories:
+  mad_hatter_animated_weapon_set:
+    enabled: true
+    icon: "elitecreatures:mad_hatter_animated_weapon_set_axe"
+    name: "Mad Hatter Animated Weapon Set"
+    permission: "ia.menu.mad_hatter_animated_weapon_set"
+    items:
+      - "elitecreatures:mad_hatter_animated_weapon_set_axe"
+      - "elitecreatures:mad_hatter_animated_weapon_set_big_sword"
+      - "elitecreatures:mad_hatter_animated_weapon_set_bow"
+      - "elitecreatures:mad_hatter_animated_weapon_set_chest"
+      - "elitecreatures:mad_hatter_animated_weapon_set_club"
+      - "elitecreatures:mad_hatter_animated_weapon_set_fishing_rod"
+      - "elitecreatures:mad_hatter_animated_weapon_set_gauntlet"
+      - "elitecreatures:mad_hatter_animated_weapon_set_halberd"
+      - "elitecreatures:mad_hatter_animated_weapon_set_hammer"
+      - "elitecreatures:mad_hatter_animated_weapon_set_hat_1"
+      - "elitecreatures:mad_hatter_animated_weapon_set_hat_2"
+      - "elitecreatures:mad_hatter_animated_weapon_set_hoe"
+      - "elitecreatures:mad_hatter_animated_weapon_set_key"
+      - "elitecreatures:mad_hatter_animated_weapon_set_knife"
+      - "elitecreatures:mad_hatter_animated_weapon_set_mace"
+      - "elitecreatures:mad_hatter_animated_weapon_set_pickaxe"
+      - "elitecreatures:mad_hatter_animated_weapon_set_scythe"
+      - "elitecreatures:mad_hatter_animated_weapon_set_shield"
+      - "elitecreatures:mad_hatter_animated_weapon_set_shovel"
+      - "elitecreatures:mad_hatter_animated_weapon_set_spear"
+      - "elitecreatures:mad_hatter_animated_weapon_set_sword"
+      - "elitecreatures:mad_hatter_animated_weapon_set_wing"
+      - "elitecreatures:mad_hatter_animated_weapon_set_helmet"
+      - "elitecreatures:mad_hatter_animated_weapon_set_chestplate"
+      - "elitecreatures:mad_hatter_animated_weapon_set_leggings"
+      - "elitecreatures:mad_hatter_animated_weapon_set_boots"
+
+
+
+
+

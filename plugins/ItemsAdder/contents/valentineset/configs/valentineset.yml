@@ -1,0 +1,328 @@
+info:
+  namespace: valentineset
+items:
+  valentine_axe:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Axe・
+    permission: valentine.axe
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_bow:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Bow・
+    permission: valentine.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Chest・
+    permission: valentine.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+
+  valentine_crossbow:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Crossbow・
+    permission: valentine.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+    enchants:
+      - MENDING
+      - PIERCING:5
+      - QUICK_CHARGE:3
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_fishing_rod:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Fishing Rod・
+    permission: valentine.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_hammer:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Hammer・
+    permission: valentine.hammer
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: hammer
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_hoe:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Hoe・
+    permission: valentine.hoe
+    resource:
+      generate: false
+      material: NETHERITE_HOE
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_key:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Key・
+    permission: valentine.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  valentine_pickaxe:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Pickaxe・
+    permission: valentine.pickaxe
+    resource:
+      generate: false
+      material: NETHERITE_PICKAXE
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_scythe:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Scythe・
+    permission: valentine.scythe
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: scythe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_shield:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Shield・
+    permission: valentine.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  valentine_shovel:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Shovel・
+    permission: valentine.shovel
+    resource:
+      generate: false
+      material: NETHERITE_SHOVEL
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_spear:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Spear・
+    permission: valentine.spear
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_staff:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Staff・
+    permission: valentine.staff
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_sword:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Sword・
+    permission: valentine.sword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_trident:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Trident・
+    permission: valentine.trident
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: trident
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_bouquet:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Bouquet・
+    permission: valentine.bouquet
+    resource:
+      generate: false
+      material: PAPER
+      model_path: bouquet
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  valentine_wings:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Wings・
+    permission: valentine.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  valentine_greatsword:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Great Sword・
+    permission: valentine.greatsword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: greatsword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  valentine_head:
+    behaviours:
+      hat: true
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Head・
+    permission: valentine.head
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'

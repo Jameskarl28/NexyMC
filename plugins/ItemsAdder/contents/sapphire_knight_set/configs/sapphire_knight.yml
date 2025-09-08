@@ -1,0 +1,119 @@
+info:
+  namespace: sapphire_knight_set
+armors_rendering:
+  sapphire_knight:
+    color: "#71e0e0"
+    layer_1: armor/sapphire_knight/layer_1
+    layer_2: armor/sapphire_knight/layer_2
+    emissive_1: armor/sapphire_knight/emissive_1
+    emissive_2: armor/sapphire_knight/emissive_2
+    use_color: false
+items:
+  sapphire_helmet:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Helmet・
+    permission: sapphire_helmet
+    resource:
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_helmet
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: sapphire_knight
+  sapphire_chestplate:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Chestplate・
+    permission: sapphire_chestplate
+    resource:
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_chestplate
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: sapphire_knight
+  sapphire_leggings:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Leggings・
+    permission: sapphire_leggings
+    resource:
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_leggings
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: sapphire_knight
+  sapphire_boots:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Boots・
+    permission: sapphire_boots
+    resource:
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_boots
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: sapphire_knight

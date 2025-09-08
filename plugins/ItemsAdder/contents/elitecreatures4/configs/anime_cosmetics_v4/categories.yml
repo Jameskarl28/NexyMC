@@ -1,0 +1,18 @@
+info:
+  namespace: elitecreatures
+categories:
+  pack_name:
+    enabled: true
+    icon: "elitecreatures:anime_cosmetics_v4-b_pochita"
+    name: "Anime Cosmetic V4"
+    permission: "ia.menu.anime_cosmetics_v4"
+    items:
+      - "elitecreatures:anime_cosmetics_v4-b_pochita"
+      - "elitecreatures:anime_cosmetics_v4-b_skull_medal"
+      - "elitecreatures:anime_cosmetics_v4-b_unchi"
+      - "elitecreatures:anime_cosmetics_v4-h_arale_cap"
+      - "elitecreatures:anime_cosmetics_v4-h_berserker_mask"
+      - "elitecreatures:anime_cosmetics_v4-h_chainsaw_man"
+      - "elitecreatures:anime_cosmetics_v4-p_arale"
+      - "elitecreatures:anime_cosmetics_v4-p_chainsaw_backpack"
+      - "elitecreatures:anime_cosmetics_v4-p_sword"

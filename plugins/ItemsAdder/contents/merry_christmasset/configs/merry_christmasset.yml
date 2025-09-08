@@ -1,0 +1,347 @@
+info:
+  namespace: merry_christmasset
+items:
+  merry_christmas_axe:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Axe・
+    permission: merry_christmas.axe
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_bow:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Bow・
+    permission: merry_christmas.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Chest・
+    permission: merry_christmas.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+
+  merry_christmas_crossbow:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Crossbow・
+    permission: merry_christmas.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+    enchants:
+      - MENDING
+      - PIERCING:5
+      - QUICK_CHARGE:3
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_fishing_rod:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Fishing Rod・
+    permission: merry_christmas.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_hammer:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Hammer・
+    permission: merry_christmas.hammer
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: hammer
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_hoe:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Hoe・
+    permission: merry_christmas.hoe
+    resource:
+      generate: false
+      material: NETHERITE_HOE
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_key:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Key・
+    permission: merry_christmas.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+      
+      
+  merry_christmas_pickaxe:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Pickaxe・
+    permission: merry_christmas.pickaxe
+    resource:
+      generate: false
+      material: NETHERITE_PICKAXE
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_scythe:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Scythe・
+    permission: merry_christmas.scythe
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: scythe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_shield:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Shield・
+    permission: merry_christmas.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+      
+  merry_christmas_shovel:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Shovel・
+    permission: merry_christmas.shovel
+    resource:
+      generate: false
+      material: NETHERITE_SHOVEL
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_spear:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Spear・
+    permission: merry_christmas.spear
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_staff:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Staff・
+    permission: merry_christmas.staff
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_sword:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Sword・
+    permission: merry_christmas.sword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_trident:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Trident・
+    permission: merry_christmas.trident
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: trident
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_backpack:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Backpack・
+    permission: merry_christmas.backpack
+    resource:
+      generate: false
+      material: PAPER
+      model_path: backpack
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+      
+  merry_christmas_wings:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Wings・
+    permission: merry_christmas.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+      
+  merry_christmas_greatsword:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Great Sword・
+    permission: merry_christmas.greatsword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: greatsword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+      
+  merry_christmas_head:
+    behaviours:
+      hat: true
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Head・
+    permission: merry_christmas.head
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'

@@ -1,0 +1,22 @@
+info:
+  namespace: wither
+categories:
+  wither:
+    enabled: true
+    skip_if_already: false
+    icon: "wither:wither_bow"
+    name: Wither Set
+    permission: ia.menu
+    items:
+      - "wither:wither_sword"
+      - "wither:wither_bow"
+      - "wither:wither_axe"
+      - "wither:wither_hoe"
+      - "wither:wither_pickaxe"
+      - "wither:wither_shovel"
+      - "wither:wither_fishing_rod"
+      - "wither:wither_shield"
+      - "wither:witherchestplate"
+      - "wither:witherleggings"
+      - "wither:witherboots"
+      - "wither:witherhelmet"

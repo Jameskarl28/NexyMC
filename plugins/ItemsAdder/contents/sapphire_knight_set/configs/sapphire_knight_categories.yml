@@ -1,0 +1,19 @@
+info:
+  namespace: sapphire_knight_set
+categories:
+  sapphire_knight_set:
+    enabled: true
+    skip_if_already: false
+    icon: "sapphire_knight_set:sapphire_sword"
+    name: Sapphire Knight Set
+    permission: ia.menu
+    items:
+      - "sapphire_knight_set:sapphire_bow"
+      - "sapphire_knight_set:sapphire_sword"
+      - "sapphire_knight_set:sapphire_shovel"
+      - "sapphire_knight_set:sapphire_pickaxe"
+      - "sapphire_knight_set:sapphire_axe"
+      - "sapphire_knight_set:sapphire_helmet"
+      - "sapphire_knight_set:sapphire_leggings"
+      - "sapphire_knight_set:sapphire_boots"
+      - "sapphire_knight_set:sapphire_chestplate"

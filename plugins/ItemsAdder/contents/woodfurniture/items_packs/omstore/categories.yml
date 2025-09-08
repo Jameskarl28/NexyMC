@@ -1,0 +1,36 @@
+info:
+  namespace: omstore
+categories:
+  woodenpack:
+    enabled: true
+    icon: omstore:tent_armorstand
+    name: 'WoodenPack_I'
+    items:
+      - "omstore:sticks_armorstand"
+      - "omstore:wooden_chair2_armorstand"
+      - "omstore:wooden_chair_armorstand"
+      - "omstore:wooden_table_armorstand"
+      - "omstore:wooden_pot_armorstand"
+      - "omstore:wooden_halflog_armorstand"
+      - "omstore:tent_armorstand"
+      - "omstore:cradle_beach"
+      - "omstore:cradle_forest"
+      - "omstore:camping_armorstand"
+      - "omstore:wooden_fench_armorstand"
+      - "omstore:torch_armorstand"
+      - "omstore:wooden_tallchair_armorstand"
+      - "omstore:wooden_double_armchair_armorstand"
+      - "omstore:wooden_single_armchair_armorstand"
+      - "omstore:wooden_bench_table_armorstand"
+      - "omstore:sleepingbag_beach_armorstand"
+      - "omstore:sleeping_bag_forest"
+      - "omstore:sleeping_bagroll_armorstand"
+      - "omstore:sleeping_bagroll_beach_armorstand"
+      - "omstore:wooden_side_table_armorstand"
+      - "omstore:beach_chair_armorstand"
+      - "omstore:forest_chair_armorstand"
+      - "omstore:umbrella_armorstand"
+      - "omstore:smallchair_beach_armorstand"
+      - "omstore:smallchair_forest_armorstand"
+      - "omstore:bed_forest_armorstand"
+      - "omstore:bed_beach_armorstand"

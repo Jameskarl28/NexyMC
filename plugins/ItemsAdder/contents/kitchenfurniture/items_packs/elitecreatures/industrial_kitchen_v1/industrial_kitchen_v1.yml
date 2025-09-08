@@ -1,0 +1,325 @@
+info:
+  namespace: elitecreatures
+categories:
+  industrial_kitchen_v1: 
+    enabled: true
+    icon: elitecreatures:ik_fridge
+    name:  Industrial Kitchen v1
+    permission: permission.industrial_kitchen_v1
+    items:
+    - elitecreatures:ik_fridge
+    - elitecreatures:ik_fridge_white
+    - elitecreatures:ik_fridge_with_dish
+    - elitecreatures:ik_grill
+    - elitecreatures:ik_hood
+    - elitecreatures:ik_microwave
+    - elitecreatures:ik_mixer
+    - elitecreatures:ik_table
+    - elitecreatures:ik_table_bar
+    - elitecreatures:ik_table_corner
+    - elitecreatures:ik_table_fireplace
+    - elitecreatures:ik_table_long
+    - elitecreatures:ik_table_with_cupboard
+    - elitecreatures:ik_table_with_cupboard_2
+    - elitecreatures:ik_table_with_dishwasher 
+
+items:
+
+  ik_fridge:
+    display_name: fridge
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_fridge
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_fridge_white:
+    display_name: fridge white
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_fridge_white
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+  ik_fridge_with_dish:
+    display_name: fridge with dish
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_fridge_with_dish
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_grill:
+    display_name: grill
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_grill
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_hood:
+    display_name: hood
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_hood
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_microwave:
+    display_name: microwave
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_microwave
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_mixer:
+    display_name: mixer
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_mixer
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table:
+    display_name: table
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_bar:
+    display_name: table bar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_bar
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_corner:
+    display_name: table corner
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_corner
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_fireplace:
+    display_name: table fireplace
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_fireplace
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_long:
+    display_name: table long
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_long
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_with_cupboard:
+    display_name: table with cupboard
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_with_cupboard
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_with_cupboard_2:
+    display_name: table with cupboard 2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_with_cupboard_2
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  ik_table_with_dishwasher:
+    display_name: table with dishwasher
+    resource:
+      material: PAPER
+      generate: false
+      model_path: industrial_kitchen_v1/ik_table_with_dishwasher
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false

@@ -1,0 +1,109 @@
+info:
+  namespace: elitecreatures
+items:
+  anime_cosmetic_v2-darkness_crown:
+    display_name: Darkness Crown
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/darkness_crown
+    behaviours:
+      hat: true
+  anime_cosmetic_v2-darkness_saber_backitem:
+    display_name: Darkness Saber
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/darkness_saber_backitem
+  anime_cosmetic_v2-darkness_saber_backitem_self:
+    display_name: Darkness Saber
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/darkness_saber_backitem_self
+  anime_cosmetic_v2-jostar_hat:
+    display_name: Jostar Hat
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/jostar_hat
+    behaviours:
+      hat: true
+  anime_cosmetic_v2-star_stand_backpack:
+    display_name: Star Stand Backpack
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/star_stand_backpack
+  anime_cosmetic_v2-star_stand_backpack_self:
+    display_name: Star Stand Backpack
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/star_stand_backpack_self
+  anime_cosmetic_v2-quirk_mask:
+    display_name: Quirk Mask
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/quirk_mask
+    behaviours:
+      hat: true
+  anime_cosmetic_v2-quirk_backpack:
+    display_name: Quirk Backpack
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/quirk_backpack
+  anime_cosmetic_v2-quirk_backpack_self:
+    display_name: Quirk Backpack
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/quirk_backpack_self
+  anime_cosmetic_v2-darkness_book_balloon:
+    display_name: Darkness Book
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/darkness_book_balloon 
+  anime_cosmetic_v2-mighty_medal_balloon:
+    display_name: Display
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/mighty_medal_balloon
+  anime_cosmetic_v2-menacing_balloon:
+    display_name: Menacing Balloon
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetic_v2/menacing_balloon
+entities:
+  anime_cosmetic_v2-darkness_book_balloon:
+    display_name: "Darkness Book"
+    type: ARMOR_STAND
+    model_folder: entity/darkness_book_balloon
+    speed:
+      movement: 0.0
+      flying: 0.0
+    max_health: 1
+    shadow: false 
+  anime_cosmetic_v2-mighty_medal_balloon:
+    display_name: "Mighty Medal"
+    type: ARMOR_STAND
+    model_folder: entity/mighty_medal_balloon
+    speed:
+      movement: 0.0
+      flying: 0.0
+    max_health: 1
+    shadow: false
+  anime_cosmetic_v2-menacing_balloon:
+    display_name: "Menacing Balloon"
+    type: ARMOR_STAND
+    model_folder: entity/ora_text_balloon
+    speed:
+      movement: 0.0
+      flying: 0.0
+    max_health: 1
+    shadow: false

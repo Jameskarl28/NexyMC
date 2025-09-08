@@ -1,0 +1,120 @@
+armors_rendering:
+  merry_christmasarmor:
+    color: '#2e4b59'
+    layer_1: armor/merry_christmas_armor_layer_1
+    layer_2: armor/merry_christmas_armor_layer_2
+    use_color: false
+info:
+  namespace: merry_christmasset
+items:
+  merry_christmasboots:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Boots・
+    permission: merry_christmas.boots
+    resource:
+      generate: true
+      textures:
+      - armor/merry_christmas_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: merry_christmasarmor
+        slot: feet
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+        
+  merry_christmaschestplate:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Chestplate・
+    permission: merry_christmas.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/merry_christmas_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: merry_christmasarmor
+        slot: chest
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+
+  merry_christmasleggings:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Leggings・
+    permission: merry_christmas.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/merry_christmas_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: merry_christmasarmor
+        slot: legs
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+
+  merry_christmashelmet:
+    display_name: <gradient:#E82344:#E82344>・Merry Christmas Helmet・
+    permission: merry_christmas.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/merry_christmas_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: merry_christmasarmor
+        slot: head
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1

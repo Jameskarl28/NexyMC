@@ -1,0 +1,83 @@
+info:
+  namespace: elitecreatures
+items:
+  anime_cosmetics_v4-b_pochita:
+    display_name: Pochita
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/b_pochita
+    behaviours:
+      hat: true
+  anime_cosmetics_v4-b_skull_medal:
+    display_name: Display
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/b_skull_medal
+  anime_cosmetics_v4-b_unchi:
+    display_name: Unchi
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/b_unchi
+  anime_cosmetics_v4-h_arale_cap:
+    display_name: Arale Cap
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/h_arale_cap
+    behaviours:
+      hat: true
+  anime_cosmetics_v4-h_berserker_mask:
+    display_name: Berserker Mask
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/h_berserker_mask
+    behaviours:
+      hat: true
+  anime_cosmetics_v4-h_chainsaw_man:
+    display_name: Chainsaw Man
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/h_chainsaw_man
+    behaviours:
+      hat: true
+  anime_cosmetics_v4-p_arale:
+    display_name: Arale
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/p_arale
+  anime_cosmetics_v4-p_arale_self:
+    display_name: Arale Self
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/p_arale_self
+  anime_cosmetics_v4-p_chainsaw_backpack:
+    display_name: Chainsaw Backpack
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/p_chainsaw_backpack
+  anime_cosmetics_v4-p_chainsaw_backpack_self:
+    display_name: Display
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/p_chainsaw_backpack_self
+  anime_cosmetics_v4-p_sword:
+    display_name: Sword
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/p_sword
+  anime_cosmetics_v4-p_sword_self:
+    display_name: Display
+    resource:
+      material: KELP
+      generate: false
+      model_path: anime_cosmetics_v4/p_sword_self

@@ -1,0 +1,278 @@
+info:
+  namespace: dragonstone_guardians
+items:
+  dragonstone_axe:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Axe・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_battle_axe:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Battle Axe・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: battle_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_blade:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Blade・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: blade
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_bow:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Bow・
+    permission: dragonstone_guardians.use
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_chest:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Chest・
+    permission: dragonstone_guardians.use
+    resource:
+      material: SEA_LANTERN
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+  dragonstone_dagger:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Dagger・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: dagger
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_fishing_rod:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Fishing Rod・
+    permission: dragonstone_guardians.use
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_halberd:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Halberd・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: halberd
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_hoe:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Hoe・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_key:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Key・
+    permission: dragonstone_guardians.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  dragonstone_pickaxe:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Pickaxe・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_shield:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Shield・
+    permission: dragonstone_guardians.use
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  dragonstone_shovel:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Shovel・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_spear:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Spear・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_staff:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Staff・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_sword:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Sword・
+    permission: dragonstone_guardians.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+  dragonstone_wings:
+    behaviours:
+      hat: true
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Wings・
+    permission: dragonstone_guardians.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03

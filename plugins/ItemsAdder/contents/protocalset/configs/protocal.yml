@@ -1,0 +1,322 @@
+info:
+  namespace: protocalset
+items:
+  protocal_axe:
+    display_name: <gradient:#E95749:#E95749>・Protocal Axe・
+    permission: protocalset.axe
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_bow:
+    display_name: Protocal Bow
+    permission: protocalset.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#E95749:#E95749>・Protocal Chest・
+    permission: protocalset.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+  protocal_chest_opening:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 2
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#E95749:#E95749>・Protocal Chest Opening・
+    permission: protocalset.chest_opening
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest_opening
+  protocal_crossbow:
+    display_name: <gradient:#E95749:#E95749>・Protocal Crossbow・
+    permission: protocalset.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+  protocal_fishing_rod:
+    display_name: <gradient:#E95749:#E95749>・Protocal Fishing Rod・
+    permission: protocalset.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - PIERCING:5
+      - QUICK_CHARGE:3
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_greatsword:
+    display_name: <gradient:#E95749:#E95749>・Protocal Greatsword・
+    permission: protocalset.greatsword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: greatsword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_hammer:
+    display_name: <gradient:#E95749:#E95749>・Protocal Hammer・
+    permission: protocalset.hammer
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: hammer
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_hoe:
+    display_name: <gradient:#E95749:#E95749>・Protocal Hoe・
+    permission: protocalset.hoe
+    resource:
+      generate: false
+      material: NETHERITE_HOE
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_key:
+    display_name: <gradient:#E95749:#E95749>・Protocal Key・
+    permission: protocalset.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  protocal_pickaxe:
+    display_name: <gradient:#E95749:#E95749>・Protocal Pickaxe・
+    permission: protocalset.pickaxe
+    resource:
+      generate: false
+      material: NETHERITE_PICKAXE
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_scythe:
+    display_name: <gradient:#E95749:#E95749>・Protocal Scythe・
+    permission: protocalset.scythe
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: scythe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_shield:
+    display_name: <gradient:#E95749:#E95749>・Protocal Shield・
+    permission: protocalset.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  protocal_shovel:
+    display_name: <gradient:#E95749:#E95749>・Protocal Shovel・
+    permission: protocalset.shovel
+    resource:
+      generate: false
+      material: NETHERITE_SHOVEL
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_spear:
+    display_name: <gradient:#E95749:#E95749>・Protocal Spear・
+    permission: protocalset.spear
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_staff:
+    display_name: <gradient:#E95749:#E95749>・Protocal Staff・
+    permission: protocalset.staff
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_sword:
+    display_name: <gradient:#E95749:#E95749>・Protocal Sword・
+    permission: protocalset.sword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_trident:
+    display_name: <gradient:#E95749:#E95749>・Protocal Trident・
+    permission: protocalset.trident
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: trident
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  protocal_wings:
+    display_name: <gradient:#E95749:#E95749>・Protocal Wings・
+    permission: protocalset.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  protocal_helmet:
+    behaviours:
+      hat: true
+    display_name: <gradient:#E95749:#E95749>・Protocal Cosmetic Helmet・
+    permission: protocalset.helmet
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'

@@ -1,0 +1,247 @@
+info:
+  namespace: elitecreatures
+items:
+  asura_animated_weapon-axe:
+    display_name: <gradient:#F59642:#F59642>・Asura Axe・
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: asura_animated_weapon/axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-battle_axe:
+    display_name: <gradient:#F59642:#F59642>・Asura Battle Axe・
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: asura_animated_weapon/battle_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-blade:
+    display_name: <gradient:#F59642:#F59642>・Asura Blade・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: asura_animated_weapon/blade
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-bow:
+    display_name: <gradient:#F59642:#F59642>・Asura Bow・
+    resource:
+      material: BOW
+      generate: false
+      model_path: asura_animated_weapon/bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-fishing_rod:
+    display_name: <gradient:#F59642:#F59642>・Asura Fishing Rod・
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: asura_animated_weapon/fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-halberd:
+    display_name: <gradient:#F59642:#F59642>・Asura Halberd・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: asura_animated_weapon/halberd
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-hoe:
+    display_name: <gradient:#F59642:#F59642>・Asura Hoe・
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_path: asura_animated_weapon/hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-key:
+    display_name: <gradient:#F59642:#F59642>・Asura Key・
+    resource:
+      material: BOOK
+      generate: false
+      model_path: asura_animated_weapon/key
+  asura_animated_weapon-pickaxe:
+    display_name: <gradient:#F59642:#F59642>・Asura Pickaxe・
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_path: asura_animated_weapon/pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-shield:
+    display_name: <gradient:#F59642:#F59642>・Asura Shield・
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: asura_animated_weapon/shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  asura_animated_weapon-shovel:
+    display_name: <gradient:#F59642:#F59642>・Asura Shovel・
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_path: asura_animated_weapon/shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-spear:
+    display_name: <gradient:#F59642:#F59642>・Asura Spear・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: asura_animated_weapon/spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-staff:
+    display_name: <gradient:#F59642:#F59642>・Asura Staff・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: asura_animated_weapon/staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-sword:
+    display_name: <gradient:#F59642:#F59642>・Asura Sword・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: asura_animated_weapon/sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  asura_animated_weapon-wings:
+    display_name: <gradient:#F59642:#F59642>・Asura Wings・
+    resource:
+      material: BOOK
+      generate: false
+      model_path: asura_animated_weapon/wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  asura_animated_weapon-chest:
+    display_name: <gradient:#F59642:#F59642>・Asura Chest・
+    resource:
+      material: PAPER
+      generate: false
+      model_path: asura_animated_weapon/chest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true

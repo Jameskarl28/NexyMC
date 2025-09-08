@@ -1,0 +1,19 @@
+info:
+  namespace: aqua_dragon_set
+categories:
+  aqua_dragon_set:
+    enabled: true
+    skip_if_already: false
+    icon: "aqua_dragon_set:aqua_sword"
+    name: Aqua Dragon Set
+    permission: ia.menu
+    items:
+      - "aqua_dragon_set:aqua_bow"
+      - "aqua_dragon_set:aqua_sword"
+      - "aqua_dragon_set:aqua_shovel"
+      - "aqua_dragon_set:aqua_pickaxe"
+      - "aqua_dragon_set:aqua_axe"
+      - "aqua_dragon_set:aqua_helmet"
+      - "aqua_dragon_set:aqua_leggings"
+      - "aqua_dragon_set:aqua_boots"
+      - "aqua_dragon_set:aqua_chestplate"

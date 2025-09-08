@@ -1,0 +1,123 @@
+armors_rendering:
+  valentinearmor:
+    color: '#ffd1d5'
+    layer_1: armor/valentine_armor_layer_1
+    layer_2: armor/valentine_armor_layer_2
+    use_color: false
+info:
+  namespace: valentineset
+items:
+  valentineboots:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Boots・
+    permission: valentine.boots
+    resource:
+      generate: true
+      textures:
+      - armor/valentine_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: feet
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+        
+        
+  valentinechestplate:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Chestplate・
+    permission: valentine.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/valentine_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: chest
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+        
+        
+  valentineleggings:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Leggings・
+    permission: valentine.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/valentine_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: legs
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+        
+        
+  valentinehelmet:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Helmet・
+    permission: valentine.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/valentine_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: head
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1

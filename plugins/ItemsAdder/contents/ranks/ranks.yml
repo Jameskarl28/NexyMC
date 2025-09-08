@@ -1,0 +1,248 @@
+info:
+  namespace: ranks
+font_images:
+  owner:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "owner.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぁ"
+  manager:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "manager.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "あ"
+  admin:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "admin.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぃ"
+  mod:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "mod.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "い"
+  builder:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "builder.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "み"
+  srbuilder:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "srbuilder.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "う"
+  events:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "events.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぇ"
+  helper:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "helper.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "え"
+  streamer:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "streamer.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぉ"
+  recruiter:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "recruiter.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "お"
+  titan:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "titan.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "か"
+  mvpplus:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "mvpplus.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ほ"
+  mvp:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "mvp.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "き"
+  vip:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "vip.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぎ"
+  elite:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "elite.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "く"
+  neth3:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "neth3.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぐ"
+  neth2:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "neth2.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "け"
+  neth1:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "neth1.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "げ"
+  dia3:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "dia3.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "こ"
+  dia2:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "dia2.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ご"
+  dia1:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "dia1.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "さ"
+  ame3:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "ame3.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ざ"
+  ame2:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "ame2.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "し"
+  ame1:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "ame1.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "じ"
+  gold3:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "gold3.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "す"
+  gold2:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "gold2.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ず"
+  gold1:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "gold1.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "せ"
+  iron3:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "iron3.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぜ"
+  iron2:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "iron2.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "そ"
+  iron1:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "iron1.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぞ"
+  copper3:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "copper3.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "た"
+  copper2:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "copper2.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "だ"
+  copper1:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "copper1.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ち"
+  orions:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "orions.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ぢ"
+  coowner:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "coowner.png"
+    scale_ratio: 10
+    y_position: 8.7
+    symbol: "ლ"

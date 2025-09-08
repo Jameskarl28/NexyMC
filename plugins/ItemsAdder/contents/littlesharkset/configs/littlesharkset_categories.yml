@@ -1,0 +1,34 @@
+info:
+  namespace: littlesharkset
+categories:
+  littlesharkset:
+    enabled: true
+    skip_if_already: false
+    icon: "littlesharkset:littleshark_hat"
+    name: Little Shark Weapons, Tools & Cosmetics Set
+    permission: ia.menu
+    items:
+      - "littlesharkset:littleshark_sword"
+      - "littlesharkset:littleshark_staff"
+      - "littlesharkset:littleshark_trident"
+      - "littlesharkset:littleshark_spear"
+      - "littlesharkset:littleshark_hammer"
+      - "littlesharkset:littleshark_crossbow"
+      - "littlesharkset:littleshark_bow"
+      - "littlesharkset:littleshark_axe"
+      - "littlesharkset:littleshark_hoe"
+      - "littlesharkset:littleshark_pickaxe"
+      - "littlesharkset:littleshark_shovel"
+      - "littlesharkset:littleshark_fishing_rod"
+      - "littlesharkset:littleshark_shield"
+      - "littlesharkset:littleshark_flag"
+      - "littlesharkset:littleshark_hat"
+      - "littlesharkset:littleshark_backpack"
+      - "littlesharkset:littleshark_backpack_self"
+      - "littlesharkset:littleshark_backpack_2"
+      - "littlesharkset:littleshark_backpack_2_self"
+      - "littlesharkset:littleshark_tail"
+      - "littlesharkset:littleshark_tail_self"
+      - "littlesharkset:littleshark_chest"
+      - "littlesharkset:littleshark_chest_opening"
+      - "littlesharkset:littleshark_key"

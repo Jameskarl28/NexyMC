@@ -1,0 +1,34 @@
+info:
+  namespace: nexusset
+categories:
+  nexusset:
+    enabled: true
+    skip_if_already: false
+    icon: "nexusset:nexusset_bow"
+    name: Nexus Animated Weapons & Tools Set
+    permission: ia.menu
+    items:
+      - "nexusset:nexusset_sword"
+      - "nexusset:nexusset_spear"
+      - "nexusset:nexusset_hammer"
+      - "nexusset:nexusset_crossbow"
+      - "nexusset:nexusset_bow"
+      - "nexusset:nexusset_axe"
+      - "nexusset:nexusset_hoe"
+      - "nexusset:nexusset_pickaxe"
+      - "nexusset:nexusset_shovel"
+      - "nexusset:nexusset_fishing_rod"
+      - "nexusset:nexusset_shield"
+      - "nexusset:nexusset_chest"
+      - "nexusset:nexusset_chest_opening"
+      - "nexusset:nexusset_key"
+      - "nexusset:nexusset_helmet_icon"
+      - "nexusset:nexussetchestplate"
+      - "nexusset:nexussetleggings"
+      - "nexusset:nexussetboots"
+      - "nexusset:nexusset_helmet"
+      - "nexusset:nexusset_wings"
+      - "nexusset:nexusset_scythe"
+      - "nexusset:nexusset_staff"
+      - "nexusset:nexusset_greatsword"
+      - "nexusset:nexusset_trident"

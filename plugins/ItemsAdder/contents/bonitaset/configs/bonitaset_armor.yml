@@ -1,0 +1,117 @@
+armors_rendering:
+  bonitaarmor:
+    color: '#ffa2ac'
+    layer_1: armor/bonita_armor_layer_1
+    layer_2: armor/bonita_armor_layer_2
+    use_color: false
+info:
+  namespace: bonitaset
+items:
+  bonitaboots:
+    display_name: <gradient:#FFCCEC:#FFCCEC>・Bonita Boots・
+    permission: bonita.boots
+    resource:
+      generate: true
+      textures:
+      - armor/bonita_boots_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: bonitaarmor
+        slot: feet
+  bonitachestplate:
+    display_name: <gradient:#FFCCEC:#FFCCEC>・Bonita Chestplate・
+    permission: bonita.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/bonita_chestplate_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: bonitaarmor
+        slot: chest
+  bonitaleggings:
+    display_name: <gradient:#FFCCEC:#FFCCEC>・Bonita Leggings・
+    permission: bonita.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/bonita_leggings_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: bonitaarmor
+        slot: legs
+  bonitahelmet:
+    display_name: <gradient:#FFCCEC:#FFCCEC>・Bonita Helmet・
+    permission: bonita.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/bonita_helmet_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: bonitaarmor
+        slot: head

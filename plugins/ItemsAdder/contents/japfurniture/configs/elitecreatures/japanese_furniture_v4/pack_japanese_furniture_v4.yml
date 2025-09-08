@@ -1,0 +1,648 @@
+info:
+  namespace: elitecreatures
+items:
+  japanese_furniture_v4_lantern_1:
+    display_name: Lantern 1
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_1
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_lantern_2:
+    display_name: Lantern 2
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_2
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_lantern_3:
+    display_name: Lantern 3
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_3
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_lantern_4:
+    display_name: Lantern 4
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_4
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_lantern_5:
+    display_name: Lantern 5
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_5
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_lantern_6:
+    display_name: Lantern 6
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_6
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_lantern_7:
+    display_name: Lantern 7
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/lantern_7
+    behaviours:
+      furniture:
+        solid: true
+        light_level: 10
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 3
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_sign_1:
+    display_name: Sign 1
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_1
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_2:
+    display_name: Sign 2
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_2
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_3:
+    display_name: Sign 3
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_3
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_4:
+    display_name: Sign 4
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_4
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_5:
+    display_name: Sign 5
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_5
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_6:
+    display_name: Sign 6
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_6
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_7:
+    display_name: Sign 7
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_7
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_8:
+    display_name: Sign 8
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_8
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_9:
+    display_name: Sign 9
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_9
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_10:
+    display_name: Sign 10
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_10
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_11:
+    display_name: Sign 11
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_11
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_12:
+    display_name: Sign 12
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_12
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_sign_13:
+    display_name: Sign 13
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_13
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  japanese_furniture_v4_sign_14:
+    display_name: Sign 14
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_14
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_sign_15:
+    display_name: Sign 15
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_15
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_sign_16:
+    display_name: Sign 16
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_16
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_sign_17:
+    display_name: Sign 17
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_17
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_sign_18:
+    display_name: Sign 18
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/sign_18
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  japanese_furniture_v4_umbrella_1:
+    display_name: Umbrella 1
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/umbrella_1
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_umbrella_2:
+    display_name: Umbrella 2
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/umbrella_2
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_umbrella_3:
+    display_name: Umbrella 3
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/umbrella_3
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  japanese_furniture_v4_umbrella_4:
+    display_name: Umbrella 4
+    resource:
+      material: paper
+      generate: false
+      model_path: japanese_furniture_v4/umbrella_4
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true

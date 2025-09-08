@@ -1,0 +1,86 @@
+info:
+  namespace: tags
+font_images:
+  afk:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/afk.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㅿ"
+  common:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/common.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆁ"
+  legendary:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/legendary.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆃ"
+  limited:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/limited.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆄ"
+  paintable:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/paintable.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆅ"
+  rare:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/rare.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆆ"
+  uncommon:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/uncommon.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆇ"
+  epic:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/epic.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆊ"
+  cosmetic:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/cosmetic.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆉ"
+  mythical:
+    permission: "lore.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/lore/mythical.png"
+    scale_ratio: 7
+    y_position: 7
+    symbol: "ㆈ"
+
+# 28868QM9M6C4ML0YIXSBAE0
+# gnKinJZX8mtOQkUVGBOyxiAxzvx7TZ0SkoRvskGPs9kCsJnKUBdMNjMt1N5J9TiVe5YdJRlZOLF92KWwPZ8zSklb/jlsCYMOr9gSqx1b/Bo=

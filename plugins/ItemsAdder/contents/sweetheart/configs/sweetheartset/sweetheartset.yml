@@ -1,0 +1,320 @@
+info:
+  namespace: sweetheartset
+items:
+  sweetheart_axe:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Axe・
+    permission: permission_model
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_bow:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Bow・
+    permission: permission_model
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_chest:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Chest・
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: true
+        hitbox:
+          width: 1.0
+          height: 1.0
+          length: 1.0
+  sweetheart_chest_opening:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Chest Opening・
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest_opening
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: true
+        hitbox:
+          width: 1.0
+          height: 1.0
+          length: 1.0
+  sweetheart_crossbow:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Crossbow・
+    permission: permission_model
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+    enchants:
+      - MENDING
+      - PIERCING:5
+      - QUICK_CHARGE:3
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_helmet:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Cosmetic Helmet・
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: helmet
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: sweetheartarmor
+  sweetheart_fishing_rod:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Fishing Rod・
+    permission: permission_model
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_hammer:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Hammer・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: hammer
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_hoe:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Hoe・
+    permission: permission_model
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_key:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Key・
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  sweetheart_pickaxe:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Pickaxe・
+    permission: permission_model
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_shield:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Shield・
+    permission: permission_model
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  sweetheart_shovel:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Shovel・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_spear:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Spear・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_sword:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Sword・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_scythe:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Scythe・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: scythe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_staff:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Staff・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_greatsword:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Greatsword・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: greatsword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_trident:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Trident・
+    permission: permission_model
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: trident
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  sweetheart_wings:
+    display_name: <gradient:#A33BD0:#A33BD0>・SweetHeart Wings・
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03

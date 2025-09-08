@@ -1,0 +1,116 @@
+armors_rendering:
+  azurearmor:
+    color: '#274d9a'
+    layer_1: armor/azure_armor_layer_1
+    layer_2: armor/azure_armor_layer_2
+    use_color: false
+info:
+  namespace: azureset
+items:
+  azureboots:
+    display_name: <color:#4086BB>・Azure Boots・
+    permission: azure.boots
+    resource:
+      generate: true
+      textures:
+      - armor/azure_boots_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆃ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: feet
+  azurechestplate:
+    display_name: <gradient:#4086BB:#4086BB>・Azure Chestplate・
+    permission: azure.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/azure_chestplate_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆃ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: chest
+  azureleggings:
+    display_name: <gradient:#4086BB:#4086BB>・Azure Leggings・
+    permission: azure.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/azure_leggings_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆃ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: legs
+  azurehelmet:
+    display_name: <gradient:#4086BB:#4086BB>・Azure Helmet・
+    permission: azure.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/azure_helmet_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆃ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: head

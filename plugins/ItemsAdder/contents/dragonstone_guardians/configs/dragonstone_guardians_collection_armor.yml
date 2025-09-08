@@ -1,0 +1,117 @@
+info:
+  namespace: dragonstone_guardians
+armors_rendering:
+  dragonstone_armor:
+    color: '#632a5b'
+    layer_1: armor/dragonstone_armor_layer_1
+    layer_2: armor/dragonstone_armor_layer_2
+    use_color: false
+items:
+  dragonstonehelmet:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Helmet・
+    permission: dragonstone_guardians.use
+    resource:
+      generate: true
+      textures:
+      - armor/dragonstone_helmet_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: dragonstone_armor
+  dragonstonechestplate:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Chestplate・
+    permission: dragonstone_guardians.use
+    resource:
+      generate: true
+      textures:
+      - armor/dragonstone_chestplate_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: dragonstone_armor
+  dragonstoneleggings:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Leggings・
+    permission: dragonstone_guardians.use
+    resource:
+      generate: true
+      textures:
+      - armor/dragonstone_leggings_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: dragonstone_armor
+  dragonstoneboots:
+    display_name: <gradient:#A03232:#A03232>・Dragonstone Boots・
+    permission: dragonstone_guardians.use
+    resource:
+      generate: true
+      textures:
+      - armor/dragonstone_boots_icon.png
+    enchants:
+      - PROTECTION:8
+      - UNBREAKING:5
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆊ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: dragonstone_armor

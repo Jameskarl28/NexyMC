@@ -1,0 +1,328 @@
+info:
+  namespace: infernoset
+items:
+  inferno_axe:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Axe・
+    permission: inferno.axe
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_bow:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Bow・
+    permission: inferno.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Chest・
+    permission: inferno.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+
+  inferno_crossbow:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Crossbow・
+    permission: inferno.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+    enchants:
+      - MENDING
+      - PIERCING:5
+      - QUICK_CHARGE:3
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_fishing_rod:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Fishing Rod・
+    permission: inferno.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_knife:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Knife・
+    permission: inferno.knife
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: knife
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_hammer:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Hammer・
+    permission: inferno.hammer
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: hammer
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_hoe:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Hoe・
+    permission: inferno.hoe
+    resource:
+      generate: false
+      material: NETHERITE_HOE
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_key:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Key・
+    permission: inferno.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  inferno_pickaxe:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Pickaxe・
+    permission: inferno.pickaxe
+    resource:
+      generate: false
+      material: NETHERITE_PICKAXE
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_scythe:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Scythe・
+    permission: inferno.scythe
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: scythe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_shield:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Shield・
+    permission: inferno.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  inferno_shovel:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Shovel・
+    permission: inferno.shovel
+    resource:
+      generate: false
+      material: NETHERITE_SHOVEL
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_spear:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Spear・
+    permission: inferno.spear
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_staff:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Staff・
+    permission: inferno.staff
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_sword:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Sword・
+    permission: inferno.sword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_trident:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Trident・
+    permission: inferno.trident
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: trident
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  inferno_backpack:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Backpack・
+    permission: inferno.backpack
+    resource:
+      generate: false
+      material: PAPER
+      model_path: backpack
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  inferno_wings:
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Wing・
+    permission: inferno.cape
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  inferno_head:
+    behaviours:
+      hat: true
+    display_name: <gradient:#CD393B:#CD393B>・Inferno Helmet・
+    permission: inferno.head
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'

@@ -1,0 +1,390 @@
+info:
+  namespace: "aenchants"
+font_images:
+  enchanter:
+    path: "gui/enchanter.png"
+    y_position: 76
+    
+  confirm:
+    path: "gui/confirm.png"
+    y_position: 103
+    
+  enchants:
+    path: "gui/enchants.png"
+    y_position: 76
+    
+  enchants_inv:
+    path: "gui/enchants_inv.png"
+    y_position: 76
+    
+  tinkerer:
+    path: "gui/tinkerer.png"
+    y_position: 72
+    
+  alchemist:
+    path: "gui/alchemist.png"
+    y_position: 76
+    
+  aeinformation:
+    path: "gui/aeinformation.png"
+    y_position: 100
+
+  aeshop:
+    path: "gui/aeshop.png"
+    y_position: 72
+
+  orb_tool:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄬"
+    path: "item/orb_tool.png"
+    scale_ratio: 9
+    y_position: 9
+
+  orb_weapon:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄭"
+    path: "item/orb_weapon.png"
+    scale_ratio: 9
+    y_position: 9
+
+  orb_armor:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄮"
+    path: "item/orb_armor.png"
+    scale_ratio: 9
+    y_position: 9
+
+  white_scroll:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄯"
+    path: "item/white_scroll.png"
+    scale_ratio: 9
+    y_position: 9
+
+  black_scroll:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄰"
+    path: "item/black_scroll.png"
+    scale_ratio: 9
+    y_position: 9
+
+  lucky_dust_simple:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄱"
+    path: "item/lucky_dust_simple.png"
+    scale_ratio: 9
+    y_position: 9
+
+  randomization_Scroll:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄲"
+    path: "item/randomization_scroll.png"
+    scale_ratio: 9
+    y_position: 9
+
+  icon_slots_scroll:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄳"
+    path: "item/icon_slots_scroll.png"
+    scale_ratio: 9
+    y_position: 9
+
+  blocktraker:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄵"
+    path: "item/blocktraker.png"
+    scale_ratio: 9
+    y_position: 9
+
+  renametag:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄺"
+    path: "item/renametag.png"
+    scale_ratio: 9
+    y_position: 9
+
+  stattrak:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄻"
+    path: "item/stattrak.png"
+    scale_ratio: 9
+    y_position: 9
+
+  soulgem:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄼"
+    path: "item/soulgem.png"
+    scale_ratio: 9
+    y_position: 9
+
+  holywhitescroll:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄽"
+    path: "item/holywhitescroll.png"
+    scale_ratio: 9
+    y_position: 9
+
+  transmog:
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "𝄾"
+    path: "item/transmog.png"
+    scale_ratio: 9
+    y_position: 9
+
+items:
+  blank:
+    display_name: ' '
+    permission: blank
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/blank
+
+  book1:
+    display_name: book1
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/book1
+      
+  book2:
+    display_name: book2
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/book2
+      
+  book3:
+    display_name: book3
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/book3
+      
+  book4:
+    display_name: book4
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/book4
+      
+  book5:
+    display_name: book5
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/book5
+      
+  book6:
+    display_name: book6
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/book6
+      
+  left_arrow:
+    display_name: left_arrow
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/left_arrow
+      
+  right_arrow:
+    display_name: right_arrow
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/right_arrow
+      
+  back:
+    display_name: back
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/back
+      
+  alchemist_1:
+    display_name: alchemist_1
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/alchemist_1
+      
+  info:
+    display_name: info
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/info
+      
+  confirm:
+    display_name: confirm
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/confirm
+
+  icon_orb_tool:
+    display_name: icon_orb_tool
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_orb_tool
+
+  icon_orb_weapon:
+    display_name: icon_orb_weapon
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_orb_weapon
+
+  icon_orb_armor:
+    display_name: icon_orb_armor
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_orb_armor
+
+  icon_white_scroll:
+    display_name: icon_white_scroll
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_white_scroll
+
+  icon_black_scroll:
+    display_name: icon_black_scroll
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_black_scroll
+
+  icon_lucky_dust_simple:
+    display_name: icon_lucky_dust_simple
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_lucky_dust_simple
+      
+  icon_randomization_scroll:
+    display_name: icon_randomization_scroll
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_randomization_scroll
+
+  icon_slots_scroll:
+    display_name: icon_slots_scroll
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_slots_scroll
+      
+  icon_blocktraker:
+    display_name: icon_blocktraker
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_blocktraker
+
+  icon_renametag:
+    display_name: icon_renametag
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_renametag
+
+  icon_stattrak:
+    display_name: icon_stattrak
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_stattrak
+
+  icon_soulgem:
+    display_name: icon_soulgem
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_soulgem
+
+  icon_holywhitescroll:
+    display_name: icon_holywhitescroll
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_holywhitescroll
+
+  icon_transmog:
+    display_name: icon_transmog
+    permission: simple
+    resource:
+      material: PAPER
+      generate: true
+      textures:                  
+      - item/icon_transmog

@@ -1,0 +1,34 @@
+info:
+  namespace: sweetheartset
+categories:
+  sweetheartset:
+    enabled: true
+    skip_if_already: false
+    icon: "sweetheartset:sweetheart_bow"
+    name: Sweetheart Animated Weapons & Tools Set
+    permission: ia.menu
+    items:
+      - "sweetheartset:sweetheart_sword"
+      - "sweetheartset:sweetheart_spear"
+      - "sweetheartset:sweetheart_hammer"
+      - "sweetheartset:sweetheart_crossbow"
+      - "sweetheartset:sweetheart_bow"
+      - "sweetheartset:sweetheart_axe"
+      - "sweetheartset:sweetheart_hoe"
+      - "sweetheartset:sweetheart_pickaxe"
+      - "sweetheartset:sweetheart_shovel"
+      - "sweetheartset:sweetheart_fishing_rod"
+      - "sweetheartset:sweetheart_shield"
+      - "sweetheartset:sweetheart_chest"
+      - "sweetheartset:sweetheart_chest_opening"
+      - "sweetheartset:sweetheart_key"
+      - "sweetheartset:sweetheart_helmet_icon"
+      - "sweetheartset:sweetheartchestplate"
+      - "sweetheartset:sweetheartleggings"
+      - "sweetheartset:sweetheartboots"
+      - "sweetheartset:sweetheart_helmet"
+      - "sweetheartset:sweetheart_wings"
+      - "sweetheartset:sweetheart_scythe"
+      - "sweetheartset:sweetheart_staff"
+      - "sweetheartset:sweetheart_greatsword"
+      - "sweetheartset:sweetheart_trident"

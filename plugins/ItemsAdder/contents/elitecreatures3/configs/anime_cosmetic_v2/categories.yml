@@ -1,0 +1,19 @@
+info:
+  namespace: elitecreatures
+categories:
+  anime_cosmetic_v2:
+    enabled: true
+    icon: "elitecreatures:anime_cosmetic_v2-darkness_saber_backitem"
+    name: "Anime Cosmetic v2"
+    permission: "ia.menu.anime_cosmetic_v2"
+    items:
+      - "elitecreatures:anime_cosmetic_v2-darkness_crown"
+      - "elitecreatures:anime_cosmetic_v2-darkness_saber_backitem"
+      - "elitecreatures:anime_cosmetic_v2-jostar_hat"
+      - "elitecreatures:anime_cosmetic_v2-star_stand_backpack"
+      - "elitecreatures:anime_cosmetic_v2-quirk_mask"
+      - "elitecreatures:anime_cosmetic_v2-quirk_backpack"
+      - "elitecreatures:anime_cosmetic_v2-darkness_book_balloon"
+      - "elitecreatures:anime_cosmetic_v2-mighty_medal_balloon"
+      - "elitecreatures:anime_cosmetic_v2-menacing_balloon"
+

@@ -1,0 +1,122 @@
+info:
+  namespace: amethyst_armor_set
+armors_rendering:
+  amethyst_armor:
+    color: "#b100c5"
+    layer_1: armor/amethyst_armor/layer_1
+    layer_2: armor/amethyst_armor/layer_2
+    emissive_1: armor/amethyst_armor/emissive_1
+    emissive_2: armor/amethyst_armor/emissive_2
+    use_color: false
+items:
+  amethyst_helmet:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Helmet・
+    permission: amethyst_helmet
+    resource:
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_helmet
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: amethyst_armor
+
+  amethyst_chestplate:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Chestplate・
+    permission: amethyst_chestplate
+    resource:
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_chestplate
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: amethyst_armor
+
+  amethyst_leggings:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Leggings・
+    permission: amethyst_leggings
+    resource:
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_leggings
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: amethyst_armor
+
+  amethyst_boots:
+    display_name: <gradient:#FB1FC9:#FB1FC9>・Amethyst Boots・
+    permission: amethyst_boots
+    resource:
+      generate: true
+      textures:
+      - item/amethyst_armor/amethyst_boots
+    enchants:
+      - PROTECTION:5
+      - UNBREAKING:4
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+    durability:
+      max_custom_durability: 800
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: amethyst_armor

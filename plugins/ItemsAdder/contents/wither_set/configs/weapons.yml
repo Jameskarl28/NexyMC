@@ -1,0 +1,104 @@
+info:
+  namespace: wither_set
+items:
+  wither_sword:
+    display_name: <gradient:#493E3E:#493E3E>・Wither Sword v2・
+    permission: wither_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:                  
+      - item/wither/wither_sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  wither_pickaxe:
+    display_name: <gradient:#493E3E:#493E3E>・Wither Pickaxe v2・
+    permission: wither_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/wither/wither_pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  wither_axe:
+    display_name: <gradient:#493E3E:#493E3E>・Wither Axe v2・
+    permission: wither_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/wither/wither_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  wither_shovel:
+    display_name: <gradient:#493E3E:#493E3E>・Wither Shovel v2・
+    permission: wither_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/wither/wither_shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  wither_hoe:
+    display_name: <gradient:#493E3E:#493E3E>・Wither Hoe v2・
+    permission: wither_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/wither/wither_hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  wither_bow:
+    display_name: <gradient:#493E3E:#493E3E>・Wither Bow v2・
+    permission: wither_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/wither/wither_bow
+    enchants:
+      - POWER:5
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'

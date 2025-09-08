@@ -1,0 +1,369 @@
+info:
+  namespace: littlepandaset
+items:
+  littlepanda_axe:
+    display_name: <gradient:#417806:#417806>・Little Panda Axe・
+    permission: littlepanda.axe
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_bow:
+    display_name: <gradient:#417806:#417806>・Little Panda Bow・
+    permission: littlepanda.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#417806:#417806>・Little Panda Chest・
+    permission: littlepanda.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+  littlepanda_chest_opening:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 2
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: <gradient:#417806:#417806>・Little Panda Chest Opening
+    permission: littlepanda.chest_opening
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest_opening
+  littlepanda_crossbow:
+    display_name: <gradient:#417806:#417806>・Little Panda Crossbow・
+    permission: littlepanda.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+    enchants:
+      - MENDING
+      - PIERCING:5
+      - QUICK_CHARGE:3
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_fishing_rod:
+    display_name: <gradient:#417806:#417806>・Little Panda Fishing Rod・
+    permission: littlepanda.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - LUCK_OF_THE_SEA:5
+      - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_greatsword:
+    display_name: <gradient:#417806:#417806>・Little Panda Greatsword・
+    permission: littlepanda.greatsword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: greatsword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_hammer:
+    display_name: <gradient:#417806:#417806>・Little Panda Hammer・
+    permission: littlepanda.hammer
+    resource:
+      generate: false
+      material: NETHERITE_AXE
+      model_path: hammer
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_hoe:
+    display_name: <gradient:#417806:#417806>・Little Panda Hoe・
+    permission: littlepanda.hoe
+    resource:
+      generate: false
+      material: NETHERITE_HOE
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_key:
+    display_name: <gradient:#417806:#417806>・Little Panda Key・
+    permission: littlepanda.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  littlepanda_pickaxe:
+    display_name: <gradient:#417806:#417806>・Little Panda Pickaxe・
+    permission: littlepanda.pickaxe
+    resource:
+      generate: false
+      material: NETHERITE_PICKAXE
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_scythe:
+    display_name: <gradient:#417806:#417806>・Little Panda Scythe・
+    permission: littlepanda.scythe
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: scythe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_shield:
+    display_name: <gradient:#417806:#417806>・Little Panda Shield・
+    permission: littlepanda.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  littlepanda_shovel:
+    display_name: <gradient:#417806:#417806>・Little Panda Shovel・
+    permission: littlepanda.shovel
+    resource:
+      generate: false
+      material: NETHERITE_SHOVEL
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_spear:
+    display_name: <gradient:#417806:#417806>・Little Panda Spear・
+    permission: littlepanda.spear
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_staff:
+    display_name: <gradient:#417806:#417806>・Little Panda Staff・
+    permission: littlepanda.staff
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_sword:
+    display_name: <gradient:#417806:#417806>・Little Panda Sword・
+    permission: littlepanda.sword
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_trident:
+    display_name: <gradient:#417806:#417806>・Little Panda Trident・
+    permission: littlepanda.trident
+    resource:
+      generate: false
+      material: NETHERITE_SWORD
+      model_path: trident
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_backpack:
+    behaviours:
+      hat: true
+    display_name: <gradient:#417806:#417806>・Little Panda Backpack・
+    permission: littlepanda.Backpack
+    resource:
+      generate: false
+      material: PAPER
+      model_path: backpack
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  littlepanda_bamboo_backpack:
+    behaviours:
+      hat: true
+    display_name: <gradient:#417806:#417806>・Little Panda Bamboo Backpack・
+    permission: littlepanda.Backpack
+    resource:
+      generate: false
+      material: PAPER
+      model_path: bamboo_backpack
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  littlepanda_head:
+    behaviours:
+      hat: true
+    display_name: <gradient:#417806:#417806>・Little Panda Head・
+    permission: littlepanda.head
+    resource:
+      generate: false
+      material: PAPER
+      model_path: panda_head
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  littlepanda_hood:
+    behaviours:
+      hat: true
+    display_name: <gradient:#417806:#417806>・Little Panda Hood・
+    permission: littlepanda.hood
+    resource:
+      generate: false
+      material: PAPER
+      model_path: panda_hood
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'

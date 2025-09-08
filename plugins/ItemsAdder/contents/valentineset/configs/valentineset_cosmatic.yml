@@ -1,0 +1,80 @@
+  
+info:
+  namespace: valentineset
+items:
+  valentine_cosmetics_head:
+    display_name: Valentine Head Cosmetics
+    permission: valentine.head_cosmetics
+    resource:
+      generate: false
+      material: POTION
+      model_path: helmet
+      model_id: 7740000
+
+
+  valentine_cosmetics_bouquet:
+    display_name: Valentine Bouquet Cosmetics
+    permission: valentine.bouquet_cosmetics
+    resource:
+      generate: false
+      material: POTION
+      model_path: bouquet_cosmetics
+      model_id: 7740001
+  valentine_cosmetics_bouquet_self:
+    display_name: Valentine Bouquet Cosmetics Self
+    permission: valentine.bouquet_cosmetics_self
+    resource:
+      generate: false
+      material: POTION
+      model_path: bouquet_cosmetics_self
+      model_id: 7740002      
+  valentine_cosmetics_bouquet_self_2:
+    display_name: Valentine Bouquet Cosmetics Self 2
+    permission: valentine.bouquet_cosmetics_self_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: bouquet_cosmetics_self_2
+      model_id: 7740003      
+  valentine_cosmetics_bouquet_normal_2:
+    display_name: Valentine Bouquet Cosmetics Normal 2
+    permission: valentine.bouquet_cosmetics_normal_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: bouquet_cosmetics_normal_2
+      model_id: 7740008    
+
+
+  valentine_cosmetics_wings:
+    display_name: Valentine Wings Cosmetics
+    permission: valentine.wings_cosmetics
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics
+      model_id: 7740004
+  valentine_cosmetics_wings_self:
+    display_name: Valentine Wings Cosmetics Self
+    permission: valentine.wings_cosmetics_self
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics_self
+      model_id: 7740005
+  valentine_cosmetics_wings_self_2:
+    display_name: Valentine Wings Cosmetics Self 2
+    permission: valentine.wings_cosmetics_self_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics_self_2
+      model_id: 7740006
+  valentine_cosmetics_wings_normal_2:
+    display_name: Valentine Wings Cosmetics Normal 2
+    permission: valentine.wings_cosmetics_normal_2
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmetics_normal_2
+      model_id: 7740007

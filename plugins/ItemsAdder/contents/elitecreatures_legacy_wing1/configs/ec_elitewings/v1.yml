@@ -1,0 +1,414 @@
+info:
+  namespace: ec_elitewings
+items:
+  v1-aether_wings:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・Aether Wings・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/aether_wings
+      model_id: 8439101
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-biblical_wings:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・Biblical Wings・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/biblical_wings
+      model_id: 8439102
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-envious_wings:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・Envious Wings・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/envious_wings
+      model_id: 8439103
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-harpy_wings:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・Harpy Wings・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/harpy_wings
+      model_id: 8439104
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-ravaged_wings:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・Ravaged Wings・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/ravaged_wings
+      model_id: 8439105
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+      
+  v1-aether_wings_normal:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・Aether Wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/aether_wings_normal
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-aether_wings_normal_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/aether_wings_normal_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-aether_wings_self:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/aether_wings_self
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-aether_wings_self_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/aether_wings_self_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+
+
+  v1-biblical_wings_normal:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/biblical_wings_normal
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-biblical_wings_normal_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/biblical_wings_normal_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-biblical_wings_self:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/biblical_wings_self
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-biblical_wings_self_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/biblical_wings_self_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+
+  v1-envious_wings_normal:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/envious_wings_normal
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-envious_wings_normal_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/envious_wings_normal_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-envious_wings_self:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/envious_wings_self
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-envious_wings_self_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/envious_wings_self_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+
+  v1-harpy_wings_normal:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/harpy_wings_normal
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-harpy_wings_normal_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/harpy_wings_normal_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-harpy_wings_self:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/harpy_wings_self
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-harpy_wings_self_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/harpy_wings_self_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+
+  v1-ravaged_wings_normal:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/ravaged_wings_normal
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-ravaged_wings_normal_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/ravaged_wings_normal_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-ravaged_wings_self:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/ravaged_wings_self
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
+  v1-ravaged_wings_self_2:
+    display_name: <gradient:#c2f2ff:#c2f2ff>・
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: v1/ravaged_wings_self_2
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆄ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03

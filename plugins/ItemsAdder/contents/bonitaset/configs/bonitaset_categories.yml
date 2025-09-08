@@ -1,0 +1,35 @@
+info:
+  namespace: bonitaset
+categories:
+  bonitaset:
+    enabled: true
+    skip_if_already: false
+    icon: "bonitaset:bonita_sword"
+    name: Bonita Weapons & Tools Set
+    permission: bonitaset.menu
+    items:
+      - "bonitaset:bonita_sword"
+      - "bonitaset:bonita_greatsword"
+      - "bonitaset:bonita_spear"
+      - "bonitaset:bonita_trident"
+      - "bonitaset:bonita_hammer"
+      - "bonitaset:bonita_scythe"
+      - "bonitaset:bonita_staff"
+      - "bonitaset:bonita_bow"
+      - "bonitaset:bonita_crossbow"
+      - "bonitaset:bonita_axe"
+      - "bonitaset:bonita_hoe"
+      - "bonitaset:bonita_pickaxe"
+      - "bonitaset:bonita_shovel"
+      - "bonitaset:bonita_fishing_rod"
+      - "bonitaset:bonita_shield"
+      - "bonitaset:bonita_chest"
+      - "bonitaset:bonita_chest_opening"
+      - "bonitaset:bonita_key"
+      - "bonitaset:bonitachestplate"
+      - "bonitaset:bonitaleggings"
+      - "bonitaset:bonitaboots"
+      - "bonitaset:bonitahelmet"
+      - "bonitaset:bonita_helmet"
+      - "bonitaset:bonita_wings"
+      - "bonitaset:bonita_backpack"

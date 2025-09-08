@@ -1,0 +1,88 @@
+info:
+  namespace: sapphire_knight_set
+items:
+  sapphire_sword:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Sword・
+    permission: sapphire_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:                  
+      - item/sapphire_knight/sapphire_sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  sapphire_pickaxe:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Pickaxe・
+    permission: sapphire_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  sapphire_axe:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Axe・
+    permission: sapphire_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  sapphire_shovel:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Shovel・
+    permission: sapphire_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'
+  sapphire_bow:
+    display_name: <gradient:#28628E:#28628E>・Sapphire Knight Bow・
+    permission: sapphire_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/sapphire_knight/sapphire_bow
+    enchants:
+      - POWER:5
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆁ'

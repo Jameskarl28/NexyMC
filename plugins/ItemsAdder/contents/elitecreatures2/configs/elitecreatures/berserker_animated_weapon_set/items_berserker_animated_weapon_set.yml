@@ -1,0 +1,387 @@
+info:
+  namespace: elitecreatures
+armors_rendering:
+  berserker_animated_weapon_set:
+    color: '#8c196c'
+    layer_1: berserker_animated_weapon_set/berserker_armor_layer_1
+    layer_2: berserker_animated_weapon_set/berserker_armor_layer_2
+    use_color: false
+items:
+  berserker_animated_weapon_set_helmet:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Helmet・
+    resource:
+      generate: true
+      textures:
+      - berserker_animated_weapon_set/berserker_helmet.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: berserker_animated_weapon_set
+  berserker_animated_weapon_set_chestplate:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Chestplate・
+    resource:
+      generate: true
+      textures:
+      - berserker_animated_weapon_set/berserker_chestplate.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: berserker_animated_weapon_set
+  berserker_animated_weapon_set_leggings:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Leggings・
+    resource:
+      generate: true
+      textures:
+      - berserker_animated_weapon_set/berserker_leggings.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: berserker_animated_weapon_set
+  berserker_animated_weapon_set_boots:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Boots・
+    resource:
+      generate: true
+      textures:
+      - berserker_animated_weapon_set/berserker_boots.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: berserker_animated_weapon_set
+  berserker_animated_weapon_set_axe:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Axe・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: berserker_animated_weapon_set/axe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_battle_axe:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Battle Axe・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: berserker_animated_weapon_set/battle_axe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_blade:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Blade・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: berserker_animated_weapon_set/blade
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_bow:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Bow・
+    permission: elitecreatures.use
+    resource:
+      material: BOW
+      generate: false
+      model_path: berserker_animated_weapon_set/bow
+    enchants:
+    - POWER:8
+    - UNBREAKING:5
+    - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_chest:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Chest・
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: berserker_animated_weapon_set/chest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  berserker_animated_weapon_set_fishing_rod:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Fishing Rod・
+    permission: elitecreatures.use
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: berserker_animated_weapon_set/fishing_rod
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - LUCK_OF_THE_SEA:5
+    - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_halberd:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Halberd・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: berserker_animated_weapon_set/halberd
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_hammer:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Hammer・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: berserker_animated_weapon_set/hammer
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_hoe:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Hoe・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_path: berserker_animated_weapon_set/hoe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_key:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Key・
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: berserker_animated_weapon_set/key
+  berserker_animated_weapon_set_pickaxe:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Pickaxe・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_path: berserker_animated_weapon_set/pickaxe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_shield:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Shield・
+    permission: elitecreatures.use
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: berserker_animated_weapon_set/shield
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  berserker_animated_weapon_set_shovel:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Shovel・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_path: berserker_animated_weapon_set/shovel
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_spear:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Spear・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: berserker_animated_weapon_set/spear
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_staff:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Staff・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: berserker_animated_weapon_set/staff
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_sword:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Sword・
+    permission: elitecreatures.use
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: berserker_animated_weapon_set/sword
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  berserker_animated_weapon_set_wings:
+    display_name: <gradient:#D95F2D:#D95F2D>・Berserker Wings・
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: berserker_animated_weapon_set/wings
+    enchants:
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03

@@ -1,0 +1,385 @@
+info:
+  namespace: elitecreatures
+armors_rendering:
+  steamsparks_animated_weapon_set:
+    color: '#8c196b'
+    layer_1: steamsparks_animated_weapon_set/steamsparks_armor_layer_1
+    layer_2: steamsparks_animated_weapon_set/steamsparks_armor_layer_2
+    use_color: false
+items:
+  steamsparks_animated_weapon_set_helmet:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Helmet・
+    resource:
+      generate: true
+      textures:
+      - steamsparks_animated_weapon_set/steamsparks_helmet.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: steamsparks_animated_weapon_set
+  steamsparks_animated_weapon_set_chestplate:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Chestplate・
+    resource:
+      generate: true
+      textures:
+      - steamsparks_animated_weapon_set/steamsparks_chestplate.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: steamsparks_animated_weapon_set
+  steamsparks_animated_weapon_set_leggings:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Leggings・
+    resource:
+      generate: true
+      textures:
+      - steamsparks_animated_weapon_set/steamsparks_leggings.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: steamsparks_animated_weapon_set
+  steamsparks_animated_weapon_set_boots:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Boots・
+    resource:
+      generate: true
+      textures:
+      - steamsparks_animated_weapon_set/steamsparks_boots.png
+    enchants:
+    - PROTECTION:8
+    - UNBREAKING:5
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 4
+        KnockbackResistance: 0.1
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: steamsparks_animated_weapon_set
+  steamsparks_animated_weapon_set_axe:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Axe・
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: steamsparks_animated_weapon_set/axe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_battle_axe:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Battle Axe・
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: steamsparks_animated_weapon_set/battle_axe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_blade:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Blade・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/blade
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_bow:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Bow・
+    resource:
+      material: BOW
+      generate: false
+      model_path: steamsparks_animated_weapon_set/bow
+    enchants:
+    - POWER:8
+    - UNBREAKING:5
+    - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_chest:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Chest・
+    resource:
+      material: PAPER
+      generate: false
+      model_path: steamsparks_animated_weapon_set/chest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  steamsparks_animated_weapon_set_fishing_rod:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Fishing Rod・
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/fishing_rod
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - LUCK_OF_THE_SEA:5
+    - LURE:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_halberd:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Halberd・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/halberd
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_hammer:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Hammer・
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: steamsparks_animated_weapon_set/hammer
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_helmet_2:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Cosmetic Helmet・
+    resource:
+      material: PAPER
+      generate: false
+      model_path: steamsparks_animated_weapon_set/helmet
+    enchants:
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    behaviours:
+      hat: true
+  steamsparks_animated_weapon_set_hoe:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Hoe・
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_path: steamsparks_animated_weapon_set/hoe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_key:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Key・
+    resource:
+      material: PAPER
+      generate: false
+      model_path: steamsparks_animated_weapon_set/key
+  steamsparks_animated_weapon_set_pickaxe:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Pickaxe・
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_path: steamsparks_animated_weapon_set/pickaxe
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_shield:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Shield・
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/shield
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  steamsparks_animated_weapon_set_shovel:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Shovel・
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_path: steamsparks_animated_weapon_set/shovel
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_spear:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Spear・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/spear
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_staff:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Staff・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/staff
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_sword:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Sword・
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: steamsparks_animated_weapon_set/sword
+    enchants:
+    - MENDING
+    - UNBREAKING:5
+    - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+  steamsparks_animated_weapon_set_wings:
+    display_name: <gradient:#E1CC6A:#E1CC6A>・SteamSpark Wings・
+    resource:
+      material: paper
+      generate: false
+      model_path: steamsparks_animated_weapon_set/wings
+    enchants:
+    - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆆ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03

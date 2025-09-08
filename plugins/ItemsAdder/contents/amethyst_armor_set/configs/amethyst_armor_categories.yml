@@ -1,0 +1,19 @@
+info:
+  namespace: amethyst_armor_set
+categories:
+  amethyst_armor_set:
+    enabled: true
+    skip_if_already: false
+    icon: "amethyst_armor_set:amethyst_sword"
+    name: Amethyst Set
+    permission: ia.menu
+    items:
+      - "amethyst_armor_set:amethyst_bow"
+      - "amethyst_armor_set:amethyst_sword"
+      - "amethyst_armor_set:amethyst_shovel"
+      - "amethyst_armor_set:amethyst_pickaxe"
+      - "amethyst_armor_set:amethyst_axe"
+      - "amethyst_armor_set:amethyst_helmet"
+      - "amethyst_armor_set:amethyst_leggings"
+      - "amethyst_armor_set:amethyst_boots"
+      - "amethyst_armor_set:amethyst_chestplate"

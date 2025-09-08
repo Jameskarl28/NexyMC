@@ -1,0 +1,29 @@
+info:
+  namespace: elitecreatures
+categories:
+  asura_animated_weapon:
+    enabled: true
+    icon: "elitecreatures:asura_animated_weapon-blade"
+    name: "Asura Animated Weapon Pack"
+    permission: "ia.menu.asura_animated_weapon"
+    items:
+      - "elitecreatures:asura_animated_weapon-axe"
+      - "elitecreatures:asura_animated_weapon-battle_axe"
+      - "elitecreatures:asura_animated_weapon-blade"
+      - "elitecreatures:asura_animated_weapon-bow"
+      - "elitecreatures:asura_animated_weapon-fishing_rod"
+      - "elitecreatures:asura_animated_weapon-halberd"
+      - "elitecreatures:asura_animated_weapon-hoe"
+      - "elitecreatures:asura_animated_weapon-key"
+      - "elitecreatures:asura_animated_weapon-pickaxe"
+      - "elitecreatures:asura_animated_weapon-shield"
+      - "elitecreatures:asura_animated_weapon-shovel"
+      - "elitecreatures:asura_animated_weapon-spear"
+      - "elitecreatures:asura_animated_weapon-staff"
+      - "elitecreatures:asura_animated_weapon-sword"
+      - "elitecreatures:asura_animated_weapon-wings"
+      - "elitecreatures:asura_animated_weapon-chest"
+      - "elitecreatures:asura_animated_weapon-helmet"
+      - "elitecreatures:asura_animated_weapon-chestplate"
+      - "elitecreatures:asura_animated_weapon-leggings"
+      - "elitecreatures:asura_animated_weapon-boots"

@@ -1,0 +1,34 @@
+info:
+  namespace: merry_christmasset
+categories:
+  merry_christmasset:
+    enabled: true
+    skip_if_already: false
+    icon: "merry_christmasset:merry_christmas_sword"
+    name: Merry Christmas Weapons & Tools Set
+    permission: merry_christmasset.menu
+    items:
+      - "merry_christmasset:merry_christmas_sword"
+      - "merry_christmasset:merry_christmas_spear"
+      - "merry_christmasset:merry_christmas_trident"
+      - "merry_christmasset:merry_christmas_hammer"
+      - "merry_christmasset:merry_christmas_scythe"
+      - "merry_christmasset:merry_christmas_staff"
+      - "merry_christmasset:merry_christmas_bow"
+      - "merry_christmasset:merry_christmas_crossbow"
+      - "merry_christmasset:merry_christmas_axe"
+      - "merry_christmasset:merry_christmas_hoe"
+      - "merry_christmasset:merry_christmas_pickaxe"
+      - "merry_christmasset:merry_christmas_shovel"
+      - "merry_christmasset:merry_christmas_fishing_rod"
+      - "merry_christmasset:merry_christmas_shield"
+      - "merry_christmasset:merry_christmas_chest"
+      - "merry_christmasset:merry_christmas_greatsword"
+      - "merry_christmasset:merry_christmas_key"
+      - "merry_christmasset:merry_christmaschestplate"
+      - "merry_christmasset:merry_christmasleggings"
+      - "merry_christmasset:merry_christmasboots"
+      - "merry_christmasset:merry_christmashelmet"
+      - "merry_christmasset:merry_christmas_head"
+      - "merry_christmasset:merry_christmas_wings"
+      - "merry_christmasset:merry_christmas_backpack"

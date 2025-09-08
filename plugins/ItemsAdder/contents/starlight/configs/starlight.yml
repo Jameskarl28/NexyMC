@@ -1,0 +1,260 @@
+info:
+  namespace: starlight
+items:
+  starlight_axe:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Axe・
+    permission: starlight.axe
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_battle_axe:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Battle Axe・
+    permission: starlight.battle_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_path: battle_axe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_blade:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Blade・
+    permission: starlight.blade
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: blade
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_bow:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Bow・
+    permission: starlight.bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+    enchants:
+      - POWER:8
+      - UNBREAKING:5
+      - INFINITY
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_chest:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Chest・
+    permission: starlight.chest
+    resource:
+      material: SEA_LANTERN
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+  starlight_dagger:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Dagger・
+    permission: starlight.dagger
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: dagger
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_hoe:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Hoe・
+    permission: starlight.hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_path: hoe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_key:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Key・
+    permission: starlight.key
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  starlight_pickaxe:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Pickaxe・
+    permission: starlight.pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_path: pickaxe
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_shield:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Shield・
+    permission: starlight.shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        maxHealth: 30
+        movementSpeed: -0.03
+  starlight_shovel:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Shovel・
+    permission: starlight.shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_path: shovel
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - EFFICIENCY:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_sickle:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Sickle・
+    permission: starlight.sickle
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: sickle
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_spear:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Spear・
+    permission: starlight.spear
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: spear
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_staff:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Staff・
+    permission: starlight.staff
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: staff
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_sword:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Sword・
+    permission: starlight.sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: sword
+    enchants:
+      - MENDING
+      - UNBREAKING:5
+      - SHARPNESS:8
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+  starlight_wings:
+    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Wings・
+    permission: starlight.wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+    enchants:
+      - MENDING
+    lore:
+      - ''
+      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
+      - 'ㆉ'
+      - 'ㆈ'
+    attribute_modifiers:
+      offhand:
+        movementSpeed: 0.03
