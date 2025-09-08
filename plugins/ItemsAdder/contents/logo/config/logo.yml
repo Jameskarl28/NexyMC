@@ -2,20 +2,20 @@ info:
   namespace: logo
 
 font_images:
-  orion:
-    show_in_gui: true
+  nexy:
+    show_in_gui: false
     suggest_in_command: false
     path: "logo.png"
     scale_ratio: 64
     y_position: 8
     x_position: 6
     symbol: "パ"
-  orion2:
-    show_in_gui: true
+  nexy2:
+    show_in_gui: false
     suggest_in_command: false
     path: "logo2.png"
-    scale_ratio: 64
-    y_position: 40
+    scale_ratio: 32
+    y_position: 30
     symbol: "ぅ"
 
 
