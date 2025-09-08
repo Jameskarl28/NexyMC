@@ -1,15 +1,15 @@
 # the messages in this section can be customised for each rankup in rankups.yml.
 rankup:
   requirements-not-met: "&cYou need {{rank.requirement('money').total | money}} money to rankup."
-  no-rankup: "&eYou are at the highest rank."
+  no-rankup: "&bYou are at the highest rank."
   # set to an empty string, ie: success-public: ""
   # to hide that message.
-  success-public: "&a{{player}} &ehas ranked up to: &d{{next.rank}}"
-  success-private: "&aYou have ranked up to: &d{{next.rank}}"
+  success-public: "&6{{player}} &bhas ranked up to: &d{{next.rank}}"
+  success-private: "&bYou have ranked up to: &d{{next.rank}}"
   # used for the text confirmation
   confirmation: |-
-    &eAre you sure you want to rankup to &a{{next.rank}}&e?
-    &eType &c/rankup &eagain to confirm.
+    &bAre you sure you want to rankup to &d{{next.rank}}&b?
+    &bType &c/rankup &bagain to confirm.
   must-prestige: "&cYou must prestige to /rankup further!"
 
   gui:
@@ -21,7 +21,7 @@ rankup:
       # for example: 0-3 9-12 18-21
       # you can also just use a single number instead of a range.
       index: 0-3
-      name: '&a&lConfirm'
+      name: '&7&lConfirm'
       # lore is optional
       lore: '&6Rankup to &b{{next.rank}}'
     cancel:
@@ -42,7 +42,7 @@ rankup:
     width: 7
     complete:
       material: GREEN_STAINED_GLASS_PANE
-      name: "&aRank &7{{next.rank}} &a(completed)"
+      name: "&7Rank &7{{next.rank}} &7(completed)"
     current:
       material: ORANGE_STAINED_GLASS_PANE
       name: "&dRankup to &7{{next.rank}}"
@@ -62,8 +62,8 @@ rankup:
   # here is an example of showing the requirements for just money:
   #list:
   #  complete: "&7{{rank.rank}} &8\xbb &7{{next.rank}} &efor &7${{rank.requirement('money').total | simple}}"
-  #  current: "&c{{rank.rank}} &e\xbb &c{{next.rank}} &efor &a${{rank.requirement('money').total | simple}} &e{PERCENT_DONE money}%"
-  #  incomplete: "&r{{rank.rank}} &e\xbb &r{{next.rank}} &efor &a${{rank.requirement('money').total | simple}}"
+  #  current: "&c{{rank.rank}} &e\xbb &c{{next.rank}} &efor &7${{rank.requirement('money').total | simple}} &e{PERCENT_DONE money}%"
+  #  incomplete: "&r{{rank.rank}} &e\xbb &r{{next.rank}} &efor &7${{rank.requirement('money').total | simple}}"
   list:
     complete: "&7{{rank.rank}} &8\xbb &7{{next.rank}}"
     current: "&c{{rank.rank}} &e\xbb &c{{next.rank}}"
@@ -80,11 +80,11 @@ prestige:
   requirements-not-met: "&cYou need {{rank.requirement('money').total | money}} money to prestige."
   no-prestige: "&eYou are at the highest prestige."
 
-  success-public: "&a{{player}} &ehas prestiged to: &d{{next.rank}}"
-  success-private: "&aYou have prestiged to: &d{{next.rank}}"
+  success-public: "&7{{player}} &ehas prestiged to: &d{{next.rank}}"
+  success-private: "&7You have prestiged to: &d{{next.rank}}"
 
   confirmation: |-
-    &eAre you sure you want to prestige to &a{{next.rank}}&e?
+    &eAre you sure you want to prestige to &7{{next.rank}}&e?
     &eType &c/prestige &eagain to confirm.
 
   gui:
@@ -92,7 +92,7 @@ prestige:
     rankup:
       material: GOLD_BLOCK
       index: 0-3
-      name: '&a&lConfirm'
+      name: '&7&lConfirm'
       lore: '&6Prestige to &b{{next.rank}}'
     cancel:
       material: REDSTONE_BLOCK
