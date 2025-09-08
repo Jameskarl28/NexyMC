@@ -18,13 +18,11 @@
   - '&fɢɪᴠᴇᴀᴡᴀʏꜱ, ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛꜱ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ!'
 4:
   change-interval: 2500
-  texts:
-  - '&#ea86feᴏʀɪᴏɴᴍᴄ'  
-  - '&#7289daᴅɪꜱᴄᴏʀᴅ.ɢɢ/ᴏʀɪᴏɴᴍᴄ'
-  - '&a/ᴠᴏᴛᴇ'
+  texts:  
+  - '#ADD8E6ᴅɪꜱᴄᴏʀᴅ.ɢɢ/ɴᴇxʏᴍᴄ'
 
 ping-tps:
-  change-interval: 1000
+  change-interval: 2500
   texts:
-  - '&6ᴛᴘꜱ: &7%tps%'
-  - '&6ᴛᴘꜱ: &f%tps%'
+  - '#ADD8E6TPS: &7%tps%'
+  - '#ADD8E6TPS: &f%tps%'

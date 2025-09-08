@@ -14,8 +14,8 @@ font_images:
     show_in_gui: true
     suggest_in_command: false
     path: "logo2.png"
-    scale_ratio: 32
-    y_position: 8
+    scale_ratio: 64
+    y_position: 40
     symbol: "ぅ"
 
 
