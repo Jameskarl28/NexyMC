@@ -1,0 +1,45 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: CAULDRON
+        buy: 1000
+      '2':
+        material: CRAFTER
+        buy: 15000
+      '3':
+        material: DAYLIGHT_DETECTOR
+        buy: 2000
+      '4':
+        material: DISPENSER
+        buy: 3100
+      '5':
+        material: DROPPER
+        buy: 3100
+      '6':
+        material: JUKEBOX
+        buy: 4100
+      '7':
+        material: NOTE_BLOCK
+        buy: 4600
+      '8':
+        material: OBSERVER
+        buy: 3500
+      '9':
+        material: REDSTONE_LAMP
+        buy: 6500
+      '10':
+        material: TARGET
+        buy: 6000
+      '11':
+        material: COMPARATOR
+        buy: 7500
+      '12':
+        material: REPEATER
+        buy: 7500
+      '13':
+        material: PISTON
+        buy: 8500
+      '14':
+        material: STICKY_PISTON
+        buy: 9500

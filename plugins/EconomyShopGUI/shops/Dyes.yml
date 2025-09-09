@@ -1,0 +1,99 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BLACK_DYE
+        buy: 15
+      '2':
+        material: BLUE_DYE
+        buy: 15
+      '3':
+        material: BROWN_DYE
+        buy: 15
+      '4':
+        material: CYAN_DYE
+        buy: 15
+      '5':
+        material: GRAY_DYE
+        buy: 15
+      '6':
+        material: GREEN_DYE
+        buy: 15
+      '7':
+        material: LIGHT_BLUE_DYE
+        buy: 15
+      '8':
+        material: LIGHT_GRAY_DYE
+        buy: 15
+      '9':
+        material: LIME_DYE
+        buy: 15
+      '10':
+        material: MAGENTA_DYE
+        buy: 15
+      '11':
+        material: ORANGE_DYE
+        buy: 15
+      '12':
+        material: PINK_DYE
+        buy: 15
+      '13':
+        material: PURPLE_DYE
+        buy: 15
+      '14':
+        material: RED_DYE
+        buy: 15
+      '15':
+        material: WHITE_DYE
+        buy: 15
+      '16':
+        material: YELLOW_DYE
+        buy: 15
+      '17':
+        material: AZURE_BLUET
+        buy: 5
+      '18':
+        material: BLUE_ORCHID
+        buy: 5
+      '19':
+        material: CORNFLOWER
+        buy: 5
+      '20':
+        material: LILAC
+        buy: 5
+      '21':
+        material: LILY_OF_THE_VALLEY
+        buy: 5
+      '22':
+        material: ORANGE_TULIP
+        buy: 5
+      '23':
+        material: OXEYE_DAISY
+        buy: 5
+      '24':
+        material: PEONY
+        buy: 5
+      '25':
+        material: PINK_PETALS
+        buy: 5
+      '26':
+        material: PINK_TULIP
+        buy: 5
+      '27':
+        material: PITCHER_PLANT
+        buy: 10
+      '28':
+        material: POPPY
+        buy: 5
+      '29':
+        material: RED_TULIP
+        buy: 5
+      '30':
+        material: SUNFLOWER
+        buy: 5
+      '31':
+        material: TORCHFLOWER
+        buy: 10
+      '32':
+        material: INK_SAC
+        buy: 15

@@ -1,0 +1,67 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BAMBOO
+        buy: 10
+        sell: 7
+      '2':
+        material: BEETROOT
+        buy: 95
+        sell: 6.5
+      '3':
+        material: BROWN_MUSHROOM
+        buy: 15
+        sell: 0.5
+      '4':
+        material: CACTUS
+        buy: 60
+        sell: 8.5
+      '5':
+        material: CARROT
+        buy: 60
+        sell: 5.5
+      '6':
+        material: CHORUS_FRUIT
+        buy: 150
+        sell: 6
+      '7':
+        material: COCOA_BEANS
+        buy: 140
+        sell: 8
+      '8':
+        material: EGG
+        buy: 100
+        sell: 10
+      '9':
+        material: KELP
+        buy: 10
+        sell: 6
+      '10':
+        material: MELON
+        buy: 95
+        sell: 9
+      '11':
+        material: NETHER_WART
+        buy: 105
+        sell: 6
+      '12':
+        material: POTATO
+        buy: 50
+        sell: 3
+      '13':
+        material: PUMPKIN
+        buy: 50
+        sell: 10
+      '14':
+        material: RED_MUSHROOM
+        buy: 15
+        sell: 2
+      '15':
+        material: SUGAR_CANE
+        buy: 20
+        sell: 6.5
+      '16':
+        material: WHEAT
+        buy: 95
+        sell: 3

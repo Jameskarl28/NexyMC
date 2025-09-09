@@ -1,0 +1,36 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: AMETHYST_SHARD
+        sell: 25
+      '2':
+        material: COAL
+        sell: 2
+      '3':
+        material: COPPER_INGOT
+        sell: 4
+      '4':
+        material: DIAMOND
+        sell: 150
+      '5':
+        material: EMERALD
+        sell: 24
+      '6':
+        material: GOLD_INGOT
+        sell: 12
+      '7':
+        material: IRON_INGOT
+        sell: 5
+      '8':
+        material: LAPIS_LAZULI
+        sell: 39
+      '9':
+        material: NETHERITE_INGOT
+        sell: 230
+      '10':
+        material: QUARTZ
+        sell: 2.07
+      '11':
+        material: REDSTONE
+        sell: 20
