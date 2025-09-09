@@ -43,7 +43,7 @@ nexiesTocopper:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fち","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bSprinkle I","bold":true,"color":"gold"}'
 sprinkle1Tosprinkle2:
   rank: 'sprinkle1'
   next: 'sprinkle2' 
@@ -86,7 +86,7 @@ sprinkle1Tosprinkle2:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fだ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bSprinkle II","bold":true,"color":"gold"}'
 sprinkle2Tosprinkle3:
   rank: 'sprinkle2'
   next: 'sprinkle3'
@@ -129,7 +129,7 @@ sprinkle2Tosprinkle3:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fた","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bSprinkle III","bold":true,"color":"gold"}'
 sprinkle3Topuffy1:
   rank: 'sprinkle3'
   next: 'puffy1'
@@ -176,7 +176,7 @@ sprinkle3Topuffy1:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fぞ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bPuffy I","bold":true,"color":"gold"}'
 puffy1Topuffy2:
   rank: 'puffy1'
   next: 'puffy2'
@@ -220,7 +220,7 @@ puffy1Topuffy2:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fそ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bPuffy II","bold":true,"color":"gold"}'
 puffy2Topuffy3:
   rank: 'puffy2'
   next: 'puffy3'
@@ -265,7 +265,7 @@ puffy2Topuffy3:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fぜ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bPuffy III","bold":true,"color":"gold"}'
 puffy3Toglitter1:
   rank: 'puffy3'
   next: 'glitter1'
@@ -309,7 +309,7 @@ puffy3Toglitter1:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fせ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bGlitter I","bold":true,"color":"gold"}'
 glitter1Toglitter2:
   rank: 'glitter1'
   next: 'glitter2'
@@ -353,7 +353,7 @@ glitter1Toglitter2:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fず","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bGlitter II","bold":true,"color":"gold"}'
 glitter2Toglitter3:
   rank: 'glitter2'
   next: 'glitter3'
@@ -396,7 +396,7 @@ glitter2Toglitter3:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fす","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bGlitter III","bold":true,"color":"gold"}'
 glitter3Totwinkle1:
   rank: 'glitter3'
   next: 'twinkle1'
@@ -442,7 +442,7 @@ glitter3Totwinkle1:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fじ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bTwinkle I","bold":true,"color":"gold"}'
 twinkle1Totwinkle2:
   rank: 'twinkle1'
   next: 'twinkle2'
@@ -485,7 +485,7 @@ twinkle1Totwinkle2:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fし","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bTwinkle II","bold":true,"color":"gold"}'
 twinkle2Totwinkle3:
   rank: 'twinkle2'
   next: 'twinkle3'
@@ -528,7 +528,7 @@ twinkle2Totwinkle3:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fざ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bTwinkle III","bold":true,"color":"gold"}'
 twinkle3Tosparkle1:
   rank: 'twinkle3'
   next: 'sparkle1'
@@ -575,7 +575,7 @@ twinkle3Tosparkle1:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fさ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bSparkle I","bold":true,"color":"gold"}'
 
 sparkle1Tosparkle2:
   rank: 'sparkle1'
@@ -619,7 +619,7 @@ sparkle1Tosparkle2:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fご","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bSparkle II","bold":true,"color":"gold"}'
 sparkle2Tosparkle3:
   rank: 'sparkle2'
   next: 'sparkle3'
@@ -662,7 +662,7 @@ sparkle2Tosparkle3:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fこ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bSparkle III","bold":true,"color":"gold"}'
     
 sparkle3Tostarlie1:
   rank: 'sparkle3'
@@ -710,7 +710,7 @@ sparkle3Tostarlie1:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fげ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bStarlie I","bold":true,"color":"gold"}'
 starlie1Tostarlie2:
   rank: 'starlie1'
   next: 'starlie2'
@@ -754,7 +754,7 @@ starlie1Tostarlie2:
     - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~'
     - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal'
     - 'title {PLAYER} subtitle {"text":"Congratulations","bold":true,"color":"yellow"}'
-    - 'title {PLAYER} title {"text":"Rankup &fけ","bold":true,"color":"gold"}'
+    - 'title {PLAYER} title {"text":"Rankup &bStarlie II","bold":true,"color":"gold"}'
     
 starlie2Tostarlie3:
   rank: 'starlie2'
