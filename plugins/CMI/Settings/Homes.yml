@@ -56,9 +56,15 @@ Homes:
   # To have unlimited homes use cmi.command.sethome.unlimited permission
   # In addition to this you can use simple numeric permission node cmi.command.sethome.[number] which will define max number of homes player can have
   Groups:
-    Newbie: 2
-    Advanced: 3
-    Vip: 5
+    nexies: 1
+    sprinkle1: 2
+    puffy1: 3
+    glitter1: 4
+    twinkle1: 5
+    sparkle1: 6
+    starlie1: 7
+
+
   # Requires cmi.bedhome permission node
   # When set to true by interacting with bed, regular home location will be created
   # When set to false vanilla bed home location will be set
