@@ -13,7 +13,7 @@ Economy:
   # Attention! For economy to work properly with other plugins you will need either an injector or a recompiled Vault version.
   # You can find both option at top of plugins page
   # ATTENTION! If you disabled CMI economy while server was running, you will need to perform a full server restart for this to take effect and avoid issues when retrieving players' balances.
-  Enabled: false
+  Enabled: true
   # Determines if player needs to confirm money payment by clicking on chat message
   Confirmation: false
   # Set to true if you want to log money transfers between players
@@ -1151,7 +1151,7 @@ Messages:
     AutoHideFrom: -1
     Custom:
       # If set to true, custom login message will be used. cmi.messages.disablelogin can be used to disable message for player
-      Use: false
+      Use: true
       # When enabled and you have bungeeserver with CMIB on it we will try to detect where player went and we will show switch server message instead of login if possible
       ServerSwitch: true
   Logout:
@@ -1162,12 +1162,12 @@ Messages:
     AutoHideFrom: -1
     Custom:
       # If set to true, custom logout message will be used. cmi.messages.disablequit can be used to disable message for player
-      Use: false
+      Use: true
       # When enabled and you have bungeeserver with CMIB on it we will try to detect where player went and we will show switch server message instead of logout if possible
       ServerSwitch: true
   # Check locale file for translation and custom placeholders: [playername], [totalUsers], [onlinePlayers]
   FirstJoinMessage:
-    Use: false
+    Use: true
   # When enabled player names will be checked against provided regex and if match is found then login and/or logout message will not be shown
   Filter:
     ForLogin: false
@@ -1534,8 +1534,8 @@ Player:
       chatbubble: true
       pmSound: true
       rideMe: true
-      pveDamageNumbers: true
-      pvpDamageNumbers: true
+      pveDamageNumbers: false
+      pvpDamageNumbers: false
       InformDurability: true
       receivePets: true
       deathMessages: true
