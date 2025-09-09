@@ -45,29 +45,29 @@ shop-prefix: '&7[&8!&7] '
 
 #Main Shop Inventory
 inventory-main-shop-title: '&8&lNexyMC Shop'
-profile: '#ADD8E6Profile'
+profile: '&7Profile'
 name: '&6Name'
-money: '#FFC0CBBalance'
+money: '&6Balance'
 level: '&6Level'
 
 # SellGUI inventory
 inventory-sellgui-title: '&8&lSellGUI'
 
 #Buystacks Inventory title
-inventory-buystacks-title: '&8Buying stacks #ADD8E6&l> &r&8%item%'
+inventory-buystacks-title: '&8Buying stacks &7&l> &r&8%item%'
 
 # Transaction screen
 inventory-howmuchsell-title: '&8Selling &c&l> &r&8%item%'
-inventory-howmuchbuy-title: '&8Buying #ADD8E6&l> &r&8%item%'
+inventory-howmuchbuy-title: '&8Buying &7&l> &r&8%item%'
 plus-one: '&b+1'
 min-one: '&5-1'
 plus-sixteen: '&b+16'
 min-sixteen: '&5-16'
 plus-thirty-two: '&b+32'
 min-thirty-two: '&5-32'
-sell: '#ADD8E6Click to sell'
+sell: '&7Click to sell'
 sell-all: '&cClick to sell all'
-buy: '#ADD8E6Click to purchase'
+buy: '&7Click to purchase'
 buy-stacks: '&cClick to buy stacks'
 transaction-screen-total-price: '&3%price%'
 transaction-screen-total-amount: '&5x %amount%'
@@ -75,10 +75,10 @@ max-amount-reached: '&cMax amount reached'
 min-amount-reached: '&cMin amount reached'
 
 # ShopStands transactions
-shopstand-buy-screen-title: '&8Buying #ADD8E6&l> &r&8%item%'
+shopstand-buy-screen-title: '&8Buying &7&l> &r&8%item%'
 shopstand-sell-screen-title: '&8Selling &c&l> &r&8%item%'
-shopstand-click-to-buy: '#ADD8E6Click to buy %amount%'
-shopstand-click-to-sell: '#ADD8E6Click to sell %amount%'
+shopstand-click-to-buy: '&7Click to buy %amount%'
+shopstand-click-to-sell: '&7Click to sell %amount%'
 shopstand-total-price: '&cTotal price: &7%price%'
 
 # Shop stands module
@@ -86,15 +86,15 @@ default-shop-stand-item-name: '&eShopStand'
 default-shop-stand-item-lore: '&fPlace this item down to create\n&fa new &6ShopStand &fat the placed location\n&ffor shop item &c%item%'
 shop-stands-management-inventory-title: '&8&lStand management'
 shop-stand-info-item-name: '&6&lShop stand info:'
-shop-stand-info-item-lore: '#ADD8E6Stand ID: &f%id%\n#ADD8E6Location: &f%location%\n#ADD8E6Shop item: &f%item%\n#ADD8E6Stand type: &f%type%\n#ADD8E6Is loaded: &f%loaded%'
+shop-stand-info-item-lore: '&7Stand ID: &f%id%\n&7Location: &f%location%\n&7Shop item: &f%item%\n&7Stand type: &f%type%\n&7Is loaded: &f%loaded%'
 force-reload-stand-item-name: '&e&lForce reload stand'
 force-reload-stand-item-lore: '&fClicking this will reload the shop stand\n&fwhich will re-create the displayitem and stand'
 destroy-stand-item-name: '&4&lDestroy shop stand'
 destroy-stand-item-lore: '&eClick to destroy this shop stand'
-reload-shop-stand: '#ADD8E6Forcefully reloaded shop stand with ID %id%'
+reload-shop-stand: '&7Forcefully reloaded shop stand with ID %id%'
 shop-stand-browse-inventory-title: '&8&lStand list'
 shop-stand-location-format: World '%world%', x%pos_x%, y%pos_y%, z%pos_z%
-created-new-shop-stand: '#ADD8E6Successfully created new ShopStand for &f%item%'
+created-new-shop-stand: '&7Successfully created new ShopStand for &f%item%'
 error-creating-new-shop-stand: '&cFailed to create a new shop stand: %reason%'
 
 #All Inventory's
@@ -107,15 +107,15 @@ next-page: '&bNext Page'
 current-page: '&7Page:'
 
 # ShopItem lore
-left-click-buy: \n
-seasonal-buy-price: \n
-discounted-buy-price: \n
+left-click-buy: \n &a&lBuy Price\n &7■ &f%buyPrice%
+seasonal-buy-price: \n &a&lBuy Price\n &7■ &f&m%buyPrice%&r &f%seasonalBuyPrice%
+discounted-buy-price: \n &a&lBuy Price\n &7■ &f&m%buyPrice%&r &f%discountedPrice%
 right-click-sell: \n &c&lSell Price\n &c■ &f%sellPrice%
 seasonal-sell-price: \n &c&lSell Price\n &c■ &f&m%sellPrice%&r &f%seasonalSellPrice%
 multiplied-sell-price: \n &c&lSell Price\n &c■ &f&m%sellPrice%&r &f%multipliedPrice%
 shift-right-click-sell-all: '&bShift + Right Click: Sell All'
 item-location-in-shop: '&8Section: %shopsection%, Index: %itemLoc%'
-item-cannot-be-bought: \n
+item-cannot-be-bought: \n &a&lBuy Price\n &7■ &fCannot be bought
 item-cannot-be-sold: \n &c&lSell Price\n &c■ &fCannot be sold
 item-seasonal-price: '&e&lSeasonal price %season-icon%'
 decoration-lore: '\n &e&lUsage:'
@@ -128,9 +128,9 @@ region-requirement-lore: '&c&lRequires to be inside region &b&l%regionName%'
 
 #Buy/Sell Messages
 discord-srv-player-transaction: '%player_name% %bought/sold% %amount% x %items% for %price%'
-pay-confirmation: '#ADD8E6You have successfully bought &1%amount% x &b%material% #ADD8E6for &c%amounttopay%'
-sell-confirmation: '#ADD8E6You have successfully sold &1%amount% x &b%material% #ADD8E6for &c%amounttopay%'
-sell-confirmation-multiple-items: '#ADD8E6You have successfully sold &1%amount% #ADD8E6items for &c%amounttopay%'
+pay-confirmation: '&7You have successfully bought &1%amount% x &b%material% &7for &c%amounttopay%'
+sell-confirmation: '&7You have successfully sold &1%amount% x &b%material% &7for &c%amounttopay%'
+sell-confirmation-multiple-items: '&7You have successfully sold &1%amount% &7items for &c%amounttopay%'
 no-item-to-be-sold: '&cYou do not have any of this item inside your inventory.'
 cannot-purchase-item: '&cThis item cannot be purchased.'
 cannot-sell-item: '&cThis item cannot be sold.'
@@ -152,13 +152,13 @@ shopstand-sell-screen: shopstand sell screen
 auto-sell-chest: SellChest
 bought: bought
 sold: sold
-on-screen-title-sold: '#ADD8E6+%price%'
+on-screen-title-sold: '&7+%price%'
 on-screen-title-bought: '&c-%price%'
 
 #CurrencySymbol
-currencysymbol: ₱%price%
-symbol-pricing-format: '%symbol% %price%'
-named-pricing-format: '&l%currency-format% %price% '
+currencysymbol: $%price%
+symbol-pricing-format: '%symbol%%price%'
+named-pricing-format: '%price% &l%currency-format%'
 
 # XP Currency name format
 xp-currency-name-singular: XP point
@@ -168,50 +168,50 @@ xp-currency-name-plural: XP points
 command-disabled-in-world: '&cThis command is disabled inside this world.'
 
 #Edit-shop subcommand descriptions
-editshop-add-item-subcommand-desc: '#ADD8E6Add a item to the shop.'
-editshop-edit-item-subcommand-desc: '#ADD8E6Edit an existing item in the shop.'
-editshop-remove-item-subcommand-desc: '#ADD8E6Delete a item from the shop.'
-editshop-import-subcommand-desc: '#ADD8E6Imports files/settings from another location or plugin.'
-editshop-add-hand-item-subcommand-desc: '#ADD8E6Add a item from you hand to the shop.'
-editshop-add-section-subcommand-desc: '#ADD8E6Add a shop section to the shop.'
-editshop-edit-section-subcommand-desc: '#ADD8E6Edit an existing shop section.'
-editshop-remove-section-subcommand-desc: '#ADD8E6Removes an existing shop section from the shop.'
-editshop-migrate-subcommand-desc: '#ADD8E6Allows to migrate data from another location or plugin.'
-editshop-shopstands-subcommand-desc: '#ADD8E6Manage existing or create new shop stands'
-editshop-shopstands-give-subcommand-desc: '#ADD8E6Gives a new shop stand item to place down'
-editshop-shopstands-destroy-subcommand-desc: '#ADD8E6Destroys a shop stand at its current location from its ID'
-editshop-shopstands-browse-subcommand-desc: '#ADD8E6Opens a GUI with all existing shop stands'
+editshop-add-item-subcommand-desc: '&7Add a item to the shop.'
+editshop-edit-item-subcommand-desc: '&7Edit an existing item in the shop.'
+editshop-remove-item-subcommand-desc: '&7Delete a item from the shop.'
+editshop-import-subcommand-desc: '&7Imports files/settings from another location or plugin.'
+editshop-add-hand-item-subcommand-desc: '&7Add a item from you hand to the shop.'
+editshop-add-section-subcommand-desc: '&7Add a shop section to the shop.'
+editshop-edit-section-subcommand-desc: '&7Edit an existing shop section.'
+editshop-remove-section-subcommand-desc: '&7Removes an existing shop section from the shop.'
+editshop-migrate-subcommand-desc: '&7Allows to migrate data from another location or plugin.'
+editshop-shopstands-subcommand-desc: '&7Manage existing or create new shop stands'
+editshop-shopstands-give-subcommand-desc: '&7Gives a new shop stand item to place down'
+editshop-shopstands-destroy-subcommand-desc: '&7Destroys a shop stand at its current location from its ID'
+editshop-shopstands-browse-subcommand-desc: '&7Opens a GUI with all existing shop stands'
 
 #Edit-shop subcommand syntaxes
-editshop-add-item-subcommand-syntax: '#ADD8E6/editshop additem <section> <material> <buy price> <sell price> [displayname]'
-editshop-edit-item-subcommand-syntax: '#ADD8E6/editshop edititem <section> <item> <action> <key> <value>'
-editshop-remove-item-subcommand-syntax: '#ADD8E6/editshop deleteitem <section> <item>'
-editshop-import-subcommand-syntax: '#ADD8E6/editshop import <plugin> <file>'
-editshop-add-hand-item-subcommand-syntax: '#ADD8E6/editshop addhanditem <section> <buy price> <sell price>'
-editshop-add-section-subcommand-syntax: '#ADD8E6/editshop addsection <section> <material> <displayname> <slot>'
-editshop-edit-section-subcommand-syntax: '#ADD8E6/editshop editsection <section> <action> <key> <value>'
-editshop-remove-section-subcommand-syntax: '#ADD8E6/editshop deletesection <section>'
-editshop-migrate-subcommand-syntax: '#ADD8E6/editshop migrate <plugin> <image> [flags]'
-editshop-shopstands-subcommand-syntax: '#ADD8E6/editshop shopstands <give/destroy> ...'
-editshop-shopstands-give-subcommand-syntax: '#ADD8E6/editshop shopstands give <standType> <section> <index>'
-editshop-shopstands-destroy-subcommand-syntax: '#ADD8E6/eshop shopstands destroy <standID>'
-editshop-shopstands-browse-subcommand-syntax: '#ADD8E6/eshop shopstands browse'
+editshop-add-item-subcommand-syntax: '&7/editshop additem <section> <material> <buy price> <sell price> [displayname]'
+editshop-edit-item-subcommand-syntax: '&7/editshop edititem <section> <item> <action> <key> <value>'
+editshop-remove-item-subcommand-syntax: '&7/editshop deleteitem <section> <item>'
+editshop-import-subcommand-syntax: '&7/editshop import <plugin> <file>'
+editshop-add-hand-item-subcommand-syntax: '&7/editshop addhanditem <section> <buy price> <sell price>'
+editshop-add-section-subcommand-syntax: '&7/editshop addsection <section> <material> <displayname> <slot>'
+editshop-edit-section-subcommand-syntax: '&7/editshop editsection <section> <action> <key> <value>'
+editshop-remove-section-subcommand-syntax: '&7/editshop deletesection <section>'
+editshop-migrate-subcommand-syntax: '&7/editshop migrate <plugin> <image> [flags]'
+editshop-shopstands-subcommand-syntax: '&7/editshop shopstands <give/destroy> ...'
+editshop-shopstands-give-subcommand-syntax: '&7/editshop shopstands give <standType> <section> <index>'
+editshop-shopstands-destroy-subcommand-syntax: '&7/eshop shopstands destroy <standID>'
+editshop-shopstands-browse-subcommand-syntax: '&7/eshop shopstands browse'
 
 #Edit-shop command messages
-editshop-adding-item: '#ADD8E6Adding new item to shop %shop%...'
-editshop-add-item-successful: '#ADD8E6Successfully added the item to shop %shop% under %itemPath%.'
-editshop-adding-section: '#ADD8E6Adding new section config for shop %section%...'
-editshop-add-section-successful: '#ADD8E6New section config created at %path%.'
-editshop-editing-item: '#ADD8E6Updating the item...'
-editshop-edit-item-successful: '#ADD8E6Successfully updated ''%itemPath%''.'
-editshop-editing-section: '#ADD8E6Updating section...'
-editshop-removing-item: '#ADD8E6Removing the item from the shop...'
-editshop-remove-item-successful: '#ADD8E6Successfully removed ''%itemPath%'' from the shop.'
-editshop-removing-section: '#ADD8E6Removing the section from the shop...'
-editshop-removed-section: '#ADD8E6#ADD8E6Successfully removed ''%itemPath%'' from shop.'
-editshop-reload-shop-to-see-changes: '#ADD8E6Use command /sreload to load the changes inside the shop.'
-file-replaced: '#ADD8E6The old %fileName% has been replaced with the new file, the old file can be found inside the backups folder if you messed up something.'
-shop-stand-item-received: '#ADD8E6You were given &c%amount%x #ADD8E6ShopStand for shop item &f%item%'
+editshop-adding-item: '&7Adding new item to shop %shop%...'
+editshop-add-item-successful: '&7Successfully added the item to shop %shop% under %itemPath%.'
+editshop-adding-section: '&7Adding new section config for shop %section%...'
+editshop-add-section-successful: '&7New section config created at %path%.'
+editshop-editing-item: '&7Updating the item...'
+editshop-edit-item-successful: '&7Successfully updated ''%itemPath%''.'
+editshop-editing-section: '&7Updating section...'
+editshop-removing-item: '&7Removing the item from the shop...'
+editshop-remove-item-successful: '&7Successfully removed ''%itemPath%'' from the shop.'
+editshop-removing-section: '&7Removing the section from the shop...'
+editshop-removed-section: '&7&7Successfully removed ''%itemPath%'' from shop.'
+editshop-reload-shop-to-see-changes: '&7Use command /sreload to load the changes inside the shop.'
+file-replaced: '&7The old %fileName% has been replaced with the new file, the old file can be found inside the backups folder if you messed up something.'
+shop-stand-item-received: '&7You were given &c%amount%x &7ShopStand for shop item &f%item%'
 
 #Edit-shop command errors
 section-does-not-contain-item: '&cSection ''%shopsection%'' does not contain the item ''%itemLoc%''.'
@@ -231,37 +231,37 @@ unknown-shop-stand-id: '&cNo shop stand found with ID &f%id%'
 stand-type-not-supported: '&cShop stand type &f%type% &cis not supported in the current minecraft version'
 
 #Reload Command
-configs-reloaded: '#ADD8E6All configs reloaded.'
+configs-reloaded: '&7All configs reloaded.'
 
 # Sellall command usages
-sellall-command-usages: '#ADD8E6Command usage(s):'
+sellall-command-usages: '&7Command usage(s):'
 sellall-inventory-command-usage: '&7/sellall inventory &f- &7Sells all items in your inventory'
 sellall-hand-command-usage: '&7/sellall hand &8[amount] &f- &7Sells all items in your hand'
 sellall-item-command-usage: '&7/sellall <item> &8[amount] &f- &7Sells all items in your inventory matching the given item name'
 
 # ShopGive command
-shop-item-given: '#ADD8E6You were given &c%amount% #ADD8E6x &6%material%'
-shop-item-received: '#ADD8E6You received &c%amount% #ADD8E6x shop item from section &6%section% #ADD8E6and item index &6%itemIndex%'
+shop-item-given: '&7You were given &c%amount% &7x &6%material%'
+shop-item-received: '&7You received &c%amount% &7x shop item from section &6%section% &7and item index &6%itemIndex%'
 
 #Balance Command
 check-balance: '&bYou currently have &c%amountofmoney%&b.'
-check-balance-other-player: '&b%playername% #ADD8E6currently has &c%amountofmoney%#ADD8E6.'
+check-balance-other-player: '&b%playername% &7currently has &c%amountofmoney%&7.'
 
 #Givemoney Command
 givemoneycommand-example: '&9/givemoney <player> <amount>'
-givemoney-complete: '#ADD8E6Givemoney complete.'
+givemoney-complete: '&7Givemoney complete.'
 
 #Pay Command
 minimum-amount: '&cThe minimum amount to pay a player is %minimumamount%.'
-payment-complete: '#ADD8E6Payment complete.'
-player-received-money: '#ADD8E6You received &c%amounttogive% #ADD8E6from &2%playername%#ADD8E6!'
+payment-complete: '&7Payment complete.'
+player-received-money: '&7You received &c%amounttogive% &7from &2%playername%&7!'
 need-player-and-amount: '&9You need to give a player and a amount of money.'
 need-amount: '&9You need to give a amount of money.'
 paycommand-example: '&9/pay <player> <amount>'
 
 #Player breaks spawner
 default-spawner-name: '&9&l%spawner-type% &rSpawner'
-spawner-broke-and-applied-to-inventory: '#ADD8E6You successfully mined a &9%spawner-type%#ADD8E6, the item is applied to your inventory.'
+spawner-broke-and-applied-to-inventory: '&7You successfully mined a &9%spawner-type%&7, the item is applied to your inventory.'
 need-silk-touch: '&cYou need to use a silk touch pickaxe to mine this!'
 
 #JoinMessage
