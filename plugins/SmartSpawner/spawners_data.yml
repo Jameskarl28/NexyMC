@@ -10,3 +10,10 @@
 #      - ITEM_TYPE:amount
 
 data_version: 3
+spawners:
+  2793f92b:
+    location: world,4208,125,-690
+    entityType: ZOMBIE
+    settings: 540,true,16,false,2400,675,15000,15,60,15,15,1757487323873,false
+    lastInteractedPlayer: LexyLuther
+    inventory: []

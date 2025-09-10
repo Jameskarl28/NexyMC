@@ -34,12 +34,12 @@ spawner_properties:
     min_mobs: 1         # Minimum mobs spawned per cycle
     max_mobs: 4         # Maximum mobs spawned per cycle
     range: 16           # Player proximity required for activation (in blocks)
-    delay: 25s          # Base delay between spawn cycles (see time format guide above)
+    delay: 120s          # Base delay between spawn cycles (see time format guide above)
 
     # Storage Settings - Defines internal inventory capacity
     max_storage_pages: 1  # Each page provides 45 inventory slots
     max_stored_exp: 1000  # Maximum experience points that can be stored
-    max_stack_size: 10000  # Maximum number of spawners that can be stacked
+    max_stack_size: 15  # Maximum number of spawners that can be stacked
 
     # Behavior Settings - Controls special spawner functionality
     allow_exp_mending: true   # Allow spawners to repair items with stored XP
@@ -53,7 +53,7 @@ spawner_break:
   enabled: true         # Master switch for spawner breaking feature
 
   # Whether to directly add spawner items to player inventory instead of dropping them on the ground
-  direct_to_inventory: false
+  direct_to_inventory: true
 
   # Tool Requirements - Which tools can break spawners
   required_tools:
@@ -78,7 +78,7 @@ spawner_limits:
   # Set to -1 for unlimited spawners per chunk
   # Each spawner in a stack counts toward the limit (not just 1 per stack)
   # Example: 1 spawner with 64 stack + 1 spawner with 6 stack = 70 total count in chunk
-  max_per_chunk: -1
+  max_per_chunk: 15
 
 #---------------------------------------------------
 #           Natural/Vanilla Spawner Settings
@@ -86,14 +86,14 @@ spawner_limits:
 # Controls behavior of naturally generated dungeon spawners
 natural_spawner:
   # Whether natural spawners can be broken and collected
-  breakable: false
+  breakable: true
 
   # Convert natural spawners to smart spawners when broken
   # If false, natural spawners will drop vanilla spawner items
-  convert_to_smart_spawner: false
+  convert_to_smart_spawner: true
 
   # Whether natural spawners will spawn mobs
-  spawn_mobs: true
+  spawn_mobs: false
 
   # Whether natural spawner block will be protected from explosions
   protect_from_explosions: false
@@ -137,18 +137,18 @@ custom_economy:
   #   - Fallback: Shop integration prices (if custom price not found)
   #   - Ideal for servers that want full control over spawner item prices
   #     while still benefiting from shop integration for unconfigured items
-  price_source_mode: SHOP_PRIORITY
+  price_source_mode: SHOP_ONLY
 
   # Shop plugin integration
   shop_integration:
     enabled: true
     # Supported shop plugins: auto, EconomyShopGUI, EconomyShopGUI-Premium, ShopGUIPlus, zShop, ExcellentShop
     # 'auto' will attempt to detect your installed shop plugin automatically
-    preferred_plugin: auto
+    preferred_plugin: EconomyShopGUI
 
   # Custom sell price configuration
   custom_prices:
-    enabled: true
+    enabled: false
     # Path to custom item prices file
     price_file_name: "item_prices.yml"
 
@@ -197,9 +197,9 @@ hologram:
 
 # Particle effect toggles for visual feedback
 particle:
-  spawner_stack: true           # Show effects when spawners are stacked
+  spawner_stack: false           # Show effects when spawners are stacked
   spawner_activate: true        # Show effects when spawner activates
-  spawner_generate_loot: true   # Show effects when items are generated
+  spawner_generate_loot: false   # Show effects when items are generated
 
 #---------------------------------------------------
 #                 Data Management

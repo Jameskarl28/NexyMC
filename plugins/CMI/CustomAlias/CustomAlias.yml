@@ -53,3 +53,9 @@ CustomAlias:
   trash:
     Cmds:
     - dispose $1
+  qshop:
+    Cmds:
+    - quickshop-hikari:shop
+  shop:
+    Cmds:
+    - economyshopgui:shop
