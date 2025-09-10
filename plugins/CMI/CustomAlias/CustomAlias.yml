@@ -50,3 +50,6 @@ CustomAlias:
   check:
     Cmds:
     - spark healthreport
+  trash:
+    Cmds:
+    - dispose $1
