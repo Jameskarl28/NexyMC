@@ -1,6 +1,6 @@
 Afk:
   # Enable or disable auto afk system entirely
-  Enabled: false
+  Enabled: true
   # When enabled shows title message informing that player is in afk mode
   TitleMessage: true
   # When enabled shows random subtitle message
@@ -8,9 +8,9 @@ Afk:
   # Prevents jumping in one place to avoid afk status
   PreventJumping: true
   # Prevents damage to player who is afk
-  PreventDamage: true
+  PreventDamage: false
   # Prevents damage to mobs from player who is afk
-  PreventMobDamage: true
+  PreventMobDamage: false
   # Defines how often in seconds plugin will check for afk players state
   CheckInterval: 10
   # When set to true, players playtime counter stops
