@@ -153,7 +153,7 @@ info:
     NonEditable: '&7Edit mode disabled'
   vanishSymbolOn: '&8[&7H&8]&r'
   vanishSymbolOff: ''
-  afkSymbolOn: '&8[&7Afk&8]&r'
+  afkSymbolOn: '#ADD8E6ᴀꜰᴋ&r'
   afkSymbolOff: ''
   beeinfo: '!actionbar!&7Honey level: &7[level]&7/&7[maxlevel] &7Bees inside: &7[count]&7/&7[maxcount]'
   decoratedpotinfo: '!actionbar!&7Contents: &7[items]'
