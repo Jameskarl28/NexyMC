@@ -103,7 +103,7 @@ lore:
     in a world teeming with
   - danger and ancient mysteries.
 '&6&lWildRTP':
-  Loc: spawn;0.53;85.26;52.67
+  Loc: spawn;0.53;86.55;52.67
   Range: 20
   RangeExtra: 20
   NewDisplay: true
@@ -116,6 +116,13 @@ lore:
     ScaleH: 1.5
     SL: 15
   Lines:
+  - パ
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
   - '#ADD8E6&lRANDOM TELEPORTATION PORTAL'
   - '#FFC0CBTeleports you on random places'
   - '#FFC0CBon the Overworld'
@@ -187,7 +194,7 @@ npchelp:
   - '&6&lHelper'
   - '&7[/help]'
 Spawn:
-  Loc: spawn;0.46;89.84;6.46
+  Loc: spawn;0.46;89.94;6.46
   Range: 15
   RangeExtra: 20
   NewDisplay: true
@@ -200,6 +207,12 @@ Spawn:
     ScaleW: 1.1
     ScaleH: 1.2
   Lines:
+  - パ
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
   - '%luckperms_prefix%&f%player_name%'
   - '#FFC0CB&l🌸 &r#ADD8E6Welcome to #FFC0CBNexyMC &l🌸'
   - '----------------------'
