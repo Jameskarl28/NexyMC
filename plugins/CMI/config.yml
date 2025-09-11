@@ -1244,7 +1244,7 @@ Spawn:
     Yaw: 0.0
 Newbie:
   # Kit name to give for new players joining server
-  Kit: Newbie
+  Kit: Nexies
 Kits:
   # When set to true, kit list will be shown in GUI instead of chat list
   GUI: true
