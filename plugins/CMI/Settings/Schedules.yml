@@ -107,14 +107,38 @@ AllInOneJustExample:
   - actionbar! &eServer will stop in &61 &esec!
   - kickall! &eServer will be back online soon!
 Announcer:
-  Enabled: false
+  Enabled: true
   MinPlayers: 1
   FeedBack: false
-  Delay: 600
+  Delay: 60
   Repeat: true
   Randomize: true
   Commands:
-  - broadcast! &eRules can be found at &e/rules
-  - broadcast! &eKits can be accesed with &e/kits
-  - broadcast! &eIf you need help, ask staff
-  - broadcast! &eAdvertisement of other servers will be punished
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBdo #ADD8E6&n/vote #FFC0CBto receive a reward'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBif you need help you can create a ticket on
+    #ADD8E6&n/discord'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBIf you want to purchase cosmetics? Check here
+    #ADD8E6&nstore.nexymc.fun'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBYou can receive rewards in Fishing Competitions'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBIf you encounter some bugs report it on #ADD8E6&n/discord'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBClaim your land using Golden Shovel! Stick
+    to investigate a claim'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBSee ranks perks using #ADD8E6&n/ranks'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBIf you have keys you can open it at #ADD8E6&n/warp'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBAdvertisement of other servers will be punished'
+clearlagg:
+  Enabled: true
+  MinPlayers: 1
+  FeedBack: false
+  Delay: 1800
+  Repeat: true
+  Randomize: false
+  Commands:
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items will be cleared in &e60s!'
+  - delay! 30
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items will be cleared in &e30s!'
+  - delay! 20
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items will be cleared in &e10s!'
+  - delay! 10
+  - cmi killall item
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items have been cleared!'

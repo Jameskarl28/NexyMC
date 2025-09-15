@@ -1,0 +1,164 @@
+menu_title: '&8&l» &9NexyMC RULES!'
+open_command: 
+- rules
+register_command: true
+size: 17
+items:    
+  'Decoration2':
+    material: gray_stained_glass_pane
+    damage: 0
+    slots:
+    - 0-17
+    display_name: '&f '
+
+  'Back':
+    material: paper
+    model_data: 10005
+    slot: 13
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&cBack'
+    lore: []
+    left_click_commands:
+    - '[player] help'
+    right_click_commands:
+    - '[player] help'  
+
+  'rule1':
+    display_name: '&#FFC0CBNO GRIEFING'
+    material: Book
+    slot: 0
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fRefrain from griefing or destroying players'' bases.'
+    - '&fThis includes killing pets or claimed villagers,'
+    - '&fas it may result in a ban!'
+    - ''
+    - '&7NOTE&8:&r &fAll stolen items will be returned to their owners,'
+    - '&fand destroyed bases will be rolled back.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 1-day Ban'
+    - '&#FFC0CB- &72nd Offense: 5-day Ban'
+    - '&#FFC0CB- &73rd Offense: Permanent Ban'
+
+  'rule2':
+    display_name: '&#FFC0CBPLAYER ABUSE'
+    material: Book
+    slot: 1
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fRefrain from killing players'
+    - '&fwithout their consent.'
+    - ''
+    - '&7NOTE&8:&r &fThere are no rules in /warp PVP;'
+    - '&feveryone can freely kill players.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 1-day Ban'
+    - '&#FFC0CB- &72nd Offense: 7-day Ban'
+    - '&#FFC0CB- &73rd Offense: Permanent Ban'
+
+  'rule3':
+    display_name: '&#FFC0CBALT ACCOUNTS'
+    material: Book
+    slot: 2
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fRefrain from using too many alt accounts.'
+    - '&fYou can only have 3 to 5 accounts.'
+    - ''
+    - '&7NOTE&8:&r &fStaff will first warn the players.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 7-day Ban'
+    - '&#FFC0CB- &72nd Offense: Permanent Ban'
+
+  'rule4':
+    display_name: '&#FFC0CBSPAMMING'
+    material: Book
+    slot: 3
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fAvoid spamming chats, including advertisements.'
+    - ''
+    - '&7NOTE&8:&r &fStaff will first warn the players.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 3-day Mute'
+    - '&#FFC0CB- &722d Offense: 5-day Mute'
+    - '&#FFC0CB- &73rd Offense: 30-day Mute'
+
+  'rule5':
+    display_name: '&#FFC0CBPG-13'
+    material: Book
+    slot: 4
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fNo excessive cursing or inappropriate'
+    - '&flanguage, including racism.'
+    - ''
+    - '&7NOTE&8:&r &fStaff will first warn the players.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 3-day Mute'
+    - '&#FFC0CB- &722d Offense: 5-day Mute'
+    - '&#FFC0CB- &73rd Offense: 30-day Mute'
+    - '&#FFC0CB- &74th Offense: Permanent Ban'
+
+  'rule6':
+    display_name: '&#FFC0CBCOSMETICS'
+    material: Book
+    slot: 5
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fRefrain from selling paid'
+    - '&fcosmetics to other players.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 1-day Ban'
+    - '&#FFC0CB- &72nd Offense: 7-day Ban'
+
+  'rule7':
+    display_name: '&#FFC0CBHACKING'
+    material: Book
+    slot: 6
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fAvoid using cheats or mods,'
+    - '&fincluding item duplication.'
+    - ''
+    - '&4&lNot Allowed'
+    - '&cX-ray'
+    - '&cFreeCam'
+    - '&cFlying'
+    - '&cAutoPlace'
+    - '&cMacros/Scripts'
+    - '&cSpeedBoost'
+    - ''
+    - '&2&lAllowed'
+    - '&aMap Client Mods'
+    - '&aLitematica'
+    - ''
+    - '&#FFC0CB- &71st Offense: 7-day Ban'
+    - '&#FFC0CB- &72nd Offense: Permanent Ban'
+
+  'rule8':
+    display_name: '&#FFC0CBBUGS'
+    material: Book
+    slot: 7
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&fAvoid abusing bugs and report'
+    - '&fthem to the staff as soon as'
+    - '&fpossible so it can be'
+    - '&ffixed immediately.'
+    - ''
+    - '&#FFC0CB- &71st Offense: 7-day Ban'
+    - '&#FFC0CB- &72nd Offense: Permanent Ban'
+
+  'rule9':
+    display_name: '&#FFC0CBETC.'
+    material: Book
+    slot: 8
+    item_flags: [HIDE_ATTRIBUTES]
+    lore:
+    - '&#FFC0CB- &7Refrain from buying in-game items with real money.'
+    - '&#FFC0CB- &7Asking for the world seed is not allowed.'
+    - '&#FFC0CB- &7Lastly, again THERE ARE NO RULES IN PVP!!'
+
+
+

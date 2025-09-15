@@ -1,0 +1,619 @@
+Name: Mysticbloom Crate
+Description: []
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4440
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: enclosing
+Opening:
+  Cooldown: 3
+Key:
+  Required: true
+  Ids:
+  - mysticbloom
+Block:
+  Positions:
+  - -27,83,66,spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: helix
+    Particle:
+      Name: CHERRY_LEAVES
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    mysticbloom_helmet:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Chestplate","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+            Set",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_chestplate"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: true
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Helmet","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Helmet",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_helmet"}'
+            DataVersion: 4440
+        '1':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Chestplate","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Chestplate",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_chestplate"}'
+            DataVersion: 4440
+        '2':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Leggings","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Leggings",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_leggings"}'
+            DataVersion: 4440
+        '3':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Boots","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Boots",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_boots"}'
+            DataVersion: 4440
+        '4':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"sharpness",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Sword","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Sword",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+        '5':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"sharpness",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Axe","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Axe",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_axe"}'
+            DataVersion: 4440
+        '6':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s},{id:"efficiency",lvl:10s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Pickaxe","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+              Pickaxe",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:efficiency":10,"minecraft:mending":1,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_pickaxe"}'
+            DataVersion: 4440
+    smithing_template:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_upgrade_smithing_template"}'
+          DataVersion: 4440
+      Weight: 9.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_upgrade_smithing_template"}'
+            DataVersion: 4440
+    block_of_netherite:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_block"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:5,id:"minecraft:netherite_block"}'
+            DataVersion: 4440
+    block_of_diamond:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_block"}'
+          DataVersion: 4440
+      Weight: 15.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:5,id:"minecraft:diamond_block"}'
+            DataVersion: 4440
+    enchanted_golden_apple:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:enchanted_golden_apple"}'
+          DataVersion: 4440
+      Weight: 5.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:16,id:"minecraft:enchanted_golden_apple"}'
+            DataVersion: 4440
+    golden_apple:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:golden_apple"}'
+          DataVersion: 4440
+      Weight: 15.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:32,id:"minecraft:golden_apple"}'
+            DataVersion: 4440
+    elytra:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:elytra"}'
+          DataVersion: 4440
+      Weight: 3.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:elytra"}'
+            DataVersion: 4440
+    beacon:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:beacon"}'
+          DataVersion: 4440
+      Weight: 10.5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:beacon"}'
+            DataVersion: 4440
+    neko_trap:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"nekotraps:trap_type":"vanilla"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Neko trap",underlined:0b}],text:""},"minecraft:enchantment_glint_override":1b,"minecraft:lore":[{extra:[""],italic:0b,text:""},{extra:[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,translate:"gui.entity_tooltip.type",underlined:0b,with:[{italic:0b,translate:"advancements.empty"}]}],text:"&7"}],text:""},{extra:[""],italic:0b,text:""}]},count:3,id:"minecraft:barrel"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    vote_crate_key:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"vote"}},"minecraft:custom_name":{extra:[{bold:1b,color:"#ADD8E6",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vote Crate Key",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:tripwire_hook"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    dreamlet_crate_key:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"dreamlet"}},"minecraft:custom_name":{extra:[{bold:1b,color:"#ADD8E6",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dreamlet Crate Key",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:tripwire_hook"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    spawner_crate_key:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"spawner"}},"minecraft:custom_name":{extra:[{bold:1b,color:"#ADD8E6",italic:0b,obfuscated:0b,strikethrough:0b,text:"Spawner Crate Key",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:tripwire_hook"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    200_claims:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"200 Claims",underlined:0b}],text:""}},count:1,id:"minecraft:golden_shovel"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <yellow>200 Claims
+      Description: []
+      Commands:
+      - adjustbonusclaimblocks %player_name% 200
+    500_claims:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"500 Claims",underlined:0b}],text:""}},count:1,id:"minecraft:golden_shovel"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <yellow>500 Claims
+      Description: []
+      Commands:
+      - adjustbonusclaimblocks %player_name% 500
+    1000_claims:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"1000 Claims",underlined:0b}],text:""}},count:1,id:"minecraft:golden_shovel"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <yellow>1000 Claims
+      Description: []
+      Commands:
+      - adjustbonusclaimblocks %player_name% 1000
+    silence_armor_trim_smithing_template:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:silence_armor_trim_smithing_template"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    ward_armor_trim_smithing_template:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:ward_armor_trim_smithing_template"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    eye_armor_trim_smithing_template:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:eye_armor_trim_smithing_template"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189

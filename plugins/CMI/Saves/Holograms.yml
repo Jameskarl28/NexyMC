@@ -127,7 +127,7 @@ lore:
   - '#FFC0CBTeleports you on random places'
   - '#FFC0CBon the Overworld'
 communitychest:
-  Loc: spawn;234.04;64.38;64.83
+  Loc: spawn;-12.49;83.48;71.52
   NewDisplay: true
   ND:
     Bill: FIXED
@@ -137,7 +137,7 @@ communitychest:
     ScaleW: 1.2
     ScaleH: 1.3
   Lines:
-  - '&6&lCOMMUNITY CHEST'
+  - '#FFC0CB&lCOMMUNITY CHEST'
 npcjobs:
   Loc: spawn;181.49;67.18;39.47
   NewDisplay: true

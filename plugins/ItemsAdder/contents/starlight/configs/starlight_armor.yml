@@ -8,21 +8,22 @@ info:
   namespace: starlight
 items:
   starlighthelmet:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Helmet・
+    display_name: <#F1BA22>・Starlight Helmet・
     permission: starlight.helmet
     resource:
       generate: true
       textures:
       - armor/starlight_helmet_icon.png
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:
@@ -35,21 +36,22 @@ items:
         custom_armor: starlightarmor
         slot: head
   starlightchestplate:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Chestplate・
+    display_name: <#F1BA22>・Starlight Chestplate・
     permission: starlight.chestplate
     resource:
       generate: true
       textures:
       - armor/starlight_chestplate_icon.png
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:
@@ -62,21 +64,23 @@ items:
         custom_armor: starlightarmor
         slot: chest
   starlightleggings:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Leggings・
+    display_name: <#F1BA22>・Starlight Leggings・
     permission: starlight.leggings
     resource:
       generate: true
       textures:
       - armor/starlight_leggings_icon.png
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
+    lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:
@@ -89,21 +93,22 @@ items:
         custom_armor: starlightarmor
         slot: legs
   starlightboots:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Boots・
+    display_name: <#F1BA22>・Starlight Boots・
     permission: starlight.boots
     resource:
       generate: true
       textures:
       - armor/starlight_boots_icon.png
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:

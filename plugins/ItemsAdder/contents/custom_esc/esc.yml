@@ -4,7 +4,7 @@ minecraft_lang_overwrite:
   esc_menu_texts:
     entries:
       "menu.game": ""
-      "menu.disconnect": ":offset_-256::offset_-15::quit_button::offset_-236::offset_10::bottom_news::offset_-256:"
+      "menu.disconnect": ":offset_-246::offset_-15::quit_button::offset_-236:"
       "resourcePack.server.name": ":offset_-256::offset_-34::resourcepack_menu_background::offset_-100:"
       "menu.returnToGame": ":offset_-256::offset_17::back_button::offset_-256:"
       "menu.options": ":offset_-256::offset_1::options_button::offset_-256:"

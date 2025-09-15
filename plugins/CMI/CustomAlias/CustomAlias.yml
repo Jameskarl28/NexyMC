@@ -62,3 +62,6 @@ CustomAlias:
   rtp:
     Cmds:
     - betterrtp world world
+  echest:
+    Cmds:
+    - cmi ender $1

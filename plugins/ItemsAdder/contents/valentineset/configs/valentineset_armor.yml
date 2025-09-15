@@ -8,7 +8,7 @@ info:
   namespace: valentineset
 items:
   valentineboots:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Boots・
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Boots・
     permission: valentine.boots
     resource:
       generate: true
@@ -19,14 +19,15 @@ items:
         custom_armor: valentinearmor
         slot: feet
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:
@@ -37,7 +38,7 @@ items:
         
         
   valentinechestplate:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Chestplate・
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Chestplate・
     permission: valentine.chestplate
     resource:
       generate: true
@@ -48,14 +49,15 @@ items:
         custom_armor: valentinearmor
         slot: chest
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:
@@ -66,7 +68,7 @@ items:
         
         
   valentineleggings:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Leggings・
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Leggings・
     permission: valentine.leggings
     resource:
       generate: true
@@ -77,14 +79,15 @@ items:
         custom_armor: valentinearmor
         slot: legs
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:
@@ -95,7 +98,7 @@ items:
         
         
   valentinehelmet:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Helmet・
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Helmet・
     permission: valentine.helmet
     resource:
       generate: true
@@ -106,14 +109,15 @@ items:
         custom_armor: valentinearmor
         slot: head
     enchants:
-      - PROTECTION:8
-      - UNBREAKING:5
+      - PROTECTION:4
+      - UNBREAKING:3
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     durability:
       max_custom_durability: 1000
     attribute_modifiers:

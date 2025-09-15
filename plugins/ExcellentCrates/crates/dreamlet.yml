@@ -1,0 +1,725 @@
+Name: Dreamlet Crate
+Description: []
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Dreamlet Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4440
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: enclosing
+Opening:
+  Cooldown: 3
+Key:
+  Required: true
+  Ids:
+  - dreamlet
+Block:
+  Positions:
+  - -25,83,71,spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: helix
+    Particle:
+      Name: CHERRY_LEAVES
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    mysticbloom_crate_key:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"mysticbloom"}},"minecraft:custom_name":{extra:[{bold:1b,color:"#ADD8E6",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom Crate Key",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:tripwire_hook"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    spawner_crate_key:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: mythic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"spawner"}},"minecraft:custom_name":{extra:[{bold:1b,color:"#ADD8E6",italic:0b,obfuscated:0b,strikethrough:0b,text:"Spawner Crate Key",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:tooltip_display":{hidden_components:["minecraft:can_place_on","minecraft:llama/variant","minecraft:wolf/variant","minecraft:equippable","minecraft:bucket_entity_data","minecraft:map_post_processing","minecraft:pot_decorations","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:rarity","minecraft:damage","minecraft:map_id","minecraft:banner_patterns","minecraft:repair_cost","minecraft:tropical_fish/pattern","minecraft:profile","minecraft:tropical_fish/base_color","minecraft:repairable","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:fox/variant","minecraft:tropical_fish/pattern_color","minecraft:creative_slot_lock","minecraft:bundle_contents","minecraft:writable_book_content","minecraft:can_break","minecraft:container_loot","minecraft:mooshroom/variant","minecraft:instrument","minecraft:lodestone_tracker","minecraft:max_damage","minecraft:wolf/sound_variant","minecraft:entity_data","minecraft:wolf/collar","minecraft:dyed_color","minecraft:trim","minecraft:recipes","minecraft:painting/variant","minecraft:frog/variant","minecraft:potion_contents","minecraft:horse/variant","minecraft:unbreakable","minecraft:block_state","minecraft:custom_data","minecraft:jukebox_playable","minecraft:map_decorations","minecraft:note_block_sound","minecraft:potion_duration_scale","minecraft:use_remainder","minecraft:stored_enchantments","minecraft:tool","minecraft:charged_projectiles","minecraft:enchantable","minecraft:damage_resistant","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:container","minecraft:chicken/variant","minecraft:weapon","minecraft:debug_stick_state","minecraft:food","minecraft:suspicious_stew_effects","minecraft:villager/variant","minecraft:base_color","minecraft:fireworks","minecraft:map_color","minecraft:cow/variant","minecraft:death_protection","minecraft:enchantment_glint_override","minecraft:attribute_modifiers","minecraft:glider","minecraft:cat/collar","minecraft:pig/variant","minecraft:cat/variant","minecraft:max_stack_size","minecraft:written_book_content","minecraft:ominous_bottle_amplifier","minecraft:sheep/color","minecraft:use_cooldown","minecraft:enchantments","minecraft:block_entity_data","minecraft:bees","minecraft:break_sound","minecraft:parrot/variant","minecraft:lock","minecraft:provides_banner_patterns","minecraft:shulker/color","minecraft:consumable","minecraft:rabbit/variant"]}},count:1,id:"minecraft:tripwire_hook"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    ₱1500:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a₱1,500'
+      Description: []
+      Commands:
+      - money give %player_name% 1500
+    ₱2500:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a₱2,500'
+      Description: []
+      Commands:
+      - money give %player_name% 2500
+    ₱5000:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a₱5,000'
+      Description: []
+      Commands:
+      - money give %player_name% 5000
+    ₱10000:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a₱10,000'
+      Description: []
+      Commands:
+      - money give %player_name% 10000
+    diamond_pickaxe:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:unbreaking":2}},count:1,id:"minecraft:diamond_pickaxe"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:unbreaking":2}},count:1,id:"minecraft:diamond_pickaxe"}'
+            DataVersion: 4440
+    diamond_axe:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:unbreaking":2}},count:1,id:"minecraft:diamond_axe"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:unbreaking":2}},count:1,id:"minecraft:diamond_axe"}'
+            DataVersion: 4440
+    diamond_shovel:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:unbreaking":2}},count:1,id:"minecraft:diamond_shovel"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:unbreaking":2}},count:1,id:"minecraft:diamond_shovel"}'
+            DataVersion: 4440
+    ender_pearl:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:ender_pearl"}'
+          DataVersion: 4440
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:16,id:"minecraft:ender_pearl"}'
+            DataVersion: 4440
+    slime:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:slime_ball"}'
+          DataVersion: 4440
+      Weight: 17.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:32,id:"minecraft:slime_ball"}'
+            DataVersion: 4440
+    trident:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:trident"}'
+          DataVersion: 4440
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:trident"}'
+            DataVersion: 4440
+    golden_apple:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:golden_apple"}'
+          DataVersion: 4440
+      Weight: 14.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:32,id:"minecraft:golden_apple"}'
+            DataVersion: 4440
+    iron_block:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_block"}'
+          DataVersion: 4440
+      Weight: 12.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:5,id:"minecraft:iron_block"}'
+            DataVersion: 4440
+    diamond_block:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_block"}'
+          DataVersion: 4440
+      Weight: 11.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:5,id:"minecraft:diamond_block"}'
+            DataVersion: 4440
+    emerald_block:
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:emerald_block"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:5,id:"minecraft:emerald_block"}'
+            DataVersion: 4440
+    exp10:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_name":{extra:["#ead931◆ 10 Exp Levels ◆"],text:""}},count:1,id:"minecraft:experience_bottle"}'
+          DataVersion: 4440
+      Weight: 8.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '#ead931◆ 10 Exp Levels ◆'
+      Description: []
+      Commands:
+      - exp give %player_name% 10l
+    exp20:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_name":{extra:["#ead931◆ 20 Exp Levels ◆"],text:""}},count:1,id:"minecraft:experience_bottle"}'
+          DataVersion: 4440
+      Weight: 7.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '#ead931◆ 20 Exp Levels ◆'
+      Description: []
+      Commands:
+      - exp give %player_name% 20l
+    exp30:
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_name":{extra:["#ead931◆ 30 Exp Levels ◆"],text:""}},count:1,id:"minecraft:experience_bottle"}'
+          DataVersion: 4440
+      Weight: 6.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '#ead931◆ 30 Exp Levels ◆'
+      Description: []
+      Commands:
+      - exp give %player_name% 30l
+    neko_trap:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"nekotraps:trap_type":"vanilla"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Neko trap",underlined:0b}],text:""},"minecraft:enchantment_glint_override":1b,"minecraft:lore":[{extra:[""],italic:0b,text:""},{extra:[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,translate:"gui.entity_tooltip.type",underlined:0b,with:[{italic:0b,translate:"advancements.empty"}]}],text:"&7"}],text:""},{extra:[""],italic:0b,text:""}]},count:2,id:"minecraft:barrel"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    vex_armor_trim_smithing_template:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:vex_armor_trim_smithing_template"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    flow_armor_trim_smithing_template:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:flow_armor_trim_smithing_template"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    spire_armor_trim_smithing_template:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:spire_armor_trim_smithing_template"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189

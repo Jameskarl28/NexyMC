@@ -7,7 +7,7 @@
 #  
 # Handles silent chest opening actions
 # Applies for servers from 1.7.x and up
-silentChest: true
+silentChest: false
 #  
 # Version check when player logs in
 # Applies for servers from 1.7.x and up
@@ -15,11 +15,11 @@ versionCheck: true
 #  
 # World limitations: fly, game mode and god mode
 # Applies for servers from 1.7.x and up
-worldLimits: true
+worldLimits: false
 #  
 # World limitations: elytra mode
 # Applies for servers from 1.9.x and up
-worldLimitsElytra: true
+worldLimitsElytra: false
 #  
 # Login, logout and death messages
 # Applies for servers from 1.7.x and up
@@ -31,11 +31,11 @@ firstJoinMessages: true
 #  
 # Handling of cuffed players
 # Applies for servers from 1.7.x and up
-cuffed: true
+cuffed: false
 #  
 # Handling of elevators
 # Applies for servers from 1.7.x and up
-elevator: true
+elevator: false
 #  
 # Handling of night speedup when players sleep in beds
 # Applies for servers from 1.7.x and up
@@ -59,7 +59,7 @@ durabilityLoss: true
 #  
 # Handling of mirror feature, which checks block place and break actions
 # Applies for servers from 1.7.x and up
-mirror: true
+mirror: false
 #  
 # Spawner handling, like drop, place, egg interactions
 # Applies for servers from 1.7.x and up
@@ -91,11 +91,11 @@ attachedCommands: true
 #  
 # Handling of armor effects
 # Applies for servers from 1.7.x and up
-armorEffects: true
+armorEffects: false
 #  
 # Handling of player tagging in chat and tabcomplete with @
 # Applies for servers from 1.7.x and up
-playerChatTag: true
+playerChatTag: false
 #  
 # Handling of chat bubbles
 # Applies for servers from 1.19.x and up
@@ -107,7 +107,7 @@ tablist: false
 #  
 # Handling of painting editing with shift+right click
 # Applies for servers from 1.7.x and up
-paintingEditor: true
+paintingEditor: false
 #  
 # Handles player vanish mode
 # Applies for servers from 1.21.x and up
@@ -139,11 +139,11 @@ homeInteractions: true
 #  
 # Handles dynamic signs
 # Applies for servers from 1.7.x and up
-dynamicSigns: true
+dynamicSigns: false
 #  
 # Handles sign editing
 # Applies for servers from 1.20.x and up
-signEdit: true
+signEdit: false
 #  
 # Handles leather armor which has dynamic colors
 # Applies for servers from 1.7.x and up
@@ -183,11 +183,11 @@ namePlates: true
 #  
 # Handles jail system
 # Applies for servers from 1.7.x and up
-jail: true
+jail: false
 #  
 # Handles cmi flight charge system
 # Applies for servers from 1.7.x and up
-flightCharge: true
+flightCharge: false
 #  
 # Handles shulker box as backpacks
 # Applies for servers from 1.11.x and up
@@ -195,7 +195,7 @@ shulkerBackpack: true
 #  
 # Handles decorated pot content display
 # Applies for servers from 1.20.x and up
-decoratedpot: true
+decoratedpot: false
 #  
 # Handles player skins
 # Applies for servers from 1.8.x and up
@@ -203,7 +203,7 @@ skin: false
 #  
 # Handles selection areas. While this is disabled, command can still be used
 # Applies for servers from 1.7.x and up
-selection: true
+selection: false
 #  
 # Handles mob and player hp bars as boss bar
 # Applies for servers from 1.9.x and up
@@ -235,7 +235,7 @@ rideAnimation: false
 #  
 # Handling of boss bar compass
 # Applies for servers from 1.9.x and up
-bossBarCompass: true
+bossBarCompass: false
 #  
 # Elytra boost
 # Applies for servers from 1.9.x and up

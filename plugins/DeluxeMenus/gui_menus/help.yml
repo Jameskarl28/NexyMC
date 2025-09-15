@@ -1,0 +1,51 @@
+menu_title: '&8&l» &8Helper'
+open_command: 
+- help
+- helpop
+size: 9
+items:    
+  'Decoration2':
+    material: gray_stained_glass_pane
+    damage: 7
+    slots:
+    - 0-8
+    display_name: '&f '
+  'General':
+    material: BOOK
+    slot: 3
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&cGeneral'
+    lore:
+    - '&7Basic command to start survival.'
+    left_click_commands:
+    - '[player] helpgeneral'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] helpgeneral'
+    - '[refresh]'
+  'Claims':
+    material: GOLDEN_SHOVEL
+    slot: 5
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&6Claims'
+    lore:
+    - '&7How to claim your territory.'
+    left_click_commands:
+    - '[player] helpclaims'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] helpclaims'
+    - '[refresh]' 
+  'help_menu':
+    material: SUNFLOWER
+    slot: 4
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&cRules'
+    lore:
+    - '&7See Rules.'
+    left_click_commands:
+    - '[player] dm open rules'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] dm open rules'
+    - '[refresh]' 

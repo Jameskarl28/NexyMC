@@ -5,8 +5,10 @@ GriefPrevention:
     world: -1
     world_nether: -1
     world_the_end: -1
+    spawn: -1
   Claims:
     Mode:
+      spawn: Survival
       world_nether: Survival
       world_the_end: Survival
       world: Survival
@@ -75,6 +77,7 @@ GriefPrevention:
       world: true
       world_nether: true
       world_the_end: true
+      spawn: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

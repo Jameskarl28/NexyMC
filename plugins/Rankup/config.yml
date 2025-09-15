@@ -18,7 +18,7 @@ autorankup-interval: 0
 ranks: true
 # you can alternatively negate the permission rankup.prestiges
 # this will also make the command not autocomplete in 1.13
-prestiges: true
+prestiges: false
 
 # whether to enable the /ranks GUI.
 # will override the /ranks command

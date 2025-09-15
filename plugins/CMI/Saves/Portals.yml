@@ -4,13 +4,13 @@ spawn:
   rtp:
     Loc: -6.0:77.0:47.0:6.0:81.0:59.0
     enabled: true
-    effect: TrialSpawnerDetectionOminous
+    effect: CherryLeaves
     showParticles: true
     kickBack: true
     particlesByPermission: false
     requiresPerm: false
     informOnMissingPerm: false
-    particleAmount: 100
+    particleAmount: 30
     particleHide: 0
     activationRange: 16
     commandsWithoutTp: true

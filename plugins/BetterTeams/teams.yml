@@ -1,4 +1,8 @@
 storageType: YAML
-teamNameLookup: []
-playerLookup: []
+teamNameLookup:
+- maharlika:f6729b1c-266f-43c4-8305-fe63d4569fd3
+playerLookup:
+- 0510a135-44b5-3662-8197-c9f8952964a4:f6729b1c-266f-43c4-8305-fe63d4569fd3
+- 78be95ea-85cb-3a15-bcb2-a72cb19c2fac:f6729b1c-266f-43c4-8305-fe63d4569fd3
+- 2353e9dd-1216-39a0-93aa-4d7d776f366b:f6729b1c-266f-43c4-8305-fe63d4569fd3
 chestClaims: []

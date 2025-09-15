@@ -1,0 +1,51 @@
+menu_title: '&8&l» &8General'
+open_command: 
+- helpgeneral
+size: 9
+items:    
+  '0':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBRandom Teleport'
+    lore:
+    - '&7Type &#FFC0CB/Rtp &7to random teleport to world.'
+  '1':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 1
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBTeleport To Spawn'
+    lore:
+    - '&7Type &#FFC0CB/Spawn &7to teleport to Spawn.'
+  '2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 2
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBVote'
+    lore:
+    - '&7Type &#FFC0CB/Vote &7To vote for rewards.'
+  '3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBTeleport Request'
+    lore:
+    - '&7Type &#FFC0CB/Tpa <Player> &7to teleport request'
+    - '&7to specific player.'            
+  '5':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBCustom Enchant'
+    lore:
+    - '&7Type &#FFC0CB/ce &7to open the Enchanter.'           
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2Nzg3YmEzMjU2NGU3YzJmM2EwY2U2NDQ5OGVjYmIyM2I4OTg0NWU1YTY2YjVjZWM3NzM2ZjcyOWVkMzcifX19
+    slot: 8
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&cBack'
+    lore: []
+    left_click_commands:
+    - '[player] help'
+    right_click_commands:
+    - '[player] help'        

@@ -2,7 +2,7 @@ info:
   namespace: starlight
 items:
   starlight_axe:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Axe・
+    display_name: <#F1BA22>・Starlight Axe・
     permission: starlight.axe
     resource:
       material: NETHERITE_AXE
@@ -10,15 +10,16 @@ items:
       model_path: axe
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_battle_axe:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Battle Axe・
+    display_name: <#F1BA22>・Starlight Battle Axe・
     permission: starlight.battle_axe
     resource:
       material: NETHERITE_AXE
@@ -26,15 +27,16 @@ items:
       model_path: battle_axe
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_blade:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Blade・
+    display_name: <#F1BA22>・Starlight Blade・
     permission: starlight.blade
     resource:
       material: NETHERITE_SWORD
@@ -42,31 +44,33 @@ items:
       model_path: blade
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_bow:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Bow・
+    display_name: <#F1BA22>・Starlight Bow・
     permission: starlight.bow
     resource:
       material: BOW
       generate: false
       model_path: bow
     enchants:
-      - POWER:8
-      - UNBREAKING:5
+      - POWER:5
+      - UNBREAKING:3
       - INFINITY
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_chest:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Chest・
+    display_name: <#F1BA22>・Starlight Chest・
     permission: starlight.chest
     resource:
       material: SEA_LANTERN
@@ -89,7 +93,7 @@ items:
           walls: false
         solid: true
   starlight_dagger:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Dagger・
+    display_name: <#F1BA22>・Starlight Dagger・
     permission: starlight.dagger
     resource:
       material: NETHERITE_SWORD
@@ -97,15 +101,16 @@ items:
       model_path: dagger
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_hoe:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Hoe・
+    display_name: <#F1BA22>・Starlight Hoe・
     permission: starlight.hoe
     resource:
       material: NETHERITE_HOE
@@ -113,21 +118,22 @@ items:
       model_path: hoe
     enchants:
       - MENDING
-      - UNBREAKING:5
+      - UNBREAKING:3
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_key:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Key・
+    display_name: <#F1BA22>・Starlight Key・
     permission: starlight.key
     resource:
       material: PAPER
       generate: false
       model_path: key
   starlight_pickaxe:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Pickaxe・
+    display_name: <#F1BA22>・Starlight Pickaxe・
     permission: starlight.pickaxe
     resource:
       material: NETHERITE_PICKAXE
@@ -135,15 +141,16 @@ items:
       model_path: pickaxe
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - EFFICIENCY:8
+      - UNBREAKING:3
+      - EFFICIENCY:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_shield:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Shield・
+    display_name: <#F1BA22>・Starlight Shield・
     permission: starlight.shield
     resource:
       material: SHIELD
@@ -151,18 +158,19 @@ items:
       model_path: shield
     enchants:
       - MENDING
-      - UNBREAKING:5
+      - UNBREAKING:3
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
     attribute_modifiers:
       offhand:
         maxHealth: 30
         movementSpeed: -0.03
   starlight_shovel:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Shovel・
+    display_name: <#F1BA22>・Starlight Shovel・
     permission: starlight.shovel
     resource:
       material: NETHERITE_SHOVEL
@@ -170,15 +178,16 @@ items:
       model_path: shovel
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - EFFICIENCY:8
+      - UNBREAKING:3
+      - EFFICIENCY:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_sickle:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Sickle・
+    display_name: <#F1BA22>・Starlight Sickle・
     permission: starlight.sickle
     resource:
       material: NETHERITE_SWORD
@@ -186,15 +195,16 @@ items:
       model_path: sickle
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_spear:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Spear・
+    display_name: <#F1BA22>・Starlight Spear・
     permission: starlight.spear
     resource:
       material: NETHERITE_SWORD
@@ -202,15 +212,16 @@ items:
       model_path: spear
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_staff:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Staff・
+    display_name: <#F1BA22>・Starlight Staff・
     permission: starlight.staff
     resource:
       material: NETHERITE_SWORD
@@ -218,15 +229,16 @@ items:
       model_path: staff
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_sword:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Sword・
+    display_name: <#F1BA22>・Starlight Sword・
     permission: starlight.sword
     resource:
       material: NETHERITE_SWORD
@@ -234,15 +246,16 @@ items:
       model_path: sword
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
   starlight_wings:
-    display_name: <gradient:#F1BA22:#F1BA22>・Star Light Wings・
+    display_name: <#F1BA22>・Starlight Wings・
     permission: starlight.wings
     resource:
       material: PAPER
@@ -252,9 +265,10 @@ items:
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
+      - '<#F1BA22>with the light of distant galaxies. Those who wear it'
+      - '<#F1BA22>carry a fragment of the cosmos upon their back.'
+      - ''
     attribute_modifiers:
       offhand:
         movementSpeed: 0.03

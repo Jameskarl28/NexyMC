@@ -1,0 +1,79 @@
+menu_title: '&8&l» &8Claims'
+open_command: 
+- helpclaims
+size: 9
+items:    
+  '0':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBClaims Your Area'
+    lore:
+    - "&7To make a Claim, right click with"
+    - "&7golden shovels on 2 opposite corners."
+    - "&7The minimum claim size must be &#FFC0CB16 x 16 &7blocks."
+    - "&7Right click with stick to check claim."
+  '1':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 1
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBClaims Info'
+    lore:
+    - '&7Type &#FFC0CB/Claimlist &7 to see your list of claims.'
+  '2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 2
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBTrust Your Friends'
+    lore:
+    - "&7To give players access to your claim."
+    - "&7use this command while standing"
+    - "&7in your claim area:"
+    - "&r"
+    - "&#FFC0CB/trust <player name> &7to give "
+    - "&7Full access to your claim."
+    - "&#FFC0CB/untrust <player name> &7to untrust"
+    - "&7 layer access to your claim."
+  '3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBContainer  Trust'
+    lore:
+    - "&7Allows the player to use"
+    - "&7chest, doors, healers, etc"
+    - "&7use this command while standing"
+    - "&7in your claim area:"
+    - "&r"
+    - "&#FFC0CB/containertrust <player name>"
+    - "&7Allows the player to"
+    - "&7uses chests, etc."
+    - "&#FFC0CB/accesstrust <player name> &7allow"
+    - "&7player trusted to access"
+    - "&7and interact with doors, healers, etc."
+  '4':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBTrust List'
+    lore:
+    - "&7 to see a list of trusted people"
+    - "&7 using the &#FFC0CB/trustlist command"
+  '6':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 5
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CBDelete Your Claims'
+    lore:
+    - "&7to clear your claim area"
+    - "&7stand on your claim and type &#FFC0CB/abandonclaim"
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2Nzg3YmEzMjU2NGU3YzJmM2EwY2U2NDQ5OGVjYmIyM2I4OTg0NWU1YTY2YjVjZWM3NzM2ZjcyOWVkMzcifX19
+    slot: 8
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&cBack'
+    lore: []
+    left_click_commands:
+    - '[player] help'
+    right_click_commands:
+    - '[player] help'        

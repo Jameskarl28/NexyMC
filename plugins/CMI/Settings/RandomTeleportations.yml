@@ -20,7 +20,7 @@ RandomTeleportation:
   Worlds:
     # World name to use this feature. Add another one with appropriate name to enable random teleportation
     world:
-      Enabled: true
+      Enabled: false
       # Amount of times we should try to find valid location. This is mostly directly correlates with amount of chunks we will check
       # If set to 0 we will use default MaxTries set at the top of file
       MaxTries: 0
@@ -66,7 +66,7 @@ RandomTeleportation:
       # If this contains biome names then we will ignore Ignore.Biomes section
       PreferredBiomes: []
     world_nether:
-      Enabled: true
+      Enabled: false
       MaxTries: 0
       Cooldown: 0
       Range:
@@ -92,7 +92,7 @@ RandomTeleportation:
         Biomes: []
       PreferredBiomes: []
     world_the_end:
-      Enabled: true
+      Enabled: false
       MaxTries: 0
       Cooldown: 0
       Range:
@@ -108,6 +108,32 @@ RandomTeleportation:
       YLimits:
         Min: 0
         Max: 256
+      Ignore:
+        Water: true
+        Lava: true
+        Leaves: true
+        PowderSnow: false
+        CrawlSpaces: false
+        Materials: []
+        Biomes: []
+      PreferredBiomes: []
+    spawn:
+      Enabled: false
+      MaxTries: 0
+      Cooldown: 0
+      Range:
+        Max: -225
+        Min: 50
+      Center:
+        X: 0
+        Z: 0
+      Circle: false
+      SurfaceOnly: false
+      FromAnotherWorld: true
+      RequireWorldPermission: false
+      YLimits:
+        Min: -64
+        Max: 320
       Ignore:
         Water: true
         Lava: true

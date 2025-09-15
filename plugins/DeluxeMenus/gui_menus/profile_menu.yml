@@ -1,0 +1,102 @@
+menu_title: '&8Profile | statistics'
+open_command:
+  - profile
+  - stats
+register_command: true
+size: 35
+items:
+  'filler':
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+    - '0-44'
+    display_name: ' '
+  'deaths':
+    material: WITHER_SKELETON_SKULL
+    slot: 12
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#ea8208&lDeaths'
+    lore:
+    - '&8Description'
+    - '&r'
+    - '&fDeaths: &#ea8208%statistic_deaths%'
+  'kills':
+    material: DIAMOND_SWORD
+    slot: 21
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#d50909&lKills'
+    lore:
+    - '&8Description'
+    - '&r'
+    - '&fPlayer Kills: &#d50909%statistic_player_kills%'
+  'experience':
+    material: EXPERIENCE_BOTTLE
+    slot: 22
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#a041ff&lE&#a545ff&lx&#aa49ff&lp&#af4eff&le&#b452ff&lr&#ba56ff&li&#bf5aff&le&#c45fff&ln&#c963ff&lc&#ce67ff&le'
+    lore:
+    - '&8Description'
+    - '&r'
+    - '&fExperience: &#a041ff%player_current_exp%'
+  'playtime':
+    material: CLOCK
+    slot: 23
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#ff62ef&lPlaytime Level'
+    lore:
+      - '&8Description'
+      - '&r'
+      - '&fPlaytime: &#E371FF%statistic_time_played%'
+  'rank':
+    material: BOOK
+    slot: 14
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#ff2222&lYour Rank'
+    lore:
+      - '&8Description'
+      - '&r'
+      - '&8❖ &fRank: &#FF4848%luckperms_prefix%'
+  'settings':
+    material: BELL
+    slot: 13
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&#eb5dfe&lS&#eb5dfe&le&#eb5dfe&lt&#eb5dfe&lt&#eb5dfe&li&#eb5dfe&ln&#eb5dfe&lg&#eb5dfe&ls'
+    lore:
+      - '&8Description'
+      - '&r'
+      - '&fChange Server Settings'
+      - '&fAccording to your Style'
+      - ''
+      - '&7Left-Click to view'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] options'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] options'
+  'Prem Rank Timer':
+    material: ENDER_PEARL
+    slot: 31
+    priority: 1
+    update: true
+    item_flags: [HIDE_ATTRIBUTES]
+    display_name: '&6Premium Rank Expiration'
+    lore:
+      - '&8Description'
+      - '&r'
+      - '&8❖ &ftitan &7: &c&n%luckperms_expiry_time_group.titan%'
+      - '&8❖ &fmvp+ &7: &c&n%luckperms_expiry_time_group.mvp+%'
+      - '&8❖ &fmvp &7: &c&n%luckperms_expiry_time_group.mvp%'
+      - '&8❖ &fvip &7: &c&n%luckperms_expiry_time_group.vip%'

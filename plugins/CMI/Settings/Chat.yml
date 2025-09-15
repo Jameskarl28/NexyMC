@@ -204,7 +204,7 @@ Chat:
 ChatBubble:
   # Do you want to enable chat bubbles for public messages
   # Each player can disable this with /options command personally
-  PublicMessages: true
+  PublicMessages: false
   # Priority of chat bubble listener
   # Changed priority will only take effect on full server restart
   # Possible options: LOWEST, LOW, NORMAL, HIGH, HIGHEST, MONITOR

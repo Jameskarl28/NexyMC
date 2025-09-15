@@ -63,8 +63,8 @@ Homes:
     twinkle1: 5
     sparkle1: 6
     starlie1: 7
-
-
+    celestia: 5
+    seraph: 7
   # Requires cmi.bedhome permission node
   # When set to true by interacting with bed, regular home location will be created
   # When set to false vanilla bed home location will be set

@@ -37,7 +37,6 @@ resource-pack:
       skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
   title:
     enabled: true
-  atlas_support: true
   fix_force_unicode_font_images: true
   allow_other_plugins_resourcepacks: true
   notify_other_plugins_resourcepacks: true
@@ -67,10 +66,10 @@ resource-pack:
       bitrate_quality: 100
     custom_armors_shaders_legacy:
       vanilla:
-        overwrite_leather_layers: false
+        overwrite_leather_layers: true
         generate_shader:
-          1_21_4_lower: false
-          1_21_5_plus: false
+          1_21_4_lower: true
+          1_21_5_plus: true
       optifine:
         generate_cit:
           1_20_4_lower: false
@@ -91,6 +90,9 @@ resource-pack:
     - _iainternal
     merge_other_plugins_resourcepacks_folders:
     - ModelEngine/resource pack
+    models:
+      fix_dark_in_inventory: true
+      fix_missing_particle: true
   items:
     CustomModelData-starting-value:
       ALL: 10000

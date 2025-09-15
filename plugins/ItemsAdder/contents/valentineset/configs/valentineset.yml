@@ -2,7 +2,7 @@ info:
   namespace: valentineset
 items:
   valentine_axe:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Axe・
+    display_name: <#FFD3D5>・Roselight Axe・
     permission: valentine.axe
     resource:
       generate: false
@@ -10,29 +10,31 @@ items:
       model_path: axe
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_bow:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Bow・
+    display_name: <#FFD3D5>・Roselight Bow・
     permission: valentine.bow
     resource:
       generate: false
       material: BOW
       model_path: bow
     enchants:
-      - POWER:8
-      - UNBREAKING:5
+      - POWER:5
+      - UNBREAKING:3
       - INFINITY
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_chest:
     behaviours:
       furniture:
@@ -49,7 +51,7 @@ items:
           floor: true
           walls: false
         solid: true
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Chest・
+    display_name: <#FFD3D5>・Roselight Chest・
     permission: valentine.chest
     resource:
       generate: false
@@ -57,7 +59,7 @@ items:
       model_path: chest
 
   valentine_crossbow:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Crossbow・
+    display_name: <#FFD3D5>・Roselight Crossbow・
     permission: valentine.crossbow
     resource:
       generate: false
@@ -65,17 +67,18 @@ items:
       model_path: crossbow
     enchants:
       - MENDING
-      - PIERCING:5
+      - PIERCING:4
       - QUICK_CHARGE:3
-      - UNBREAKING:5
+      - UNBREAKING:3
       - INFINITY
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_fishing_rod:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Fishing Rod・
+    display_name: <#FFD3D5>・Roselight Fishing Rod・
     permission: valentine.fishing_rod
     resource:
       generate: false
@@ -83,16 +86,17 @@ items:
       model_path: fishing_rod
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - LUCK_OF_THE_SEA:5
-      - LURE:5
+      - UNBREAKING:3
+      - LUCK_OF_THE_SEA:3
+      - LURE:3
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_hammer:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Hammer・
+    display_name: <#FFD3D5>・Roselight Hammer・
     permission: valentine.hammer
     resource:
       generate: false
@@ -100,15 +104,16 @@ items:
       model_path: hammer
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_hoe:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Hoe・
+    display_name: <#FFD3D5>・Roselight Hoe・
     permission: valentine.hoe
     resource:
       generate: false
@@ -116,21 +121,22 @@ items:
       model_path: hoe
     enchants:
       - MENDING
-      - UNBREAKING:5
+      - UNBREAKING:3
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_key:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Key・
+    display_name: <#FFD3D5>・Roselight Key・
     permission: valentine.key
     resource:
       generate: false
       material: PAPER
       model_path: key
   valentine_pickaxe:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Pickaxe・
+    display_name: <#FFD3D5>・Roselight Pickaxe・
     permission: valentine.pickaxe
     resource:
       generate: false
@@ -138,15 +144,16 @@ items:
       model_path: pickaxe
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - EFFICIENCY:8
+      - UNBREAKING:3
+      - EFFICIENCY:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_scythe:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Scythe・
+    display_name: <#FFD3D5>・Roselight Scythe・
     permission: valentine.scythe
     resource:
       generate: false
@@ -154,15 +161,16 @@ items:
       model_path: scythe
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_shield:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Shield・
+    display_name: <#FFD3D5>・Roselight Shield・
     permission: valentine.shield
     resource:
       generate: false
@@ -170,18 +178,19 @@ items:
       model_path: shield
     enchants:
       - MENDING
-      - UNBREAKING:5
+      - UNBREAKING:3
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     attribute_modifiers:
       offhand:
         maxHealth: 30
         movementSpeed: -0.03
   valentine_shovel:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Shovel・
+    display_name: <#FFD3D5>・Roselight Shovel・
     permission: valentine.shovel
     resource:
       generate: false
@@ -189,15 +198,16 @@ items:
       model_path: shovel
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - EFFICIENCY:8
+      - UNBREAKING:3
+      - EFFICIENCY:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_spear:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Spear・
+    display_name: <#FFD3D5>・Roselight Spear・
     permission: valentine.spear
     resource:
       generate: false
@@ -205,15 +215,16 @@ items:
       model_path: spear
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_staff:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Staff・
+    display_name: <#FFD3D5>・Roselight Staff・
     permission: valentine.staff
     resource:
       generate: false
@@ -221,15 +232,16 @@ items:
       model_path: staff
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_sword:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Sword・
+    display_name: <#FFD3D5>・Roselight Sword・
     permission: valentine.sword
     resource:
       generate: false
@@ -237,15 +249,16 @@ items:
       model_path: sword
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_trident:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Trident・
+    display_name: <#FFD3D5>・Roselight Trident・
     permission: valentine.trident
     resource:
       generate: false
@@ -253,15 +266,16 @@ items:
       model_path: trident
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_bouquet:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Bouquet・
+    display_name: <#FFD3D5>・Roselight Bouquet・
     permission: valentine.bouquet
     resource:
       generate: false
@@ -271,14 +285,15 @@ items:
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     attribute_modifiers:
       offhand:
         movementSpeed: 0.03
   valentine_wings:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Wings・
+    display_name: <#FFD3D5>・Roselight Wings・
     permission: valentine.wings
     resource:
       generate: false
@@ -288,14 +303,15 @@ items:
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
     attribute_modifiers:
       offhand:
         movementSpeed: 0.03
   valentine_greatsword:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Great Sword・
+    display_name: <#FFD3D5>・Roselight Great Sword・
     permission: valentine.greatsword
     resource:
       generate: false
@@ -303,17 +319,18 @@ items:
       model_path: greatsword
     enchants:
       - MENDING
-      - UNBREAKING:5
-      - SHARPNESS:8
+      - UNBREAKING:3
+      - SHARPNESS:5
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
   valentine_head:
     behaviours:
       hat: true
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Valentine Head・
+    display_name: <#FFD3D5>・Roselight Head・
     permission: valentine.head
     resource:
       generate: false
@@ -323,6 +340,7 @@ items:
       - MENDING
     lore:
       - ''
-      - '<color:#6BE1FF>ꜱᴇᴀꜱᴏɴ ɪɪɪ'
-      - 'ㆉ'
-      - 'ㆈ'
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+      - ''
