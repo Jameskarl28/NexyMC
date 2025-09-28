@@ -47,7 +47,7 @@ scoreboard-teams:
   invisible-nametags: false
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,seraph,celestia,starlie3,starlie2,starlie1,sparkle3,sparkle2,sparkle1,twinkle3,twinkle2,twinkle1,glitter3,glitter2,glitter1,puffy3,puffy2,puffy1,sprinkle3,sprinkle2,sprinkle1,default"
+    - "GROUPS:owner,admin,moderator,helper,builder,seraph,celestia,starlie3,starlie2,starlie1,sparkle3,sparkle2,sparkle1,twinkle3,twinkle2,twinkle1,glitter3,glitter2,glitter1,puffy3,puffy2,puffy1,sprinkle3,sprinkle2,sprinkle1,default"
     - "PLACEHOLDER_A_TO_Z:%player%"
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -107,6 +107,7 @@ scoreboard:
       - ' &fβ #ADD8E6Claims: #FFC0CB%griefprevention_remainingclaims_formatted%'
       - ' &fγ #ADD8E6Balance: #FFC0CB%vault_eco_balance_formatted%'
       - ''
+      - ' &fξ #ADD8E6Jobs: #FFC0CB%jobsr_user_joinedjobcount%&8/#FFC0CB%jobsr_maxjobs%'
       - ' &fδ #ADD8E6Pinata: #FFC0CB%pinataparty_current_votes%&7/#FFC0CB%pinataparty_votes_needed%'
       - ''
 

@@ -61,7 +61,7 @@ bungee-cross-server-msg: false
 # The currency used to create shops.
 # Set this to "" to use default currency.
 # Only required if you use multiple currencies.
-currency: ''
+currency: ₱
 
 logging:
   # Enable logging?
@@ -113,17 +113,17 @@ send-shop-protection-alert: false
 database:
   # false = use local H2 database.
   # true = use local/remote MySQL database.
-  mysql: false
+  mysql: true
   # The database address. (Only required if mysql is true)
-  host: localhost
+  host: 142.132.169.25
   # The database port. (Only required if mysql is true)
   port: 3306
   # The database names. (Only required if mysql is true)
-  database: quickshop
+  database: s44_quickshop
   # The database username. (Only required if mysql is true)
-  user: root
+  user: u44_XqvAEwOqdT
   # The database password. (Only required if mysql is true)
-  password: passwd
+  password: v7ZXFth=ZMU!o57nrAKelDY8
   # Set prefix to "none" to remove prefix (Both local and remote will be used).
   prefix: qs_
   # Should QuickShop use SSL for database connections?  (Only required if mysql is true)
@@ -146,10 +146,10 @@ database:
 # Limits the amount of shops a player can create and own.
 limits:
   # Leave this as false if you're not using this feature! QuickShop will ignore the rest of this section.
-  use: false
+  use: true
   
   # The default amount of shops a player can create.
-  default: 10
+  default: 5
   
   # Use old algorithm to calculate unlimited shops into limits.
   old-algorithm: false
@@ -159,7 +159,13 @@ limits:
   ranks:
     quickshop:
       # Players with quickshop.example permission can create 20 shops.
-      example: 20
+      default: 5
+      sprinkle2: 10
+      puffy2: 15
+      glitter2: 20
+      twinkle2: 25
+      sparkle2: 30
+      starlie2: 35
 
 # The list of blocks that can be used to create shops.
 # By default, chests are added to this list.
@@ -248,7 +254,7 @@ shop:
   
   # Should we place display items on the chests?
   # This may cause duped items, especially for modded servers if you're using Real DisplayItem!
-  display-items: true
+  display-items: false
   
   # The default status for display items.
   display-default: true
@@ -313,13 +319,14 @@ shop:
     exclude-out-of-stock: false
   
   # If vault doesn't return a currency symbol, QuickShop will use this symbol.
-  alternate-currency-symbol: $
+  alternate-currency-symbol: ₱
   
   # This setting is for multi-currency setups.
   # If nothing matches in this list, it falls back to the name of currency itself.
   alternate-currency-symbol-list:
   - USD;$
   - CNY;￥
+  - PHP;₱
   
   # This should fix Vault or an economy plugin incorrectly processing the price and returning a "0" result.
   # If you enable this setting, then QS will force use the "alternate-currency-symbol".

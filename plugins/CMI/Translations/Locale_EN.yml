@@ -258,7 +258,7 @@ Chat:
   privateHover: '&7Sent time: &7%server_time_hh:mm:ss%'
   staffHover: '&7Sent time: &7%server_time_hh:mm:ss%'
   helpopHover: '&7Sent time: &7%server_time_hh:mm:ss%'
-  link: '&l&4[&7LINK&4]'
+  link: '&7[#FFC0CBlink&7]'
   item: '&7[%cmi_iteminhand_displayname%[amount]&7]'
   itemAmount: ' x[amount]'
   itemEmpty: '&7[Mighty fist]'
@@ -3245,12 +3245,12 @@ command:
       updated: '&7Sign updated'
   scale:
     help:
-      info: '&7Set entities scale'
-      args: '[set/add/take/clear] (playerName) [amount] (-s)'
+      info: '&7Set player size'
+      args: '[normal/small]'
     info:
-      feedback: '&7You have set &3[scale] &7 scale for &3[entityName]&7.'
-      scale: '&7Scale: &3[scale]'
-      targetfeedback: '&7Your scale was set to &3[scale] &7by &3[senderDisplayName]&7.'
+      feedback: '&7You have set &3[scale]&7 size for &3[entityName]&7.'
+      scale: '&7size: &3[scale]'
+      targetfeedback: '&7Your size was set to &3[scale] &7by &3[senderDisplayName]&7.'
   scan:
     help:
       info: '&7Scans for items in current world'
@@ -4315,10 +4315,10 @@ command:
     info:
       noSelfWarning: '&7You can''t warn yourself'
       cantBan: '&7Can''t warn this player'
-      messageToAll: '&7[playerDisplayName] &7got warned by &7[senderDisplayName] &7for:
-        &7[reason]'
-      banedSilent: '&7[&8Silent&7]&7[playerDisplayName] &7got warned by &7[senderDisplayName]
-        &7for: &7[reason]'
+      messageToAll: '&b[playerDisplayName] &cgot warned by &c[senderDisplayName] &cfor:
+        &c[reason]'
+      banedSilent: '&c[&8Silent&7]&b[playerDisplayName] &cgot warned by &c[senderDisplayName]
+        &cfor: &c[reason]'
   warnings:
     help:
       info: '&7Check player warnings'

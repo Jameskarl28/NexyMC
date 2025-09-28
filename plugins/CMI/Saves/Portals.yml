@@ -2,7 +2,7 @@
 
 spawn:
   rtp:
-    Loc: -6.0:77.0:47.0:6.0:81.0:59.0
+    Loc: -6.0:73.0:47.0:6.0:80.0:59.0
     enabled: true
     effect: CherryLeaves
     showParticles: true

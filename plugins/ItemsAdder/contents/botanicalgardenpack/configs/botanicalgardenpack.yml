@@ -1,0 +1,1615 @@
+info:
+  namespace: botanicalgardenpack
+items:
+  hanging_plant_01:
+    display_name: <#FFED4C>Hanging Plant
+    permissions: botanicalgardenpack.decorative.hanging_plant_01
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/hanging_plant_01
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  hanging_plant_02:
+    display_name: <#BF41FB>Hanging Plant
+    permissions: botanicalgardenpack.decorative.hanging_plant_02
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/hanging_plant_02
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  hanging_plant_03:
+    display_name: <#3478FB>Hanging Plant
+    permissions: botanicalgardenpack.decorative.hanging_plant_03
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/hanging_plant_03
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  flowers_wide_flower_pot_01:
+    display_name: <#BF41FB>Window Flower Pot
+    permissions: botanicalgardenpack.decorative.flowers_wide_flower_pot_01
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/flowers_wide_flower_pot_01
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: false
+          walls: true
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  flowers_wide_flower_pot_02:
+    display_name: <#3478FB>Window Flower Pot
+    permissions: botanicalgardenpack.decorative.flowers_wide_flower_pot_02
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/flowers_wide_flower_pot_02
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: false
+          walls: true
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  pink_tulips_flower_pot:
+    display_name: <#BF41FB>Pink Tulips Flower Pot
+    permissions: botanicalgardenpack.decorative.pink_tulips_flower_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/pink_tulips_flower_pot
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  blue_tulips_flower_pot:
+    display_name: <#3478FB>Blue Tulips Flower Pot
+    permissions: botanicalgardenpack.decorative.blue_tulips_flower_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/blue_tulips_flower_pot
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_amaryllis:
+    display_name: <#FB5757>Potted Amaryllis
+    permissions: botanicalgardenpack.decorative.potted_amaryllis
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_amaryllis
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+    
+  potted_blue_poppy:
+    display_name: <#5CBDFB>Potted Blue Poppy
+    permissions: botanicalgardenpack.decorative.potted_blue_poppy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_blue_poppy
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_bromeliad:
+    display_name: <#D26EFB>Potted Bromeliad
+    permissions: botanicalgardenpack.decorative.potted_bromeliad
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_bromeliad
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_calla_lily:
+    display_name: <#C97ACD>Potted Calla Lily
+    permissions: botanicalgardenpack.decorative.potted_calla_lily
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_calla_lily
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_cattail:
+    display_name: <#B17B33>Potted Cattail
+    permissions: botanicalgardenpack.decorative.potted_cattail
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_cattail
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_daylily:
+    display_name: <#FFEF86>Potted Daylily
+    permissions: botanicalgardenpack.decorative.potted_daylily
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_daylily
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_lionette:
+    display_name: <#FFAA19>Potted Lionette
+    permissions: botanicalgardenpack.decorative.potted_lionette
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_lionette
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_red_cornflower:
+    display_name: <#F85E62>Potted Red Cornflower
+    permissions: botanicalgardenpack.decorative.potted_red_cornflower
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_red_cornflower
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  potted_venus_fly_trap:
+    display_name: <#F87B7B>Potted Venus Fly Trap
+    permissions: botanicalgardenpack.decorative.potted_venus_fly_trap
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/potted_venus_fly_trap
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  jessamine:
+    display_name: <#FBF950>Jessamine
+    permissions: botanicalgardenpack.decorative.jessamine
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/jessamine
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  baptisia:
+    display_name: <#0098dc>Baptisia
+    permissions: botanicalgardenpack.decorative.baptisia
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/baptisia
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  pink_rose_bush:
+    display_name: <#B463D4>Pink Rose Bush
+    permissions: botanicalgardenpack.decorative.pink_rose_bush
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/pink_rose_bush
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  blue_rose_bush:
+    display_name: <#5574FB>Blue Rose Bush
+    permissions: botanicalgardenpack.decorative.blue_rose_bush
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/blue_rose_bush
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  pink_tulips:
+    display_name: <#D274F8>Pink Tulips
+    permissions: botanicalgardenpack.decorative.pink_tulips
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/pink_tulips
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  blue_tulips:
+    display_name: <#5776FB>Blue Tulips
+    permissions: botanicalgardenpack.decorative.blue_tulips
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/blue_tulips
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  cattail:
+    display_name: <#B17B33>Cattail
+    permissions: botanicalgardenpack.decorative.cattail
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/cattail
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  tall_cattails:
+    display_name: <#B17B33>Tall Cattails
+    permissions: botanicalgardenpack.decorative.tall_cattails
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/tall_cattails
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  water_lily:
+    display_name: <#C8B2FF>Water Lily
+    permissions: botanicalgardenpack.decorative.water_lily
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/water_lily
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  water_lily_pad:
+    display_name: <#C8B2FF>Water Lily Pad
+    permissions: botanicalgardenpack.decorative.water_lily_pad
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/water_lily_pad
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  bromeliad:
+    display_name: <#D26EFB>Bromeliad
+    permissions: botanicalgardenpack.decorative.bromeliad
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/bromeliad
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  calla_lily:
+    display_name: <#C97ACD>Calla Lily
+    permissions: botanicalgardenpack.decorative.calla_lily
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/calla_lily
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  daylily:
+    display_name: <#FFEF86>Daylily
+    permissions: botanicalgardenpack.decorative.daylily
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/daylily
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  lionette:
+    display_name: <#FFAA19>Lionette
+    permissions: botanicalgardenpack.decorative.lionette
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/lionette
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  blue_poppy:
+    display_name: <#5CBDFB>Blue Poppy
+    permissions: botanicalgardenpack.decorative.blue_poppy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/blue_poppy
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  amaryllis:
+    display_name: <#FB5757>Amaryllis
+    permissions: botanicalgardenpack.decorative.amaryllis
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/amaryllis
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  red_cornflower:
+    display_name: <#F85E62>Red Cornflower
+    permissions: botanicalgardenpack.decorative.red_cornflower
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/red_cornflower
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  venus_fly_trap:
+    display_name: <#F87B7B>Venus Fly Trap
+    permissions: botanicalgardenpack.decorative.venus_fly_trap
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/venus_fly_trap
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  venus_fly_trap_cluster:
+    display_name: <#F87B7B>Venus Fly Trap Cluster
+    permissions: botanicalgardenpack.decorative.venus_fly_trap_cluster
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/venus_fly_trap_cluster
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  red_mushrooms:
+    display_name: <#FF4242>Red Mushrooms
+    permissions: botanicalgardenpack.decorative.red_mushrooms
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/red_mushrooms
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  vines:
+    display_name: <#7FC37C>Vines
+    permissions: botanicalgardenpack.decorative.vines
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/vines
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+
+  wide_flower_pot_ground:
+    display_name: <#9C661D>Ground Wide Flower Pot
+    permissions: botanicalgardenpack.decorative.wide_flower_pot_ground
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/wide_flower_pot_ground
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  wide_flower_pot_window:
+    display_name: <#9C661D>Window Wide Flower Pot
+    permissions: botanicalgardenpack.decorative.wide_flower_pot_window
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/wide_flower_pot_window
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: false
+          walls: true
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  large_flower_pot:
+    display_name: <#9C661D>Large Flower Pot
+    permissions: botanicalgardenpack.decorative.large_flower_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/large_flower_pot
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  medium_flower_pot:
+    display_name: <#9C661D>Medium Flower Pot
+    permissions: botanicalgardenpack.decorative.medium_flower_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/medium_flower_pot
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  small_flower_pot:
+    display_name: <#9C661D>Small Flower Pot
+    permissions: botanicalgardenpack.decorative.small_flower_pot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/small_flower_pot
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  large_table:
+    display_name: <#AC513D>Large Table
+    permissions: botanicalgardenpack.decorative.large_table
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/large_table
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: false
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+          length: 2
+          width: 3
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  medium_table:
+    display_name: <#AC513D>Medium Table
+    permissions: botanicalgardenpack.decorative.medium_table
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/medium_table
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: false
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+          length: 2
+          width: 2
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  small_table:
+    display_name: <#AC513D>Small Table
+    permissions: botanicalgardenpack.decorative.small_table
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/small_table
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  metal_bench:
+    display_name: <#646464>Metal Bench
+    permissions: botanicalgardenpack.decorative.metal_bench
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/metal_bench
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+          length: 1
+          width: 2
+          width_offset: 0.5
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+      furniture_sit:
+        sit_height: 0.9
+        sit_all_solid_blocks: true
+
+  metal_chair:
+    display_name: <#646464>Metal Chair
+    permissions: botanicalgardenpack.decorative.metal_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/metal_chair
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+      furniture_sit:
+        sit_height: 0.5
+
+  metal_fence:
+    display_name: <#4D4D4D>Metal Fence
+    permissions: botanicalgardenpack.decorative.metal_fence
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/metal_fence
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  metal_fence_corner:
+    display_name: <#4D4D4D>Metal Fence Corner
+    permissions: botanicalgardenpack.decorative.metal_fence_corner
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/metal_fence_corner
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  wind_checker:
+    display_name: <#575757>Wind Checker
+    permissions: botanicalgardenpack.decorative.wind_checker
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/wind_checker
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  garden_flag:
+    display_name: <#575757>Garden Flag
+    permissions: botanicalgardenpack.decorative.garden_flag
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/garden_flag
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  watering_can:
+    display_name: <#888888>Watering Can
+    permissions: botanicalgardenpack.decorative.watering_can
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/watering_can
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  garden_light:
+    display_name: <#555555>Garden Light
+    permissions: botanicalgardenpack.decorative.garden_light
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/garden_light
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 8
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  large_natural_pathways_01:
+    display_name: <#A1A1A1>Large Natural Pathway
+    permissions: botanicalgardenpack.decorative.large_natural_pathways_01
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/large_natural_pathways_01
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  large_natural_pathways_02:
+    display_name: <#A1A1A1>Large Natural Pathway
+    permissions: botanicalgardenpack.decorative.large_natural_pathways_02
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/large_natural_pathways_02
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  natural_pathway:
+    display_name: <#A1A1A1>Natural Pathway
+    permissions: botanicalgardenpack.decorative.natural_pathway
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/natural_pathway
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  natural_rocks_1:
+    display_name: <#A1A1A1>Natural Rocks
+    permissions: botanicalgardenpack.decorative.natural_rocks_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/natural_rocks_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  natural_rocks_2:
+    display_name: <#A1A1A1>Natural Rocks
+    permissions: botanicalgardenpack.decorative.natural_rocks_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/natural_rocks_2
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+
+  worms:
+    display_name: <#9C661D>Worms
+    permissions: botanicalgardenpack.decorative.worms
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/worms
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.fungus.place
+          break:
+            name: block.fungus.break
+
+  fallen_branches:
+    display_name: <#715911>Fallen Branches
+    permissions: botanicalgardenpack.decorative.fallen_branches
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/fallen_branches
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  empty_compost_bin:
+    display_name: <#FBD343>Empty Compost Bin
+    permissions: botanicalgardenpack.decorative.empty_compost_bin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/empty_compost_bin
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  full_compost_bin:
+    display_name: <#FBD343>Full Compost Bin
+    permissions: botanicalgardenpack.decorative.full_compost_bin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/full_compost_bin
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  bridge:
+    display_name: <gray>Bridge
+    permissions: botanicalgardenpack.decorative.bridge
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/bridge
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+
+  rustic_farm_plow:
+    display_name: <#FF8549>Rustic Farm Plow
+    permissions: botanicalgardenpack.decorative.rustic_farm_plow
+    resource:
+      material: PAPER
+      generate: false
+      model_path: botanicalgardenpack:decorations/rustic_farm_plow
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: false
+        light_level: 0
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+          length: 2
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break

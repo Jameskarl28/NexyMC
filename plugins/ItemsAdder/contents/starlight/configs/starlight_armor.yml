@@ -1,19 +1,20 @@
-armors_rendering:
-  starlightarmor:
+info:
+  namespace: starlight
+equipments:
+ starlight_armor:
+    type: armor
+    layer_1: armor/starlight_armor_layer_1
+    layer_2: armor/starlight_armor_layer_2
+legacy_armor_renderings:
+  starlight_armor_old:
     color: '#532424'
     layer_1: armor/starlight_armor_layer_1
     layer_2: armor/starlight_armor_layer_2
     use_color: false
-info:
-  namespace: starlight
+
 items:
   starlighthelmet:
     display_name: <#F1BA22>・Starlight Helmet・
-    permission: starlight.helmet
-    resource:
-      generate: true
-      textures:
-      - armor/starlight_helmet_icon.png
     enchants:
       - PROTECTION:4
       - UNBREAKING:3
@@ -23,25 +24,23 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      head:
-        armor: 4
-        armorToughness: 4
+    resource:
+      generate: true
+      texture: armor/starlight_helmet_icon.png
+      material: LEATHER_HELMET
+    equipment:
+      id: starlight:starlight_armor
+      legacy_armor_rendering_id: starlight:starlight_armor_old
+      slot_attribute_modifiers:
+        armor: 3
+        armorToughness: 3
         KnockbackResistance: 0.1
-    specific_properties:
-      armor:
-        custom_armor: starlightarmor
-        slot: head
+    durability:
+      max_custom_durability: 407
+      unbreakable: true
+
   starlightchestplate:
     display_name: <#F1BA22>・Starlight Chestplate・
-    permission: starlight.chestplate
-    resource:
-      generate: true
-      textures:
-      - armor/starlight_chestplate_icon.png
     enchants:
       - PROTECTION:4
       - UNBREAKING:3
@@ -51,25 +50,23 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      chest:
-        armor: 10
-        armorToughness: 4
+    resource:
+      generate: true
+      texture: armor/starlight_chestplate_icon.png
+      material: LEATHER_CHESTPLATE
+    equipment:
+      id: starlight:starlight_armor
+      legacy_armor_rendering_id: starlight:starlight_armor_old
+      slot_attribute_modifiers:
+        armor: 8
+        armorToughness: 3
         KnockbackResistance: 0.1
-    specific_properties:
-      armor:
-        custom_armor: starlightarmor
-        slot: chest
+    durability:
+      max_custom_durability: 592
+      unbreakable: true
+
   starlightleggings:
     display_name: <#F1BA22>・Starlight Leggings・
-    permission: starlight.leggings
-    resource:
-      generate: true
-      textures:
-      - armor/starlight_leggings_icon.png
     enchants:
       - PROTECTION:4
       - UNBREAKING:3
@@ -80,25 +77,23 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      legs:
-        armor: 8
-        armorToughness: 4
+    resource:
+      generate: true
+      texture: armor/starlight_leggings_icon.png
+      material: LEATHER_LEGGINGS
+    equipment:
+      id: starlight:starlight_armor
+      legacy_armor_rendering_id: starlight:starlight_armor_old
+      slot_attribute_modifiers:
+        armor: 6
+        armorToughness: 3
         KnockbackResistance: 0.1
-    specific_properties:
-      armor:
-        custom_armor: starlightarmor
-        slot: legs
+    durability:
+      max_custom_durability: 555
+      unbreakable: true
+
   starlightboots:
     display_name: <#F1BA22>・Starlight Boots・
-    permission: starlight.boots
-    resource:
-      generate: true
-      textures:
-      - armor/starlight_boots_icon.png
     enchants:
       - PROTECTION:4
       - UNBREAKING:3
@@ -108,15 +103,17 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      feet:
-        armor: 4
+    resource:
+      generate: true
+      texture: armor/starlight_boots_icon.png
+      material: LEATHER_BOOTS
+    equipment:
+      id: starlight:starlight_armor
+      legacy_armor_rendering_id: starlight:starlight_armor_old
+      slot_attribute_modifiers:
+        armor: 3
         armorToughness: 4
         KnockbackResistance: 0.1
-    specific_properties:
-      armor:
-        custom_armor: starlightarmor
-        slot: feet
+    durability:
+      max_custom_durability: 481
+      unbreakable: true

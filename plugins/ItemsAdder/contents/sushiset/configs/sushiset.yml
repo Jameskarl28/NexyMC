@@ -17,7 +17,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_backpack:
     display_name: <#F24E26>・Sushi Backpack・
     permission: sushiset.backpack
@@ -36,6 +38,7 @@ items:
     attribute_modifiers:
       offhand:
         movementSpeed: 0.03
+
   sushi_bow:
     display_name: <#F24E26>・Sushi Bow・
     permission: sushiset.bow
@@ -52,7 +55,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_chest:
     display_name: <#F24E26>・Sushi Chest・
     permission: sushiset.chest
@@ -76,6 +81,7 @@ items:
           floor: true
           walls: false
         solid: true
+
   sushi_crossbow:
     display_name: <#F24E26>・Sushi Crossbow・
     permission: sushiset.crossbow
@@ -94,7 +100,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_fishing_rod:
     display_name: <#F24E26>・Sushi Fishing Rod・
     permission: sushiset.fishing_rod
@@ -112,7 +120,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_greatsword:
     display_name: <#F24E26>・Sushi Greatsword・
     permission: sushiset.greatsword
@@ -129,7 +139,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_hammer:
     display_name: <#F24E26>・Sushi Hammer・
     permission: sushiset.hammer
@@ -146,7 +158,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_hat:
     display_name: <#F24E26>・Sushi Hat・
     permission: sushiset.hat
@@ -167,6 +181,7 @@ items:
         armor: 2
     behaviours:
       hat: true
+
   sushi_hoe:
     display_name: <#F24E26>・Sushi Hoe・
     permission: sushiset.hoe
@@ -182,7 +197,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_key:
     display_name: <#F24E26>・Sushi Key・
     permission: sushiset.key
@@ -190,6 +207,7 @@ items:
       material: PAPER
       generate: false
       model_path: key
+
   sushi_pickaxe:
     display_name: <#F24E26>・Sushi Pickaxe・
     permission: sushiset.pickaxe
@@ -206,7 +224,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_scythe:
     display_name: <#F24E26>・Sushi Scythe・
     permission: sushiset.scythe
@@ -223,7 +243,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_shield:
     display_name: <#F24E26>・Sushi Shield・
     permission: sushiset.shield
@@ -244,6 +266,9 @@ items:
       offhand:
         maxHealth: 30
         movementSpeed: -0.03
+    durability:
+      unbreakable: true
+
   sushi_shovel:
     display_name: <#F24E26>・Sushi Shovel・
     permission: sushiset.shovel
@@ -260,7 +285,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_spear:
     display_name: <#F24E26>・Sushi Spear・
     permission: sushiset.spear
@@ -277,7 +304,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_staff:
     display_name: <#F24E26>・Sushi Staff・
     permission: sushiset.staff
@@ -294,7 +323,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_sword:
     display_name: <#F24E26>・Sushi Sword・
     permission: sushiset.sword
@@ -311,7 +342,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+
   sushi_trident:
     display_name: <#F24E26>・Sushi Trident・
     permission: sushiset.trident
@@ -328,7 +361,9 @@ items:
       - '<#F24E26>The Sushi Set was forged by warrior-chefs, imbuing every'
       - '<#F24E26>blade, armor, and tool with the spirit of the sea. Each'
       - '<#F24E26>movement is as sharp and fluid as slicing fresh sashimi.'
-      - ''
+    durability:
+      unbreakable: true
+      
   sushi_wings:
     display_name: <#F24E26>・Sushi Wings・
     permission: sushiset.wings

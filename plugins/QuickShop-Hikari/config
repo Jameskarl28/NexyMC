@@ -244,7 +244,7 @@ shop:
   
   # Should we place display items on the chests?
   # This may cause duped items, especially for modded servers if you're using Real DisplayItem!
-  display-items: true
+  display-items: false
   
   # QuickShop will check if the display item is in a valid position every specified amount of ticks.
   # Set to 0 to disable it.

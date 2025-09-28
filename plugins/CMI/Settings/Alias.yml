@@ -250,10 +250,10 @@ Alias:
     Tab: true
   # /cmi dispose $1-
   dispose:
-    Enabled: true
+    Enabled: false
     Tab: true
   trash:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi distance $1-
   distance:
@@ -309,7 +309,7 @@ Alias:
     Tab: true
   # /cmi ender $1-
   ender:
-    Enabled: true
+    Enabled: false
     Tab: true
   ce:
     Enabled: false
@@ -327,7 +327,7 @@ Alias:
     Enabled: false
     Tab: true
   echest:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi endgateway $1-
   endgateway:
@@ -428,15 +428,15 @@ Alias:
     Tab: true
   # /cmi gm creative $1-
   gmc:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi gm survival $1-
   gms:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi gm spectator $1-
   gmsp:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi gm adventure $1-
   gma:
@@ -534,13 +534,13 @@ Alias:
     Tab: true
   # /cmi inv $1-
   inv:
-    Enabled: true
+    Enabled: false
     Tab: true
   cinv:
     Enabled: false
     Tab: true
   invsee:
-    Enabled: false
+    Enabled: true
     Tab: true
   oi:
     Enabled: false
@@ -893,10 +893,10 @@ Alias:
     Tab: true
   # /cmi removehome $1-
   removehome:
-    Enabled: true
+    Enabled: false
     Tab: true
   delhome:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi removeuser $1-
   removeuser:
@@ -926,7 +926,7 @@ Alias:
     Enabled: true
     Tab: true
   r:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi resetback $1-
   resetback:
@@ -975,8 +975,8 @@ Alias:
     Tab: true
   # /cmi scale $1-
   scale:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi scan $1-
   scan:
     Enabled: true
@@ -1332,7 +1332,7 @@ Alias:
     Enabled: true
     Tab: true
   v:
-    Enabled: false
+    Enabled: true
     Tab: true
   # /cmi vanishedit $1-
   vanishedit:

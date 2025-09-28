@@ -45,7 +45,7 @@ Settings:
   # # Amount of chunks to preload around a safe location
   PreloadRadius: 5
   # # Maximum amount of tries before BetterRTP gives up and sends a NotSafeMessage #
-  MaxAttempts: 32
+  MaxAttempts: 10
   RtpOnFirstJoin: # Will execute as console to override delays
     Enabled: false # Make the player rtp when joining the server for the first time
     World: world # World to first rtp in
@@ -74,7 +74,7 @@ Default:
   # # Biomes are optional, more biomes at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html #
   Biomes: []
   MaxRadius: 1000
-  MinRadius: 10
+  MinRadius: 450
   # # If "UseWorldBorder" is set to true above, Center X and Z will be ignored! #
   CenterX: 0
   CenterZ: 0

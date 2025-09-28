@@ -39,7 +39,7 @@ elevator: false
 #  
 # Handling of night speedup when players sleep in beds
 # Applies for servers from 1.7.x and up
-nightSpeedup: true
+nightSpeedup: false
 #  
 # Handling of damage control
 # Applies for servers from 1.7.x and up
@@ -55,7 +55,7 @@ teleportWith: true
 #  
 # Handling of messages appearing when item durability gets low
 # Applies for servers from 1.7.x and up
-durabilityLoss: true
+durabilityLoss: false
 #  
 # Handling of mirror feature, which checks block place and break actions
 # Applies for servers from 1.7.x and up
@@ -147,7 +147,7 @@ signEdit: false
 #  
 # Handles leather armor which has dynamic colors
 # Applies for servers from 1.7.x and up
-coloredArmor: true
+coloredArmor: false
 #  
 # Handles entity target prevention on player /cmi notarget
 # Applies for servers from 1.7.x and up
@@ -179,7 +179,7 @@ schedule: true
 #  
 # Handles player name plates
 # Applies for servers from 1.7.x and up
-namePlates: true
+namePlates: false
 #  
 # Handles jail system
 # Applies for servers from 1.7.x and up
@@ -223,7 +223,7 @@ eventCommands: false
 #  
 # Handling of disabled enchants in inventory
 # Applies for servers from 1.7.x and up
-disabledEnchants: true
+disabledEnchants: false
 #  
 # Handling of siting on blocks
 # Applies for servers from 1.8.x and up
@@ -251,7 +251,7 @@ elytraExploit: true
 #  
 # Handling of custom totem behavior
 # Applies for servers from 1.11.x and up
-totemBehavior: true
+totemBehavior: false
 #  
 # Handling of anvil item colorization
 # Applies for servers from 1.9.x and up
@@ -267,7 +267,7 @@ launchPad: false
 #  
 # Handling of custom death messages
 # Applies for servers from 1.7.x and up
-deathMessages: true
+deathMessages: false
 #  
 # Handling of server links
 # Applies for servers from 1.7.x and up
@@ -279,4 +279,4 @@ hat: true
 #  
 # Handling of some dialogs UI aspects
 # Applies for servers from 1.21.x and up
-dialogs: true
+dialogs: false

@@ -1,0 +1,42 @@
+# Info and Setup: https://wiki.incredibleplugins.com/discordbridge/modules/events
+enabled: true
+
+# Send messages to Discord at specific events.
+events:
+  player:
+    # Send player join messages to Discord?
+    # Requires /config set event_channel to be executed in the Discord server.
+    join: true
+    # Send player leave messages to Discord?
+    # Requires /config set event_channel to be executed in the Discord server.
+    quit: true
+    # Send deaths to Discord?
+    death:
+      # Only sent when the death reason is included in this list.
+      # Setting this to an empty list, disables this option.
+      # The entry "*" represents all death reasons.
+      # Available reasons can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+      death-reasons_list:
+        - '*'
+
+    # Send advancements of players to Discord?
+    advancement:
+      # Define a list of advancements that should be forwarded to Discord.
+      # Setting this to an empty list, disables this option.
+      # The entry "*" represents all advancements.
+      # You can find a list of available advancements by tab completing the following command in your Minecraft server: /advancement grant @s only
+      advancements_list:
+        - '*'
+
+    # Send message when a player reaches a new playtime milestone.
+    playtime:
+      # Each playtime milestone must be at least one minute apart.
+      # NOTE: Changing this option requires server reload / restart.
+      playtime-announcements_list:
+        - '1h'
+        - '12h'
+        - '1d'
+        - '5d'
+        - '8d'
+        - '15d'
+        - '30d'

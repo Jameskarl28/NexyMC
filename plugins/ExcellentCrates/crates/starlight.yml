@@ -1,0 +1,601 @@
+Name: Starlight Crate
+Description: []
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Starlight Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:wolf/variant","minecraft:block_state","minecraft:cow/variant","minecraft:wolf/sound_variant","minecraft:dyed_color","minecraft:fireworks","minecraft:map_post_processing","minecraft:axolotl/variant","minecraft:pig/variant","minecraft:map_decorations","minecraft:suspicious_stew_effects","minecraft:max_stack_size","minecraft:enchantments","minecraft:container_loot","minecraft:max_damage","minecraft:shulker/color","minecraft:instrument","minecraft:horse/variant","minecraft:map_id","minecraft:trim","minecraft:creative_slot_lock","minecraft:use_cooldown","minecraft:wolf/collar","minecraft:debug_stick_state","minecraft:can_break","minecraft:bundle_contents","minecraft:firework_explosion","minecraft:writable_book_content","minecraft:break_sound","minecraft:repairable","minecraft:provides_trim_material","minecraft:weapon","minecraft:unbreakable","minecraft:bees","minecraft:bucket_entity_data","minecraft:block_entity_data","minecraft:cat/collar","minecraft:lock","minecraft:consumable","minecraft:chicken/variant","minecraft:tropical_fish/base_color","minecraft:rarity","minecraft:damage_resistant","minecraft:written_book_content","minecraft:fox/variant","minecraft:lodestone_tracker","minecraft:mooshroom/variant","minecraft:map_color","minecraft:custom_data","minecraft:ominous_bottle_amplifier","minecraft:stored_enchantments","minecraft:cat/variant","minecraft:attribute_modifiers","minecraft:death_protection","minecraft:charged_projectiles","minecraft:jukebox_playable","minecraft:tool","minecraft:sheep/color","minecraft:rabbit/variant","minecraft:villager/variant","minecraft:recipes","minecraft:use_remainder","minecraft:tropical_fish/pattern_color","minecraft:provides_banner_patterns","minecraft:base_color","minecraft:llama/variant","minecraft:damage","minecraft:intangible_projectile","minecraft:food","minecraft:repair_cost","minecraft:equippable","minecraft:painting/variant","minecraft:blocks_attacks","minecraft:potion_duration_scale","minecraft:can_place_on","minecraft:parrot/variant","minecraft:entity_data","minecraft:frog/variant","minecraft:banner_patterns","minecraft:profile","minecraft:salmon/size","minecraft:enchantable","minecraft:tropical_fish/pattern","minecraft:pot_decorations","minecraft:note_block_sound","minecraft:enchantment_glint_override","minecraft:potion_contents","minecraft:container","minecraft:glider"]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4440
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: enclosing
+Opening:
+  Cooldown: 3
+Key:
+  Required: true
+  Ids:
+  - starlight
+Block:
+  Positions:
+  - -23,83,77,spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: none
+    Particle:
+      Name: CHERRY_LEAVES
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    starlight_helmet:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:attribute_modifiers":[{amount:3.0d,id:"minecraft:caa1263a-7f51-3aa2-bbaf-e075ec010b84",operation:"add_value",slot:"head",type:"minecraft:armor"},{amount:3.0d,id:"minecraft:9f51aac3-e50b-3524-9f28-37b16d36dfc5",operation:"add_value",slot:"head",type:"minecraft:armor_toughness"},{amount:0.1d,id:"minecraft:2841bf55-3fe1-332a-83d1-0cb49bef114c",operation:"add_value",slot:"head",type:"minecraft:knockback_resistance"}],"minecraft:custom_data":{itemsadder:{id:"starlighthelmet",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10000.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight
+              Helmet・"},"minecraft:dyed_color":5448740,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3},"minecraft:equippable":{asset_id:"starlight:starlight_armor",slot:"head"},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Helmet・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies.
+              Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:max_damage":407,"minecraft:tooltip_display":{hidden_components:["minecraft:dyed_color"]},"minecraft:unbreakable":{}},count:1,id:"minecraft:leather_helmet"}'
+            DataVersion: 4440
+    starlight_chestplate:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:attribute_modifiers":[{amount:8.0d,id:"minecraft:3a4cacc6-02e9-33d9-9df9-e60a04309160",operation:"add_value",slot:"chest",type:"minecraft:armor"},{amount:3.0d,id:"minecraft:b242da00-2a99-3bdd-beaa-acab2c4a5c67",operation:"add_value",slot:"chest",type:"minecraft:armor_toughness"},{amount:0.1d,id:"minecraft:4858c051-8530-35c2-b59e-6a7fba93e6c6",operation:"add_value",slot:"chest",type:"minecraft:knockback_resistance"}],"minecraft:custom_data":{itemsadder:{id:"starlightchestplate",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10000.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight
+              Chestplate・"},"minecraft:dyed_color":5448740,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3},"minecraft:equippable":{asset_id:"starlight:starlight_armor",slot:"chest"},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Chestplate・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies.
+              Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:max_damage":592,"minecraft:tooltip_display":{hidden_components:["minecraft:dyed_color"]},"minecraft:unbreakable":{}},count:1,id:"minecraft:leather_chestplate"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_leggings:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:attribute_modifiers":[{amount:6.0d,id:"minecraft:3def4594-0aef-3b15-87a4-c14599faeb3b",operation:"add_value",slot:"legs",type:"minecraft:armor"},{amount:3.0d,id:"minecraft:404c603f-1c12-3abe-b1d1-ca677a02ae71",operation:"add_value",slot:"legs",type:"minecraft:armor_toughness"},{amount:0.1d,id:"minecraft:c3e3e2f2-5408-3729-a064-cb763b9ab9d6",operation:"add_value",slot:"legs",type:"minecraft:knockback_resistance"}],"minecraft:custom_data":{itemsadder:{id:"starlightleggings",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10000.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight
+              Leggings・"},"minecraft:dyed_color":5448740,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3},"minecraft:equippable":{asset_id:"starlight:starlight_armor",slot:"legs"},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Leggings・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies.
+              Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:max_damage":555,"minecraft:tooltip_display":{hidden_components:["minecraft:dyed_color"]},"minecraft:unbreakable":{}},count:1,id:"minecraft:leather_leggings"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_boots:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:attribute_modifiers":[{amount:3.0d,id:"minecraft:8a377b4d-bf39-3dc2-a84f-32cef3243c79",operation:"add_value",slot:"feet",type:"minecraft:armor"},{amount:4.0d,id:"minecraft:4640660e-47cd-35cb-991c-f3bb1e4a12ae",operation:"add_value",slot:"feet",type:"minecraft:armor_toughness"},{amount:0.1d,id:"minecraft:44db3506-4759-3ebc-be8e-b4657bb42df1",operation:"add_value",slot:"feet",type:"minecraft:knockback_resistance"}],"minecraft:custom_data":{itemsadder:{id:"starlightboots",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10000.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight
+              Boots・"},"minecraft:dyed_color":5448740,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3},"minecraft:equippable":{asset_id:"starlight:starlight_armor",slot:"feet"},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Boots・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those
+              who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:max_damage":481,"minecraft:tooltip_display":{hidden_components:["minecraft:dyed_color"]},"minecraft:unbreakable":{}},count:1,id:"minecraft:leather_boots"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_sword:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_sword",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10018.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Sword・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Sword・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_blade:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_blade",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10013.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Blade・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Blade・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_dagger:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_dagger",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10014.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Dagger・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Dagger・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_sickle:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_sickle",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10015.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Sickle・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Sickle・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_battle_axe:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_battle_axe",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10005.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Battle Axe・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Battle Axe・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The
+              Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_axe"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_spear:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_spear",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10016.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Spear・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Spear・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_staff:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_staff",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10017.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Staff・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Staff・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_axe:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_axe",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10004.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Axe・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Axe・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged
+              from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_axe"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_pickaxe:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_pickaxe",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10003.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Pickaxe・"},"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Pickaxe・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_pickaxe"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_shovel:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_shovel",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10003.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Shovel・"},"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Shovel・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight
+              was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_shovel"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_hoe:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_hoe",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10003.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Hoe・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Hoe・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust
+              glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:netherite_hoe"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_shield:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:attribute_modifiers":[{amount:30.0d,id:"minecraft:b702fd12-7706-38cb-abaf-1f92b563d58d",operation:"add_value",slot:"offhand",type:"minecraft:max_health"},{amount:-0.03d,id:"minecraft:849a393c-b31e-3fb1-947e-ed769b301dcf",operation:"add_value",slot:"offhand",type:"minecraft:movement_speed"}],"minecraft:custom_data":{itemsadder:{id:"starlight_shield",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10002.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight
+              Shield・"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Shield・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."},{color:"white",italic:0b,text:""}],"minecraft:unbreakable":{}},count:1,id:"minecraft:shield"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_bow:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:custom_data":{itemsadder:{id:"starlight_bow",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10003.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Bow・"},"minecraft:enchantments":{"minecraft:infinity":1,"minecraft:power":5,"minecraft:unbreaking":3},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight Bow・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged
+              from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."}],"minecraft:unbreakable":{}},count:1,id:"minecraft:bow"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
+    starlight_wings:
+      Type: ITEM
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: true
+          Amount: 1
+          Cooldown: 432000
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 432000
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{components:{"minecraft:attribute_modifiers":[{amount:0.03d,id:"minecraft:7d4e7feb-ba8e-31ca-bb35-869449119dce",operation:"add_value",slot:"offhand",type:"minecraft:movement_speed"}],"minecraft:custom_data":{itemsadder:{id:"starlight_wings",namespace:"starlight"}},"minecraft:custom_model_data":{floats:[10063.0f]},"minecraft:custom_name":{color:"#F1BA22",italic:0b,text:"・Starlight Wings・"},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:item_name":{color:"#F1BA22",italic:0b,text:"・Starlight
+              Wings・"},"minecraft:lore":[{color:"white",italic:0b,text:""},{color:"#F1BA22",italic:0b,text:"The Starlight was forged from fallen stardust glowing"},{color:"#F1BA22",italic:0b,text:"with the light of distant galaxies. Those who wear it"},{color:"#F1BA22",italic:0b,text:"carry a fragment of the cosmos upon their back."},{color:"white",italic:0b,text:""}]},count:1,id:"minecraft:paper"}'
+            DataVersion: 4440
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189

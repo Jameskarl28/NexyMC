@@ -122,7 +122,7 @@ fireworks-on-death-amount: 5
 restrict-to-only-recent-voters:
 
    # Enable restriction to only recent voters?
-   enabled: true
+   enabled: false
    
    # Time in minutes that the player had need to have
    # voted at least once to be able to hit the Pinata.
@@ -180,10 +180,14 @@ language:
     vote-command:
     - "#ADD8E6&lVoting will you get special rewards!"
     - " "
-    - "&2Link 1: https://www.example.com/my-server"
-    - "&aLink 2: https://www.example.com/my-server"
-    - "&2Link 3: https://www.example.com/my-server"
-    - "&aLink 4: https://www.example.com/my-server"
+    - "#ADD8E6&lLink 1&r&8: #FFC0CB&nhttps://topminecraftservers.org/vote/41715"
+    - "#ADD8E6&lLink 2&r&8: #FFC0CB&nhttps://topg.org/minecraft-servers/server-675882"
+    - "#ADD8E6&lLink 3&r&8: #FFC0CB&nhttps://minestatus.net/server/paid.nexymc.fun"
+    - "#ADD8E6&lLink 4&r&8: #FFC0CB&nhttps://minelist.net/server/4888"
+    - "#ADD8E6&lLink 5&r&8: #FFC0CB&nhttps://minecraft-mp.com/server-s348765"
+    - "#ADD8E6&lLink 6&r&8: #FFC0CB&nhttps://minecraftservers.org/vote/678775"
+    - "#ADD8E6&lLink 7&r&8: #FFC0CB&nhttps://minecraft.buzz/server/16541"
+    - "#ADD8E6&lLink 8&r&8: #FFC0CB&nhttps://minecraftbestservers.com/server-nexymc-crafty-realms.5765"
 
 # Messages for the placeholders in case you want to change them.
 # Reminder for the placeholder format: %pinataparty_<a_key_below>%
@@ -257,7 +261,7 @@ custom-locations:
 
     # spawn is the location's name.
     spawn:
-        world: world
+        world: spawn
         x: 0.0
         y: 82.0
         z: 67.0
@@ -287,19 +291,19 @@ commands:
     # ... the pinata is hit by a player.
     hit:
         '1':
-            chance: 25
+            chance: 10
             command:
             - 'case key give %player% vote 1'
         '2':
-            chance: 20
+            chance: 5
             command:
             - 'case key give %player% dreamlet 1'
         '3':
-            chance: 10
+            chance: 0.5
             command:
             - 'case key give %player% mysticbloom 1'
         '4':
-            chance: 5
+            chance: 0.5
             command:
             - 'case key give %player% spawner 1'
         '5':
@@ -311,18 +315,14 @@ commands:
             command:
             - 'minecraft:give %player% minecraft:enchanted_golden_apple 1'
         '7':
-            chance: 5
-            command:
-            - 'xp give %player% 5l'
-        '8':
             chance: 50
             command:
             - 'minecraft:give %player% minecraft:leather 1'
-        '9':
+        '8':
             chance: 50
             command:
             - 'minecraft:give %player% minecraft:paper 1'
-        '10':
+        '9':
             chance: 50
             command:
             - 'minecraft:give %player% minecraft:golden_carrot 1'
@@ -377,17 +377,14 @@ commands:
             chance: 100
             command:
             - 'case key give %player% vote 1'
-            - 'say §b%player%§r §7got a Vote Crate Key reward!'
         '6':
             chance: 15
             command:
             - 'case key give %player% emerald 1'
-            - 'say §b%player%§r §7got a Mysticbloom Crate Key reward!'
         '7':
             chance: 45
             command:
             - 'case key give %player% dreamlet 1'
-            - 'say §b%player%§r §7got a Dreamlet Crate Key reward!'
 
 # Give players extra rewards for voting X times total or every X time!
 cumulative-rewards:
@@ -497,7 +494,7 @@ pinata:
     
     # The maxmium amount of time the Pinata can stay alive for in seconds, afterwhich will despawn.
     # Set to -1 to live forever.
-    life-span: 5
+    life-span: -1
     
     # Change the color of the Llama.
     # Use "Random" to pick a random color each Pinata.

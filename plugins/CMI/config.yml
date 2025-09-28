@@ -23,7 +23,6 @@ Economy:
     Transfer: true
     IgnoredUsers:
     - LexyLuther
-    - Nekow
   Cheque:
     # Determines max amount of cheque player can create
     # Set it to 0 to remove the limit
@@ -1197,11 +1196,11 @@ Warnings:
   Categories:
     Swear:
       LifeTime: 86400
-      Points: 3
-      DefaultReason: '&7Swearing'
+      Points: 1
+      DefaultReason: '&7Spamming'
     Grief:
       LifeTime: 86400
-      Points: 10
+      Points: 2
       DefaultReason: '&7Griefing'
     Bug:
       LifeTime: 86400
@@ -1272,7 +1271,7 @@ Kits:
       - closeinv!
 Warps:
   # When set to true, warps list will be shown in GUI instead of chat list
-  GUI: true
+  GUI: false
   # Automatically opens GUI when created new warp point
   GUIOnCreation: true
   # Minimal length of warp name

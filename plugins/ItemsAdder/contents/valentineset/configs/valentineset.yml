@@ -17,7 +17,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_bow:
     display_name: <#FFD3D5>・Roselight Bow・
     permission: valentine.bow
@@ -34,7 +36,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_chest:
     behaviours:
       furniture:
@@ -76,7 +80,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_fishing_rod:
     display_name: <#FFD3D5>・Roselight Fishing Rod・
     permission: valentine.fishing_rod
@@ -94,7 +100,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_hammer:
     display_name: <#FFD3D5>・Roselight Hammer・
     permission: valentine.hammer
@@ -111,7 +119,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_hoe:
     display_name: <#FFD3D5>・Roselight Hoe・
     permission: valentine.hoe
@@ -127,7 +137,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+      
   valentine_key:
     display_name: <#FFD3D5>・Roselight Key・
     permission: valentine.key
@@ -151,7 +163,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_scythe:
     display_name: <#FFD3D5>・Roselight Scythe・
     permission: valentine.scythe
@@ -168,7 +182,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+      
   valentine_shield:
     display_name: <#FFD3D5>・Roselight Shield・
     permission: valentine.shield
@@ -184,11 +200,13 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
     attribute_modifiers:
       offhand:
         maxHealth: 30
         movementSpeed: -0.03
+    durability:
+      unbreakable: true
+
   valentine_shovel:
     display_name: <#FFD3D5>・Roselight Shovel・
     permission: valentine.shovel
@@ -205,7 +223,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_spear:
     display_name: <#FFD3D5>・Roselight Spear・
     permission: valentine.spear
@@ -222,7 +242,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_staff:
     display_name: <#FFD3D5>・Roselight Staff・
     permission: valentine.staff
@@ -239,7 +261,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_sword:
     display_name: <#FFD3D5>・Roselight Sword・
     permission: valentine.sword
@@ -256,7 +280,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_trident:
     display_name: <#FFD3D5>・Roselight Trident・
     permission: valentine.trident
@@ -273,7 +299,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+
   valentine_bouquet:
     display_name: <#FFD3D5>・Roselight Bouquet・
     permission: valentine.bouquet
@@ -292,6 +320,7 @@ items:
     attribute_modifiers:
       offhand:
         movementSpeed: 0.03
+
   valentine_wings:
     display_name: <#FFD3D5>・Roselight Wings・
     permission: valentine.wings
@@ -310,6 +339,7 @@ items:
     attribute_modifiers:
       offhand:
         movementSpeed: 0.03
+
   valentine_greatsword:
     display_name: <#FFD3D5>・Roselight Great Sword・
     permission: valentine.greatsword
@@ -326,7 +356,9 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
+    durability:
+      unbreakable: true
+      
   valentine_head:
     behaviours:
       hat: true

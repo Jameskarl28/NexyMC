@@ -29,7 +29,7 @@ Block:
     Template: default
     Y_Offset: 0.0
   Effect:
-    Model: helix
+    Model: none
     Particle:
       Name: CHERRY_LEAVES
 Milestones:
@@ -489,16 +489,16 @@ Rewards:
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: false
+      PreviewData:
+        Tag:
+          Value: '{}'
+          DataVersion: 4189
       ItemsData:
         '0':
           Type: VANILLA
           Tag:
             Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"nekotraps:trap_type":"vanilla"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Neko trap",underlined:0b}],text:""},"minecraft:enchantment_glint_override":1b,"minecraft:lore":[{extra:[""],italic:0b,text:""},{extra:[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,translate:"gui.entity_tooltip.type",underlined:0b,with:[{italic:0b,translate:"advancements.empty"}]}],text:"&7"}],text:""},{extra:[""],italic:0b,text:""}]},count:1,id:"minecraft:barrel"}'
             DataVersion: 4440
-      PreviewData:
-        Tag:
-          Value: '{}'
-          DataVersion: 4189
     sentry_armor_trim_smithing_template:
       Type: ITEM
       Weight: 10.0

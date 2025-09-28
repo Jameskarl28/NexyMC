@@ -1,0 +1,102 @@
+# Here you can edit all chat messages.
+#
+# If you encounter any issues or have questions:
+# Discord: https://discord.incredibleplugins.com
+#
+# Wiki: https://wiki.incredibleplugins.com/general/locale-and-config/messages
+
+general:
+  prefix:
+    normal: '&8[&7!&8] '
+    help: '&8[&7!&8] &7Usage: '
+  value:
+    none: '&8None'
+  time:
+    days: day(s)
+    seconds: second(s)
+    minutes: minute(s)
+    hours: hour(s)
+  link:
+    unlinked-kick: '&7You must link your &9Discord&7 account to play.[newline][newline]Execute
+      this command in the Discord server:[newline]#FFC0CB/account link {code}[newline][newline]&7Discord
+      invite:&9 {invite}'
+  wYes: '&aYes'
+  wNo: '&cNo'
+  command:
+    argument:
+      optional: '&8<&e{arg}&8>'
+      required: '&8[&e{arg}&8]'
+      type:
+        cmd: cmd
+        link-plugin: plugin
+help:
+  help:
+    root:
+      header: '[NoPrefix][T]&7&l&m━━&e&l<<<<&7&l&m━[H]&7Click here to navigate to
+        the previous page.[/H][C]{cmd} {previous}[/C][/T] &2DiscordBridge Commands
+        &7Page&3 {page} &8/&3 {pages} [T]&7&l&m━&e&l>>>>&7&l&m━━[H]&7Click here to
+        go to the next page.[/H][C]{cmd} {next}[/C][/T]'
+      footer: |
+        [NoPrefix]
+        &7Click on the arrows below to navigate.
+        [T]&7&l&m━━&e&l<<<<&7&l&m━[H]&7Click here to navigate to the previous page.[/H][C]{cmd} {previous}[/C][/T] &2DiscordBridge Commands &7Page&3 {page} &8/&3 {pages} [T]&7&l&m━&e&l>>>>&7&l&m━━[H]&7Click here to go to the next page.[/H][C]{cmd} {next}[/C][/T]
+    sub:
+      unknown: |
+        &cThe subcommand&4 {command} &cdoesn't exist.
+          [T]&7✖ View commands: &3/{cmd} &8[CLICK][H]&7Click here to get a list of available commands[/H][C]{cmd}[/C][/T]
+      header: '[NoPrefix][T]&7&l&m━━━━━&e&l<<<<&7&l&m━[H]&7Click here to navigate
+        to the previous page.[/H][C]{cmd} {previous}[/C][/T] &2Sub Commands &7Page&3
+        {page} &8/&3 {pages} [T]&7&l&m━&e&l>>>>&7&l&m━━━━━[H]&7Click here to go to
+        the next page.[/H][C]{cmd} {next}[/C][/T]'
+      footer: |
+        [NoPrefix]
+        &7Click on the arrows below to navigate.
+        [T]&7&l&m━━━━━&e&l<<<<&7&l&m━[H]&7Click here to navigate to the previous page.[/H][C]{cmd} {previous}[/C][/T] &2Sub Commands &7Page&3 {page} &8/&3 {pages} [T]&7&l&m━&e&l>>>>&7&l&m━━━━━[H]&7Click here to go to the next page.[/H][C]{cmd} {next}[/C][/T]
+  command:
+    discordbridge:
+      invite: '[T]&e{parent} {subcmd} &8- &7Get Discord invite[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
+      admin:
+        main: '[T]&e{parent} {subcmd} {args} &8- &7Admin commands[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
+        reload: '[T]&e{parent} {subcmd} &8- &7Reload config and messages[H]&7Click
+          to execute.[/H][C]{fullcmd}[/C][/T]'
+        about: '[T]&e{parent} {subcmd} &8- &7Show information about Lands[H]&7Click
+          to execute.[/H][C]{fullcmd}[/C][/T]'
+        modules: '[T]&e{parent} {subcmd} &8- &7View enabled modules[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
+      account:
+        main: '[T]&e{parent} {subcmd} {args} &8- &7Manage Discord account[H]&7Click
+          to copy.[/H][SC]{fullcmd}[/SC][/T]'
+        link: '[T]&e{parent} {subcmd} &8- &7Link Discord account[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
+        unlink: '[T]&e{parent} {subcmd} &8- &7Unlink Discord account[H]&7Click to
+          execute.[/H][C]{fullcmd}[/C][/T]'
+        admin:
+          main: '[T]&e{parent} {subcmd} {args} &8- &7Account linking admin[H]&7Click
+            to copy.[/H][SC]{fullcmd}[/SC][/T]'
+          migrate: '[T]&e{parent} {subcmd} {args} &8- &7Migrate linked accounts[H]&7Click
+            to copy.[/H][SC]{fullcmd}[/SC][/T]'
+          modules: '[T]&e{parent} {subcmd} &8- &7View enabled modules[H]&7Click to
+            execute.[/H][C]{fullcmd}[/C][/T]'
+
+discordbridge:
+  command:
+    general:
+      no-permission: '&cYou don''t have permission to do this. &8You need permission
+        {permission}.'
+    invite:
+      url: '&7Invite URL:#FFC0CB {url} &8[CLICK]'
+    account:
+      link:
+        already: |
+          &cYour Minecraft account is already linked to the Discord account&4 {user}&c.
+            [T]&7✖ Unlink: &e/{cmd} &8[CLICK][H]&7Click here to unlink your account.[/H][C]{cmd}[/C][/T]
+        code: |
+          &7Please execute the following command in the Discord server: #FFC0CB/{cmd}
+            &8The code {code} is valid for {time}&8.
+        success: '&7Your Minecraft account is now linked to the Discord account&9
+          {user}&7.'
+        rewards: '&aYou have received rewards for linking your account.'
+      unlink:
+        already: '&cYour Minecraft account isn''t linked to any Discord account.'
+        success: '&7Successfully unlinked your Minecraft account from the Discord
+          account&9 {user}&7.'
+        discord: '&7Your Minecraft account is no longer linked to the Discord account&9
+          {user}&7.'

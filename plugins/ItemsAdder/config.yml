@@ -19,7 +19,7 @@ resource-pack:
     self-host:
       enabled: true
       server-ip: 208.84.103.84
-      pack-port: 30031
+      pack-port: 30020
       append-port: true
       protection:
         block_non_game_requests: false
@@ -102,7 +102,7 @@ resource-pack:
     step: true
     other: true
   pre_1_21_2_shaders_fix:
-    enabled: false
+    enabled: true
 config_files:
   lang: en
   dictionaries-lang: en

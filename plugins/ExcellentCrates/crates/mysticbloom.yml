@@ -29,7 +29,7 @@ Block:
     Template: default
     Y_Offset: 0.0
   Effect:
-    Model: helix
+    Model: none
     Particle:
       Name: CHERRY_LEAVES
 Milestones:
@@ -39,12 +39,6 @@ Rewards:
   List:
     mysticbloom_helmet:
       Type: ITEM
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Chestplate","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
-            Set",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_chestplate"}'
-          DataVersion: 4440
       Weight: 10.0
       Rarity: mythic
       Broadcast: false
@@ -63,6 +57,12 @@ Rewards:
       Ignored_For_Permissions: []
       Required_Permissions: []
       Custom_Preview: true
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{Damage:0,Enchantments:[{id:"protection",lvl:10s},{id:"mending",lvl:1s},{id:"unbreaking",lvl:5s}],display:{Lore:[''{"text":"","extra":[{"text":"Forged from warden skin","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''],Name:''{"text":"","extra":[{"text":"Warden Chestplate","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}''}},"minecraft:custom_name":{extra:[{bold:0b,color:"#FFC0CB",italic:0b,obfuscated:0b,strikethrough:0b,text:"Mysticbloom
+            Set",underlined:0b}],text:""},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":10,"minecraft:unbreaking":5}},count:1,id:"minecraft:netherite_chestplate"}'
+          DataVersion: 4440
       ItemsData:
         '0':
           Type: VANILLA

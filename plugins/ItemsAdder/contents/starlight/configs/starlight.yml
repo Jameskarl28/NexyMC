@@ -17,7 +17,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_battle_axe:
     display_name: <#F1BA22>・Starlight Battle Axe・
     permission: starlight.battle_axe
@@ -34,7 +36,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_blade:
     display_name: <#F1BA22>・Starlight Blade・
     permission: starlight.blade
@@ -51,7 +55,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_bow:
     display_name: <#F1BA22>・Starlight Bow・
     permission: starlight.bow
@@ -68,7 +74,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_chest:
     display_name: <#F1BA22>・Starlight Chest・
     permission: starlight.chest
@@ -92,6 +100,7 @@ items:
           floor: true
           walls: false
         solid: true
+
   starlight_dagger:
     display_name: <#F1BA22>・Starlight Dagger・
     permission: starlight.dagger
@@ -108,7 +117,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_hoe:
     display_name: <#F1BA22>・Starlight Hoe・
     permission: starlight.hoe
@@ -124,7 +135,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_key:
     display_name: <#F1BA22>・Starlight Key・
     permission: starlight.key
@@ -132,6 +145,7 @@ items:
       material: PAPER
       generate: false
       model_path: key
+
   starlight_pickaxe:
     display_name: <#F1BA22>・Starlight Pickaxe・
     permission: starlight.pickaxe
@@ -148,7 +162,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_shield:
     display_name: <#F1BA22>・Starlight Shield・
     permission: starlight.shield
@@ -169,6 +185,9 @@ items:
       offhand:
         maxHealth: 30
         movementSpeed: -0.03
+    durability:
+      unbreakable: true
+
   starlight_shovel:
     display_name: <#F1BA22>・Starlight Shovel・
     permission: starlight.shovel
@@ -185,7 +204,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_sickle:
     display_name: <#F1BA22>・Starlight Sickle・
     permission: starlight.sickle
@@ -202,7 +223,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_spear:
     display_name: <#F1BA22>・Starlight Spear・
     permission: starlight.spear
@@ -219,7 +242,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_staff:
     display_name: <#F1BA22>・Starlight Staff・
     permission: starlight.staff
@@ -236,7 +261,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+
   starlight_sword:
     display_name: <#F1BA22>・Starlight Sword・
     permission: starlight.sword
@@ -253,7 +280,9 @@ items:
       - '<#F1BA22>The Starlight was forged from fallen stardust glowing'
       - '<#F1BA22>with the light of distant galaxies. Those who wear it'
       - '<#F1BA22>carry a fragment of the cosmos upon their back.'
-      - ''
+    durability:
+      unbreakable: true
+      
   starlight_wings:
     display_name: <#F1BA22>・Starlight Wings・
     permission: starlight.wings

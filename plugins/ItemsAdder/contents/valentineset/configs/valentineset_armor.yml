@@ -1,113 +1,20 @@
-armors_rendering:
-  valentinearmor:
+info:
+  namespace: valentineset
+equipments:
+ valentin_armor:
+    type: armor
+    layer_1: armor/valentine_armor_layer_1
+    layer_2: armor/valentine_armor_layer_2
+legacy_armor_renderings:
+  valentin_armor_old:
     color: '#ffd1d5'
     layer_1: armor/valentine_armor_layer_1
     layer_2: armor/valentine_armor_layer_2
     use_color: false
-info:
-  namespace: valentineset
+
 items:
-  valentineboots:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Boots・
-    permission: valentine.boots
-    resource:
-      generate: true
-      textures:
-      - armor/valentine_boots_icon.png
-    specific_properties:
-      armor:
-        custom_armor: valentinearmor
-        slot: feet
-    enchants:
-      - PROTECTION:4
-      - UNBREAKING:3
-      - MENDING
-    lore:
-      - ''
-      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
-      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
-      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      feet:
-        armor: 4
-        armorToughness: 4
-        KnockbackResistance: 0.1
-        
-        
-  valentinechestplate:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Chestplate・
-    permission: valentine.chestplate
-    resource:
-      generate: true
-      textures:
-      - armor/valentine_chestplate_icon.png
-    specific_properties:
-      armor:
-        custom_armor: valentinearmor
-        slot: chest
-    enchants:
-      - PROTECTION:4
-      - UNBREAKING:3
-      - MENDING
-    lore:
-      - ''
-      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
-      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
-      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      chest:
-        armor: 10
-        armorToughness: 4
-        KnockbackResistance: 0.1
-        
-        
-  valentineleggings:
-    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Leggings・
-    permission: valentine.leggings
-    resource:
-      generate: true
-      textures:
-      - armor/valentine_leggings_icon.png
-    specific_properties:
-      armor:
-        custom_armor: valentinearmor
-        slot: legs
-    enchants:
-      - PROTECTION:4
-      - UNBREAKING:3
-      - MENDING
-    lore:
-      - ''
-      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
-      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
-      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      legs:
-        armor: 8
-        armorToughness: 4
-        KnockbackResistance: 0.1
-        
-        
   valentinehelmet:
     display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Helmet・
-    permission: valentine.helmet
-    resource:
-      generate: true
-      textures:
-      - armor/valentine_helmet_icon.png
-    specific_properties:
-      armor:
-        custom_armor: valentinearmor
-        slot: head
     enchants:
       - PROTECTION:4
       - UNBREAKING:3
@@ -117,11 +24,95 @@ items:
       - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
       - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
       - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
-      - ''
-    durability:
-      max_custom_durability: 1000
-    attribute_modifiers:
-      head:
-        armor: 4
-        armorToughness: 4
+    resource:
+      generate: true
+      texture: armor/valentine_helmet_icon.png
+      material: LEATHER_HELMET
+    equipment:
+      id: valentineset:valentin_armor
+      legacy_armor_rendering_id: valentineset:valentin_armor_old
+      slot_attribute_modifiers:
+        armor: 3
+        armor_toughness: 3
         KnockbackResistance: 0.1
+    durability:
+      max_custom_durability: 407
+      unbreakable: true
+
+  valentinechestplate:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Chestplate・
+    enchants:
+      - PROTECTION:4
+      - UNBREAKING:3
+      - MENDING
+    lore:
+      - ''
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+    resource:
+      generate: true
+      texture: armor/valentine_chestplate_icon.png
+      material: LEATHER_CHESTPLATE
+    equipment:
+      id: valentineset:valentin_armor
+      legacy_armor_rendering_id: valentineset:valentin_armor_old
+      slot_attribute_modifiers:
+        armor: 8
+        armor_toughness: 3
+        KnockbackResistance: 0.1
+    durability:
+      max_custom_durability: 592
+      unbreakable: true
+
+  valentineleggings:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Leggings・
+    enchants:
+      - PROTECTION:4
+      - UNBREAKING:3
+      - MENDING
+    lore:
+      - ''
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+    resource:
+      generate: true
+      texture: armor/valentine_leggings_icon.png
+      material: LEATHER_LEGGINGS
+    equipment:
+      id: valentineset:valentin_armor
+      legacy_armor_rendering_id: valentineset:valentin_armor_old
+      slot_attribute_modifiers:
+        armor: 6
+        armor_toughness: 3
+        KnockbackResistance: 0.1
+    durability:
+      max_custom_durability: 555
+      unbreakable: true
+
+  valentineboots:
+    display_name: <gradient:#FFD3D5:#FFD3D5>・Roselight Boots・
+    enchants:
+      - PROTECTION:4
+      - UNBREAKING:3
+      - MENDING
+    lore:
+      - ''
+      - '<#FFD3D5>The Roselight shines with a warm, rosy glow, from its weapons'
+      - '<#FFD3D5>and tools to its armor, helmet, and wings. Each piece radiates'
+      - '<#FFD3D5>gentle brilliance, turning sweetness into strength.'
+    resource:
+      generate: true
+      texture: armor/valentine_boots_icon.png
+      material: LEATHER_BOOTS
+    equipment:
+      id: valentineset:valentin_armor
+      legacy_armor_rendering_id: valentineset:valentin_armor_old
+      slot_attribute_modifiers:
+        armor: 3
+        armor_toughness: 3
+        KnockbackResistance: 0.1
+    durability:
+      max_custom_durability: 481
+      unbreakable: true

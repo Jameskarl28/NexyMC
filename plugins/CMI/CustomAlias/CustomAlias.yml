@@ -17,27 +17,21 @@
 # Commands under this alias will get executed. Exelent way to show help page and correct usage if needed
 
 CustomAlias:
+  chatspy enable:
+    Cmds:
+    - options chatspy enable
+  chatspy disable:
+    Cmds:
+    - options chatspy disable
+  jobs:
+    Cmds:
+    - jobs:jobs browse
   v:
     Cmds:
     - cmi vanish $1-
-  gmc:
-    Cmds:
-    - gm creative $1
-  gms:
-    Cmds:
-    - gm survival $1
-  gmsp:
-    Cmds:
-    - gm spectator $1
-  delhome:
-    Cmds:
-    - removehome
   h:
     Cmds:
     - cmi heal $1
-  warps:
-    Cmds:
-    - warp
   pm:
     Cmds:
     - cmi msg $1
@@ -50,9 +44,6 @@ CustomAlias:
   check:
     Cmds:
     - spark healthreport
-  trash:
-    Cmds:
-    - dispose $1
   qshop:
     Cmds:
     - quickshop-hikari:shop
@@ -62,6 +53,15 @@ CustomAlias:
   rtp:
     Cmds:
     - betterrtp world world
-  echest:
+  size small:
     Cmds:
-    - cmi ender $1
+    - cmi scale set [playerName] 0.5
+  size normal:
+    Cmds:
+    - cmi scale set [playerName] 1
+  pwarp:
+    Cmds:
+    - pwarp open all
+  store:
+    Cmds:
+    - buy

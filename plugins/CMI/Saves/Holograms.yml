@@ -127,7 +127,7 @@ lore:
   - '#FFC0CBTeleports you on random places'
   - '#FFC0CBon the Overworld'
 communitychest:
-  Loc: spawn;-12.49;83.48;71.52
+  Loc: spawn;-12.49;84.35;71.52
   NewDisplay: true
   ND:
     Bill: FIXED
@@ -193,6 +193,30 @@ npchelp:
   - '&f'
   - '&6&lHelper'
   - '&7[/help]'
+listofcommands:
+  Loc: spawn;-5.36;86.29;24.01
+  Range: 15
+  RangeExtra: 20
+  NewDisplay: true
+  ND:
+    Bill: FIXED
+    TAlpha: 240
+    Yaw: 90
+    Double: true
+    BAlpha: 0
+    ScaleW: 1.1
+    ScaleH: 1.2
+  Lines:
+  - '#FFC0CBList of commands you can check'
+  - ICON:air
+  - '&7[#ADD8E6/help&7] &8- #FFC0CBFor basic help'
+  - '&7[#ADD8E6/ranks&7] &8- #FFC0CBPreview available ranks'
+  - '&7[#ADD8E6/shop&7] &8- #FFC0CBBuy and sell stuff'
+  - '&7[#ADD8E6/pw-/pwarp&7] &8- #FFC0CBPlayer warps'
+  - '&7[#ADD8E6/tc toggle&7] &8- #FFC0CBToggle tree cutter'
+  - '&7[#ADD8E6/jobs&7] &8- #FFC0CBPreview available jobs'
+  - '&7[#ADD8E6/vote&7] &8- #FFC0CBServer vote links'
+  - '&7[#ADD8E6/store&7] &8- #FFC0CBOpen server store'
 Spawn:
   Loc: spawn;0.46;89.94;6.46
   Range: 15

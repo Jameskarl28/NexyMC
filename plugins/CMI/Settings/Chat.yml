@@ -22,7 +22,7 @@ Chat:
     # When disabled, only shouts and messages sent by players with cmi.chat.rangebypass permission node will be visible in discord
     RangedMessages: true
   # Enables support for DynMap web chat
-  DynMapChat: true
+  DynMapChat: false
   # When set to false, each time you will use /r you will reply to person you previously sent message directly or to person who sent you message if there is none you have conversion before
   # When this set to true, players with /r will reply to person who last sent private message. This can result in confusion when using /r while getting private messages from multiple players
   ReplyToLastMessenger: false
@@ -45,7 +45,7 @@ Chat:
     Enabled: true
     # Defines regex when replacing item line in chat with players item in hand information. Only works when CMI hover over chat format is enabled
     ItemRegex:
-    - (\[item\])
+    - (\[i\])
     - (([&§]\S)+)?\[(([&§]\S)+)?i(([&§]\S)+)?t(([&§]\S)+)?e(([&§]\S)+)?m(([&§]\S)+)?\]
   Bungee:
     # Attention! This will require you to have CMI Bungee plugin which can be found at zrips.net

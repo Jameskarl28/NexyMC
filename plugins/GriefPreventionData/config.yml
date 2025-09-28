@@ -8,9 +8,9 @@ GriefPrevention:
     spawn: -1
   Claims:
     Mode:
+      world_the_end: Survival
       spawn: Survival
       world_nether: Survival
-      world_the_end: Survival
       world: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true

@@ -29,7 +29,7 @@ Block:
     Template: default
     Y_Offset: 0.0
   Effect:
-    Model: helix
+    Model: none
     Particle:
       Name: CHERRY_LEAVES
 Milestones:

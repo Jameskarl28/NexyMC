@@ -36,3 +36,10 @@ font_images:
     scale_ratio: 9
     y_position: 8
     symbol: "Ω"
+  jobs:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "jobs.png"
+    scale_ratio: 9
+    y_position: 8
+    symbol: "ξ"

@@ -104,6 +104,7 @@ items:
     lore:
       - "&f➠ 5 sethomes"
       - "&f➠ /pyrofish deliveries"
+      - "&f➠ Jobs max limit 2"
   '11':
     material: PINK_CANDLE
     slot: 10

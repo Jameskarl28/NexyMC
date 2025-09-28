@@ -1,0 +1,1222 @@
+info:
+  namespace: magic_store
+items:
+  medieval_plant_hanging_plot_0:
+    display_name: medieval_plant_hanging_plot_0
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_0
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_1:
+    display_name: medieval_plant_hanging_plot_1
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_2:
+    display_name: medieval_plant_hanging_plot_2
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_2
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_3:
+    display_name: medieval_plant_hanging_plot_3
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_3
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_4:
+    display_name: medieval_plant_hanging_plot_4
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_4
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_5:
+    display_name: medieval_plant_hanging_plot_5
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_5
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_6:
+    display_name: medieval_plant_hanging_plot_6
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_6
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_7:
+    display_name: medieval_plant_hanging_plot_7
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_7
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_hanging_plot_8:
+    display_name: medieval_plant_hanging_plot_8
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_hanging_plot_8
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_1:
+    display_name: medieval_plant_vine_oak_1
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_2:
+    display_name: medieval_plant_vine_oak_2
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_2
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_3:
+    display_name: medieval_plant_vine_oak_3
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_3
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_4:
+    display_name: medieval_plant_vine_spruce_4
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_4
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_5:
+    display_name: medieval_plant_vine_spruce_5
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_5
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_6:
+    display_name: medieval_plant_vine_spruce_6
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_6
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_7:
+    display_name: medieval_plant_vine_birch_7
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_7
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_8:
+    display_name: medieval_plant_vine_birch_8
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_8
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_vine_9:
+    display_name: medieval_plant_vine_birch_9
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_vine_9
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: false
+          ceiling: true
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_shelf:
+    display_name: medieval_plant_shelf
+    permission: medieval_fullpack_3
+    resource:
+      material: COAL
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_shelf
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: true
+        placeable_on:
+          floor: false
+          ceiling: false
+          walls: true
+        hitbox:
+          length: 1
+          width: -2
+          height: 1
+          width_offset: 0.5
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_wooden_table_1:
+    display_name: medieval_plant_wooden_table_1
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_wooden_table_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_wooden_table_2:
+    display_name: medieval_plant_wooden_table_2
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_wooden_table_2
+    behaviours:
+      furniture:
+        entity: item_frame
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot:
+    display_name: medieval_plant_plot
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_1:
+    display_name: medieval_plant_plot_1
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_1
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_2:
+    display_name: medieval_plant_plot_2
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_2
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_3:
+    display_name: medieval_plant_plot_3
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_3
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_4:
+    display_name: medieval_plant_plot_4
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_4
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_5:
+    display_name: medieval_plant_plot_5
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_5
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_6:
+    display_name: medieval_plant_plot_6
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_6
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_7:
+    display_name: medieval_plant_plot_7
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_7
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_8:
+    display_name: medieval_plant_plot_8
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_8
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_9:
+    display_name: medieval_plant_plot_9
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_9
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_10:
+    display_name: medieval_plant_plot_10
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_10
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_11:
+    display_name: medieval_plant_plot_11
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_11
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_12:
+    display_name: medieval_plant_plot_12
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_12
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_13:
+    display_name: medieval_plant_plot_13
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_13
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_14:
+    display_name: medieval_plant_plot_14
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_14
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_15:
+    display_name: medieval_plant_plot_15
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_15
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_16:
+    display_name: medieval_plant_plot_16
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_16
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_17:
+    display_name: medieval_plant_plot_17
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_17
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_18:
+    display_name: medieval_plant_plot_18
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_18
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_19:
+    display_name: medieval_plant_plot_19
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_19
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8
+  medieval_plant_plot_20:
+    display_name: medieval_plant_plot_20
+    permission: medieval_fullpack_3
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: furnitures/medieval_fullpack_3/medieval_plant_plot_20
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        solid: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
+      # furniture_sit:
+      #   sit_height: 0.8

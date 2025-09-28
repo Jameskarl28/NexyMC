@@ -134,11 +134,15 @@ clearlagg:
   Repeat: true
   Randomize: false
   Commands:
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items will be cleared in &e60s!'
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities will be cleared
+    in &e60s!'
   - delay! 30
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items will be cleared in &e30s!'
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities will be cleared
+    in &e30s!'
   - delay! 20
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items will be cleared in &e10s!'
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities will be cleared
+    in &e10s!'
   - delay! 10
   - cmi killall item
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items have been cleared!'
+  - cmi killall monsters
+  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities have been cleared!'
