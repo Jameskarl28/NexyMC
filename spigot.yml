@@ -16,8 +16,8 @@ settings:
   sample-count: 12
   player-shuffle: 0
   user-cache-size: 1000
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 0.1625
+  moved-too-quickly-multiplier: 20.0
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -31,7 +31,7 @@ settings:
       max: 1024.0
     attackDamage:
       max: 2048.0
-  log-villager-deaths: true
+  log-villager-deaths: false
   log-named-deaths: true
   debug: false
 messages:
@@ -51,9 +51,9 @@ world-settings:
     view-distance: default
     simulation-distance: default
     merge-radius:
-      item: 3.5
-      exp: 4.0
-    mob-spawn-range: 3
+      item: 3.0
+      exp: 5
+    mob-spawn-range: 8
     item-despawn-rate: 6000
     thunder-chance: 100000
     arrow-despawn-rate: 1200
@@ -89,12 +89,12 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 16
-      monsters: 24
-      raiders: 48
+      animals: 12
+      monsters: 16
+      raiders: 32
       misc: 8
       water: 8
-      villagers: 16
+      villagers: 10
       flying-monsters: 48
       wake-up-inactive:
         animals-max-per-tick: 4
@@ -115,14 +115,14 @@ world-settings:
       tick-inactive-villagers: false
       ignore-spectators: false
     entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      display: 128
-      other: 64
+      players: 40
+      animals: 16
+      monsters: 24
+      misc: 8
+      display: 64
+      other: 32
     ticks-per:
-      hopper-transfer: 8
+      hopper-transfer: 4
       hopper-check: 8
     hopper-amount: 1
     hopper-can-load-chunks: false
