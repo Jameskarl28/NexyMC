@@ -1,0 +1,32 @@
+This logs consists of the plugin changes I've made.
+
+=============
+
+Updated Plugins:
+- ViaVersion 5.6.0 -> 5.7.0
+- ViaBackwards 5.6.0 -> 5.7.0
+- multiverse-core-5.4.0-pre.7.jar -> multiverse-core-5.4.0
+- multiverse-inventories-5.3.0-pre.4 -> multiverse-inventories-5.3.0
+- SmartSpawner 1.5.7 -> SmartSpawner 1.5.8
+- 
+
+=============
+
+Removed Plugin:
+- DiscordSRV
+Current build is still unstable that's causing lag.
+
+- nAntiBot
+Shit plugin, that's it.
+
+=============
+
+Added Plugin:
+- Sonar
+Better than nAntiBot, Lightweight.
+- zAuctionHouse
+Dupe prevention, no current dupe issues, but for future prevention.
+- zMenu
+Requirement for zAuctionHouse to work, not necessarily but it's for the better use of auctionhouse.
+
+=============
