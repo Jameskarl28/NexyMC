@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+# ###########################
+enable: true
+slot: 13
+title: ᴄᴏʟᴏᴜʀ
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: BLUE_STAINED_GLASS
+  lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ ᴘʀᴇᴠɪᴇᴡ'
+  - '#ff6663 ▪ &fᴘɪɴᴋ ᴡᴏᴏʟ'
+  - '#fe9052 ▪ &fᴡʜɪᴛᴇ ᴡᴏᴏʟ'
+  - '#feb94d ▪ &fʙʟᴜᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ'
+  - '#fde47b ▪ &fᴏʀᴀɴɢᴇ ᴄᴏɴᴄʀᴇᴛᴇ'
+  - '#e8f799 ▪ &fᴄʏᴀɴ sᴛᴀɪɴᴇᴅ ɢʟᴀss'
+  - '#f48ce2 ▪ &fᴀɴᴅ 75 ᴍᴏʀᴇ...'
+  - ''
+  - '&7◆ #f48ce2ᴄʟɪᴄᴋ: &fᴏᴘᴇɴ'
+  name: '#ff6663ᴄᴏʟᴏᴜʀ'

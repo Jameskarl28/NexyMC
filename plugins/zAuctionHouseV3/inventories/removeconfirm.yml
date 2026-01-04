@@ -1,0 +1,39 @@
+#
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
+#
+
+name: '&0ʀᴇᴍᴏᴠᴇ'
+size: 27
+items:
+  remove:
+    type: ZAUCTIONHOUSE_REMOVE_CONFIRM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: '&aʀᴇᴍᴏᴠᴇ'
+      lore:
+        - "#FFC0CB☆ &fClick to &a&nconfirm&r&f remove"
+    slots:
+    - 10
+  deny:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: "#c42323ʙᴀᴄᴋ"
+      lore:
+        - "#FFC0CB☆ &fClick to #c42323&ncancel&r&f remove"
+    slots:
+    - 16
+  slot:
+    item:
+      material: AIR
+      name: '&e'
+    slots:
+    - 3-5
+    - 12
+    - 14
+    - 21-23
+  show:
+    type: ZAUCTIONHOUSE_SHOW_REMOVE
+    slot: 13

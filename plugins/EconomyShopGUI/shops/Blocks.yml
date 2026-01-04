@@ -1,748 +1,448 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
 pages:
   page1:
+    gui-rows: 6
     items:
-      '1':
-        material: CALCITE
-        buy: 2
-      '2':
-        material: DRIPSTONE_BLOCK
-        buy: 1
-      '5':
-        material: MAGMA_BLOCK
-        buy: 34
-      '6':
-        material: ICE
-        buy: 20
-      '7':
-        material: ROOTED_DIRT
-        buy: 1
-      '8':
-        material: SLIME_BLOCK
-        buy: 75
-      '9':
-        material: SNOW_BLOCK
-        buy: 10
-      '10':
-        material: SOUL_SAND
-        buy: 10
-      '12':
-        material: ANDESITE
-        buy: 1
-      '13':
-        material: ANDESITE_SLAB
-        buy: 1
-      '14':
-        material: ANDESITE_STAIRS
-        buy: 1
-      '15':
-        material: POLISHED_ANDESITE
-        buy: 1
-      '16':
-        material: POLISHED_ANDESITE_SLAB
-        buy: 1
-      '17':
-        material: POLISHED_ANDESITE_STAIRS
-        buy: 1
-      '18':
-        material: BAMBOO_BLOCK
-        buy: 75
-      '19':
-        material: BAMBOO_MOSAIC
-        buy: 75
-      '20':
-        material: BAMBOO_MOSAIC_SLAB
-        buy: 75
-      '21':
-        material: BAMBOO_MOSAIC_STAIRS
-        buy: 75
-      '22':
-        material: BAMBOO_PLANKS
-        buy: 75
-      '23':
-        material: BAMBOO_SLAB
-        buy: 75
-      '24':
-        material: BAMBOO_STAIRS
-        buy: 75
-      '26':
-        material: BLACKSTONE
-        buy: 1
-      '27':
-        material: BLACKSTONE_SLAB
-        buy: 1
-      '28':
-        material: BLACKSTONE_STAIRS
-        buy: 1
-      '29':
-        material: POLISHED_BLACKSTONE
-        buy: 1
-      '30':
-        material: POLISHED_BLACKSTONE_BRICK_SLAB
-        buy: 1
-      '31':
-        material: POLISHED_BLACKSTONE_BRICK_STAIRS
-        buy: 1
-      '32':
-        material: POLISHED_BLACKSTONE_BRICKS
-        buy: 1
-      '33':
-        material: POLISHED_BLACKSTONE_SLAB
-        buy: 1
-      '34':
-        material: POLISHED_BLACKSTONE_STAIRS
-        buy: 1
-      '35':
-        material: BOOKSHELF
-        buy: 119
-      '36':
-        material: CHISELED_BOOKSHELF
-        buy: 75
-      '37':
-        material: BRICK_SLAB
-        buy: 75
-      '38':
-        material: BRICK_STAIRS
-        buy: 97
-      '39':
-        material: BRICKS
-        buy: 93
-      '50':
-        material: BASALT
-        buy: 75
-      '51':
-        material: COBBLESTONE
-        buy: 1
-      '52':
-        material: COBBLESTONE_SLAB
-        buy: 1
-      '53':
-        material: COBBLESTONE_STAIRS
-        buy: 1
-      '54':
-        material: MOSSY_COBBLESTONE
-        buy: 8
-      '55':
-        material: MOSSY_COBBLESTONE_SLAB
-        buy: 4
-      '56':
-        material: MOSSY_COBBLESTONE_STAIRS
-        buy: 8
-  page2:
-    items:
-      '57':
-        material: BLACK_CONCRETE
-        buy: 75
-      '58':
-        material: BLUE_CONCRETE
-        buy: 75
-      '59':
-        material: BROWN_CONCRETE
-        buy: 75
-      '60':
-        material: CYAN_CONCRETE
-        buy: 75
-      '61':
-        material: GRAY_CONCRETE
-        buy: 75
-      '62':
-        material: GREEN_CONCRETE
-        buy: 75
-      '63':
-        material: LIGHT_BLUE_CONCRETE
-        buy: 75
-      '64':
-        material: LIGHT_GRAY_CONCRETE
-        buy: 75
-      '65':
-        material: LIME_CONCRETE
-        buy: 75
-      '66':
-        material: MAGENTA_CONCRETE
-        buy: 75
-      '67':
-        material: ORANGE_CONCRETE
-        buy: 75
-      '68':
-        material: PINK_CONCRETE
-        buy: 75
-      '69':
-        material: PURPLE_CONCRETE
-        buy: 75
-      '70':
-        material: RED_CONCRETE
-        buy: 75
-      '71':
-        material: WHITE_CONCRETE
-        buy: 75
-      '72':
-        material: YELLOW_CONCRETE
-        buy: 75
-      '73':
-        material: CHISELED_COPPER
-        buy: 75
-      '74':
-        material: EXPOSED_CHISELED_COPPER
-        buy: 75
-      '75':
-        material: OXIDIZED_CHISELED_COPPER
-        buy: 75
-      '76':
-        material: OXIDIZED_COPPER
-        buy: 75
-      '77':
-        material: WAXED_COPPER_BLOCK
-        buy: 75
-      '78':
-        material: WAXED_CUT_COPPER
-        buy: 75
-      '79':
-        material: WAXED_CUT_COPPER_SLAB
-        buy: 75
-      '80':
-        material: WAXED_CUT_COPPER_STAIRS
-        buy: 75
-      '81':
-        material: WAXED_EXPOSED_COPPER
-        buy: 75
-      '82':
-        material: WAXED_EXPOSED_CUT_COPPER
-        buy: 75
-      '83':
-        material: WAXED_EXPOSED_CUT_COPPER_SLAB
-        buy: 75
-      '84':
-        material: WAXED_EXPOSED_CUT_COPPER_STAIRS
-        buy: 75
-      '85':
-        material: WAXED_OXIDIZED_COPPER
-        buy: 75
-      '86':
-        material: WAXED_OXIDIZED_CUT_COPPER
-        buy: 75
-      '87':
-        material: WAXED_OXIDIZED_CUT_COPPER_SLAB
-        buy: 75
-      '88':
-        material: WAXED_OXIDIZED_CUT_COPPER_STAIRS
-        buy: 75
-      '89':
-        material: WAXED_WEATHERED_COPPER
-        buy: 75
-      '90':
-        material: WAXED_WEATHERED_CUT_COPPER
-        buy: 75
-      '91':
-        material: WAXED_WEATHERED_CUT_COPPER_SLAB
-        buy: 75
-      '92':
-        material: WAXED_WEATHERED_CUT_COPPER_STAIRS
-        buy: 75
-      '93':
-        material: WEATHERED_CHISELED_COPPER
-        buy: 75
-      '94':
-        material: COBBLED_DEEPSLATE
-        buy: 1
-      '95':
-        material: COBBLED_DEEPSLATE_SLAB
-        buy: 1
-      '96':
-        material: COBBLED_DEEPSLATE_STAIRS
-        buy: 1
-      '97':
-        material: DEEPSLATE
-        buy: 75
-      '98':
-        material: DEEPSLATE_TILE_SLAB
-        buy: 75
-      '99':
-        material: DEEPSLATE_TILE_STAIRS
-        buy: 75
-      '100':
-        material: DEEPSLATE_TILES
-        buy: 75
-      '101':
-        material: DIORITE
-        buy: 75
-  page3:
-    items:
-      '102':
-        material: DIORITE_SLAB
-        buy: 75
-      '103':
-        material: DIORITE_STAIRS
-        buy: 75
-      '104':
-        material: POLISHED_DIORITE
-        buy: 75
-      '105':
-        material: POLISHED_DIORITE_SLAB
-        buy: 75
-      '106':
-        material: POLISHED_DIORITE_STAIRS
-        buy: 75
-      '107':
-        material: CLAY
-        buy: 10
-      '108':
-        material: CRIMSON_NYLIUM
-        buy: 75
-      '109':
-        material: DIRT
-        buy: 3
-      '110':
+      GRASS_BLOCK:
         material: GRASS_BLOCK
-        buy: 75
-      '111':
-        material: GRAVEL
-        buy: 8
-      '112':
-        material: MYCELIUM
-        buy: 75
-      '113':
+        displayname: "&eɢʀᴀss ʙʟᴏᴄᴋ"
+        buy: 12.5
+        sell: 1
+      PODZOL:
         material: PODZOL
-        buy: 75
-      '114':
-        material: WARPED_NYLIUM
-        buy: 75
-      '115':
-        material: END_STONE
-        buy: 5
-      '116':
-        material: END_STONE_BRICK_SLAB
-        buy: 3
-      '117':
-        material: END_STONE_BRICK_STAIRS
-        buy: 5
-      '118':
-        material: END_STONE_BRICKS
-        buy: 5
-      '119':
-        material: GLASS
-        buy: 75
-      '120':
-        material: GLASS_PANE
-        buy: 75
-      '121':
-        material: TINTED_GLASS
-        buy: 75
-      '122':
-        material: GRANITE
-        buy: 75
-      '123':
-        material: GRANITE_SLAB
-        buy: 75
-      '124':
-        material: GRANITE_STAIRS
-        buy: 75
-      '125':
-        material: POLISHED_GRANITE
-        buy: 75
-      '126':
-        material: POLISHED_GRANITE_SLAB
-        buy: 75
-      '127':
-        material: POLISHED_GRANITE_STAIRS
-        buy: 75
-      '128':
-        material: GLOWSTONE
-        buy: 10
-      '129':
+        displayname: "&eᴘᴏᴅᴢᴏʟ"
+        buy: 50.0
+        sell: -1.0
+      MYCELIUM:
+        material: MYCELIUM
+        displayname: "&eᴍʏᴄᴇʟɪᴜᴍ"
+        buy: 45.0
+        sell: -1.0
+      DIRT:
+        material: DIRT
+        displayname: "&eᴅɪʀᴛ"
+        buy: 10.0
+        sell: 0.5
+      COARSE_DIRT:
+        material: COARSE_DIRT
+        displayname: "&eᴄᴏᴀʀsᴇ ᴅɪʀᴛ"
+        buy: 25.0
+        sell: -1.0
+      MUD:
         material: MUD
-        buy: 75
-      '130':
-        material: MUD_BRICK_SLAB
-        buy: 75
-      '131':
-        material: MUD_BRICK_STAIRS
-        buy: 75
-      '132':
-        material: MUD_BRICK_WALL
-        buy: 75
-      '133':
-        material: MUD_BRICKS
-        buy: 75
-      '134':
+        displayname: "&eᴍᴜᴅ"
+        buy: 25.0
+        sell: -1.0
+      PACKED_MUD:
         material: PACKED_MUD
-        buy: 75
-      '135':
-        material: NETHERRACK
-        buy: 75
-      '136':
-        material: NETHER_BRICK_SLAB
-        buy: 75
-      '137':
-        material: NETHER_BRICK_STAIRS
-        buy: 75
-      '138':
-        material: NETHER_BRICKS
-        buy: 75
-      '139':
-        material: RED_NETHER_BRICK_SLAB
-        buy: 75
-      '140':
-        material: RED_NETHER_BRICK_STAIRS
-        buy: 75
-      '141':
-        material: RED_NETHER_BRICKS
-        buy: 75
-      '142':
-        material: CRYING_OBSIDIAN
-        buy: 75
-      '143':
-        material: OBSIDIAN
-        buy: 75
-      '144':
-        material: PRISMARINE
-        buy: 75
-      '145':
-        material: PRISMARINE_SLAB
-        buy: 75
-      '146':
-        material: PRISMARINE_STAIRS
-        buy: 75
-  page4:
-    items:
-      '147':
-        material: PRISMARINE_BRICK_SLAB
-        buy: 75
-      '148':
-        material: PRISMARINE_BRICK_STAIRS
-        buy: 75
-      '149':
-        material: PRISMARINE_BRICKS
-        buy: 75
-      '150':
-        material: DARK_PRISMARINE
-        buy: 75
-      '151':
-        material: DARK_PRISMARINE_SLAB
-        buy: 75
-      '152':
-        material: DARK_PRISMARINE_STAIRS
-        buy: 75
-      '153':
-        material: PURPUR_BLOCK
-        buy: 75
-      '154':
-        material: PURPUR_SLAB
-        buy: 75
-      '155':
-        material: PURPUR_STAIRS
-        buy: 75
-      '156':
-        material: QUARTZ_BRICKS
-        buy: 75
-      '157':
-        material: QUARTZ_SLAB
-        buy: 75
-      '158':
-        material: QUARTZ_STAIRS
-        buy: 75
-      '159':
-        material: RED_SAND
-        buy: 8
-      '160':
+        displayname: "&eᴘᴀᴄᴋᴇᴅ ᴍᴜᴅ"
+        buy: 50.0
+        sell: -1.0
+      CLAY:
+        material: CLAY
+        displayname: "&eᴄʟᴀʏ"
+        buy: 20.0
+        sell: -1.0
+      BRICKS:
+        material: BRICKS
+        displayname: "&eʙʀɪᴄᴋs"
+        buy: 30.0
+        sell: -1.0
+      GRAVEL:
+        material: GRAVEL
+        displayname: "&eɢʀᴀᴠᴇʟ"
+        buy: 20.0
+        sell: -1.0
+      GLASS:
+        material: GLASS
+        displayname: "&eɢʟᴀss"
+        buy: 50.0
+        sell: -1.0
+      SAND:
         material: SAND
-        buy: 6
-      '161':
+        displayname: "&esᴀɴᴅ"
+        buy: 100.0
+        sell: 2.0
+      SANDSTONE:
         material: SANDSTONE
-        buy: 10
-      '162':
-        material: SANDSTONE_SLAB
-        buy: 6
-      '163':
-        material: SANDSTONE_STAIRS
-        buy: 10
-      '164':
+        displayname: "&esᴀɴᴅsᴛᴏɴᴇ"
+        buy: 45.0
+        sell: -1.0
+      SMOOTH_SANDSTONE:
         material: SMOOTH_SANDSTONE
-        buy: 10
-      '165':
-        material: SMOOTH_SANDSTONE_SLAB
-        buy: 7
-      '166':
-        material: SMOOTH_SANDSTONE_STAIRS
-        buy: 10
-      '167':
-        material: RED_SANDSTONE
-        buy: 10
-      '168':
-        material: RED_SANDSTONE_SLAB
-        buy: 10
-      '169':
-        material: RED_SANDSTONE_STAIRS
-        buy: 10
-      '170':
-        material: SMOOTH_RED_SANDSTONE
-        buy: 10
-      '171':
-        material: SMOOTH_RED_SANDSTONE_SLAB
-        buy: 10
-      '172':
-        material: SMOOTH_RED_SANDSTONE_STAIRS
-        buy: 10
-      '173':
+        displayname: "&esᴍᴏᴏᴛʜ sᴀɴᴅsᴛᴏɴᴇ"
+        buy: 35.0
+        sell: -1.0
+      RED_SAND:
+        material: RED_SAND
+        displayname: "&eʀᴇᴅ sᴀɴᴅ"
+        buy: 30.0
+        sell: -1.0
+      ICE:
+        material: ICE
+        displayname: "&eɪᴄᴇ"
+        buy: 25.0
+        sell: -1.0
+      PACKED_ICE:
+        material: PACKED_ICE
+        displayname: "&eᴘᴀᴄᴋᴇᴅ ɪᴄᴇ"
+        buy: 30.0
+        sell: -1.0
+      BLUE_ICE:
+        material: BLUE_ICE
+        displayname: "&eʙʟᴜᴇ ɪᴄᴇ"
+        buy: 50.0
+        sell: -1.0
+      SNOW_BLOCK:
+        material: SNOW_BLOCK
+        displayname: "&esɴᴏᴡ ʙʟᴏᴄᴋ"
+        buy: 75.0
+        sell: -1.0
+      MOSS_BLOCK:
+        material: MOSS_BLOCK
+        displayname: "&eᴍᴏss ʙʟᴏᴄᴋ"
+        buy: 25.0
+        sell: -1.0
+      STONE:
         material: STONE
-        buy: 1
-      '174':
-        material: STONE_SLAB
-        buy: 1
-      '175':
-        material: STONE_STAIRS
-        buy: 1
-      '176':
-        material: STONE_BRICK_SLAB
-        buy: 1
-      '177':
-        material: STONE_BRICK_STAIRS
-        buy: 1
-      '178':
+        displayname: "&esᴛᴏɴᴇ"
+        buy: 5.0
+        sell: 0.2
+      SMOOTH_STONE:
+        material: SMOOTH_STONE
+        displayname: "&eꜱᴍᴏᴏᴛʜ ꜱᴛᴏɴᴇ"
+        buy: 10.0
+        sell: 0.2
+      COBBLESTONE:
+        material: COBBLESTONE
+        displayname: "&eᴄᴏʙʙʟᴇsᴛᴏɴᴇ"
+        buy: 2.5
+        sell: 0.1
+      STONE_BRICKS:
         material: STONE_BRICKS
-        buy: 1
-      '179':
-        material: MOSSY_STONE_BRICK_SLAB
-        buy: 1
-      '180':
-        material: MOSSY_STONE_BRICK_STAIRS
-        buy: 9
-      '181':
+        displayname: "&esᴛᴏɴᴇ ʙʀɪᴄᴋs"
+        buy: 20.0
+        sell: -1.0
+      MOSSY_STONE_BRICKS:
         material: MOSSY_STONE_BRICKS
-        buy: 8
-      '182':
-        material: TERRACOTTA
-        buy: 75
-      '183':
-        material: CHISELED_TUFF
-        buy: 75
-      '184':
-        material: CHISELED_TUFF_BRICKS
-        buy: 75
-      '185':
-        material: POLISHED_TUFF
-        buy: 75
-      '186':
-        material: POLISHED_TUFF_SLAB
-        buy: 75
-      '187':
-        material: POLISHED_TUFF_STAIRS
-        buy: 75
-      '188':
+        displayname: "&eᴍᴏssʏ sᴛᴏɴᴇ ʙʀɪᴄᴋs"
+        buy: 30.0
+        sell: -1.0
+      CRACKED_STONE_BRICKS:
+        material: CRACKED_STONE_BRICKS
+        displayname: "&eᴄʀᴀᴄᴋᴇᴅ sᴛᴏɴᴇ ʙʀɪᴄᴋs"
+        buy: 50.0
+        sell: -1.0
+      CRACKED_DEEPSLATE_BRICKS:
+        material: CRACKED DEEPSLATE BRICKS
+        displayname: "&eᴄʀᴀᴄᴋᴇᴅ ᴅᴇᴇᴘꜱʟᴀᴛᴇ ʙʀɪᴄᴋꜱ"
+        buy: 50.0
+        sell: -1.0
+      CRACKED_DEEPSLATE_TILES:
+        material: CRACKED_DEEPSLATE_TILES
+        displayname: "&eᴄʀᴀᴄᴋᴇᴅ ᴅᴇᴇᴘꜱʟᴀᴛᴇ ᴛɪʟᴇꜱ"
+        buy: 50.0
+        sell: -1.0
+      CRACKED_NETHER_BRICKS:
+        material: CRACKED_NETHER_BRICKS
+        displayname: "&eᴄʀᴀᴄᴋᴇᴅ ɴᴇᴛʜᴇʀ ʙʀɪᴄᴋꜱ"
+        buy: 50.0
+        sell: -1.0
+      CRACKED_POLISHED_BLACKSTONE_BRICKS:
+        material: CRACKED POLISHED BLACKSTONE BRICKS
+        displayname: "&eᴄʀᴀᴄᴋᴇᴅ ᴘᴏʟɪꜱʜᴇᴅ ʙʟᴀᴄᴋꜱᴛᴏɴᴇ ʙʀɪᴄᴋꜱ"
+        buy: 50.0
+        sell: -1.0
+      DEEPSLATE:
+        material: DEEPSLATE
+        displayname: "&eᴅᴇᴇᴘsʟᴀᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      COBBLED_DEEPSLATE:
+        material: COBBLED_DEEPSLATE
+        displayname: "&eᴄᴏʙʙʟᴇᴅ ᴅᴇᴇᴘsʟᴀᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      GRANITE:
+        material: GRANITE
+        displayname: "&eɢʀᴀɴɪᴛᴇ"
+        buy: 35.0
+        sell: -1.0
+      DIORITE:
+        material: DIORITE
+        displayname: "&eᴅɪᴏʀɪᴛᴇ"
+        buy: 30.0
+        sell: -1.0
+      ANDESITE:
+        material: ANDESITE
+        displayname: "&eᴀɴᴅᴇsɪᴛᴇ"
+        buy: 50.0
+        sell: -1.0
+      AMETHYST_BLOCK:
+        material: AMETHYST_BLOCK
+        displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ᴀᴍᴇᴛʜʏsᴛ"
+        buy: 100.0
+        sell: -1.0
+      CALCITE:
+        material: CALCITE
+        displayname: "&eᴄᴀʟᴄɪᴛᴇ"
+        buy: 50.0
+        sell: -1.0
+      TUFF:
         material: TUFF
-        buy: 75
-      '189':
-        material: TUFF_BRICK_SLAB
-        buy: 75
-      '190':
-        material: TUFF_BRICK_STAIRS
-        buy: 75
-      '191':
-        material: TUFF_BRICKS
-        buy: 75
-  page5:
+        displayname: "&eᴛᴜꜰꜰ"
+        buy: 50.0
+        sell: -1.0
+      DRIPSTONE_BLOCK:
+        material: DRIPSTONE_BLOCK
+        displayname: "&eᴅʀɪᴘsᴛᴏɴᴇ ʙʟᴏᴄᴋ"
+        buy: 50.0
+        sell: -1.0
+      PRISMARINE:
+        material: PRISMARINE
+        displayname: "&eᴘʀɪsᴍᴀʀɪɴᴇ"
+        buy: 100.0
+        sell: -1.0
+      DARK_PRISMARINE:
+        material: DARK_PRISMARINE
+        displayname: "&eᴅᴀʀᴋ ᴘʀɪsᴍᴀʀɪɴᴇ"
+        buy: 90.0
+        sell: -1.0
+      SEA_LANTERN:
+        material: SEA_LANTERN
+        displayname: "&esᴇᴀ ʟᴀɴᴛᴇʀɴ"
+        buy: 100.0
+        sell: -1.0
+      MAGMA_BLOCK:
+        material: MAGMA_BLOCK
+        displayname: "&eᴍᴀɢᴍᴀ ʙʟᴏᴄᴋ"
+        buy: 100.0
+        sell: -1.0
+      OBSIDIAN:
+        material: OBSIDIAN
+        displayname: "&eᴏʙsɪᴅɪᴀɴ"
+        buy: 750.0
+        sell: 0.2
+      CRYING_OBSIDIAN:
+        material: CRYING_OBSIDIAN
+        displayname: "&eᴄʀʏɪɴɢ ᴏʙsɪᴅɪᴀɴ"
+        buy: 150.0
+        sell: 0.3
+  page2:
+    gui-rows: 6
     items:
-      '192':
-        material: TUFF_SLAB
-        buy: 75
-      '193':
-        material: TUFF_STAIRS
-        buy: 75
-      '194':
-        material: ACACIA_LOG
-        buy: 75
-      '195':
-        material: ACACIA_PLANKS
-        buy: 75
-      '196':
-        material: ACACIA_SLAB
-        buy: 75
-      '197':
-        material: ACACIA_STAIRS
-        buy: 75
-      '198':
-        material: ACACIA_WOOD
-        buy: 75
-      '199':
-        material: BIRCH_LOG
-        buy: 75
-      '200':
-        material: BIRCH_PLANKS
-        buy: 75
-      '201':
-        material: BIRCH_SLAB
-        buy: 75
-      '202':
-        material: BIRCH_STAIRS
-        buy: 75
-      '203':
-        material: BIRCH_WOOD
-        buy: 75
-      '204':
-        material: CRIMSON_HYPHAE
-        buy: 75
-      '205':
-        material: CRIMSON_PLANKS
-        buy: 75
-      '206':
-        material: CRIMSON_SLAB
-        buy: 75
-      '207':
-        material: CRIMSON_STAIRS
-        buy: 75
-      '208':
-        material: CRIMSON_STEM
-        buy: 75
-      '209':
-        material: DARK_OAK_LOG
-        buy: 75
-      '210':
-        material: DARK_OAK_PLANKS
-        buy: 75
-      '211':
-        material: DARK_OAK_SLAB
-        buy: 75
-      '212':
-        material: DARK_OAK_STAIRS
-        buy: 75
-      '213':
-        material: DARK_OAK_WOOD
-        buy: 75
-      '214':
-        material: JUNGLE_LOG
-        buy: 75
-      '215':
-        material: JUNGLE_PLANKS
-        buy: 75
-      '216':
-        material: JUNGLE_SLAB
-        buy: 75
-      '217':
-        material: JUNGLE_STAIRS
-        buy: 75
-      '218':
-        material: JUNGLE_WOOD
-        buy: 75
-      '223':
-        material: MANGROVE_LOG
-        buy: 75
-      '224':
-        material: MANGROVE_PLANKS
-        buy: 75
-      '226':
-        material: MANGROVE_SLAB
-        buy: 75
-      '227':
-        material: MANGROVE_STAIRS
-        buy: 75
-      '229':
-        material: MANGROVE_WOOD
-        buy: 75
-      '230':
+      NETHERRACK:
+        material: NETHERRACK
+        displayname: "&eɴᴇᴛʜᴇʀʀᴀᴄᴋ"
+        buy: 25.0
+        sell: -1.0
+      CRIMSON_NYLIUM:
+        material: CRIMSON_NYLIUM
+        displayname: "&eᴄʀɪᴍsᴏɴ ɴʏʟɪᴜᴍ"
+        buy: 35.0
+        sell: -1.0
+      WARPED_NYLIUM:
+        material: WARPED_NYLIUM
+        displayname: "&eᴡᴀʀᴘᴇᴅ ɴʏʟɪᴜᴍ"
+        buy: 100.0
+        sell: -1.0
+      NETHER_BRICKS:
+        material: NETHER_BRICKS
+        displayname: "&eɴᴇᴛʜᴇʀ ʙʀɪᴄᴋs"
+        buy: 50.0
+        sell: -1.0
+      RED_NETHER_BRICKS:
+        material: RED_NETHER_BRICKS
+        displayname: "&eʀᴇᴅ ɴᴇᴛʜᴇʀ ʙʀɪᴄᴋs"
+        buy: 50.0
+        sell: -1.0
+      GLOWSTONE:
+        material: GLOWSTONE
+        displayname: "&eɢʟᴏᴡsᴛᴏɴᴇ"
+        buy: 30.0
+        sell: 1.0
+      SHROOMLIGHT:
+        material: SHROOMLIGHT
+        displayname: "&eꜱʜʀᴏᴏᴍʟɪɢʜᴛ"
+        buy: 30.0
+        sell: 1.0
+      QUARTZ_BLOCK:
+        material: QUARTZ_BLOCK
+        displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ǫᴜᴀʀᴛᴢ"
+        buy: 50.0
+        sell: -1.0
+      QUARTZ_BRICKS:
+        material: QUARTZ_BRICKS
+        displayname: "&eǫᴜᴀʀᴛᴢ ʙʀɪᴄᴋs"
+        buy: 45.0
+        sell: -1.0
+      QUARTZ_PILLAR:
+        material: QUARTZ_PILLAR
+        displayname: "&eǫᴜᴀʀᴛᴢ ᴘɪʟʟᴀʀ"
+        buy: 60.0
+        sell: -1.0
+      SOUL_SAND:
+        material: SOUL_SAND
+        displayname: "&esᴏᴜʟ sᴀɴᴅ"
+        buy: 40.0
+        sell: 3.0
+      SOUL_SOIL:
+        material: SOUL_SOIL
+        displayname: "&esᴏᴜʟ sᴏɪʟ"
+        buy: 40.0
+        sell: 3.0
+      BLACKSTONE:
+        material: BLACKSTONE
+        displayname: "&eʙʟᴀᴄᴋsᴛᴏɴᴇ"
+        buy: 50.0
+        sell: -1.0
+      POLISHED_BLACKSTONE:
+        material: POLISHED_BLACKSTONE
+        displayname: "&eᴘᴏʟɪsʜᴇᴅ ʙʟᴀᴄᴋsᴛᴏɴᴇ"
+        buy: 50.0
+        sell: -1.0
+      CHISELED_POLISHED_BLACKSTONE:
+        material: CHISELED_POLISHED_BLACKSTONE
+        displayname: "&eᴄʜɪsᴇʟᴇᴅ ᴘᴏʟɪsʜᴇᴅ ʙʟᴀᴄᴋsᴛᴏɴᴇ"
+        buy: 80.0
+        sell: -1.0
+      BASALT:
+        material: BASALT
+        displayname: "&eʙᴀsᴀʟᴛ"
+        buy: 50.0
+        sell: -1.0
+      END_STONE:
+        material: END_STONE
+        displayname: "&eᴇɴᴅ sᴛᴏɴᴇ"
+        buy: 50.0
+        sell: -1.0
+      PURPUR_BLOCK:
+        material: PURPUR_BLOCK
+        displayname: "&eᴘᴜʀᴘᴜʀ ʙʟᴏᴄᴋ"
+        buy: 50.0
+        sell: -1.0
+      OAK_LOG:
         material: OAK_LOG
-        buy: 75
-      '231':
-        material: OAK_PLANKS
-        buy: 75
-      '232':
-        material: OAK_SLAB
-        buy: 75
-      '233':
-        material: OAK_STAIRS
-        buy: 75
-      '234':
-        material: OAK_WOOD
-        buy: 75
-      '235':
+        displayname: "&eᴏᴀᴋ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      BIRCH_LOG:
+        material: BIRCH_LOG
+        displayname: "&eʙɪʀᴄʜ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      SPRUCE_LOG:
         material: SPRUCE_LOG
-        buy: 75
-      '236':
-        material: SPRUCE_PLANKS
-        buy: 75
-      '237':
-        material: SPRUCE_SLAB
-        buy: 75
-      '238':
-        material: SPRUCE_STAIRS
-        buy: 75
-      '239':
-        material: SPRUCE_WOOD
-        buy: 75
-      '43':
-        material: CHERRY_LOG
-        buy: 75
-      '44':
-        material: CHERRY_PLANKS
-        buy: 75
-      '45':
-        material: CHERRY_SLAB
-        buy: 75
-  page6:
-    items:
-      '46':
-        material: CHERRY_STAIRS
-        buy: 75
-      '47':
-        material: CHERRY_WOOD
-        buy: 75
-      '242':
-        material: WARPED_HYPHAE
-        buy: 75
-      '243':
-        material: WARPED_PLANKS
-        buy: 75
-      '244':
-        material: WARPED_SLAB
-        buy: 75
-      '245':
-        material: WARPED_STAIRS
-        buy: 75
-      '246':
+        displayname: "&esᴘʀᴜᴄᴇ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      ACACIA_LOG:
+        material: ACACIA_LOG
+        displayname: "&eᴀᴄᴀᴄɪᴀ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      JUNGLE_LOG:
+        material: JUNGLE_LOG
+        displayname: "&eᴊᴜɴɢʟᴇ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      DARK_OAK_LOG:
+        material: DARK_OAK_LOG
+        displayname: "&eᴅᴀʀᴋ ᴏᴀᴋ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      MANGROVE_LOG:
+        material: MANGROVE_LOG
+        displayname: "&eᴍᴀɴɢʀᴏᴠᴇ ʟᴏɢ"
+        buy: 15.0
+        sell: -1.0
+      CRIMSON_STEM:
+        material: CRIMSON_STEM
+        displayname: "&eᴄʀɪᴍsᴏɴ sᴛᴇᴍ"
+        buy: 100.0
+        sell: -1.0
+      WARPED_STEM:
         material: WARPED_STEM
-        buy: 75
-      '247':
-        material: BLACK_WOOL
-        buy: 75
-      '248':
-        material: BLUE_WOOL
-        buy: 75
-      '249':
-        material: BROWN_WOOL
-        buy: 75
-      '250':
-        material: CYAN_WOOL
-        buy: 75
-      '251':
-        material: GRAY_WOOL
-        buy: 75
-      '252':
-        material: GREEN_WOOL
-        buy: 75
-      '253':
-        material: LIGHT_BLUE_WOOL
-        buy: 75
-      '254':
-        material: LIGHT_GRAY_WOOL
-        buy: 75
-      '255':
-        material: LIME_WOOL
-        buy: 75
-      '256':
-        material: MAGENTA_WOOL
-        buy: 75
-      '257':
-        material: ORANGE_WOOL
-        buy: 75
-      '258':
-        material: PINK_WOOL
-        buy: 75
-      '259':
-        material: PURPLE_WOOL
-        buy: 75
-      '260':
-        material: RED_WOOL
-        buy: 75
-      '261':
-        material: WHITE_WOOL
-        buy: 75
-      '262':
-        material: YELLOW_WOOL
-        buy: 75
+        displayname: "&eᴡᴀʀᴘᴇᴅ sᴛᴇᴍ"
+        buy: 125.0
+        sell: -1.0
+      CHERRY_LOG:
+        material: CHERRY_LOG
+        displayname: "&eᴄʜᴇʀʀʏ ʟᴏɢ"
+        buy: 75.0
+        sell: -1.0
+      BAMBOO_BLOCK:
+        material: BAMBOO_BLOCK
+        displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ʙᴀᴍʙᴏᴏ"
+        buy: 20.0
+        sell: -1.0
+      OAK_LEAVES:
+        material: OAK_LEAVES
+        displayname: "&eᴏᴀᴋ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      BIRCH_LEAVES:
+        material: BIRCH_LEAVES
+        displayname: "&eʙɪʀᴄʜ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      SPRUCE_LEAVES:
+        material: SPRUCE_LEAVES
+        displayname: "&esᴘʀᴜᴄᴇ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      JUNGLE_LEAVES:
+        material: JUNGLE_LEAVES
+        displayname: "&eᴊᴜɴɢʟᴇ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      ACACIA_LEAVES:
+        material: ACACIA_LEAVES
+        displayname: "&eᴀᴄᴀᴄɪᴀ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      DARK_OAK_LEAVES:
+        material: DARK_OAK_LEAVES
+        displayname: "&eᴅᴀʀᴋ ᴏᴀᴋ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      MANGROVE_LEAVES:
+        material: MANGROVE_LEAVES
+        displayname: "&eᴍᴀɴɢʀᴏᴠᴇ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      CHERRY_LEAVES:
+        material: CHERRY_LEAVES
+        displayname: "&eᴄʜᴇʀʀʏ ʟᴇᴀᴠᴇs"
+        buy: 25.0
+        sell: -1.0
+      MANGROVE_ROOTS:
+        material: MANGROVE_ROOTS
+        displayname: "&eᴍᴀɴɢʀᴏᴠᴇ ʀᴏᴏᴛs"
+        buy: 25.0
+        sell: -1.0
+      OCHRE_FROGLIGHT:
+        material: OCHRE_FROGLIGHT
+        displayname: "&eᴏᴄʜʀᴇ ꜰʀᴏɢʟɪɢʜᴛ"
+        buy: 50.0
+        sell: -1.0
+      VERDANT_FROGLIGHT:
+        material: VERDANT_FROGLIGHT
+        displayname: "&eᴠᴇʀᴅᴀɴᴛ ꜰʀᴏɢʟɪɢʜᴛ"
+        buy: 50.0
+        sell: -1.0
+      PEARLESCENT_FROGLIGHT:
+        material: PEARLESCENT_FROGLIGHT
+        displayname: "&eᴘᴇᴀʀʟᴇsᴄᴇɴᴛ ꜰʀᴏɢʟɪɢʜᴛ"
+        buy: 50.0
+        sell: -1.0
+      SPONGE:
+        material: SPONGE
+        displayname: "&eꜱᴘᴏɴɢᴇ"
+        buy: 1000
+        sell: -1

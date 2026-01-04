@@ -1,6 +1,12 @@
+# ###########################
+#
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+# ###########################
 enable: true
-slot: 21
-title: ''
+slot: 15
+title: ᴏʀᴇs
 hidden: false
 sub-section: false
 display-item: false
@@ -9,6 +15,15 @@ fill-item:
 nav-bar:
   mode: INHERIT
 item:
-  material: IRON_INGOT
-  displayname: '#FFC0CB&lOres'
-  name: '#FFC0CB&lOres'
+  material: DIAMOND
+  lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ ᴘʀᴇᴠɪᴇᴡ'
+  - '#70c3ea ▪ &fᴄᴏᴀʟ'
+  - '#70c3ea ▪ &fɪʀᴏɴ ɪɴɢᴏᴛ'
+  - '#70c3ea ▪ &fᴇᴍᴇʀᴀʟᴅ'
+  - '#70c3ea ▪ &fʙʟᴏᴄᴋ ᴏꜰ ᴅɪᴀᴍᴏɴᴅ'
+  - '#70c3ea ▪ &fʙʟᴏᴄᴋ ᴏꜰ ɴᴇᴛʜᴇʀɪᴛᴇ'
+  - '#f48ce2 ▪ &fᴀɴᴅ 22 ᴍᴏʀᴇ...'
+  - ''
+  - '&7◆ #f48ce2ᴄʟɪᴄᴋ: &fᴏᴘᴇɴ'
+  name: '#70c3eaᴏʀᴇs'

@@ -36,7 +36,7 @@
 #                                                                                  #
 ####################################################################################
 #
-config-version: 2.0.1.4
+config-version: 2.0.1.5
 # WARNING: Do not change this value as this might end up in a plugin that does not work!!
 #----------------------------------------------Language-------------------------------------------------
 
@@ -83,7 +83,7 @@ update-checking: true
 #----------------------------------------------DebugMode------------------------------------------------
 
 # Set this value to false to disable debug mode and do not send debug messages to the console.
-debug: true
+debug: false
 
 # When this option is true, nms will be used for item loading and opening shops
 use-nms: true
@@ -100,7 +100,7 @@ use-paper-meta: true
 #---------------------------------------------Transactions----------------------------------------------
 
 # Whether transactions should be logged to a text file
-transaction-log: false
+transaction-log: true
 # Tip: Since EconomyShopGUI v6.12.0 the transaction history is logged inside a database by default with more details for transactions
 # So the transactions text file feature became redundant and may be disabled to save disk space
 
@@ -206,7 +206,7 @@ currency-formats:
 # SPAWNERMETA = An external spawner provider that can stack & upgrade spawners
 # SPAWNERLEGACY = The premium version of SpawnerMeta with more features/customize-ability
 # SMART_SPAWNER = A spawner provider which supports stacking spawners
-spawner-provider: AUTO
+spawner-provider: SMART_SPAWNER
 # NOTE: When there is no spawner provider set, the default will be used
 
 
@@ -263,7 +263,7 @@ discordsrv-transactions:
 
 # When this option is set to true, every time a player sells/buys something from the server, it will output it in the console.
 # This way the server owner or staff can see when a item is bought/sold many times or control/correct prices and exploits in the shop.
-log-player-transactions: true
+log-player-transactions: false
 # Set to false to disable this.
 
 # This option sends an on-screen title to the player with the price of the items being bought/sold
@@ -321,7 +321,7 @@ custom-bedrock-player-profile:
 
 # Whether the previous GUI menu should open when pressing the escape button
 # Example: Pressing escape to close the inventory when inside the buy/sell screen, will open the shop page of the shop section from this item
-escape-back: true
+escape-back: false
 # This won't work when the back button is disabled
 # Note: This option requires a server restart for changes
 
@@ -329,12 +329,12 @@ main-menu:
   # The size of the main shop inventory in rows
   # Possible values: 2 | 3 | 4 | 5 | 6
   # Note that the navigation bar also is 1 row(unless disabled)
-  gui-rows: 6
+  gui-rows: 4
   # The fill item for inside the main menu which will fill empty spots
   fill-item:
     material: PINK_STAINED_GLASS_PANE
     name: ' '
-    enable: true
+    enable: false
 
 # Assign custom click actions when clicking a shop item
 # Possible actions: BUY, SELL, SELL_ALL
@@ -345,6 +345,14 @@ click-mappings:
   SELL_ALL: SHIFT_RIGHT
 # These are globally specified mappings, meaning if a section does not override these mappings, it will default to this
 
+# Inventory settings for the /sellgui screen
+sellgui-screen:
+  gui-rows: 6
+#  items:
+#    filler1:
+#      material: GRAY_STAINED_GLASS_PANE
+#      name: " "
+#      slot: 1-9,10,18,19,27,28,36,37,45
 
 #--------------------------------------------NavigationBar----------------------------------------------
 
@@ -371,29 +379,32 @@ main-menu-nav-bar:
   enabled: true
   items:
     1:
-      material: player_head
-      skullowner: '%player_name%'
-      name: '%player_displayname%'
-      lore:
-      - '%translations-money%: &c%player_balance%'
+      material: air
+      name: '&r'
     2:
       material: air
+      name: '&r'
     3:
       material: air
+      name: '&r'
     4:
       material: air
+      name: '&r'
     5:
       material: air
+      name: '&r'
     6:
       material: air
+      name: '&r'
     7:
       material: air
+      name: '&r'
     8:
       material: air
+      name: '&r'
     9:
-      material: barrier
-      name: '%translations-cancel%'
-      action: BACK
+      material: air
+      name: '&r'
 
 # The 'default' navigation bar for every shop category
 # Note that disabling the navigation bar here, will also disable it for every shop category which does not have its own navigation bar configured
@@ -401,17 +412,16 @@ shops-nav-bar:
   enabled: true
   items:
     1:
-      material: player_head
-      skullowner: '%player_name%'
-      name: '%player_displayname%'
-      lore:
-      - '%translations-money%: &c%player_balance%'
+      material: air
+      name: '&r'
     2:
       material: air
+      name: '&r'
     3:
       material: air
+      name: '&r'
     4:
-      material: red_stained_glass_pane
+      material: ARROW
       name: '%translations-previous-page%'
       action: PAGE_BACK
       paginated:
@@ -419,10 +429,11 @@ shops-nav-bar:
         orElse:
           material: AIR
     5:
-      material: paper
-      name: '%translations-current-page%'
+      material: REDSTONE
+      name: '%translations-back%'
+      action: BACK
     6:
-      material: blue_stained_glass_pane
+      material: ARROW
       name: '%translations-next-page%'
       action: PAGE_NEXT
       paginated:
@@ -431,12 +442,13 @@ shops-nav-bar:
           material: AIR
     7:
       material: air
+      name: '&r'
     8:
       material: air
+      name: '&r'
     9:
-      material: barrier
-      name: '%translations-back%'
-      action: BACK
+      material: air
+      name: '&r'
 
 # The navigation bar that appears in the buy/sell screens and the buy stacks screen
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
@@ -444,32 +456,33 @@ transaction-screens-nav-bar:
   enabled: true
   items:
     1:
-      material: player_head
-      skullowner: '%player_name%'
-      name: '%player_displayname%'
-      lore:
-      - '%translations-money%: &c%player_balance%'
+      material: brain_coral
+      name: '&r'
     2:
-      material: air
+      material: brain_coral_fan
+      name: '&r'
     3:
-      material: air
+      material: brain_coral
+      name: '&r'
     4:
-      material: air
+      material: brain_coral_fan
+      name: '&r'
     5:
-      material: REDSTONE_TORCH
-      name: '&c&lToggle buying/selling'
-      action: TOGGLE_MODE
-      onlyEnableForGeyserPlayers: true
-    6:
-      material: air
-    7:
-      material: air
-    8:
-      material: air
-    9:
-      material: barrier
-      name: '%translations-back%'
+      material: REDSTONE
+      name: '&7Back'
       action: BACK
+    6:
+      material: brain_coral_fan
+      name: '&r'
+    7:
+      material: brain_coral
+      name: '&r'
+    8:
+      material: brain_coral_fan
+      name: '&r'
+    9:
+      material: brain_coral
+      name: '&r'
 
 # The navigation bar that appears in the buy/sell screens from the shop stands
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
@@ -509,37 +522,38 @@ sellgui-nav-bar:
   enabled: true
   items:
     1:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     2:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     3:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     4:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     5:
       material: NETHER_STAR
-      name: '&a&lSellGUI'
+      name: '&aSellGUI'
       lore:
-      - '&6Drop items in to sell'
-      - '&6upon closing, everything will be sold.'
-      - '&eItems that couldn''t be sold'
-      - '&ewill be given back to you.'
+      - '&7Drop items in to sell'
+      - '&7upon closing, everything will be sold.'
+      - ''
+      - '&7Items that couldn''t be sold'
+      - '&7will be given back to you.'
     6:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     7:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     8:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
     9:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: air
+      name: '&r'
 
 
 #---------------------------------------------ItemSettings----------------------------------------------
@@ -554,6 +568,16 @@ allow-lore-items: true
 # and will only be matched according the item type
 match-item-meta: true
 
+# Sort the shop items that match each other using a custom order in the list,
+# that way the highest/lowest priced item is prioritized when selling items via /sellall or /sellgui
+#
+# SHOP_LOAD_ORDER = Items will be loaded in the load order of the shop they are located in(Default)
+# DESCENDING_SELL_PRICE = Sort items from HIGH sell prices to LOW sell prices
+# ASCENDING_SELL_PRICE = Sort items from LOW sell prices to HIGH sell prices
+sort-items-by: SHOP_LOAD_ORDER
+# By default, when set to DESCENDING, items that match each other(or duplicate) are prioritized by the highest sell price when selling them
+# For example when having two similar apples in shop, one sold for 20$ and one sold for 5$, players will sell the apple with the highest price when sold via /sellall or /sellgui
+
 # Shop item lore is separated into 7 different 'parts' which can be changed in order.
 # The default order of lore is as follows:
 # 1. special-lore
@@ -566,12 +590,10 @@ match-item-meta: true
 # Use the list below to re-arrange it
 lore-arrangement:
 - 'special-lore'
-- 'item-requirements'
 - 'buy-prices'
 - 'sell-prices'
 - 'decoration-lore'
 - 'item-lore'
-- 'admin-lore'
 
 # Allows customization of display lore displayed on shop items.
 # Note that only pricing and decoration lore support multiple lines of lore,
@@ -595,7 +617,7 @@ display-lore-layout:
     normal:
     - '%translations-left-click-buy%'
     disabled:
-    - '%translations-item-cannot-be-bought%'
+    - ''
     undefined:
     - ''
     discounted:
@@ -607,7 +629,7 @@ display-lore-layout:
     normal:
     - '%translations-right-click-sell%'
     disabled:
-    - '%translations-item-cannot-be-sold%'
+    - ''
     undefined:
     - ''
     multiplied:
@@ -623,7 +645,7 @@ display-lore-layout:
   decoration-lore:
     # The following decoration lore is displayed on every shop item with a buy and/or sell price
     extra-lore:
-    - '%translations-decoration-lore%'
+    - '&f'
     # The following decoration lore is displayed on any shop item with a buy price
     extra-buy-lore:
     - '%translations-decoration-lore-buy%'
@@ -640,7 +662,7 @@ display-lore-layout:
     item-index: '%translations-item-location-in-shop%'
 
 # Enable/disable the lore on items given to players when an item is bought from shop
-bought-items-lore: true
+bought-items-lore: false
 
 # Allow enchants greater than the max level that Mojang has specified.
 allow-unsafe-enchants: true
@@ -670,7 +692,7 @@ shift-right-click-sell-all: true
 # For example:
 # When a tool/armor is damaged it cannot be sold to the server by default, if you add the 'Damage' tag to the list below. A damaged item can be sold to the shop
 sold-items-ignored-NBTtags:
-- 'repair_cost'
+- 'RepairCost'
 # The 'RepairCost' tag is added by default since all items that get repaired by anvil/mending will get it, if we don't add it to the ignored list, a item repaired will not be able to be sold to the server
 
 # Set the limit for maximum pages inside a shop section, default is 50 but you can expand it to 100 if needed
@@ -696,52 +718,49 @@ max-shop-pages: 50
 # Buy screen
 buy-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
       slot: 25
 
     7:
-      material: paper
+      material: PAPER
       name: '%translations-buy%'
       lore:
       - '%translations-transaction-screen-total-price%'
@@ -754,7 +773,7 @@ buy-screen:
       type: SELECTED_ITEM
 
     9:
-      material: chest
+      material: CHEST
       name: '%translations-buy-stacks%'
       slot: 31
       action: OPEN_BUY_STACKS
@@ -762,52 +781,49 @@ buy-screen:
 # Sell screen
 sell-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
       slot: 25
 
     7:
-      material: paper
+      material: PAPER
       name: '%translations-sell%'
       lore:
       - '%translations-transaction-screen-total-price%'
@@ -820,7 +836,7 @@ sell-screen:
       type: SELECTED_ITEM
 
     9:
-      material: emerald
+      material: EMERALD
       name: '%translations-sell-all%'
       slot: 31
       action: SELL_ALL
@@ -828,52 +844,49 @@ sell-screen:
 # Buy stacks screen
 buy-stacks-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
-      material: magenta_stained_glass
+      material: RED_DYE
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: magenta_stained_glass
+      material: RED_DYE
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: magenta_stained_glass
+      material: RED_DYE
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: light_blue_stained_glass
+      material: LIME_DYE
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: light_blue_stained_glass
+      material: LIME_DYE
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: light_blue_stained_glass
+      material: LIME_DYE
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
       slot: 25
 
     7:
-      material: paper
+      material: PAPER
       name: '%translations-buy%'
       lore:
       - '%translations-transaction-screen-total-price%'
@@ -1109,7 +1122,7 @@ season-price-modifiers:
 # Should shop items notify players when a seasonal price is present?
 # When this is enabled, shop items with a seasonal price will display so in there shop lore
 seasonal-lore:
-  enabled: true
+  enabled: false
   Summer:
     icon: '&e&l☀'
   Spring:
@@ -1123,23 +1136,33 @@ seasonal-lore:
 #-----------------------------------------------Discounts-----------------------------------------------
 
 # Enable or disable discounts inside the shop
-enable-discounts: false
+enable-discounts: true
 
 # Here you can set all discounts active inside the shop
 # Every entry is a shop section that holds the permission nodes with its discounts
 discounts:
   # Section blocks
   Blocks:
-    # Players with the permission node EconomyShopGUI.discounts.vip inside your permissions system will get 20% discount on every item inside this section.
-    vip: 20
-    # Players with the permission node EconomyShopGUI.discounts.gold inside your permissions system will get 5% discount on every item inside this section.
-    gold: 5
+    streamer: 50
+    celestial: 25
+  Brewing:
+    streamer: 50
+    celestial: 25
+  Colour:
+    streamer: 50
+    celestial: 25
+  Drops:
+    streamer: 50
+    celestial: 25
   Farming:
-    vip: 15
+    streamer: 50
+    celestial: 25
+  Misc:
+    streamer: 50
+    celestial: 25
   Redstone:
-    diamond: 30
-  all:
-    coal: 2.5
+    streamer: 50
+    celestial: 25
 # If a player has for example access to 2 permission discounts inside the same shop section, the discount with the highest value will be active
 
 
@@ -1265,7 +1288,7 @@ allow-spawner-type-change: false
 player-placed-spawners-drop-exp: false
 
 # This option defines whether the default spawner provider should be able to mine vanilla spawners aswell
-only-mine-plugin-spawners: false
+only-mine-plugin-spawners: true
 
 # Set the items that are allowed to break a spawner
 # If a spawner gets broken with another item then listed here, the spawner will not be given to the player
@@ -1276,12 +1299,19 @@ spawner-break-tools:
     enchantments:
     - 'SILK_TOUCH'
   2:
+    material: NETHERITE_PICKAXE
+    enchantments:
+    - 'SILK_TOUCH'
+  3:
     material: IRON_PICKAXE
     enchantments:
     - 'SILK_TOUCH'
-    - 'EFFICIENCY:2'
-  3:
-    material: NETHERITE_PICKAXE
+  4:
+    material: STONE_PICKAXE
+    enchantments:
+    - 'SILK_TOUCH'
+  5:
+    material: WOODEN_PICKAXE
     enchantments:
     - 'SILK_TOUCH'
 

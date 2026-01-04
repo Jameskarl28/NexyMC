@@ -1,0 +1,245 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui - Fish Shop
+# discord.gg/itsme-to
+#
+############################
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      # Cooked Fish
+      COOKED_COD:
+        material: COOKED_COD
+        displayname: "&eᴄᴏᴏᴋᴇᴅ ᴄᴏᴅ"
+        buy: 25.0
+        sell: 4.5
+      COOKED_SALMON:
+        material: COOKED_SALMON
+        displayname: "&eᴄᴏᴏᴋᴇᴅ sᴀʟᴍᴏɴ"
+        buy: 30.0
+        sell: 6.0
+      
+      # Fish Buckets
+      COD_BUCKET:
+        material: COD_BUCKET
+        displayname: "&eʙᴜᴄᴋᴇᴛ ᴏꜰ ᴄᴏᴅ"
+        buy: 3500.0
+        sell: -1
+      SALMON_BUCKET:
+        material: SALMON_BUCKET
+        displayname: "&eʙᴜᴄᴋᴇᴛ ᴏꜰ sᴀʟᴍᴏɴ"
+        buy: 3500.0
+        sell: -1
+      TROPICAL_FISH_BUCKET:
+        material: TROPICAL_FISH_BUCKET
+        displayname: "&eʙᴜᴄᴋᴇᴛ ᴏꜰ ᴛʀᴏᴘɪᴄᴀʟ ꜰɪsʜ"
+        buy: 3500.0
+        sell: -1
+      PUFFERFISH_BUCKET:
+        material: PUFFERFISH_BUCKET
+        displayname: "&eʙᴜᴄᴋᴇᴛ ᴏꜰ ᴘᴜꜰꜰᴇʀꜰɪsʜ"
+        buy: 3500.0
+        sell: -1
+      TADPOLE_BUCKET:
+        material: TADPOLE_BUCKET
+        displayname: "&eʙᴜᴄᴋᴇᴛ ᴏꜰ ᴛᴀᴅᴘᴏʟᴇ"
+        buy: 3500.0
+        sell: -1
+      
+      # Water-related Items
+      WATER_BUCKET:
+        material: WATER_BUCKET
+        displayname: "&eᴡᴀᴛᴇʀ ʙᴜᴄᴋᴇᴛ"
+        buy: 100.0
+        sell: -1
+      KELP:
+        material: KELP
+        displayname: "&eᴋᴇʟᴘ"
+        buy: 25.0
+        sell: -1.0
+      DRIED_KELP:
+        material: DRIED_KELP
+        displayname: "&eᴅʀɪᴇᴅ ᴋᴇʟᴘ"
+        buy: 30.0
+        sell: -1.0
+      SEA_PICKLE:
+        material: SEA_PICKLE
+        displayname: "&esᴇᴀ ᴘɪᴄᴋʟᴇ"
+        buy: 75.0
+        sell: -1.0
+      SEAGRASS:
+        material: SEAGRASS
+        displayname: "&esᴇᴀɢʀᴀss"
+        buy: 50.0
+        sell: -1.0
+      
+      # Coral Items
+      TUBE_CORAL:
+        material: TUBE_CORAL
+        displayname: "&eᴛᴜʙᴇ ᴄᴏʀᴀʟ"
+        buy: 550.0
+        sell: -1
+      BRAIN_CORAL:
+        material: BRAIN_CORAL
+        displayname: "&eʙʀᴀɪɴ ᴄᴏʀᴀʟ"
+        buy: 550.0
+        sell: -1
+      BUBBLE_CORAL:
+        material: BUBBLE_CORAL
+        displayname: "&eʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ"
+        buy: 550.0
+        sell: -1
+      FIRE_CORAL:
+        material: FIRE_CORAL
+        displayname: "&eꜰɪʀᴇ ᴄᴏʀᴀʟ"
+        buy: 550.0
+        sell: -1
+      HORN_CORAL:
+        material: HORN_CORAL
+        displayname: "&eʜᴏʀɴ ᴄᴏʀᴀʟ"
+        buy: 550.0
+        sell: -1
+      
+      # Coral Fans
+      TUBE_CORAL_FAN:
+        material: TUBE_CORAL_FAN
+        displayname: "&eᴛᴜʙᴇ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 120.0
+        sell: -1
+      BRAIN_CORAL_FAN:
+        material: BRAIN_CORAL_FAN
+        displayname: "&eʙʀᴀɪɴ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 120.0
+        sell: -1
+      BUBBLE_CORAL_FAN:
+        material: BUBBLE_CORAL_FAN
+        displayname: "&eʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 120.0
+        sell: -1
+      FIRE_CORAL_FAN:
+        material: FIRE_CORAL_FAN
+        displayname: "&eꜰɪʀᴇ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 120.0
+        sell: -1
+      HORN_CORAL_FAN:
+        material: HORN_CORAL_FAN
+        displayname: "&eʜᴏʀɴ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 120.0
+        sell: -1
+      
+      # Coral Blocks
+      TUBE_CORAL_BLOCK:
+        material: TUBE_CORAL_BLOCK
+        displayname: "&eᴛᴜʙᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 150.0
+        sell: -1
+      BRAIN_CORAL_BLOCK:
+        material: BRAIN_CORAL_BLOCK
+        displayname: "&eʙʀᴀɪɴ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 150.0
+        sell: -1
+      BUBBLE_CORAL_BLOCK:
+        material: BUBBLE_CORAL_BLOCK
+        displayname: "&eʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 150.0
+        sell: -1
+      FIRE_CORAL_BLOCK:
+        material: FIRE_CORAL_BLOCK
+        displayname: "&eꜰɪʀᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 150.0
+        sell: -1
+      HORN_CORAL_BLOCK:
+        material: HORN_CORAL_BLOCK
+        displayname: "&eʜᴏʀɴ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 150.0
+        sell: -1
+      
+      # Dead Coral Blocks
+      DEAD_TUBE_CORAL_BLOCK:
+        material: DEAD_TUBE_CORAL_BLOCK
+        displayname: "&eᴅᴇᴀᴅ ᴛᴜʙᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 350.0
+        sell: -1
+      DEAD_BRAIN_CORAL_BLOCK:
+        material: DEAD_BRAIN_CORAL_BLOCK
+        displayname: "&eᴅᴇᴀᴅ ʙʀᴀɪɴ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 350.0
+        sell: -1
+      DEAD_BUBBLE_CORAL_BLOCK:
+        material: DEAD_BUBBLE_CORAL_BLOCK
+        displayname: "&eᴅᴇᴀᴅ ʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 350.0
+        sell: -1
+      DEAD_FIRE_CORAL_BLOCK:
+        material: DEAD_FIRE_CORAL_BLOCK
+        displayname: "&eᴅᴇᴀᴅ ꜰɪʀᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 350.0
+        sell: -1
+      DEAD_HORN_CORAL_BLOCK:
+        material: DEAD_HORN_CORAL_BLOCK
+        displayname: "&eᴅᴇᴀᴅ ʜᴏʀɴ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ"
+        buy: 350.0
+        sell: -1
+      
+      # Dead Coral
+      DEAD_TUBE_CORAL:
+        material: DEAD_TUBE_CORAL
+        displayname: "&eᴅᴇᴀᴅ ᴛᴜʙᴇ ᴄᴏʀᴀʟ"
+        buy: 350.0
+        sell: -1
+      DEAD_BRAIN_CORAL:
+        material: DEAD_BRAIN_CORAL
+        displayname: "&eᴅᴇᴀᴅ ʙʀᴀɪɴ ᴄᴏʀᴀʟ"
+        buy: 350.0
+        sell: -1
+      DEAD_BUBBLE_CORAL:
+        material: DEAD_BUBBLE_CORAL
+        displayname: "&eᴅᴇᴀᴅ ʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ"
+        buy: 350.0
+        sell: -1
+      DEAD_FIRE_CORAL:
+        material: DEAD_FIRE_CORAL
+        displayname: "&eᴅᴇᴀᴅ ꜰɪʀᴇ ᴄᴏʀᴀʟ"
+        buy: 350.0
+        sell: -1
+      DEAD_HORN_CORAL:
+        material: DEAD_HORN_CORAL
+        displayname: "&eᴅᴇᴀᴅ ʜᴏʀɴ ᴄᴏʀᴀʟ"
+        buy: 350.0
+        sell: -1
+      
+      # Dead Coral Fans
+      DEAD_TUBE_CORAL_FAN:
+        material: DEAD_TUBE_CORAL_FAN
+        displayname: "&eᴅᴇᴀᴅ ᴛᴜʙᴇ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 350.0
+        sell: -1
+      DEAD_BRAIN_CORAL_FAN:
+        material: DEAD_BRAIN_CORAL_FAN
+        displayname: "&eᴅᴇᴀᴅ ʙʀᴀɪɴ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 350.0
+        sell: -1
+      DEAD_BUBBLE_CORAL_FAN:
+        material: DEAD_BUBBLE_CORAL_FAN
+        displayname: "&eᴅᴇᴀᴅ ʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 350.0
+        sell: -1
+      DEAD_FIRE_CORAL_FAN:
+        material: DEAD_FIRE_CORAL_FAN
+        displayname: "&eᴅᴇᴀᴅ ꜰɪʀᴇ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 350.0
+        sell: -1
+  page2:
+    gui-rows: 2
+    items:
+      DEAD_HORN_CORAL_FAN:
+        material: DEAD_HORN_CORAL_FAN
+        displayname: "&eᴅᴇᴀᴅ ʜᴏʀɴ ᴄᴏʀᴀʟ ꜰᴀɴ"
+        buy: 40.0
+        sell: -1
+      GLOW_INK_SAC:
+        material: GLOW_INK_SAC
+        displayname: "&eɢʟᴏᴡ ɪɴᴋ sᴀᴄ"
+        buy: 150.0
+        sell: 5.0

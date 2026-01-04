@@ -1,0 +1,73 @@
+#
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
+#
+
+name: '&0ᴄᴀᴛᴇɢᴏʀɪᴇs'
+size: 54
+
+patterns:
+  - "zauctionhouse_decoration"
+
+items:
+  back:
+    type: BACK
+    slot: 49
+    item:
+      mateiral: ARROW
+      name: "#ff0000ʙᴀᴄᴋ"
+  block:
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: blocks
+    item:
+      material: GRASS_BLOCK
+      name: '#FFC0CBʙʟᴏᴄᴋs'
+      lore:
+        - "#ADD8E6☆ &fClick to open"
+    slot: 20
+  weapons:
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: weapons
+    item:
+      material: DIAMOND_SWORD
+      name: '#FFC0CBᴡᴇᴀᴘᴏɴs'
+      lore:
+        - "#ADD8E6☆ &fClick to open"
+    slot: 21
+  tools:
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: tools
+    item:
+      material: IRON_AXE
+      name: '#FFC0CBᴛᴏᴏʟs'
+      lore:
+        - "#ADD8E6☆ &fClick to open"
+    slot: 22
+  potions:
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: potions
+    item:
+      material: BLAZE_ROD
+      name: '#FFC0CBᴘᴏᴛɪᴏɴs'
+      lore:
+        - "#ADD8E6☆ &fClick to open"
+    slot: 23
+  misc:
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: misc
+    item:
+      material: EXPERIENCE_BOTTLE
+      name: '#FFC0CBᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs'
+      lore:
+        - "#ADD8E6☆ &fClick to open"
+    slot: 24
+  armors:
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: armors
+    item:
+      material: DIAMOND_CHESTPLATE
+      name: '#FFC0CBᴀʀᴍᴏʀꜱ'
+      lore:
+        - "#ADD8E6☆ &fClick to open"
+    slot: 31

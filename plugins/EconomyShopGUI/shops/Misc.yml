@@ -1,0 +1,155 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# Balanced Buying/Selling Prices
+#
+############################
+pages:
+  page1:
+    gui-rows: 5
+    items:
+      CHEST:
+        material: CHEST
+        displayname: "&eᴄʜᴇsᴛ"
+        buy: 100.0
+        sell: -1
+      TRAPPED_CHEST:
+        material: CANDLE
+        displayname: "&eᴄᴀɴᴅʟᴇ"
+        buy: 50.0
+        sell: -1
+      BARREL:
+        material: BARREL
+        displayname: "&eʙᴀʀʀᴇʟ"
+        buy: 50.0
+        sell: -1
+      SLIME_BLOCK:
+        material: SLIME_BLOCK
+        displayname: "&esʟɪᴍᴇ ʙʟᴏᴄᴋ"
+        buy: 150.0
+        sell: -1
+      HONEY_BLOCK:
+        material: HONEY_BLOCK
+        displayname: "&eʜᴏɴᴇʏ ʙʟᴏᴄᴋ"
+        buy: 50.0
+        sell: -1
+      ENCHANTING_TABLE:
+        material: ENCHANTING_TABLE
+        displayname: "&eᴇɴᴄʜᴀɴᴛɪɴɢ ᴛᴀʙʟᴇ"
+        buy: 2500.0
+        sell: -1
+      BUCKET:
+        material: BUCKET
+        displayname: "&eʙᴜᴄᴋᴇᴛ"
+        buy: 50.0
+        sell: -1
+      WATER_BUCKET:
+        material: WATER_BUCKET
+        displayname: "&eᴡᴀᴛᴇʀ ʙᴜᴄᴋᴇᴛ"
+        buy: 100.0
+        sell: -1
+      LAVA_BUCKET:
+        material: LAVA_BUCKET
+        displayname: "&eʟᴀᴠᴀ ʙᴜᴄᴋᴇᴛ"
+        buy: 250.0
+        sell: -1
+      NOTE_BLOCK:
+        material: NOTE_BLOCK
+        displayname: "&eɴᴏᴛᴇ ʙʟᴏᴄᴋ"
+        buy: 100.0
+        sell: -1
+      CAMPFIRE:
+        material: CAMPFIRE
+        displayname: "&eᴄᴀᴍᴘꜰɪʀᴇ"
+        buy: 150.0
+        sell: -1
+      SOUL_CAMPFIRE:
+        material: SOUL_CAMPFIRE
+        displayname: "&eꜱᴏᴜʟ  ᴄᴀᴍᴘꜰɪʀᴇ"
+        buy: 150.0
+        sell: -1
+      BELL:
+        material: BELL
+        displayname: "&eʙᴇʟʟ"
+        buy: 100.0
+        sell: -1
+      LECTERN:
+        material: LECTERN
+        displayname: "&eʟᴇᴄᴛᴇʀɴ"
+        buy: 100.0
+        sell: -1
+      LOOM:
+        material: LOOM
+        displayname: "&eʟᴏᴏᴍ"
+        buy: 150.0
+        sell: -1
+      BLAST_FURNACE:
+        material: BLAST_FURNACE
+        displayname: "&eʙʟᴀsᴛ ꜰᴜʀɴᴀᴄᴇ"
+        buy: 250.0
+        sell: -1
+      SMITHING_TABLE:
+        material: SMITHING_TABLE
+        displayname: "&esᴍɪᴛʜɪɴɢ ᴛᴀʙʟᴇ"
+        buy: 300.0
+        sell: -1
+      CARTOGRAPHY_TABLE:
+        material: CARTOGRAPHY_TABLE
+        displayname: "&eᴄᴀʀᴛᴏɢʀᴀᴘʜʏ ᴛᴀʙʟᴇ"
+        buy: 250.0
+        sell: -1
+      FLETCHING_TABLE:
+        material: FLETCHING_TABLE
+        displayname: "&eꜰʟᴇᴛᴄʜɪɴɢ ᴛᴀʙʟᴇ"
+        buy: 250.0
+        sell: -1
+      FLOWER_POT:
+        material: FLOWER_POT
+        displayname: "&eꜰʟᴏᴡᴇʀ ᴘᴏᴛ"
+        buy: 100.0
+        sell: -1
+      BOOKSHELF:
+        material: BOOKSHELF
+        displayname: "&eʙᴏᴏᴋsʜᴇʟꜰ"
+        buy: 150.0
+        sell: -1
+      CHISELED_BOOKSHELF:
+        material: CHISELED_BOOKSHELF
+        displayname: "&eᴄʜɪsᴇʟᴇᴅ ʙᴏᴏᴋsʜᴇʟꜰ"
+        buy: 200.0
+        sell: -1
+      DECORATED_POT:
+        material: DECORATED_POT
+        displayname: "&eᴅᴇᴄᴏʀᴀᴛᴇᴅ ᴘᴏᴛ"
+        buy: 400.0
+        sell: -1
+      SCAFFOLDING:
+        material: SCAFFOLDING
+        displayname: "&eꜱᴄᴀꜰꜰᴏʟᴅɪɴɢ"
+        buy: 250.0
+        sell: -1
+      LANTERN:
+        material: LANTERN
+        displayname: "&eʟᴀɴᴛᴇʀɴ"
+        buy: 250.0
+        sell: -1
+      SOUL_LANTERN:
+        material: SOUL_LANTERN
+        displayname: "&eꜱᴏᴜʟ ʟᴀɴᴛᴇʀɴ"
+        buy: 260.0
+        sell: -1
+      COBWEB:
+        material: COBWEB
+        displayname: "&eᴄᴏʙᴡᴇʙ"
+        buy: 150.0
+        sell: -1
+      BUSH:
+        material: BUSH
+        displayname: "&eʙᴜꜱʜ"
+        buy: 250
+        sell: -1
+      FIREFLY_BUSH:
+        material: FIREFLY_BUSH
+        displayname: "&eꜰɪʀᴇꜰʟʏ ʙᴜꜱʜ"
+        buy: 1000
+        sell: -1

@@ -1,0 +1,16 @@
+#
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
+#
+
+name: "zauctionhouse_back" # Name of the pattern
+size: 54
+items:
+  playerHead:
+    isPermanent: true
+    type: BACK
+    item:
+      material: ARROW
+      name: "&cʙᴀᴄᴋ"
+    slot: 50

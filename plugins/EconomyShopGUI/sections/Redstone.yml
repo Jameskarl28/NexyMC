@@ -1,6 +1,12 @@
+# ###########################
+#
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+# ###########################
 enable: true
-slot: 25
-title: ''
+slot: 21
+title: ʀᴇᴅsᴛᴏɴᴇ
 hidden: false
 sub-section: false
 display-item: false
@@ -10,5 +16,14 @@ nav-bar:
   mode: INHERIT
 item:
   material: REDSTONE
-  displayname: '#FFC0CB&lRedstone'
-  name: '#FFC0CB&lRedstone'
+  lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ ᴘʀᴇᴠɪᴇᴡ'
+  - '#63e08e ▪ &fʜᴏᴘᴘᴇʀ'
+  - '#63e08e ▪ &fᴘɪsᴛᴏɴ'
+  - '#63e08e ▪ &fᴏʙsᴇʀᴠᴇʀ'
+  - '#63e08e ▪ &fʀᴇᴅsᴛᴏɴᴇ ʀᴇᴘᴇᴀᴛᴇʀ'
+  - '#63e08e ▪ &fᴅʀᴏᴘᴘᴇʀ'
+  - '#f48ce2 ▪ &fᴀɴᴅ 6 ᴍᴏʀᴇ...'
+  - ''
+  - '&7◆ #f48ce2ᴄʟɪᴄᴋ: &fᴏᴘᴇɴ'
+  name: '#63e08eʀᴇᴅsᴛᴏɴᴇ'

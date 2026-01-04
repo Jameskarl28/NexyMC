@@ -1,67 +1,180 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
 pages:
   page1:
+    gui-rows: 5
     items:
-      '1':
-        material: BAMBOO
-        buy: 10
-        sell: 7
-      '2':
-        material: BEETROOT
-        buy: 95
-        sell: 6.5
-      '3':
-        material: BROWN_MUSHROOM
-        buy: 15
-        sell: 0.5
-      '4':
-        material: CACTUS
-        buy: 60
-        sell: 8.5
-      '5':
-        material: CARROT
-        buy: 60
-        sell: 5.5
-      '6':
-        material: CHORUS_FRUIT
-        buy: 150
-        sell: 6
-      '7':
-        material: COCOA_BEANS
-        buy: 140
-        sell: 8
-      '8':
-        material: EGG
-        buy: 100
-        sell: 10
-      '9':
-        material: KELP
-        buy: 10
-        sell: 6
-      '10':
-        material: MELON
-        buy: 95
-        sell: 9
-      '11':
-        material: NETHER_WART
-        buy: 105
-        sell: 6
-      '12':
-        material: POTATO
-        buy: 50
-        sell: 3
-      '13':
-        material: PUMPKIN
-        buy: 50
-        sell: 10
-      '14':
-        material: RED_MUSHROOM
-        buy: 15
-        sell: 2
-      '15':
-        material: SUGAR_CANE
-        buy: 20
-        sell: 6.5
-      '16':
+      OAK_SAPLING:
+        material: OAK_SAPLING
+        displayname: "&eᴏᴀᴋ sᴀᴘʟɪɴɢ"
+        buy: 25.0
+        sell: 1.0
+      SPRUCE_SAPLING:
+        material: SPRUCE_SAPLING
+        displayname: "&esᴘʀᴜᴄᴇ sᴀᴘʟɪɴɢ"
+        buy: 25.0
+        sell: 1.0
+      BIRCH_SAPLING:
+        material: BIRCH_SAPLING
+        displayname: "&eʙɪʀᴄʜ sᴀᴘʟɪɴɢ"
+        buy: 25.0
+        sell: 1.0
+      DARK_OAK_SAPLING:
+        material: DARK_OAK_SAPLING
+        displayname: "&eᴅᴀʀᴋ ᴏᴀᴋ sᴀᴘʟɪɴɢ"
+        buy: 25.0
+        sell: 1.0
+      ACACIA_SAPLING:
+        material: ACACIA_SAPLING
+        displayname: "&eᴀᴄᴀᴄɪᴀ sᴀᴘʟɪɴɢ"
+        buy: 25.0
+        sell: 1.0
+      JUNGLE_SAPLING:
+        material: JUNGLE_SAPLING
+        displayname: "&eᴊᴜɴɢʟᴇ sᴀᴘʟɪɴɢ"
+        buy: 25.0
+        sell: 1.0
+      WHEAT:
         material: WHEAT
-        buy: 95
-        sell: 3
+        displayname: "&eᴡʜᴇᴀᴛ"
+        buy: 100.0
+        sell: 5.0
+      SUGAR_CANE:
+        material: SUGAR_CANE
+        displayname: "&esᴜɢᴀʀ ᴄᴀɴᴇ"
+        buy: 150.0
+        sell: 7.0
+      CARROT:
+        material: CARROT
+        displayname: "&eᴄᴀʀʀᴏᴛ"
+        buy: 200.0
+        sell: 8.0
+      POTATO:
+        material: POTATO
+        displayname: "&eᴘᴏᴛᴀᴛᴏ"
+        buy: 75.0
+        sell: 9.0
+      WHEAT_SEEDS:
+        material: WHEAT_SEEDS
+        displayname: "&eᴡʜᴇᴀᴛ sᴇᴇᴅs"
+        buy: 25.0
+        sell: 0.1
+      PUMPKIN_SEEDS:
+        material: PUMPKIN_SEEDS
+        displayname: "&eᴘᴜᴍᴘᴋɪɴ sᴇᴇᴅs"
+        buy: 25.0
+        sell: 1.0
+      MELON_SEEDS:
+        material: MELON_SEEDS
+        displayname: "&eᴍᴇʟᴏɴ sᴇᴇᴅs"
+        buy: 25.0
+        sell: 1.0
+      COCOA_BEANS:
+        material: COCOA_BEANS
+        displayname: "&eᴄᴏᴄᴏᴀ ʙᴇᴀɴs"
+        buy: 150.0
+        sell: 2.0
+      NETHER_WART:
+        material: NETHER_WART
+        displayname: "&eɴᴇᴛʜᴇʀ ᴡᴀʀᴛ"
+        buy: 250.0
+        sell: 20.0
+      TORCHFLOWER_SEEDS:
+        material: TORCHFLOWER_SEEDS
+        displayname: "&eᴛᴏʀᴄʜꜰʟᴏᴡᴇʀ sᴇᴇᴅs"
+        buy: 250.0
+        sell: 1.0
+      CACTUS:
+        material: CACTUS
+        displayname: "&eᴄᴀᴄᴛᴜs"
+        buy: 300.0
+        sell: 17.0
+      PUMPKIN:
+        material: PUMPKIN
+        displayname: "&eᴘᴜᴍᴘᴋɪɴ"
+        buy: 250.0
+        sell: 22.0
+      MELON:
+        material: MELON
+        displayname: "&eᴍᴇʟᴏɴ"
+        buy: 200.0
+        sell: 25
+      BAMBOO:
+        material: BAMBOO
+        displayname: "&eʙᴀᴍʙᴏᴏ"
+        buy: 100.0
+        sell: 1.5
+      BROWN_MUSHROOM:
+        material: BROWN_MUSHROOM
+        displayname: "&eʙʀᴏᴡɴ ᴍᴜsʜʀᴏᴏᴍ"
+        buy: 50.0
+        sell: 5.0
+      RED_MUSHROOM:
+        material: RED_MUSHROOM
+        displayname: "&eʀᴇᴅ ᴍᴜsʜʀᴏᴏᴍ"
+        buy: 50.0
+        sell: 5.0
+      MUTTON:
+        material: MUTTON
+        displayname: "&eʀᴀᴡ ᴍᴜᴛᴛᴏɴ"
+        buy: 25.0
+        sell: 1.0
+      BEEF:
+        material: BEEF
+        displayname: "&eʀᴀᴡ ʙᴇᴇꜰ"
+        buy: 25.0
+        sell: 1.5
+      PORKCHOP:
+        material: PORKCHOP
+        displayname: "&eʀᴀᴡ ᴘᴏʀᴋᴄʜᴏᴘ"
+        buy: 30.0
+        sell: 1.75
+      CHICKEN:
+        material: CHICKEN
+        displayname: "&eʀᴀᴡ ᴄʜɪᴄᴋᴇɴ"
+        buy: 20.0
+        sell: 1.0
+      RABBIT:
+        material: RABBIT
+        displayname: "&eʀᴀᴡ ʀᴀʙʙɪᴛ"
+        buy: 30.0
+        sell: 2.5
+      COOKED_MUTTON:
+        material: COOKED_MUTTON
+        displayname: "&eᴄᴏᴏᴋᴇᴅ ᴍᴜᴛᴛᴏɴ"
+        buy: 50.0
+        sell: 5.0
+      COOKED_BEEF:
+        material: COOKED_BEEF
+        displayname: "&esᴛᴇᴀᴋ"
+        buy: 45.0
+        sell: 6.0
+      COOKED_PORKCHOP:
+        material: COOKED_PORKCHOP
+        displayname: "&eᴄᴏᴏᴋᴇᴅ ᴘᴏʀᴋᴄʜᴏᴘ"
+        buy: 35.0
+        sell: 7.5
+      COOKED_RABBIT:
+        material: COOKED_RABBIT
+        displayname: "&eᴄᴏᴏᴋᴇᴅ ʀᴀʙʙɪᴛ"
+        buy: 50.0
+        sell: 7.5
+      COOKED_CHICKEN:
+        material: COOKED_CHICKEN
+        displayname: "&eᴄᴏᴏᴋᴇᴅ ᴄʜɪᴄᴋᴇɴ"
+        buy: 30.0
+        sell: 6.5
+      APPLE:
+        material: APPLE
+        displayname: "&eᴀᴘᴘʟᴇ"
+        buy: 50.0
+        sell: 12.0
+      CHORUS_FRUIT:
+        material: CHORUS_FRUIT
+        displayname: "&eᴄʜᴏʀᴜꜱ ꜰʀᴜɪᴛ"
+        buy: 10.0
+        sell: 1.0

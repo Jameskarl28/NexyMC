@@ -1,0 +1,43 @@
+#
+# Attention, this feature is only available with zMenu
+# https://www.spigotmc.org/resources/zmenu-ultra-complete-menu-plugin.110402/
+#
+
+name: '&0ᴘᴜʀᴄʜᴀsᴇ'  # Title of the menu, supports color codes and placeholders
+
+size: 54  # Size of the Minecraft inventory menu, must be a multiple of 9 (3 rows in this case)
+
+patterns:
+  - "zauctionhouse_decoration"
+
+items:
+
+  items:
+    type: ZAUCTIONHOUSE_SHOW_ITEMS
+    slots:
+      - 10-16
+      - 19-25
+      - 28-34
+      - 37-43
+
+  buy:
+    type: ZAUCTIONHOUSE_BUY_CONFIRM  # Type for the action of confirming a purchase
+    item:
+      material: LIME_CONCRETE  # Material used for the buy confirmation button
+      name: '&a✔ ᴘᴜʀᴄʜᴀsᴇ'  # No name specified for the item
+      lore:
+        - "&#FFC0CB☆ &fClick to purchase"
+    slot: 51
+
+  deny:
+    type: BACK  # A back button for navigation
+    item:
+      material: RED_CONCRETE  # Material used for the back button
+      name: "#c42323ʙᴀᴄᴋ"  # No name specified for the item
+      lore:
+        - "&#FFC0CB☆ &fClick to cancel"
+    slot: 47
+
+  show:
+    type: ZAUCTIONHOUSE_SHOW_BUY  # Type for showing the item being purchased
+    slot: 49  # The slot in the menu where this item will be displayed

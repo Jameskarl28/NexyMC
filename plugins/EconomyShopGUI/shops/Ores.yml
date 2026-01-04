@@ -1,36 +1,106 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
 pages:
   page1:
+    gui-rows: 4
     items:
-      '1':
-        material: AMETHYST_SHARD
-        sell: 25
-      '2':
+      COAL:
         material: COAL
+        displayname: "&eᴄᴏᴀʟ"
+        buy: -1.0
         sell: 2
-      '3':
-        material: COPPER_INGOT
-        sell: 4
-      '4':
-        material: DIAMOND
-        sell: 150
-      '5':
-        material: EMERALD
-        sell: 24
-      '6':
-        material: GOLD_INGOT
-        sell: 12
-      '7':
+      IRON_INGOT:
         material: IRON_INGOT
+        displayname: "&eɪʀᴏɴ ɪɴɢᴏᴛ"
+        buy: -1.0
         sell: 5
-      '8':
-        material: LAPIS_LAZULI
-        sell: 39
-      '9':
-        material: NETHERITE_INGOT
-        sell: 230
-      '10':
-        material: QUARTZ
-        sell: 2.07
-      '11':
+      GOLD_INGOT:
+        material: GOLD_INGOT
+        displayname: "&eɢᴏʟᴅ ɪɴɢᴏᴛ"
+        buy: -1.0
+        sell: 12
+      REDSTONE:
         material: REDSTONE
+        displayname: "&eʀᴇᴅsᴛᴏɴᴇ ᴅᴜsᴛ"
+        buy: -1.0
         sell: 20
+      LAPIS_LAZULI:
+        material: LAPIS_LAZULI
+        displayname: "&eʟᴀᴘɪs ʟᴀᴢᴜʟɪ"
+        buy: -1.0
+        sell: 39
+      DIAMOND:
+        material: DIAMOND
+        displayname: "&eᴅɪᴀᴍᴏɴᴅ"
+        buy: -1.0
+        sell: 150
+      EMERALD:
+        material: EMERALD
+        displayname: "&eᴇᴍᴇʀᴀʟᴅ"
+        buy: -1.0
+        sell: 24
+      NETHERITE_INGOT:
+        material: NETHERITE_INGOT
+        displayname: "&eɴᴇᴛʜᴇʀɪᴛᴇ ɪɴɢᴏᴛ"
+        buy: -1.0
+        sell: 230.0
+      COPPER_INGOT:
+        material: COPPER_INGOT
+        displayname: "&eᴄᴏᴘᴘᴇʀ ɪɴɢᴏᴛ"
+        buy: -1.0
+        sell: 4
+      AMETHYST_SHARD:
+        material: COPPER_INGOT
+        displayname: "&eᴀᴍᴇᴛʜʏꜱᴛ ꜱʜᴀʀᴅ"
+        buy: -1.0
+        sell: 25
+
+    #   COAL_BLOCK:
+    #     material: COAL_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ᴄᴏᴀʟ"
+    #     buy: -1.0
+    #     sell: 19.0
+    #   IRON_BLOCK:
+    #     material: IRON_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ɪʀᴏɴ"
+    #     buy: -1.0
+    #     sell: 28
+    #   GOLD_BLOCK:
+    #     material: GOLD_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ɢᴏʟᴅ"
+    #     buy: -1.0
+    #     sell: 46
+    #   REDSTONE_BLOCK:
+    #     material: REDSTONE_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ʀᴇᴅsᴛᴏɴᴇ"
+    #     buy: 1350.0
+    #     sell: 67.5
+    #   LAPIS_BLOCK:
+    #     material: LAPIS_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ʟᴀᴘɪs ʟᴀᴢᴜʟɪ"
+    #     buy: -1.0
+    #     sell: 46.0
+    #   DIAMOND_BLOCK:
+    #     material: DIAMOND_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ᴅɪᴀᴍᴏɴᴅ"
+    #     buy: -1.0
+    #     sell: 73
+    #   EMERALD_BLOCK:
+    #     material: EMERALD_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ᴇᴍᴇʀᴀʟᴅ"
+    #     buy: -1.0
+    #     sell: 64
+    #   NETHERITE_BLOCK:
+    #     material: NETHERITE_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ɴᴇᴛʜᴇʀɪᴛᴇ"
+    #     buy: -1.0
+    #     sell: 181
+    #   COPPER_BLOCK:
+    #     material: COPPER_BLOCK
+    #     displayname: "&eʙʟᴏᴄᴋ ᴏꜰ ᴄᴏᴘᴘᴇʀ"
+    #     buy: -1.0
+    #     sell: 22

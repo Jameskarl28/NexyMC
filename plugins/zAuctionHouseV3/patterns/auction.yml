@@ -1,0 +1,66 @@
+#
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
+#
+
+name: "zauctionhouse_auction" # Name of the pattern
+size: 54
+items:
+
+  playerItems:
+    type: INVENTORY
+    plugin: zAuctionHouseV3
+    inventory: items
+    slot: 51
+    isPermanent: true
+    item:
+      material: CHEST
+      name: "#FEBECAYour Items"
+      lore:
+        - "#D36A7E☆ &fClick to view the items you listed"
+
+  informations:
+    type: ZAUCTIONHOUSE_UPDATE
+    slot: 49
+    isPermanent: true
+    item:
+      material: ENDER_EYE
+      name: '#FEBECAAuction'
+      lore:
+        - "#D36A7E☆ &fClick to refresh"
+        
+  change-sort:
+    isPermanent: true
+    type: ZAUCTIONHOUSE_CHANGE_SORTING
+    sorting:
+      - sorting: DECREASING_PRICE
+        display: "Highest Price"
+      - sorting: ASCENDING_PRICE
+        display: "Lowest Price"
+      - sorting: DECREASING_DATE
+        display: "Last Listed"
+      - sorting: ASCENDING_DATE
+        display: "Recently Listed" 
+    enableText: '#FEBECA▪ %sorting%'
+    disableText: '&f▪ %sorting%'
+    slot: 48
+    item:
+      material: HOPPER
+      name: "#FEBECASort"
+      lore:
+        - "%DECREASING_PRICE%"
+        - "%ASCENDING_PRICE%"
+        - "%DECREASING_DATE%"
+        - "%ASCENDING_DATE%"
+        - ""
+        - "#D36A7E☆ &fClick to change"
+  search:
+      isPermanent: true
+      type: ZAUCTIONHOUSE_SEARCH_INPUT
+      slot: 50
+      item:
+        material: CHERRY_SIGN
+        name: '#FEBECASearch'
+        lore:
+          - '#D36A7E☆ &fClick to search'

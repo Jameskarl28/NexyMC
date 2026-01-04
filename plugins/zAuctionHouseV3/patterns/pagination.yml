@@ -1,0 +1,24 @@
+#
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
+#
+
+name: "zauctionhouse_pagination" # Name of the pattern
+size: 54
+items:
+  previous:
+    isPermanent: true
+    type: PREVIOUS
+    slot: 45
+    item:
+      material: ARROW
+      name: "&a&lᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ"
+
+  next:
+    isPermanent: true
+    type: NEXT
+    slot: 53
+    item:
+      material: ARROW
+      name: "&a&lɴᴇxᴛ ᴘᴀɢᴇ"

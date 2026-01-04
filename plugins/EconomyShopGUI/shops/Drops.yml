@@ -1,0 +1,60 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      BONE:
+        material: BONE
+        displayname: "&eʙᴏɴᴇ"
+        buy: 500.0
+        sell: 1.0
+      ARROW:
+        material: ARROW
+        displayname: "&eᴀʀʀᴏᴡ"
+        buy: 150.0
+        sell: 0.1
+      ROTTEN_FLESH:
+        material: ROTTEN_FLESH
+        displayname: "&eʀᴏᴛᴛᴇɴ ꜰʟᴇsʜ"
+        buy: 650.0
+        sell: 1.0
+      GUNPOWDER:
+        material: GUNPOWDER
+        displayname: "&eɢᴜɴᴘᴏᴡᴅᴇʀ"
+        buy: 100.0
+        sell: 5.0
+      BLAZE_ROD:
+        material: BLAZE_ROD
+        displayname: "&eʙʟᴀᴢᴇ ʀᴏᴅ"
+        buy: 250.0
+        sell: 1.0
+      STRING:
+        material: STRING
+        displayname: "&esᴛʀɪɴɢ"
+        buy: 250.0
+        sell: 1.0
+      SPIDER_EYE:
+        material: SPIDER_EYE
+        displayname: "&esᴘɪᴅᴇʀ ᴇʏᴇ"
+        buy: 550.0
+        sell: -1
+      FEATHER:
+        material: FEATHER
+        displayname: "&eꜰᴇᴀᴛʜᴇʀ"
+        buy: 40.0
+        sell: -1
+      LEATHER:
+        material: LEATHER
+        displayname: "&eʟᴇᴀᴛʜᴇʀ"
+        buy: 500.0
+        sell: -1
+      ENDER_PEARL:
+        material: ENDER_PEARL
+        displayname: "&eᴇɴᴅᴇʀ ᴘᴇᴀʀʟ"
+        buy: 1500.0
+        sell: -1.0

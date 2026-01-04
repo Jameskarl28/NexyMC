@@ -1,0 +1,95 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      BREWING_STAND:
+        material: BREWING_STAND
+        displayname: "&eʙʀᴇᴡɪɴɢ sᴛᴀɴᴅ"
+        buy: 100.0
+        sell: -1.0
+      CAULDRON:
+        material: CAULDRON
+        displayname: "&eᴄᴀᴜʟᴅʀᴏɴ"
+        buy: 250.0
+        sell: -1.0
+      GLASS_BOTTLE:
+        material: GLASS_BOTTLE
+        displayname: "&eɢʟᴀss ʙᴏᴛᴛʟᴇ"
+        buy: 50.0
+        sell: -1.0
+      SPIDER_EYE:
+        material: SPIDER_EYE
+        displayname: "&esᴘɪᴅᴇʀ ᴇʏᴇ"
+        buy: 550.0
+        sell: 1.0
+      RABBIT_FOOT:
+        material: RABBIT_FOOT
+        displayname: "&eʀᴀʙʙɪᴛ's ꜰᴏᴏᴛ"
+        buy: 25.0
+        sell: -1.0
+      PUFFERFISH:
+        material: PUFFERFISH
+        displayname: "&eᴘᴜꜰꜰᴇʀꜰɪsʜ"
+        buy: 50.0
+        sell: -1.0
+      PHANTOM_MEMBRANE:
+        material: PHANTOM_MEMBRANE
+        displayname: "&eᴘʜᴀɴᴛᴏᴍ ᴍᴇᴍʙʀᴀɴᴇ"
+        buy: 1500.0
+        sell: 10.0
+      GHAST_TEAR:
+        material: GHAST_TEAR
+        displayname: "&eɢʜᴀsᴛ ᴛᴇᴀʀ"
+        buy: 1500.0
+        sell: -1.0
+      BLAZE_POWDER:
+        material: BLAZE_POWDER
+        displayname: "&eʙʟᴀᴢᴇ ᴘᴏᴡᴅᴇʀ"
+        buy: 250.0
+        sell: 1.5
+      SUGAR:
+        material: SUGAR
+        displayname: "&esᴜɢᴀʀ"
+        buy: 200.0
+        sell: -1.0
+      GUNPOWDER:
+        material: GUNPOWDER
+        displayname: "&eɢᴜɴᴘᴏᴡᴅᴇʀ"
+        buy: 650.0
+        sell: 1.0
+      GLOWSTONE_DUST:
+        material: GLOWSTONE_DUST
+        displayname: "&eɢʟᴏᴡsᴛᴏɴᴇ ᴅᴜsᴛ"
+        buy: 30.0
+        sell: -1.0
+      NETHER_WART:
+        material: NETHER_WART
+        displayname: "&eɴᴇᴛʜᴇʀ ᴡᴀʀᴛ"
+        buy: 250.0
+        sell: 0.1
+      FERMENTED_SPIDER_EYE:
+        material: FERMENTED_SPIDER_EYE
+        displayname: "&eꜰᴇʀᴍᴇɴᴛᴇᴅ sᴘɪᴅᴇʀ ᴇʏᴇ"
+        buy: 550.0
+        sell: -1.0
+      MAGMA_CREAM:
+        material: MAGMA_CREAM
+        displayname: "&eᴍᴀɢᴍᴀ ᴄʀᴇᴀᴍ"
+        buy: 400.0
+        sell: -1.0
+      GLISTERING_MELON_SLICE:
+        material: GLISTERING_MELON_SLICE
+        displayname: "&eɢʟɪsᴛᴇʀɪɴɢ ᴍᴇʟᴏɴ sʟɪᴄᴇ"
+        buy: 750.0
+        sell: -1.0
+      GOLDEN_CARROT:
+        material: GOLDEN_CARROT
+        displayname: "&eɢᴏʟᴅᴇɴ ᴄᴀʀʀᴏᴛ"
+        buy: 700.0
+        sell: -1.0

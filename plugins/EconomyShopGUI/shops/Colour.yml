@@ -1,0 +1,413 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      WHITE_WOOL:
+        material: WHITE_WOOL
+        displayname: "&eᴡʜɪᴛᴇ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      LIGHT_GRAY_WOOL:
+        material: LIGHT_GRAY_WOOL
+        displayname: "&eʟɪɢʜᴛ ɢʀᴀʏ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      GRAY_WOOL:
+        material: GRAY_WOOL
+        displayname: "&eɢʀᴀʏ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      BLACK_WOOL:
+        material: BLACK_WOOL
+        displayname: "&eʙʟᴀᴄᴋ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      BROWN_WOOL:
+        material: BROWN_WOOL
+        displayname: "&eʙʀᴏᴡɴ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      RED_WOOL:
+        material: RED_WOOL
+        displayname: "&eʀᴇᴅ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      ORANGE_WOOL:
+        material: ORANGE_WOOL
+        displayname: "&eᴏʀᴀɴɢᴇ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      YELLOW_WOOL:
+        material: YELLOW_WOOL
+        displayname: "&eʏᴇʟʟᴏᴡ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      LIME_WOOL:
+        material: LIME_WOOL
+        displayname: "&eʟɪᴍᴇ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      GREEN_WOOL:
+        material: GREEN_WOOL
+        displayname: "&eɢʀᴇᴇɴ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      CYAN_WOOL:
+        material: CYAN_WOOL
+        displayname: "&eᴄʏᴀɴ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      LIGHT_BLUE_WOOL:
+        material: LIGHT_BLUE_WOOL
+        displayname: "&eʟɪɢʜᴛ ʙʟᴜᴇ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      BLUE_WOOL:
+        material: BLUE_WOOL
+        displayname: "&eʙʟᴜᴇ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      PURPLE_WOOL:
+        material: PURPLE_WOOL
+        displayname: "&eᴘᴜʀᴘʟᴇ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      MAGENTA_WOOL:
+        material: MAGENTA_WOOL
+        displayname: "&eᴍᴀɢᴇɴᴛᴀ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      PINK_WOOL:
+        material: PINK_WOOL
+        displayname: "&eᴘɪɴᴋ ᴡᴏᴏʟ"
+        buy: 25.0
+        sell: 0.5
+      WHITE_TERRACOTTA:
+        material: WHITE_TERRACOTTA
+        displayname: "&eᴡʜɪᴛᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      LIGHT_GRAY_TERRACOTTA:
+        material: LIGHT_GRAY_TERRACOTTA
+        displayname: "&eʟɪɢʜᴛ ɢʀᴀʏ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      GRAY_TERRACOTTA:
+        material: GRAY_TERRACOTTA
+        displayname: "&eɢʀᴀʏ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      BLACK_TERRACOTTA:
+        material: BLACK_TERRACOTTA
+        displayname: "&eʙʟᴀᴄᴋ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      BROWN_TERRACOTTA:
+        material: BROWN_TERRACOTTA
+        displayname: "&eʙʀᴏᴡɴ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      RED_TERRACOTTA:
+        material: RED_TERRACOTTA
+        displayname: "&eʀᴇᴅ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      ORANGE_TERRACOTTA:
+        material: ORANGE_TERRACOTTA
+        displayname: "&eᴏʀᴀɴɢᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      YELLOW_TERRACOTTA:
+        material: YELLOW_TERRACOTTA
+        displayname: "&eʏᴇʟʟᴏᴡ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      LIME_TERRACOTTA:
+        material: LIME_TERRACOTTA
+        displayname: "&eʟɪᴍᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      GREEN_TERRACOTTA:
+        material: GREEN_TERRACOTTA
+        displayname: "&eɢʀᴇᴇɴ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      CYAN_TERRACOTTA:
+        material: CYAN_TERRACOTTA
+        displayname: "&eᴄʏᴀɴ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      LIGHT_BLUE_TERRACOTTA:
+        material: LIGHT_BLUE_TERRACOTTA
+        displayname: "&eʟɪɢʜᴛ ʙʟᴜᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      BLUE_TERRACOTTA:
+        material: BLUE_TERRACOTTA
+        displayname: "&eʙʟᴜᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      PURPLE_TERRACOTTA:
+        material: PURPLE_TERRACOTTA
+        displayname: "&eᴘᴜʀᴘʟᴇ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      MAGENTA_TERRACOTTA:
+        material: MAGENTA_TERRACOTTA
+        displayname: "&eᴍᴀɢᴇɴᴛᴀ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      PINK_TERRACOTTA:
+        material: PINK_TERRACOTTA
+        displayname: "&eᴘɪɴᴋ ᴛᴇʀʀᴀᴄᴏᴛᴛᴀ"
+        buy: 25.0
+        sell: -1.0
+      WHITE_CONCRETE:
+        material: WHITE_CONCRETE
+        displayname: "&eᴡʜɪᴛᴇ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      LIGHT_GRAY_CONCRETE:
+        material: LIGHT_GRAY_CONCRETE
+        displayname: "&eʟɪɢʜᴛ ɢʀᴀʏ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      GRAY_CONCRETE:
+        material: GRAY_CONCRETE
+        displayname: "&eɢʀᴀʏ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      BLACK_CONCRETE:
+        material: BLACK_CONCRETE
+        displayname: "&eʙʟᴀᴄᴋ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      BROWN_CONCRETE:
+        material: BROWN_CONCRETE
+        displayname: "&eʙʀᴏᴡɴ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      RED_CONCRETE:
+        material: RED_CONCRETE
+        displayname: "&eʀᴇᴅ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      ORANGE_CONCRETE:
+        material: ORANGE_CONCRETE
+        displayname: "&eᴏʀᴀɴɢᴇ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      YELLOW_CONCRETE:
+        material: YELLOW_CONCRETE
+        displayname: "&eʏᴇʟʟᴏᴡ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      LIME_CONCRETE:
+        material: LIME_CONCRETE
+        displayname: "&eʟɪᴍᴇ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      GREEN_CONCRETE:
+        material: GREEN_CONCRETE
+        displayname: "&eɢʀᴇᴇɴ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      CYAN_CONCRETE:
+        material: CYAN_CONCRETE
+        displayname: "&eᴄʏᴀɴ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      LIGHT_BLUE_CONCRETE:
+        material: LIGHT_BLUE_CONCRETE
+        displayname: "&eʟɪɢʜᴛ ʙʟᴜᴇ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      BLUE_CONCRETE:
+        material: BLUE_CONCRETE
+        displayname: "&eʙʟᴜᴇ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+  page2:
+    gui-rows: 5
+    items:
+      PURPLE_CONCRETE:
+        material: PURPLE_CONCRETE
+        displayname: "&eᴘᴜʀᴘʟᴇ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      MAGENTA_CONCRETE:
+        material: MAGENTA_CONCRETE
+        displayname: "&eᴍᴀɢᴇɴᴛᴀ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      PINK_CONCRETE:
+        material: PINK_CONCRETE
+        displayname: "&eᴘɪɴᴋ ᴄᴏɴᴄʀᴇᴛᴇ"
+        buy: 25.0
+        sell: -1.0
+      WHITE_STAINED_GLASS:
+        material: WHITE_STAINED_GLASS
+        displayname: "&eᴡʜɪᴛᴇ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      LIGHT_GRAY_STAINED_GLASS:
+        material: LIGHT_GRAY_STAINED_GLASS
+        displayname: "&eʟɪɢʜᴛ ɢʀᴀʏ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      GRAY_STAINED_GLASS:
+        material: GRAY_STAINED_GLASS
+        displayname: "&eɢʀᴀʏ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      BLACK_STAINED_GLASS:
+        material: BLACK_STAINED_GLASS
+        displayname: "&eʙʟᴀᴄᴋ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      BROWN_STAINED_GLASS:
+        material: BROWN_STAINED_GLASS
+        displayname: "&eʙʀᴏᴡɴ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      RED_STAINED_GLASS:
+        material: RED_STAINED_GLASS
+        displayname: "&eʀᴇᴅ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      ORANGE_STAINED_GLASS:
+        material: ORANGE_STAINED_GLASS
+        displayname: "&eᴏʀᴀɴɢᴇ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      YELLOW_STAINED_GLASS:
+        material: YELLOW_STAINED_GLASS
+        displayname: "&eʏᴇʟʟᴏᴡ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      LIME_STAINED_GLASS:
+        material: LIME_STAINED_GLASS
+        displayname: "&eʟɪᴍᴇ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      GREEN_STAINED_GLASS:
+        material: GREEN_STAINED_GLASS
+        displayname: "&eɢʀᴇᴇɴ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      CYAN_STAINED_GLASS:
+        material: CYAN_STAINED_GLASS
+        displayname: "&eᴄʏᴀɴ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      LIGHT_BLUE_STAINED_GLASS:
+        material: LIGHT_BLUE_STAINED_GLASS
+        displayname: "&eʟɪɢʜᴛ ʙʟᴜᴇ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      BLUE_STAINED_GLASS:
+        material: BLUE_STAINED_GLASS
+        displayname: "&eʙʟᴜᴇ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      PURPLE_STAINED_GLASS:
+        material: PURPLE_STAINED_GLASS
+        displayname: "&eᴘᴜʀᴘʟᴇ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      MAGENTA_STAINED_GLASS:
+        material: MAGENTA_STAINED_GLASS
+        displayname: "&eᴍᴀɢᴇɴᴛᴀ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      PINK_STAINED_GLASS:
+        material: PINK_STAINED_GLASS
+        displayname: "&eᴘɪɴᴋ sᴛᴀɪɴᴇᴅ ɢʟᴀss"
+        buy: 25.0
+        sell: -1.0
+      WHITE_DYE:
+        material: WHITE_DYE
+        displayname: "&eᴡʜɪᴛᴇ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      LIGHT_GRAY_DYE:
+        material: LIGHT_GRAY_DYE
+        displayname: "&eʟɪɢʜᴛ ɢʀᴀʏ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      GRAY_DYE:
+        material: GRAY_DYE
+        displayname: "&eɢʀᴀʏ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      BLACK_DYE:
+        material: BLACK_DYE
+        displayname: "&eʙʟᴀᴄᴋ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      BROWN_DYE:
+        material: BROWN_DYE
+        displayname: "&eʙʀᴏᴡɴ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      RED_DYE:
+        material: RED_DYE
+        displayname: "&eʀᴇᴅ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      ORANGE_DYE:
+        material: ORANGE_DYE
+        displayname: "&eᴏʀᴀɴɢᴇ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      YELLOW_DYE:
+        material: YELLOW_DYE
+        displayname: "&eʏᴇʟʟᴏᴡ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      LIME_DYE:
+        material: LIME_DYE
+        displayname: "&eʟɪᴍᴇ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      GREEN_DYE:
+        material: GREEN_DYE
+        displayname: "&eɢʀᴇᴇɴ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      CYAN_DYE:
+        material: CYAN_DYE
+        displayname: "&eᴄʏᴀɴ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      LIGHT_BLUE_DYE:
+        material: LIGHT_BLUE_DYE
+        displayname: "&eʟɪɢʜᴛ ʙʟᴜᴇ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      BLUE_DYE:
+        material: BLUE_DYE
+        displayname: "&eʙʟᴜᴇ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      PURPLE_DYE:
+        material: PURPLE_DYE
+        displayname: "&eᴘᴜʀᴘʟᴇ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      MAGENTA_DYE:
+        material: MAGENTA_DYE
+        displayname: "&eᴍᴀɢᴇɴᴛᴀ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0
+      PINK_DYE:
+        material: PINK_DYE
+        displayname: "&eᴘɪɴᴋ ᴅʏᴇ"
+        buy: 50.0
+        sell: -1.0

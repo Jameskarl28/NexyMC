@@ -1,0 +1,57 @@
+#
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
+#
+
+name: '&0%zauctionhouse_category% &8(&f%page%&8/&f%maxPage%&8)'
+
+size: 54
+
+patterns:
+  - "zauctionhouse_decoration"
+  - "zauctionhouse_pagination"
+  - "zauctionhouse_auction"
+
+items:
+  auctionItems:
+    type: ZAUCTIONHOUSE_CATEGORY
+    isPermanent: true
+    slots:
+      - 10-16
+      - 19-25
+      - 28-34
+      - 37-43
+    else:
+      slots:
+        - 22
+      item:
+        material: BARRIER
+        name: '&c&nNo Items Found'
+
+  categories:
+    isPermanent: true
+    type: ZAUCTIONHOUSE_CATEGORIES_LORE
+    categories:
+      - 'home'
+      - 'blocks'
+      - 'armors'
+      - 'potions'
+      - 'tools'
+      - 'weapons'
+    enableText: '#FFC0CB▪ %category%'
+    disableText: '&f▪ %category%'
+    slot: 47
+    item:
+      material: CAULDRON
+      name: '#FFC0CBFilter'
+      lore:
+        - '&f▪ All'
+        - '%blocks%'
+        - '%armors%'
+        - '%potions%'
+        - '%tools%'
+        - '%weapons%'
+        - ''
+        - '#FFC0CB☆ &fClick to change'
+

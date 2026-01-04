@@ -1,6 +1,12 @@
+# ###########################
+#
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+# ###########################
 enable: true
-slot: 22
-title: ''
+slot: 14
+title: ꜰᴏᴏᴅ & ꜰᴀʀᴍɪɴɢ
 hidden: false
 sub-section: false
 display-item: false
@@ -9,6 +15,15 @@ fill-item:
 nav-bar:
   mode: INHERIT
 item:
-  material: WHEAT
-  displayname: '#FFC0CB&lFarming'
-  name: '#FFC0CB&lFarming'
+  material: CACTUS
+  lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ ᴘʀᴇᴠɪᴇᴡ'
+  - '#b5a3f4 ▪ &fᴏᴀᴋ sᴀᴘʟɪɴɢ'
+  - '#b5a3f4 ▪ &fᴘᴏᴛᴀᴛᴏ'
+  - '#b5a3f4 ▪ &fᴄᴀᴄᴛᴜs'
+  - '#b5a3f4 ▪ &fᴄᴏᴏᴋᴇᴅ ᴍᴜᴛᴛᴏɴ'
+  - '#b5a3f4 ▪ &fᴀᴘᴘʟᴇ'
+  - '#f48ce2 ▪ &fᴀɴᴅ 29 ᴍᴏʀᴇ...'
+  - ''
+  - '&7◆ #f48ce2ᴄʟɪᴄᴋ: &fᴏᴘᴇɴ'
+  name: '#b5a3f4ꜰᴏᴏᴅ & ꜰᴀʀᴍɪɴɢ'

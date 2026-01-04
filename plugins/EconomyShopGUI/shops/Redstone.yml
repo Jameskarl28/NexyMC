@@ -1,45 +1,60 @@
+############################
+# 
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+############################
 pages:
   page1:
+    gui-rows: 3
     items:
-      '1':
-        material: CAULDRON
-        buy: 1000
-      '2':
-        material: CRAFTER
-        buy: 15000
-      '3':
-        material: DAYLIGHT_DETECTOR
-        buy: 2000
-      '4':
-        material: DISPENSER
-        buy: 3100
-      '5':
+      DROPPER:
         material: DROPPER
-        buy: 3100
-      '6':
-        material: JUKEBOX
-        buy: 4100
-      '7':
-        material: NOTE_BLOCK
-        buy: 4600
-      '8':
+        displayname: "&eᴅʀᴏᴘᴘᴇʀ"
+        buy: 3100.0
+        sell: -1.0
+      DISPENSER:
+        material: DISPENSER
+        displayname: "&eᴅɪsᴘᴇɴsᴇʀ"
+        buy: 3100.0
+        sell: -1.0
+      OBSERVER:
         material: OBSERVER
-        buy: 3500
-      '9':
-        material: REDSTONE_LAMP
-        buy: 6500
-      '10':
-        material: TARGET
-        buy: 6000
-      '11':
-        material: COMPARATOR
-        buy: 7500
-      '12':
-        material: REPEATER
-        buy: 7500
-      '13':
+        displayname: "&eᴏʙsᴇʀᴠᴇʀ"
+        buy: 3500.0
+        sell: -1.0
+      PISTON:
         material: PISTON
-        buy: 8500
-      '14':
+        displayname: "&eᴘɪsᴛᴏɴ"
+        buy: 8500.0
+        sell: -1.0
+      STICKY_PISTON:
         material: STICKY_PISTON
-        buy: 9500
+        displayname: "&esᴛɪᴄᴋʏ ᴘɪsᴛᴏɴ"
+        buy: 9500.0
+        sell: -1.0
+      REDSTONE_LAMP:
+        material: REDSTONE_LAMP
+        displayname: "&eʀᴇᴅsᴛᴏɴᴇ ʟᴀᴍᴘ"
+        buy: 6500.0
+        sell: -1.0
+      REPEATER:
+        material: REPEATER
+        displayname: "&eʀᴇᴅsᴛᴏɴᴇ ʀᴇᴘᴇᴀᴛᴇʀ"
+        buy: 7500.0
+        sell: -1.0
+      COMPARATOR:
+        material: COMPARATOR
+        displayname: "&eʀᴇᴅsᴛᴏɴᴇ ᴄᴏᴍᴘᴀʀᴀᴛᴏʀ"
+        buy: 7500.0
+        sell: -1.0
+      CRAFTER:
+        material: CRAFTER
+        displayname: "&eᴄʀᴀꜰᴛᴇʀ"
+        buy: 15000
+        sell: -1
+      TARGET:
+        material: TARGET
+        displayname: "&eᴛᴀʀɢᴇᴛ"
+        buy: 6000
+        sell: -1

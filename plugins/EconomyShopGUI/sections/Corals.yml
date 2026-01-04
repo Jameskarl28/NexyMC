@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSME.TO - A configuration for EconomyShopGui
+# discord.gg/itsme-to
+#
+# ###########################
+enable: true
+slot: 25
+title: ᴄᴏʀᴀʟꜱ ᴀɴᴅ ꜰɪꜱʜᴇꜱ
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: TUBE_CORAL_BLOCK
+  lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ ᴘʀᴇᴠɪᴇᴡ'
+  - '#f48ce2 ▪ &fᴛᴜʙᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ'
+  - '#f48ce2 ▪ &fʙʀᴀɪɴ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ'
+  - '#f48ce2 ▪ &fʙᴜʙʙʟᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ'
+  - '#f48ce2 ▪ &fꜰɪʀᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ'
+  - '#f48ce2 ▪ &fʜᴏʀɴ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ'
+  - '#f48ce2 ▪ &fᴀɴᴅ 40 ᴍᴏʀᴇ...'
+  - ''
+  - '&7◆ #f48ce2ᴄʟɪᴄᴋ: &fᴏᴘᴇɴ'
+  name: '#f48ce2ᴄᴏʀᴀʟꜱ ᴀɴᴅ ꜰɪꜱʜᴇꜱ'
