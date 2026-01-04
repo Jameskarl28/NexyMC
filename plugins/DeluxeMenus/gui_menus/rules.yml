@@ -63,7 +63,7 @@ items:
     item_flags: [HIDE_ATTRIBUTES]
     lore:
     - '&fRefrain from using too many alt accounts.'
-    - '&fYou can only have 3 to 5 accounts.'
+    - '&fYou can only have 1 to 2 accounts.'
     - ''
     - '&7NOTE&8:&r &fStaff will first warn the players.'
     - ''
@@ -80,9 +80,9 @@ items:
     - ''
     - '&7NOTE&8:&r &fStaff will first warn the players.'
     - ''
-    - '&#FFC0CB- &71st Offense: 3-day Mute'
-    - '&#FFC0CB- &722d Offense: 5-day Mute'
-    - '&#FFC0CB- &73rd Offense: 30-day Mute'
+    - '&#FFC0CB- &71st Offense: 3-day Ban'
+    - '&#FFC0CB- &72nd Offense: 5-day Ban'
+    - '&#FFC0CB- &73rd Offense: 30-day Ban'
 
   'rule5':
     display_name: '&#FFC0CBPG-13'
@@ -96,7 +96,7 @@ items:
     - '&7NOTE&8:&r &fStaff will first warn the players.'
     - ''
     - '&#FFC0CB- &71st Offense: 3-day Mute'
-    - '&#FFC0CB- &722d Offense: 5-day Mute'
+    - '&#FFC0CB- &72nd Offense: 5-day Mute'
     - '&#FFC0CB- &73rd Offense: 30-day Mute'
     - '&#FFC0CB- &74th Offense: Permanent Ban'
 
@@ -126,7 +126,7 @@ items:
     - '&cFreeCam'
     - '&cFlying'
     - '&cAutoPlace'
-    - '&cMacros/Scripts'
+    - '&cPVP Macros/Scripts'
     - '&cSpeedBoost'
     - ''
     - '&2&lAllowed'

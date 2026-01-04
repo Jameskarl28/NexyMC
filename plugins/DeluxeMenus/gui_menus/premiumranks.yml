@@ -3,33 +3,12 @@ size: 9
 items:
   'outerfill':
     material: gray_stained_glass_pane
-    slots: [0,1,2,4,6,7,8]
+    slots: [0,1,2,3,5,6,7,8]
     display_name: ""
     lore: []
   '1':
     material: BLUE_CANDLE
-    slot: 3
-    display_name: "&#ADD8E6&lCe&#73BFD8&lle&#3AA7CA&lst&#008EBC&lia"
-    enchantments:
-    - DURABILITY;1 # or any other enchantmet / level
-    item_flags: [HIDE_ENCHANTS]
-    lore:
-      - "&f&l・&r &#FFC0CB/sethome: &#FFC0CB5"
-      - "&f&l・&r &#FFC0CB/hat"
-      - "&f&l・&r &#FFC0CB/anvil"
-      - "&f&l・&r &#FFC0CB/trash"
-      - "&f&l・&r &#FFC0CB/workbench"
-      - "&f&l・&r &#FFC0CBpw limit 3"
-      - "&f&l・&r &#FFC0CBJobs max limit 3"
-      - "&f&l・&r &#FFC0CB2 Mysticbloom Keys"
-      - "&f&l・&r &#FFC0CB2 Dreamlet Keys"
-      - ""
-      - "&f&l・&r &#FFC0CB₱99.00"
-      - "&#FFC0CBDuration&7: &#FFC0CB30 Days"
-      - ""
-  '2':
-    material: BLUE_CANDLE
-    slot: 5
+    slot: 4
     display_name: "&#FF5B78&lS&#FF6F89&le&#FF8399&lr&#FF98AA&la&#FFACBA&lp&#FFC0CB&lh"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
@@ -37,21 +16,34 @@ items:
     lore:
       - "&f&l・&r &#FFC0CB/sethome: &#FFC0CB7"
       - "&f&l・&r &#FFC0CB/nick [rgb-hex]"
+      - "&f&l・&r &#FFC0CB/hat"
+      - "&f&l・&r &#FFC0CB/afk"
       - "&f&l・&r &#FFC0CB/fly"
+      - "&f&l・&r &#FFC0CB/trash"
+      - "&f&l・&r &#FFC0CB/anvil"
+      - "&f&l・&r &#FFC0CB/workbench"
       - "&f&l・&r &#FFC0CB/cartography"
       - "&f&l・&r &#FFC0CB/grindstone"
       - "&f&l・&r &#FFC0CB/loom"
       - "&f&l・&r &#FFC0CB/near"
       - "&f&l・&r &#FFC0CB/ptime"
+      - "&f&l・&r &#FFC0CB/itemname"
+      - "&f&l・&r &#FFC0CB/chatcolor"
       - "&f&l・&r &#FFC0CB/pweather"
-      - "&f&l・&r &#FFC0CB/repair"
+      - "&f&l・&r &#FFC0CB/repair [all/hand]"
       - "&f&l・&r &#FFC0CB/smithingtable"
       - "&f&l・&r &#FFC0CB/stonecutter"
       - "&f&l・&r &#FFC0CB/size [normal/small]"
+      - "&f&l・&r &#FFC0CB/hiddenarmor toggle"
+      - "&f&l・&r &#FFC0CB/chatcolor (allcolors & all formats)"
+      - "&f&l・&r &#FFC0CB/eglow (all blinks, colors, & effects)"
+      - "&f&l・&r &#FFC0CB/pp (all effects & styles)"
+      - "&f&l・&r &#FFC0CBShift+Rightclick to open shulkerbox in air"
       - "&f&l・&r &#FFC0CBpw limit 5"
-      - "&f&l・&r &#FFC0CBJobs max limit 5"
+      - "&f&l・&r &#FFC0CBJobs max limit 10"
       - "&f&l・&r &#FFC0CB5 Mysticbloom Keys"
       - "&f&l・&r &#FFC0CB5 Dreamlet Keys"
+      - "&f&l・&r &#FFC0CBBypass full server"
       - ""
       - "&f&l・&r &#FFC0CB₱299.00"
       - "&#FFC0CBDuration&7: &#FFC0CB30 Days"

@@ -1,0 +1,85 @@
+size: 27
+menu_title: 'Enchanter'
+open_command:
+- mce
+register_command: true
+items:
+  exit:
+    material: BARRIER
+    slot: 4
+    display_name: "&cExit"
+    click_commands:
+      - '[close]'
+  simplecebook:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 11
+    display_name: "&f&lSimple Enchantment Book"
+    lore:
+    - '&cCost&7: &f400 &cEXP'
+    click_commands:
+      - '[meta] set name STRING &f&lSimple Enchantment Book'
+      - '[meta] set item STRING WHITE_STAINED_GLASS_PANE'
+      - '[meta] set group STRING SIMPLE'
+      - '[meta] set price INTEGER 400'
+      - '[openguimenu] buyenchanter'
+  uniquecebook:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 12
+    display_name: "&a&lUnique Enchantment Book"
+    lore:
+    - '&cCost&7: &f2,500 &cEXP'
+    click_commands:
+      - '[meta] set name STRING &a&lUnique Enchantment Book'
+      - '[meta] set item STRING LIME_STAINED_GLASS_PANE'
+      - '[meta] set group STRING UNIQUE'
+      - '[meta] set price INTEGER 800'
+      - '[openguimenu] buyenchanter'
+  elitecebook:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slot: 13
+    display_name: "&b&lElite Enchantment Book"
+    lore:
+    - '&cCost&7: &f2,500 &cEXP'
+    click_commands:
+      - '[meta] set name STRING &b&lElite Enchantment Book'
+      - '[meta] set item STRING LIGHT_BLUE_STAINED_GLASS_PANE'
+      - '[meta] set group STRING ELITE'
+      - '[meta] set price INTEGER 2500'
+      - '[openguimenu] buyenchanter'
+  ultimatecebook:
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 14
+    display_name: "&e&lUltimate Enchantment Book"
+    lore:
+    - '&cCost&7: &f5,000 &cEXP'
+    click_commands:
+      - '[meta] set name STRING &e&lUtimate Enchantment Book'
+      - '[meta] set item STRING YELLOW_STAINED_GLASS_PANE'
+      - '[meta] set group STRING ULTIMATE'
+      - '[meta] set price INTEGER 5000'
+      - '[openguimenu] buyenchanter'
+  legendarycebook:
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 15
+    display_name: "&6&lLegendary Enchantment Book"
+    lore:
+    - '&cCost&7: &f25,000 &cEXP'
+    click_commands:
+      - '[meta] set name STRING &6&lLegendary Enchantment Book'
+      - '[meta] set item STRING ORANGE_STAINED_GLASS_PANE'
+      - '[meta] set group STRING LEGENDARY'
+      - '[meta] set price INTEGER 25000'
+      - '[openguimenu] buyenchanter'
+  fabledcebook:
+    material: PINK_STAINED_GLASS_PANE
+    slot: 22
+    display_name: "&d&lFabled Enchantment Book"
+    lore:
+    - '&cCost&7: &f40,000 &cEXP'
+    click_commands:
+      - '[meta] set name STRING &d&lFabled Enchantment Book'
+      - '[meta] set item STRING PINK_STAINED_GLASS_PANE'
+      - '[meta] set group STRING FABLED'
+      - '[meta] set price INTEGER 40000'
+      - '[openguimenu] buyenchanter'
+sweet: true

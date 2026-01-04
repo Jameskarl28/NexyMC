@@ -1,0 +1,198 @@
+menu_title: '&8Purchase | Stars'
+size: 54
+open_command:
+- buystars
+register_command: true
+update_interval: 1
+items:
+  'BACKGROUND_FOOT':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - '0-53'
+  'CLOSE':
+    material: BARRIER
+    display_name: '&c&l❌ &cClose'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+    slot: 49
+  'STATS':
+    material: head-%player_name%
+    display_name: '&#d493e1%player_name%''s Statistics'
+    lore:
+    - ''
+    - '&#d493e1&lInformation'
+    - ' &8▪ &7Name: &f%player_name%'
+    - ' &8▪ &7Money: &f⛃%cmi_user_balance_formatted%'
+    - ''
+    slot: 4
+    update: true
+  '1':
+    material: PRISMARINE_CRYSTALS
+    amount: 16
+    item_flags:
+    - 'HIDE_ENCHANTS'
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&#d493e1☆10 Stars'
+    lore:
+    - ' &8▪ &7Price: &f⛃50k'
+    - ''
+    - '&#d493e1&l| &#d493e1ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        VAULT:
+          type: 'javascript'
+          expression: '%cmi_user_balance% >= 50000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#d493e1&lNexyMC &8&l┃ &7You don''t have enough balance to buy this!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] points give %player_name% 10'
+    - '[console] money take %player_name% 50000'
+    - '[message] &#d493e1&lNexyMC &8&l┃ &7You''ve successfully purchased &f☆10 &7Stars!'
+    slot: 11
+  '2':
+    material: PRISMARINE_CRYSTALS
+    amount: 32
+    item_flags:
+    - 'HIDE_ENCHANTS'
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&#d493e1☆100 Stars'
+    lore:
+    - '&8(+10 Bonus)'
+    - ' &8▪ &7Price: &f⛃800k'
+    - ''
+    - '&#d493e1&l| &#d493e1ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        VAULT:
+          type: 'javascript'
+          expression: '%cmi_user_balance% >= 800000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#d493e1&lNexyMC &8&l┃ &7You don''t have enough balance to buy this!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] points give %player_name% 110'
+    - '[console] money take %player_name% 800000'
+    - '[message] &#d493e1&lNexyMC &8&l┃ &7You''ve successfully purchased &f☆110 &7Stars!'
+    slot: 13
+  '3':
+    material: PRISMARINE_CRYSTALS
+    amount: 64
+    item_flags:
+    - 'HIDE_ENCHANTS'
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&#d493e1☆500 Stars'
+    lore:
+    - '&8(+50 Bonus)'
+    - ' &8▪ &7Price: &f⛃2.80m'
+    - ''
+    - '&#d493e1&l| &#d493e1ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requurements:
+      requirements:
+        VAULT:
+          type: 'javascript'
+          expression: '%cmi_user_balance% >= 2800000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#d493e1&lNexyMC &8&l┃ &7You don''t have enough balance to buy this!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] points give %player_name% 550'
+    - '[console] money take %player_name% 2800000'
+    - '[message] &#d493e1&lNexyMC &8&l┃ &7You''ve successfully purchased &f☆550 &7Stars!'
+    slot: 15
+  '4':
+    material: SEA_LANTERN
+    amount: 16
+    item_flags:
+    - 'HIDE_ENCHANTS'
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&#d493e1☆1,000 Stars'
+    lore:
+    - '&8(+200 Bonus)'
+    - ' &8▪ &7Price: &f⛃8.5m'
+    - ''
+    - '&#d493e1&l| &#d493e1ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        VAULT:
+          type: 'javascript'
+          expression: '%cmi_user_balance% >= 8500000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#d493e1&lNexyMC &8&l┃ &7You don''t have enough balance to buy this!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] points give %player_name% 1200'
+    - '[console] money take %player_name% 8500000'
+    - '[message] &#d493e1&lNexyMC &8&l┃ &7You''ve successfully purchased &f☆1,200 &7Stars!'
+    slot: 29
+  '5':
+    material: SEA_LANTERN
+    amount: 32
+    item_flags:
+    - 'HIDE_ENCHANTS'
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&#d493e1☆2,000 Stars'
+    lore:
+    - '&8(+500 Bonus)'
+    - ' &8▪ &7Price: &f⛃15m'
+    - ''
+    - '&#d493e1&l| &#d493e1ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        VAULT:
+          type: 'javascript'
+          expression: '%cmi_user_balance% >= 15000000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#d493e1&lNexyMC &8&l┃ &7You don''t have enough balance to buy this!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] points give %player_name% 2500'
+    - '[console] money take %player_name% 15000000'
+    - '[message] &#d493e1&lNexyMC &8&l┃ &7You''ve successfully purchased &f☆2,500 &7Stars!'
+    slot: 31
+  '6':
+    material: SEA_LANTERN
+    amount: 64
+    item_flags:
+    - 'HIDE_ENCHANTS'
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&#d493e1☆5,000 Stars'
+    lore:
+    - '&8(+1,000 Bonus)'
+    - ' &8▪ &7Price: &f⛃30m'
+    - ''
+    - '&#d493e1&l| &#d493e1ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        VAULT:
+          type: 'javascript'
+          expression: '%cmi_user_balance% >= 30000000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#d493e1&lNexyMC &8&l┃ &7You don''t have enough balance to buy this!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[console] points give %player_name% 6000'
+    - '[console] money take %player_name% 30000000'
+    - '[message] &#d493e1&lNexyMC &8&l┃ &7You''ve successfully purchased &f☆6,000 &7Stars!'
+    slot: 33

@@ -1,0 +1,709 @@
+menu_title: '&fCustom Enchant Items'
+size: 54
+open_command:
+- ceitems
+register_command: true
+update_interval: 1
+items:
+    
+  '1Black_Scroll':
+    material: ENCHANTED_BOOK
+    #model_data: 10242
+    slot: 10  
+    display_name: '&f&lBLACK SCROLL'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆120'
+      - ''
+      - '&7Removes a random enchantment'
+      - '&7from an item and converts'
+      - '&7it into 100% success book.'
+      - '&fPlace scroll onto item to extract'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 120'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 120'
+      - '[console] ae giveitem %player_name% blackscroll 1 100'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      
+      
+  '2MobTrak_Creator':
+    material: ENCHANTED_BOOK
+    #model_data: 10246
+    slot: 11
+    display_name: '&3&lMobTrak Creator'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆100'
+      - ''
+      - '&7Track how many mob kills'
+      - '&7you have with a weapon'
+      - '&fDrag ontop of another item to apply it.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 100'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 100'
+      - '[console] ae giveitem %player_name% mobtrak 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+  '3BlockTrak_Creator':
+    material: ENCHANTED_BOOK
+    #model_data: 10246
+    slot: 12
+    display_name: '&a&lBlockTrak Creator'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆100'
+      - ''
+      - '&7Track how many blocks'
+      - '&7you break with a tool'
+      - '&fDrag ontop of another item to apply it.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 100'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 100'
+      - '[console] ae giveitem %player_name% blocktrak 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+
+  '4Holy_White_Scroll':
+    material: ENCHANTED_BOOK
+    #model_data: 10250
+    slot: 31
+    display_name: '&6&lHoly White Scroll'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆350'
+      - ''
+      - '&eA legendary reward that can be'
+      - '&eapplied to armor/weapons,'
+      - '&egives a &l100% chance &r&eof not losing'
+      - '&ethe blessed item on death'
+      - '&fDrag ontop of another item to apply it.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 350'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 350'
+      - '[console] ae giveitem %player_name% holywhitescroll 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      
+      
+  '5White_Scroll':
+    material: ENCHANTED_BOOK
+    #model_data: 10241
+    slot: 30
+    display_name: '&f&lWhite Scroll'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆200'
+      - ''
+      - '&fPrevent an item from being destroyed'
+      - '&fdue to a failed Enchantment Book'
+      - '&ePlace scroll on item to apply.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 200'
+      - '[console] ae giveitem %player_name% whitescroll 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+
+  '6StatTrak_Creator':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 15
+    display_name: '&e&lStatTrak Creator'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆100'
+      - ''
+      - '&7Track how many kills you have with a weapon'
+      - '&fDrag ontop of another item to apply it.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 100'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 100'
+      - '[console] ae giveitem %player_name% stattrak 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+
+  '7Transmog_Scroll':
+    material: ENCHANTED_BOOK
+    #model_data: 10251
+    slot: 16
+    display_name: '&c&lTransmog Scroll'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆100'
+      - ''
+      - '&7Organizes enchants by &e&nrarity&r &7on item.'
+      - '&7and adds the &dlore &bcount&r &7to name.'
+      - '&ePlace scroll on item to apply.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 100'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 100'
+      - '[console] ae giveitem %player_name% transmog 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+
+
+  '8Armor_Enchantment_Orb':
+    material: ENCHANTED_BOOK
+    #model_data: 10240
+    slot: 19
+    display_name: '&6&lArmor Enchantment Orb &6[&a&n10&6]'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆200'
+      - ''
+      - '&a100% Success Rate'
+      - ''
+      - '&6+1 Enchantment slots'
+      - '&610 Max Enchantment Slot'
+      - ''
+      - '&ePlace scroll on item to apply.'
+      - '&eIncreases the # of enchantment'
+      - '&eslots on a piece of armor by 1,'
+      - '&eup to a maximum of 10'
+      - '&7Drag n'' Drop onto an item to apply.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 200'
+      - '[console] ae giveitem %player_name% orb 1 ARMOR 10 100'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+  '9Tools_Enchantment_Orb':
+    material: ENCHANTED_BOOK
+    #model_data: 10238
+    slot: 20
+    display_name: '&6&lTool Enchantment Orb &6[&a&n10&6]'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆200'
+      - ''
+      - '&a100% Success Rate'
+      - ''
+      - '&6+1 Enchantment slots'
+      - '&610 Max Enchantment Slot'
+      - ''
+      - '&ePlace scroll on item to apply.'
+      - '&eIncreases the # of enchantment'
+      - '&eslots on a tool by 1,'
+      - '&eup to a maximum of 5'
+      - '&7Drag n'' Drop onto an item to apply.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 200'
+      - '[console] ae giveitem %player_name% orb 1 TOOL 10 100'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+  '10Weapon_Enchantment_Orb':
+    material: ENCHANTED_BOOK
+    #model_data: 10239
+    slot: 21
+    display_name: '&6&lWeapon Enchantment Orb &6[&a&n10&6]'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆200'
+      - ''
+      - '&a100% Success Rate'
+      - ''
+      - '&6+1 Enchantment slots'
+      - '&610 Max Enchantment Slot'
+      - ''
+      - '&ePlace scroll on item to apply.'
+      - '&eIncreases the # of enchantment'
+      - '&eslots on a weapon by 1,'
+      - '&eup to a maximum of 5'
+      - '&7Drag n'' Drop onto an item to apply.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 200'
+      - '[console] ae giveitem %player_name% orb 1 WEAPON 10 100'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '11Simple_Slot_Increaser':
+    material: ENCHANTED_BOOK
+    #model_data: 10245
+    slot: 22
+    display_name: '&7&lSimple Slot Increaser'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆300'
+      - ''
+      - '&7Increase slots limit on an item by &a+1'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 300'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 300'
+      - '[console] ae giveitem %player_name% slotincreaser 1 SIMPLE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '12Unique_Slot_Increaser':
+    material: ENCHANTED_BOOK
+    #model_data: 10245
+    slot: 23
+    display_name: '&a&lUnique Slot Increaser'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆350'
+      - ''
+      - '&7Increase slots limit on an item by &a+1'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 350'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 350'
+      - '[console] ae giveitem %player_name% slotincreaser 1 UNIQUE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+  '13Elite_Slot_Increaser':
+    material: ENCHANTED_BOOK
+    #model_data: 10245
+    slot: 24
+    display_name: '&b&lElite Slot Increaser'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆400'
+      - ''
+      - '&7Increase slots limit on an item by &a+1'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 400'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 400'
+      - '[console] ae giveitem %player_name% slotincreaser 1 ELITE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '14Ultimate_Slot_Increaser':
+    material: ENCHANTED_BOOK
+    #model_data: 10245
+    slot: 25
+    display_name: '&e&lUltimate Slot Increaser'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆450'
+      - ''
+      - '&7Increase slots limit on an item by &a+1'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 450'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 450'
+      - '[console] ae giveitem %player_name% slotincreaser 1 ULTIMATE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '15Legendary_Slot_Increaser':
+    material: ENCHANTED_BOOK
+    #model_data: 10245
+    slot: 28
+    display_name: '&6&lLegendary Slot Increaser'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆500'
+      - ''
+      - '&7Increase slots limit on an item by &a+1'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 500'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 500'
+      - '[console] ae giveitem %player_name% slotincreaser 1 LEGENDARY'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '16Fabled_Slot_Increaser':
+    material: ENCHANTED_BOOK
+    #model_data: 10245
+    slot: 29
+    display_name: '&d&lFabled Slot Increaser'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆550'
+      - ''
+      - '&7Increase slots limit on an item by &a+1'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 550'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 550'
+      - '[console] ae giveitem %player_name% slotincreaser 1 FABLED'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '17Soul_Tracker':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 13
+    display_name: '&f&lSoul Tracker'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆200'
+      - ''
+      - '&7Apply to weapons to start tracking'
+      - '&7souls collected from kills.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 200'
+      - '[console] ae giveitem %player_name% soultracker 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '18Fish_Trak_Creator':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 14
+    display_name: '&b&lFishTrak Creator'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆200'
+      - ''
+      - '&7Track how many fish you catch with a fishing rod'
+      - '&7Drag ontop of a fishing rod to apply it.'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 200'
+      - '[console] ae giveitem %player_name% fishtrak 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '19Simple_Magic_Dust':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 32
+    display_name: '&7&lSimple Magic Dust'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆5'
+      - ''
+      - '&7Apply to any Simple Enchanted Book'
+      - '&7To increase its success.'
+      - ''
+      - '&c&lNOTE: RANDOM PERCENTAGE'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 5'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 5'
+      - '[console] ae giveitem %player_name% magic 1 SIMPLE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '20Unique_Magic_Dust':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 33
+    display_name: '&a&lUnique Magic Dust'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆10'
+      - ''
+      - '&7Apply to any &aUnique &7Enchanted Book'
+      - '&7To increase its success.'
+      - ''
+      - '&c&lNOTE: RANDOM PERCENTAGE'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 10'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 10'
+      - '[console] ae giveitem %player_name% magic 1 UNIQUE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '21Elite_Magic_Dust':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 34
+    display_name: '&b&lElite Magic Dust'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆15'
+      - ''
+      - '&7Apply to any &bElite &7Enchanted Book'
+      - '&7To increase its success.'
+      - ''
+      - '&c&lNOTE: RANDOM PERCENTAGE'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 15'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 15'
+      - '[console] ae giveitem %player_name% magic 1 ELITE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '22Ultimate_Magic_Dust':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 37
+    display_name: '&e&lUltimate Magic Dust'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆20'
+      - ''
+      - '&7Apply to any &eUltimate &7Enchanted Book'
+      - '&7To increase its success.'
+      - ''
+      - '&c&lNOTE: RANDOM PERCENTAGE'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 20'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 20'
+      - '[console] ae giveitem %player_name% magic 1 ULTIMATE'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '23Legendary_Magic_Dust':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 38
+    display_name: '&6&lLegendary Magic Dust'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆25'
+      - ''
+      - '&7Apply to any &6Legendary &7Enchanted Book'
+      - '&7To increase its success.'
+      - ''
+      - '&c&lNOTE: RANDOM PERCENTAGE'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 25'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 25'
+      - '[console] ae giveitem %player_name% magic 1 LEGENDARY'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  '24Fabled_Magic_Dust':
+    material: ENCHANTED_BOOK
+    #model_data: 10248
+    slot: 39
+    display_name: '&d&lFabled Magic Dust'
+    lore:
+      - ''
+      - ' &8▪ &7Price: &f☆30'
+      - ''
+      - '&7Apply to any &dFabled &7Enchanted Book'
+      - '&7To increase its success.'
+      - ''
+      - '&c&lNOTE: RANDOM PERCENTAGE'
+      - ''
+      - '&7&l| &7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 30'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#FFC919&lStars &8&l┃ &7You don''t have enough stars to buy this!'
+    click_commands:
+      - '[refresh]'
+      - '[console] points take %player_name% 30'
+      - '[console] ae giveitem %player_name% magic 1 FABLED'
+      - '[sound] ENTITY_PLAYER_LEVELUP'

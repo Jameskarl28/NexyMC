@@ -1,5 +1,5 @@
 menu_title: '&#00fbffʀ&#08e4ffᴀ&#0fcdffɴ&#17b6ffᴋ &#1fa0ffᴘ&#2689ffᴇ&#2e72ffʀ&#355bffᴋ&#3d44ffꜱ'
-size: 18
+size: 45
 items:
   'outerfill':
     material: gray_stained_glass_pane
@@ -8,175 +8,390 @@ items:
     lore: []
   '1':
     material: PINK_CANDLE
-    slot: 0
-    display_name: "&#FFC0CB&lS&#FFC0CB&lp&#FFC0CB&lr&#FFC0CB&li&#FFC0CB&ln&#FFC0CB&lk&#FFAAC5&ll&#FF95C0&le &#FF69B4&lI"
+    slot: 9
+    display_name: "&#FFC0CB&lS&#FFC0CB&lp&#FFC0CB&lr&#FFC0CB&li&#FFC0CB&ln&#FFC0CB&lk&#FFAAC5&ll&#FF95C0&le &#FF69B4&lI &7(#1)"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
-    item_flags: [HIDE_ATTRIBUTES]
     lore:
-      - "&f➠ 2 sethomes"
-      - "&f➠ Catch Custom Fish in PyroFishing"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &f2 Homes"
+      - "&#FFC0CB➠ &fPyroFishing Fishing Access"
+      - "&#FFC0CB➠ &fChatGames Participation"
+      - "&#FFC0CB➠ &feGlow &7(Red)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - "&#FFC0CB| &f50 MINS Playtime"
+      - "&#FFC0CB| &f5,000 Money"
+      - "&#FFC0CB| &fBreak 50 Stone"
+      - "&#FFC0CB| &fBreak 30 Dirts"
+      - "&#FFC0CB| &fKill 10 Zombie"
+      - "&#FFC0CB| &fKill 10 Skeleton"
+      - "&#FFC0CB| &bhusbandry/plant_seed advancement"
   '2':
     material: PINK_CANDLE
-    slot: 1
-    display_name: "&#FFC0CB&lS&#FFC0CB&lp&#FFC0CB&lr&#FFC0CB&li&#FFC0CB&ln&#FFC0CB&lk&#FFAAC5&ll&#FF95C0&le &#FF69B4&lII"
+    slot: 18
+    display_name: "&#FFC0CB&lS&#FFC0CB&lp&#FFC0CB&lr&#FFC0CB&li&#FFC0CB&ln&#FFC0CB&lk&#FFAAC5&ll&#FF95C0&le &#FF69B4&lII &7(#2)"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /anvil"
-      - "&f➠ 10 Chest shop creation"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fAnvil &7(/anvil)"
+      - "&#FFC0CB➠ &f10 ChestShop"
+      - "&#FFC0CB➠ &feGlow &7(Dark Red)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f100 MINS Playtime'
+      - '&#FFC0CB| &f15,000 Money'
+      - '&#FFC0CB| &fBreak 30 Iron Ore'
+      - '&#FFC0CB| &fBreak 30 Coal Ore'
+      - '&#FFC0CB| &fKill 15 Creeper'
+      - '&#FFC0CB| &fKill 15 Spider'
   '3':
     material: PINK_CANDLE
-    slot: 2
-    display_name: "&#FFC0CB&lS&#FFC0CB&lp&#FFC0CB&lr&#FFC0CB&li&#FFC0CB&ln&#FFC0CB&lk&#FFAAC5&ll&#FF95C0&le &#FF69B4&lIII"
+    slot: 27
+    display_name: "&#FFC0CB&lS&#FFC0CB&lp&#FFC0CB&lr&#FFC0CB&li&#FFC0CB&ln&#FFC0CB&lk&#FFAAC5&ll&#FF95C0&le &#FF69B4&lIII &7(#3)"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /clear"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fClear Inventory &7(/clear)"
+      - "&#FFC0CB➠ &f2 Jobs"
+      - "&#FFC0CB➠ &eGlow &7(Gold)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f250 MINS Playtime'
+      - '&#FFC0CB| &f35,000 Money'
+      - '&#FFC0CB| &fBreak 30 Gold Ore'
+      - '&#FFC0CB| &fBreak 30 Lapis Ore'
+      - '&#FFC0CB| &fKill 10 Phantom'
+      - '&#FFC0CB| &fKill 10 Glow Squid'
   '4':
     material: PINK_CANDLE
-    slot: 3
+    slot: 28
     display_name: "&#B0E0E6&lP&#B0E0E6&lu&#B0E0E6&lf&#B0E0E6&lf&#A2DAED&ly &#87CEFA&lI"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ 3 sethomes"
-      - "&f➠ /pyrofish skills"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ 3 Homes"
+      - "&#FFC0CB➠ PyroFishing Skills Access &7(/fish skills)"
+      - "&#FFC0CB➠ eGlow &7(Yellow)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f750 MINS Playtime'
+      - '&#FFC0CB| &f70,000 Money'
+      - '&#FFC0CB| &fCraft 30 Beehive'
+      - '&#FFC0CB| &fBreak 20 Emerald Ore'
+      - '&#FFC0CB| &fKill 50 Pillager'
+      - '&#FFC0CB| &fKill 50 Vindicator'
+      - '&#FFC0CB| &fadventure/voluntary_exile advancement'
   '5':
     material: PINK_CANDLE
-    slot: 4
+    slot: 29
     display_name: "&#B0E0E6&lP&#B0E0E6&lu&#B0E0E6&lf&#B0E0E6&lf&#A2DAED&ly &#87CEFA&lII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /workbench"
-      - "&f➠ 15 Chest shop creation"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ Workbench &7(/workbench)"
+      - "&#FFC0CB➠ 15 ChestShop"
+      - "&#FFC0CB➠ eGlow &7(Green)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f1500 MINS Playtime'
+      - '&#FFC0CB| &f120,000 Money'
+      - '&#FFC0CB| &fBreak 128 Redstone Ore'
+      - '&#FFC0CB| &fBreak 28 Lapis Ore'
+      - '&#FFC0CB| &fKill 20 Mooshroom'
+      - '&#FFC0CB| &fAcquire 5 Goat Horn'
   '6':
     material: PINK_CANDLE
-    slot: 5
+    slot: 20
     display_name: "&#B0E0E6&lP&#B0E0E6&lu&#B0E0E6&lf&#B0E0E6&lf&#A2DAED&ly &#87CEFA&lIII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /smithingtable"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fSmithing Table &7(/smithingtable)"
+      - "&#FFC0CB➠ &fCheque &7(/cheque)"
+      - "&#FFC0CB➠ &fAir Shulker"
+      - "&#FFC0CB➠ &feGlow &7(Dark Green)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &fPlaytime 2500minutes'
+      - '&#FFC0CB| &f200,000 money'
+      - '&#FFC0CB| &fBreak 500 Nether Quarts Ore'
+      - '&#FFC0CB| &fCraft 64 Red Nether Bricks'
+      - '&#FFC0CB| &fAcquire 10 Wither Rose'
+      - '&#FFC0CB| &fKill 10 Wither'
   '7':
     material: PINK_CANDLE
-    slot: 6
+    slot: 11
     display_name: "&#DA70D6&lG&#DA70D6&ll&#DA70D6&li&#DA70D6&lt&#DA70D6&lt&#E382D1&le&#ED93CC&lr &#FFB6C1&lI"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ 4 sethomes"
-      - "&f➠ /pyrofish bag"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &f4 Homes"
+      - "&#FFC0CB➠ &fPyroFishing Bag Access &7(/fish bag)"
+      - "&#FFC0CB➠ &feGlow &7(Aqua)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f3500 MINS Playtime'
+      - '&#FFC0CB| &f300,000 Money'
+      - '&#FFC0CB| &fCraft 1 Music Disc 5'
+      - '&#FFC0CB| &fKill 100 Husk'
+      - '&#FFC0CB| &fKill 100 Stray'
+      - '&#FFC0CB| &fnether/explore_nether advancement'
   '8':
     material: PINK_CANDLE
-    slot: 7
+    slot: 12
     display_name: "&#DA70D6&lG&#DA70D6&ll&#DA70D6&li&#DA70D6&lt&#DA70D6&lt&#E382D1&le&#ED93CC&lr &#FFB6C1&lII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /condense"
-      - "&f➠ 20 Chest shop creation"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fCondense &7(/condense)"
+      - "&#FFC0CB➠ &f20 ChestShop"
+      - "&#FFC0CB➠ &feGlow &7(Dark Aqua)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f4500 MINS Playtime'
+      - '&#FFC0CB| &f450,000 Money'
+      - '&#FFC0CB| &fBreak 640 Bamboo'
+      - '&#FFC0CB| &fAcquire 20 Ancient Debris'
+      - '&#FFC0CB| &fKill 50 Hoglin'
+      - '&#FFC0CB| &fKill 10 Ghast'
   '9':
     material: PINK_CANDLE
-    slot: 8
+    slot: 13
     display_name: "&#DA70D6&lG&#DA70D6&ll&#DA70D6&li&#DA70D6&lt&#DA70D6&lt&#E382D1&le&#ED93CC&lr &#FFB6C1&lIII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /trash"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fTrash Can &7(/trashcan)"
+      - "&#FFC0CB➠ &feGlow &7(Blue)"
+      - "&#FFC0CB➠ &fChat Color &7(ALL)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f6000 MINS Playtime'
+      - '&#FFC0CB| &f600,000 Money'
+      - '&#FFC0CB| &fAcquire 20 Emerald Ore'
+      - '&#FFC0CB| &fAcquire 40 Crimson Fungus'
+      - '&#FFC0CB| &fKill 10 Ravager'
+      - '&#FFC0CB| &fKill 3 Silverfish'
   '10':
     material: PINK_CANDLE
-    slot: 9
+    slot: 22
     display_name: "&#9370DB&lT&#9370DB&lw&#9370DB&li&#9370DB&ln&#9370DB&lk&#9D69D9&ll&#A763D7&le &#BA55D3&lI"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ 5 sethomes"
-      - "&f➠ /pyrofish deliveries"
-      - "&f➠ Jobs max limit 2"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &f5 Homes"
+      - "&#FFC0CB➠ &f5 Jobs"
+      - "&#FFC0CB➠ &feGlow &7(Dark Blue)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f7000 MINS Playtime'
+      - '&#FFC0CB| &f800,000 Money'
+      - '&#FFC0CB| &fBreak 256 Amethyst Block'
+      - '&#FFC0CB| &fBreak 75 Ancient Debris'
+      - '&#FFC0CB| &fKill 100 Magma Cube'
+      - '&#FFC0CB| &fKill 50 Ghast'
+      - '&#FFC0CB| &fadventure/two_birds_one_arrow advancement'
   '11':
     material: PINK_CANDLE
-    slot: 10
+    slot: 31
     display_name: "&#9370DB&lT&#9370DB&lw&#9370DB&li&#9370DB&ln&#9370DB&lk&#9D69D9&ll&#A763D7&le &#BA55D3&lII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /ender"
-      - "&f➠ 25 Chest shop creation"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fEnder Chest &7(/chest)"
+      - "&#FFC0CB➠ &f25 ChestShop"
+      - "&#FFC0CB➠ &feGlow &7(Purple)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f8000 MINS Playtime'
+      - '&#FFC0CB| &f1,000,000 Money'
+      - '&#FFC0CB| &fAcquire 300 Deepslate Diamond Ore'
+      - '&#FFC0CB| &fAcquire 200 Obsidian'
+      - '&#FFC0CB| &fKill 75 Piglin Brute'
+      - '&#FFC0CB| &fKill 250 Enderman'
   '12':
     material: PINK_CANDLE
-    slot: 11
+    slot: 32
     display_name: "&#9370DB&lT&#9370DB&lw&#9370DB&li&#9370DB&ln&#9370DB&lk&#9D69D9&ll&#A763D7&le &#BA55D3&lIII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /suicide"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fSuicide Command &7(/suicide)"
+      - "&#FFC0CB➠ &f/itemname"
+      - "&#FFC0CB➠ &feGlow &7(Pink)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f9000 MINS Playtime'
+      - '&#FFC0CB| &f1,500,000 Money'
+      - '&#FFC0CB| &fAcquire 100 Ancient Debris'
+      - '&#FFC0CB| &fAcquire 250 Chorus Flower'
+      - '&#FFC0CB| &fKill 20 Wither'
+      - '&#FFC0CB| &fKill 50 Guardian'
   '13':
     material: PINK_CANDLE
-    slot: 12
+    slot: 33
     display_name: "&#00CED1&lS&#00CED1&lp&#00CED1&la&#00CED1&lr&#00CED1&lk&#10D3D1&ll&#20D7D1&le &#40E0D0&lI"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ 6 sethomes"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &f6 Homes"
+      - "&#FFC0CB➠ &feGlow &7(White)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f10000 MINS Playtime'
+      - '&#FFC0CB| &f2,000,000 Money'
+      - '&#FFC0CB| &fCraft 16 Respawn Anchor'
+      - '&#FFC0CB| &fAcquire 10 Torchflower'
+      - '&#FFC0CB| &fKill 30 Shulker'
+      - '&#FFC0CB| &fKill 30 Witch'
+      - '&#FFC0CB| &fend/levitate advancement'
   '14':
     material: PINK_CANDLE
-    slot: 13
+    slot: 24
     display_name: "&#00CED1&lS&#00CED1&lp&#00CED1&la&#00CED1&lr&#00CED1&lk&#10D3D1&ll&#20D7D1&le &#40E0D0&lII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ can open shulker [shift+rightclick]"
-      - "&f➠ 30 Chest shop creation"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &f30 ChestShop"
+      - "&#FFC0CB➠ &feGlow &7(Light Gray)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f11000 MINS Playtime'
+      - '&#FFC0CB| &f3,000,000 Money'
+      - '&#FFC0CB| &fAcquire 32 Pitcher Plant'
+      - '&#FFC0CB| &fAcquire 30 Gilded Blackstone'
+      - '&#FFC0CB| &fKill 30 Wither'
+      - '&#FFC0CB| &fKill 10 Warden'
   '15':
     material: PINK_CANDLE
-    slot: 14
+    slot: 15
     display_name: "&#00CED1&lS&#00CED1&lp&#00CED1&la&#00CED1&lr&#00CED1&lk&#10D3D1&ll&#20D7D1&le &#40E0D0&lIII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /cartographytable"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fCartography Table &7(/cartographytable)"
+      - "&#FFC0CB➠ &10 Jobs"
+      - "&#FFC0CB➠ &feGlow &7(Dark Gray)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f12000 MINS Playtime'
+      - '&#FFC0CB| &f4,000,000 Money'
+      - '&#FFC0CB| &fAcquire 550 Deepslate Diamond Ore'
+      - '&#FFC0CB| &fAcquire 300 Ancient Debris'
+      - '&#FFC0CB| &fKill 100 Guardian'
+      - '&#FFC0CB| &fKill 5 Elder Guardian'
   '16':
     material: PINK_CANDLE
-    slot: 15
+    slot: 16
     display_name: "&#FFB6C1&lS&#FFB6C1&lt&#FFB6C1&la&#FFB6C1&lr&#FFB6C1&ll&#FFC7C4&li&#FFD8C7&le &#FFFACD&lI"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ 7 sethomes"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &f7 Homes"
+      - "&#FFC0CB➠ &fPlayer Particle (/pp)"
+      - "&#FFC0CB➠ &feGlow &7(Black)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f13000 MINS Playtime'
+      - '&#FFC0CB| &f5,000,000 money'
+      - '&#FFC0CB| &fAcquire 650 Deepslate Diamond Ore'
+      - '&#FFC0CB| &fCraft 50 Calibrated Sculk Sensor'
+      - '&#FFC0CB| &fKill 30 Vex'
+      - '&#FFC0CB| &fKill 20 Evoker'
+      - '&#FFC0CB| &fadventure/kill_all_mobs advancement'
   '17':
     material: PINK_CANDLE
-    slot: 16
+    slot: 17
     display_name: "&#FFB6C1&lS&#FFB6C1&lt&#FFB6C1&la&#FFB6C1&lr&#FFB6C1&ll&#FFC7C4&li&#FFD8C7&le &#FFFACD&lII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /nick [hex]"
-      - "&f➠ 35 Chest shop creation"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fHex Code Nickname &7(/nick)"
+      - "&#FFC0CB➠ &f35 ChestShop"
+      - "&#FFC0CB➠ &feGlow &7(All Blink)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f14000 MINS Playtime'
+      - '&#FFC0CB| &f10,000,000 Money'
+      - '&#FFC0CB| &fCraft 64'
+      - '&#FFC0CB| &fAcquire 320 Exposed Cut Copper'
+      - '&#FFC0CB| &fKill 75 Shulker'
+      - '&#FFC0CB| &fKill 16 Rabbit'
   '18':
     material: PINK_CANDLE
-    slot: 17
+    slot: 26
     display_name: "&#FFB6C1&lS&#FFB6C1&lt&#FFB6C1&la&#FFB6C1&lr&#FFB6C1&ll&#FFC7C4&li&#FFD8C7&le &#FFFACD&lIII"
     enchantments:
     - DURABILITY;1 # or any other enchantmet / level
     item_flags: [HIDE_ENCHANTS]
     lore:
-      - "&f➠ /fly"
+      - "&7Description"
+      - "&#FFC0CB&lPerks"
+      - "&#FFC0CB➠ &fFly Command &7(/fly)"
+      - "&#FFC0CB➠ &fJoin on Full Server"
+      - "&#FFC0CB➠ &feGlow &7(All Effects)"
+      - "&#FFC0CB➠ &fChatColor &7(All Formats)"
+      - ""
+      - "&#FFC0CB&lRequirements"
+      - '&#FFC0CB| &f20000 MINS Playtime'
+      - '&#FFC0CB| &f50,000,000 Money'
+      - '&#FFC0CB| &fAcquire 20 Rabbit Foot'
+      - '&#FFC0CB| &fAcquire 5 Conduit'
+      - '&#FFC0CB| &fAcquire 10 Heart of The Sea'
+      - '&#FFC0CB| &fKill 100 Shulker'
+      - '&#FFC0CB| &fKill 50 Rabbit'
+      - '&#FFC0CB| &fKill 100 Wither'
+      - '&#FFC0CB| &fKill 100 Zoglin'
+      - '&#FFC0CB| &fKill 50 Warden'
+      - '&#FFC0CB| &fKill 1 Ender Dragon'

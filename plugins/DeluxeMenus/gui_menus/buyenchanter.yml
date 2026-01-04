@@ -1,0 +1,148 @@
+menu_title: 'Enchanter'
+size: 27
+args:
+- group
+- price
+open_commands:
+- '[meta] set amount INTEGER 1'
+- '[refresh] <delay=1>'
+close_commands:
+- '[meta] remove amount INTEGER 1<delay=3>'
+- '[meta] remove name STRING null<delay=3>'
+- '[meta] remove item STRING null<delay=3>'
+- '[meta] remove group STRING null<delay=3>'
+- '[meta] remove price INTEGER 1<delay=3>'
+items:
+  'item':
+    material: 'placeholder-%deluxemenus_meta_item_STRING_null%'
+    display_name: '&a%deluxemenus_meta_name_STRING_null%'
+    slot: 13
+    priority: 0
+    dynamic_amount: '%deluxemenus_meta_amount_INTEGER_1%'
+    lore:
+    - '&6Current Amount: &f%deluxemenus_meta_amount_INTEGER_1%'
+    - '&6Price Per Item: &c$%deluxemenus_meta_price_INTEGER_1%'
+    - '&6Total Price: &a$&f%math_0_{deluxemenus_meta_amount_INTEGER_1}*{deluxemenus_meta_price_INTEGER_1}%'
+    - ''
+    - '&e&oClick to purchase'
+    click_requirement:
+      requirements:
+        exp:
+          type: has exp
+          amount: '%math_0_{deluxemenus_meta_price_INTEGER_1}*{deluxemenus_meta_amount_INTEGER_1}%'
+          deny_commands:
+          - '[message]&cYou do not have enough exp'
+          - '[close]'
+    click_commands:
+    - '[takeexp] %math_0_{deluxemenus_meta_price_INTEGER_1}*{deluxemenus_meta_amount_INTEGER_1}%'
+    - '[console] ae givercbook %deluxemenus_meta_group_STRING_null% %player_name% %deluxemenus_meta_amount_INTEGER_1%'
+    - '[message]&aYou purchased &f%deluxemenus_meta_amount_INTEGER_1% &b%deluxemenus_meta_name_STRING_null% &afor &c%math_0_{deluxemenus_meta_price_INTEGER_1}*{deluxemenus_meta_amount_INTEGER_1}% EXP'
+    - '[close]'
+  'exit':
+    material: barrier
+    slot: 4
+    display_name: '&cExit'
+    click_commands:
+    - '[close]'
+  'back':
+    material: ARROW
+    slot: 3
+    display_name: '&cReturn to previous menu'
+    click_commands:
+    - '[openguimenu] ce'
+  '-all':
+    material: RED_STAINED_GLASS_PANE
+    display_name: '&cSet to 1 item'
+    slot: 9
+    lore:
+    - '&6Current Amount: &a%deluxemenus_meta_amount_INTEGER_1%'
+    view_requirement:
+      requirements:
+        amount:
+          type: '>='
+          input: '%deluxemenus_meta_amount_INTEGER_1%'
+          output: 3
+    click_commands:
+    - '[meta] set amount INTEGER 1'
+    - '[refresh]'
+  '-10':
+    material: RED_STAINED_GLASS_PANE
+    display_name: '&cRemove 10 items'
+    slot: 11
+    amount: 10
+    lore:
+    - '&6Current Amount: &a%deluxemenus_meta_amount_INTEGER_1%'
+    - '&6New Amount: &a%math_{deluxemenus_meta_amount_INTEGER_1}-10%'
+    view_requirement:
+      requirements:
+        amount:
+          type: '>='
+          input: '%deluxemenus_meta_amount_INTEGER_1%'
+          output: 11
+    click_commands:
+    - '[meta] subtract amount INTEGER 10'
+    - '[refresh]'
+  '-1':
+    material: RED_STAINED_GLASS_PANE
+    display_name: '&cRemove 1 item'
+    slot: 12
+    lore:
+    - '&6Current Amount: &a%deluxemenus_meta_amount_INTEGER_1%'
+    - '&6New Amount: &a%math_{deluxemenus_meta_amount_INTEGER_1}-1%'
+    view_requirement:
+      requirements:
+        amount:
+          type: '>='
+          input: '%deluxemenus_meta_amount_INTEGER_1%'
+          output: 2
+    click_commands:
+    - '[meta] subtract amount INTEGER 1'
+    - '[refresh]'
+  '+1':
+    material: LIME_STAINED_GLASS_PANE
+    display_name: '&aAdd 1 item'
+    slot: 14
+    lore:
+    - '&6Current Amount: &a%deluxemenus_meta_amount_INTEGER_1%'
+    - '&6New Amount: &a%math_0_{deluxemenus_meta_amount_INTEGER_1}+1%'
+    view_requirement:
+      requirements:
+        exp:
+          type: has exp
+          amount: '%math_0_({deluxemenus_meta_price_INTEGER_1}*{deluxemenus_meta_amount_INTEGER_1})+{deluxemenus_meta_price_INTEGER_1}%'
+    click_commands:
+    - '[meta] add amount INTEGER 1'
+    - '[refresh]'
+  '+5':
+    material: LIME_STAINED_GLASS_PANE
+    display_name: '&aAdd 5 items'
+    slot: 15
+    amount: 5
+    lore:
+    - '&6Current Amount: &a%deluxemenus_meta_amount_INTEGER_1%'
+    - '&6New Amount: &a%math_0_{deluxemenus_meta_amount_INTEGER_1}+5%'
+    view_requirement:
+      requirements:
+        exp:
+          type: has exp
+          amount: '%math_0_({deluxemenus_meta_price_INTEGER_1}*{deluxemenus_meta_amount_INTEGER_1})+(5*{deluxemenus_meta_price_INTEGER_1})%'
+    click_commands:
+    - '[meta] add amount INTEGER 5'
+    - '[refresh]'
+    - '[refresh]'
+  '+10':
+    material: LIME_STAINED_GLASS_PANE
+    display_name: '&aAdd 10 items'
+    slot: 16
+    amount: 10
+    lore:
+    - '&6Current Amount: &a%deluxemenus_meta_amount_INTEGER_1%'
+    - '&6New Amount: &a%math_0_{deluxemenus_meta_amount_INTEGER_1}+10%'
+    view_requirement:
+      requirements:
+        exp:
+          type: has exp
+          amount: '%math_0_({deluxemenus_meta_price_INTEGER_1}*{deluxemenus_meta_amount_INTEGER_1})+(10*{deluxemenus_meta_price_INTEGER_1})%'
+    click_commands:
+    - '[meta] add amount INTEGER 10'
+    - '[refresh]'

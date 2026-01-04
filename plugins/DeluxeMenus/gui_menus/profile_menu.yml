@@ -9,75 +9,55 @@ items:
     material: BLACK_STAINED_GLASS_PANE
     amount: 1
     slots:
-    - '0-44'
+    - '0-35'
     display_name: ' '
-  'deaths':
-    material: WITHER_SKELETON_SKULL
+  'kd':
+    material: DIAMOND_SWORD
     slot: 12
     priority: 1
     update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&#ea8208&lDeaths'
+    item_flags: [HIDE_ENCHANTS,HIDE_ATTRIBUTES]
+    display_name: '&#FFC0CB&lK/D'
     lore:
-    - '&8Description'
-    - '&r'
-    - '&fDeaths: &#ea8208%statistic_deaths%'
-  'kills':
-    material: DIAMOND_SWORD
-    slot: 21
-    priority: 1
-    update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&#d50909&lKills'
-    lore:
-    - '&8Description'
-    - '&r'
-    - '&fPlayer Kills: &#d50909%statistic_player_kills%'
+    - '&#ADD8E6Player Kills: &#FFC0CB%statistic_player_kills%'
+    - '&#ADD8E6Deaths: &#FFC0CB%statistic_deaths%'
   'experience':
     material: EXPERIENCE_BOTTLE
     slot: 22
     priority: 1
     update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&#a041ff&lE&#a545ff&lx&#aa49ff&lp&#af4eff&le&#b452ff&lr&#ba56ff&li&#bf5aff&le&#c45fff&ln&#c963ff&lc&#ce67ff&le'
+    item_flags: [HIDE_ENCHANTS]
+    display_name: '&#FFC0CB&lEXPERIENCE'
     lore:
-    - '&8Description'
-    - '&r'
-    - '&fExperience: &#a041ff%player_current_exp%'
+    - '&#ADD8E6Experience: &#FFC0CB%player_current_exp%'
   'playtime':
     material: CLOCK
     slot: 23
     priority: 1
     update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&#ff62ef&lPlaytime Level'
+    item_flags: [HIDE_ENCHANTS]
+    display_name: '&#FFC0CB&lPLAYTIME'
     lore:
-      - '&8Description'
-      - '&r'
-      - '&fPlaytime: &#E371FF%statistic_time_played%'
+      - '&#ADD8E6Playtime: &#FFC0CB%statistic_time_played%'
   'rank':
     material: BOOK
     slot: 14
     priority: 1
     update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&#ff2222&lYour Rank'
+    item_flags: [HIDE_ENCHANTS]
+    display_name: '&#FFC0CB&lYour Rank'
     lore:
-      - '&8Description'
-      - '&r'
-      - '&8❖ &fRank: &#FF4848%luckperms_prefix%'
+      - '&#ADD8E6Rank: &#FFC0CB%luckperms_suffix%'
   'settings':
     material: BELL
     slot: 13
     priority: 1
     update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&#eb5dfe&lS&#eb5dfe&le&#eb5dfe&lt&#eb5dfe&lt&#eb5dfe&li&#eb5dfe&ln&#eb5dfe&lg&#eb5dfe&ls'
+    item_flags: [HIDE_ENCHANTS]
+    display_name: '&#FFC0CB&lSETTINGS'
     lore:
-      - '&8Description'
-      - '&r'
-      - '&fChange Server Settings'
-      - '&fAccording to your Style'
+      - '&#ADD8E6Change Server Settings'
+      - '&#ADD8E6According to your Style'
       - ''
       - '&7Left-Click to view'
     left_click_commands:
@@ -88,15 +68,20 @@ items:
     - '[player] options'
   'Prem Rank Timer':
     material: ENDER_PEARL
+    slot: 21
+    priority: 1
+    update: true
+    item_flags: [HIDE_ENCHANTS]
+    display_name: '&#FFC0CB&lPREMIUM RANK DURATION'
+    lore:
+      - '&7[&8!&7]&r &#ADD8E6%luckperms_expiry_time_group.seraph%%luckperms_expiry_time_group.celestia%'
+
+  'TempflyTimer':
+    material: FEATHER
     slot: 31
     priority: 1
     update: true
-    item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&6Premium Rank Expiration'
+    item_flags: [HIDE_ENCHANTS]
+    display_name: '&#FFC0CB&lTEMPFLY, FLY DURATION'
     lore:
-      - '&8Description'
-      - '&r'
-      - '&8❖ &ftitan &7: &c&n%luckperms_expiry_time_group.titan%'
-      - '&8❖ &fmvp+ &7: &c&n%luckperms_expiry_time_group.mvp+%'
-      - '&8❖ &fmvp &7: &c&n%luckperms_expiry_time_group.mvp%'
-      - '&8❖ &fvip &7: &c&n%luckperms_expiry_time_group.vip%'
+      - '&7[&8!&7]&r &#ADD8E6%luckperms_expiry_time_cmi.command.fly%'
