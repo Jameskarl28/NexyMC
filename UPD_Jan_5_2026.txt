@@ -8,7 +8,7 @@ Updated Plugins:
 - multiverse-core-5.4.0-pre.7.jar -> multiverse-core-5.4.0
 - multiverse-inventories-5.3.0-pre.4 -> multiverse-inventories-5.3.0
 - SmartSpawner 1.5.7 -> SmartSpawner 1.5.8
-- 
+- BetterTeams 4.5.2 -> 5.0.0
 
 =============
 

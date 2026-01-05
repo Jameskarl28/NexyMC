@@ -51,9 +51,9 @@ world-settings:
     view-distance: default
     simulation-distance: default
     merge-radius:
-      item: 3.0
+      item: 10
       exp: 5
-    mob-spawn-range: 8
+    mob-spawn-range: 3
     item-despawn-rate: 6000
     thunder-chance: 100000
     arrow-despawn-rate: 1200
@@ -122,7 +122,7 @@ world-settings:
       display: 64
       other: 32
     ticks-per:
-      hopper-transfer: 4
+      hopper-transfer: 8
       hopper-check: 8
     hopper-amount: 1
     hopper-can-load-chunks: false
