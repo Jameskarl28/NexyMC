@@ -1,9 +1,3 @@
-############################
-# 
-# ITSME.TO - A configuration for EconomyShopGui
-# Balanced Buying/Selling Prices
-#
-############################
 pages:
   page1:
     gui-rows: 5

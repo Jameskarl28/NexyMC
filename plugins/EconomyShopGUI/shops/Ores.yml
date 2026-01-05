@@ -1,9 +1,3 @@
-############################
-# 
-# ITSME.TO - A configuration for EconomyShopGui
-# discord.gg/itsme-to
-#
-############################
 pages:
   page1:
     gui-rows: 4
