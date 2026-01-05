@@ -13,7 +13,7 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-_version: 30
+_version: 31
 anticheat:
   obfuscation:
     items:
@@ -40,14 +40,14 @@ chunk-loading-advanced:
   player-max-concurrent-chunk-loads: 0
 chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
-  player-max-chunk-load-rate: 100.0
-  player-max-chunk-send-rate: 75.0
+  player-max-chunk-load-rate: 40.0
+  player-max-chunk-send-rate: 40.0
 chunk-system:
   gen-parallelism: default
   io-threads: -1
   worker-threads: -1
 collisions:
-  enable-player-collisions: true
+  enable-player-collisions: false
   send-full-pos-for-hard-colliding-entities: true
 commands:
   ride-command-allow-player-as-vehicle: false
@@ -59,11 +59,11 @@ console:
   has-all-permissions: false
 item-validation:
   book:
-    author: 8192
-    page: 16384
-    title: 8192
+    author: 1024
+    page: 8192
+    title: 1024
   book-size:
-    page-max: 2560
+    page-max: 1024
     total-multiplier: 0.98
   display-name: 8192
   lore-line: 8192
@@ -83,8 +83,9 @@ misc:
   chat-threads:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
-  client-interaction-leniency-distance: default
+  client-interaction-leniency-distance: 3.0
   compression-level: default
+  enable-nether: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
   prevent-negative-villager-demand: false
@@ -101,10 +102,50 @@ packet-limiter:
     max-packet-rate: 500.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   overrides:
+    minecraft:chat:
+      action: DROP
+      interval: 1.0
+      max-packet-rate: 15.0
+    minecraft:chat_command:
+      action: DROP
+      interval: 1.0
+      max-packet-rate: 15.0
+    minecraft:chat_command_signed:
+      action: DROP
+      interval: 1.0
+      max-packet-rate: 15.0
+    minecraft:command_suggestion:
+      action: DROP
+      interval: 1.0
+      max-packet-rate: 15.0
+    minecraft:container_button_click:
+      action: KICK
+      interval: 1.0
+      max-packet-rate: 300.0
+    minecraft:container_click:
+      action: KICK
+      interval: 1.0
+      max-packet-rate: 300.0
+    minecraft:interact:
+      action: DROP
+      interval: 4.0
+      max-packet-rate: 300.0
     minecraft:place_recipe:
       action: DROP
       interval: 4.0
       max-packet-rate: 5.0
+    minecraft:player_action:
+      action: KICK
+      interval: 1.0
+      max-packet-rate: 230.0
+    minecraft:player_command:
+      action: DROP
+      interval: 1.0
+      max-packet-rate: 15.0
+    minecraft:use_item:
+      action: KICK
+      interval: 1.0
+      max-packet-rate: 230.0
 player-auto-save:
   max-per-tick: -1
   rate: -1
@@ -117,7 +158,7 @@ proxies:
     online-mode: true
     secret: ''
 scoreboards:
-  save-empty-scoreboard-teams: true
+  save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false
 spam-limiter:
   incoming-packet-threshold: 300
@@ -128,9 +169,6 @@ spam-limiter:
 spark:
   enable-immediately: false
   enabled: true
-threaded-regions:
-  grid-exponent: 4
-  threads: -1
 unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
