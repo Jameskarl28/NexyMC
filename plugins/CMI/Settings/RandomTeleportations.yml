@@ -16,7 +16,7 @@ RandomTeleportation:
   - River
   # If this set to true we will generate random teleport default settings for all detected worlds
   # Setting to false will no longer generate world setups, but you can add them manually if needed
-  AutoGenerateWorlds: true
+  AutoGenerateWorlds: false
   Worlds:
     # World name to use this feature. Add another one with appropriate name to enable random teleportation
     world:
@@ -108,32 +108,6 @@ RandomTeleportation:
       YLimits:
         Min: 0
         Max: 256
-      Ignore:
-        Water: true
-        Lava: true
-        Leaves: true
-        PowderSnow: false
-        CrawlSpaces: false
-        Materials: []
-        Biomes: []
-      PreferredBiomes: []
-    spawn:
-      Enabled: false
-      MaxTries: 0
-      Cooldown: 0
-      Range:
-        Max: -225
-        Min: 50
-      Center:
-        X: 0
-        Z: 0
-      Circle: false
-      SurfaceOnly: false
-      FromAnotherWorld: true
-      RequireWorldPermission: false
-      YLimits:
-        Min: -64
-        Max: 320
       Ignore:
         Water: true
         Lava: true
