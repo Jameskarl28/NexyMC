@@ -5,13 +5,13 @@ donation-key:
 
 # MySQL is optional and not required.
 # If you prefer to use MySQL, enable the following and fill out the fields.
-use-mysql: true
+use-mysql: false
 table-prefix: co_
-mysql-host: 142.132.169.25
+mysql-host: 127.0.0.1
 mysql-port: 3306
-mysql-database: s44_coreprotect
-mysql-username: u44_BrkiX61Q23
-mysql-password: b.p3^2C24zn0GD@WhoPTJ@Ii
+mysql-database: database
+mysql-username: root
+mysql-password: 
 
 # If modified, will automatically attempt to translate languages phrases.
 # List of language codes: https://coreprotect.net/languages/
@@ -54,65 +54,65 @@ block-break: true
 # Logs blocks that break off of other blocks; for example, a sign or torch
 # falling off of a dirt block that a player breaks. This is required for
 # beds/doors to properly rollback.
-natural-break: true
+natural-break: false
 
 # Properly track block movement, such as sand or gravel falling.
-block-movement: true
+block-movement: false
 
 # Properly track blocks moved by pistons.
-pistons: true
+pistons: false
 
 # Logs blocks that burn up in a fire.
-block-burn: true
+block-burn: false
 
 # Logs when a block naturally ignites, such as from fire spreading.
-block-ignite: true
+block-ignite: false
 
 # Logs explosions, such as TNT and Creepers.
-explosions: true
+explosions: false
 
 # Track when an entity changes a block, such as an Enderman destroying blocks.
-entity-change: true
+entity-change: false
 
 # Logs killed entities, such as killed cows and enderman.
-entity-kills: true
+entity-kills: false
 
 # Logs text on signs. If disabled, signs will be blank when rolled back.
 sign-text: true
 
 # Logs lava and water sources placed/removed by players who are using buckets.
-buckets: true
+buckets: false
 
 # Logs natural tree leaf decay.
-leaf-decay: true
+leaf-decay: false
 
 # Logs tree growth. Trees are linked to the player who planted the sapling.
-tree-growth: true
+tree-growth: false
 
 # Logs mushroom growth.
-mushroom-growth: true
+mushroom-growth: false
 
 # Logs natural vine growth.
-vine-growth: true
+vine-growth: false
 
 # Logs the spread of sculk blocks from sculk catalysts.
-sculk-spread: true
+sculk-spread: false
 
 # Logs when portals such as Nether portals generate naturally.
-portals: true
+portals: false
 
 # Logs water flow. If water destroys other blocks, such as torches,
 # this allows it to be properly rolled back.
-water-flow: true
+water-flow: false
 
 # Logs lava flow. If lava destroys other blocks, such as torches,
 # this allows it to be properly rolled back.
-lava-flow: true
+lava-flow: false
 
 # Allows liquid to be properly tracked and linked to players.
 # For example, if a player places water which flows and destroys torches,
 # it can all be properly restored by rolling back that single player.
-liquid-tracking: true
+liquid-tracking: false
 
 # Track item transactions, such as when a player takes items from
 # a chest, furnace, or dispenser.
@@ -126,7 +126,7 @@ item-pickups: true
 
 # Track all hopper transactions, such as when a hopper removes items from a
 # chest, furnace, or dispenser.
-hopper-transactions: true
+hopper-transactions: false
 
 # Track player interactions, such as when a player opens a door, presses
 # a button, or opens a chest. Player interactions can't be rolled back.

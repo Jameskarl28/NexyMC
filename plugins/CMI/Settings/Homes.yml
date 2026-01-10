@@ -58,13 +58,12 @@ Homes:
   Groups:
     nexies: 1
     sprinkle1: 2
-    puffy1: 3
-    glitter1: 4
-    twinkle1: 5
-    sparkle1: 6
-    starlie1: 7
-    celestia: 5
-    seraph: 7
+    puffy1: 4
+    glitter1: 6
+    twinkle1: 8
+    sparkle1: 10
+    starlie1: 15
+    seraph: 20
   # Requires cmi.bedhome permission node
   # When set to true by interacting with bed, regular home location will be created
   # When set to false vanilla bed home location will be set

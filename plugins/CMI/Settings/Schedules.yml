@@ -41,17 +41,109 @@
 # Supports PlaceHolderAPI variables
 # More information about specialized commands can be found at https://www.zrips.net/cmi/commands/specialized/
 
-GiveDiamonds:
-  Enabled: false
-  MinPlayers: 3
-  FeedBack: true
-  Repeat: true
+dailyrestart:
+  Enabled: true
+  MinPlayers: 1
+  FeedBack: false
   PerformOn:
     '1':
-      Hour: 18
+      Hour: 8
   Commands:
-  - cmi give [randomPlayer] diamond %rand/1-5%
-  - msg! [randomPlayer] &eYou just got diamonds!
+  - cmi bossbarmsg all &a&lDaily Server Restart &fin [autoTimeLeft]! -cmd:"stop" -sec:-600
+    -c:pink
+  - cmi sound blocknoteblockbell -all
+  - delay! 570
+  - actionbar! &#FFC0CBDaily Server Restart &fin &630 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBDaily Server Restart &fin &625 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBDaily Server Restart &fin &620 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBDaily Server Restart &fin &615 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBDaily Server Restart &fin &610 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &69 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &68 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &67 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &66 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &65 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &64 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &63 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &62 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBDaily Server Restart &fin &61 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - restart
+QuickServerRestart:
+  Enabled: true
+  Commands:
+  - broadcast !&#FFC0CB&lCOMMENCING SERVER RESTART....
+  - delay! 5
+  - actionbar! &#FFC0CBQuick Server Restart in &630 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBQuick Server Restart in &625 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBQuick Server Restart in &620 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBQuick Server Restart in &615 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - actionbar! &#FFC0CBQuick Server Restart in &610 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &69 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &68 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &67 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &66 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &65 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &64 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &63 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &62 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - actionbar! &#FFC0CBQuick Server Restart in &61 &#FFC0CBsec!
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - restart
 StopServer:
   Enabled: false
   PerformOn:
@@ -124,8 +216,10 @@ Announcer:
   - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBClaim your land using Golden Shovel! Stick
     to investigate a claim'
   - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBSee ranks perks using #ADD8E6&n/ranks'
-  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBIf you have keys you can open it at #ADD8E6&n/warp'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBIf you have keys you can open it at #ADD8E6&n/warp
+    crates'
   - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBAdvertisement of other servers will be punished'
+  - 'actionbar! #ADD8E6&lTIPS:&r #FFC0CBThe server restarts every 8AM PH Time'
 clearlagg:
   Enabled: true
   MinPlayers: 1
@@ -134,15 +228,77 @@ clearlagg:
   Repeat: true
   Randomize: false
   Commands:
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities will be cleared
-    in &e60s!'
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e60s!'
+  - cmi sound blocknoteblockbell -all
   - delay! 30
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities will be cleared
-    in &e30s!'
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e30s!'
+  - cmi sound blocknoteblockbell -all
   - delay! 20
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities will be cleared
-    in &e10s!'
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e20s!'
+  - cmi sound blocknoteblockbell -all
   - delay! 10
-  - cmi killall item
-  - cmi killall monsters
-  - 'broadcast! #ADD8E6&lCLEARING:&r #FFC0CBGround items and entities have been cleared!'
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e10s!'
+  - cmi sound blocknoteblockbell -all
+  - delay! 5
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e5s!'
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e4s!'
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e3s!'
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e2s!'
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - 'actionbar! #ADD8E6&l⌛ &fClearing entities in &e1s!'
+  - cmi sound blocknoteblockbell -all
+  - delay! 1
+  - cmi groundclean
+  - 'actionbar! #ADD8E6&l⌛ &fEntities successfully cleared!'
+  - cmi sound blocknoteblockbell -all -p:3
+jobboost:
+  Enabled: true
+  MinPlayers: 5
+  Feedback: false
+  Delay: 180000
+  Repeat: true
+  Randomize: false
+  Commands:
+  - jobs:jobs boost money all 5 1800
+  - 'broadcast! #ADD8E6&nAll Jobs Boosted 5% For 30 Minutes'
+  - 'cmi bossbarmsg all #ADD8E6All Jobs Boosted 5% For 30 Minutes [autoTimeLeft]!
+    -sec:1800 -c:pink'
+Halloween:
+  Enabled: false
+  MinPlayers: 1
+  PerformOn:
+    '1':
+      Hour: 11
+  Commands:
+  - case key giveall halloween 1
+  - 'broadcast! #fc6b2b&lHALLOWEEN:&r #FFC0CBTrick or Treat! you receive 1 Halloween
+    Crate Key use it at /warp halloween'
+newyear:
+  Enabled: false
+  MinPlayers: 1
+  PerformOn:
+    '1':
+      Hour: 11
+  Commands:
+  - wp spawn default 1 pvp -3.54 73.0 -271.52
+  - 'broadcast! #972433&lHAPPY NEW YEAR:&r #F45570HAPPY NEW YEAR NEXIES! Head to [/warp
+    pvppinata] and participate in the warden party'
+Restart:
+  Enabled: true
+  MinPlayers: 1
+  PerformOn:
+    '1':
+      Hour: 24
+  Commands:
+  - 'broadcast! #E82344&lDAILYRESTART:&r #FFC0CBServer will restart'
+  - delay! 1
+  - save-all
+  - delay! 5
+  - restart

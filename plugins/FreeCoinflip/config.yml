@@ -1,0 +1,119 @@
+Settings:
+  Broadcast:
+    Message: '#FFC0CB&lCoinflip &7» #ADD8E6%player% #FFC0CBcreated a &a₱%amount% #FFC0CBcoinflip &7(/cf)'
+    Enabled: true
+    MinAmount: 1000
+  Prefix: '#FFC0CB&lCoinflip &7» '
+  bstats: true
+  # update checker
+  enable-update-check: true
+  # The min bet amount
+  minAmount: 1000
+  Multiplier: 2.0 # if player win a game of 1000 he will win 2k with multiplier 2, 5k with mult. 5.0 etx
+  Tax:
+    Enabled: false # allows tax rate
+    Rate: 5 # this will bne 5% taax rate / int
+
+GUI:
+  Size: 27
+  Title: '&lCOIN FLIP'
+  ClickSound: BLOCK_COMPARATOR_CLICK, 1f, 1f
+  EndSpinSound: ENTITY_EXPERIENCE_ORB_PICKUP, 1f, 1f
+  
+  FillerItems:
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    type: PINK_STAINED_GLASS_PANE
+    name: '&0'
+  
+  AnimationItem:
+    type: PLAYER_HEAD
+    name: '#FFC0CB&l%name%'
+  
+  SkullItem:
+    type: SUNFLOWER
+    name: '#FFC0CB&l%name%'
+    lore:
+    - ''
+    - '#FFC0CB&lBet'
+    - ' #ADD8E6₱%money%'
+    - ''
+    - '#FFC0CB&lSide Chosen'
+    - ' #ADD8E6%side%'
+    - ''
+    - '#ADD8E6Click here to &a&lENTER #ADD8E6the bet!'
+  BookInfo:
+    type: BOOK
+    name: '#ADD8E6&lCoin Flip Help'
+    lore:
+    - ''
+    - '#FFC0CB/coinflip'
+    - '#ADD8E6View all active coinflip matches'
+    - ''
+    - '#FFC0CB/coinflip <amount> <heads/tails>'
+    - '#ADD8E6Start a coinflip match'
+    - ''
+    - '#FFC0CB/coinflip cancel'
+    - '#ADD8E6Remove your coinflip match'
+    - ''
+    - '#FFC0CB/coinflip toggle'
+    - '#ADD8E6Toggles coinflip broadcasts'
+  RefreshItem:
+    type: CHEST
+    name: '#ADD8E6&lRefresh'
+    lore:
+    - '#ADD8E6Click here to refresh...'
+
+AnimationGUI:
+  Size: 27
+  Title: '&0&lWINNER IS..'
+
+# messages
+Messages:
+  NotEnoughPerm: '&7[&8!&7] #FFC0CBYou dont have enough permissions to do that!'
+  WinBroadcastWithTax: '#ADD8E6&l** &a%winner% #ADD8E6has defeated #FFC0CB%loser%
+    #ADD8E6in a #ADD8E6&n₱%amount%&r(-%taxed_money%₱ %tax_rate%%tax) #ADD8E6/coinflip
+    #ADD8E6&l**'
+  WinBroadcast: '#ADD8E6&l** &a%winner% #ADD8E6has defeated #FFC0CB%loser% #ADD8E6in
+    a #FFC0CB&n₱%amount%&r #ADD8E6/coinflip #ADD8E6&l**'
+  CantEnterSelfBet: '&7[&8!&7] #FFC0CBYou can''t accept your own bet!'
+  Entered: '&7[&8!&7] #ADD8E6You created a bet of #FFC0CB₱%amount% &7(#ADD8E6/coinflip&7)'
+  Canceled: '&7[&8!&7] #ADD8E6You removed yourself from the coinflip matches!'
+  CanceledHelp: '&7[&8!&7] #ADD8E6To remove a coin flip type &6/cf cancel'
+  ReceivedMoney: ' &a&l+ %amount%'
+  LostMoney: ' &c&l- %amount%'
+  NotEnoughMoney: '&7[&8!&7] #FFC0CBYou dont have enough money to enter!'
+  NotEnoughEnterMoney: '&7[&8!&7] #FFC0CBAmount must be greater than #FFC0CB₱1,000!'
+  AlreadyInBet: '&7[&8!&7] #FFC0CBYou already are in the coins bet menu!'
+  NotInBet: '&7[&8!&7] #ADD8E6You are not in the coinflip menu!'
+  ToggleON: '&7[&8!&7] #ADD8E6CoinFlip broadcasts are &a&lON'
+  ToggleOFF: '&7[&8!&7] #ADD8E6CoinFlip broadcasts are &c&lOFF'
+  ReloadSuccess: '&7[&8!&7] #ADD8E6CoinFlip config has been reloaded!'
+  ReloadError: '&7[&8!&7] #ADD8E6An error occured while reloading config file!'
+  Usage: '&7[&8!&7] #ADD8E6Usage: #FFC0CB&n/coinflip <$amount> <heads/tails>'
