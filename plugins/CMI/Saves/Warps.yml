@@ -1,6 +1,34 @@
-crates:
-  Location: spawn;-17.36;82.0;64.84;63.31;-5.75
-  Creator: 4cc5592c-6004-37b5-8265-fbccc023118f
+pvparena:
+  Location: pvp;-16.48;74.0;-182.5;-89.91;3.12
+  Creator: 6c9b2a37-6470-3495-9d45-ba3302bc8491
 pinata:
-  Location: spawn;0.49;82.0;75.54;-179.86;-0.73
-  Creator: 4cc5592c-6004-37b5-8265-fbccc023118f
+  Location: spawn;-72.48;75.0;122.47;91.66;29.08
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+buildbattle:
+  Location: buildbattle;0.49;2.0;-186.51;0.01;-0.07
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+crates:
+  Location: spawn;79.48;81.0;7.51;-89.9;-4.94
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+casino:
+  Location: spawn;80.5;81.0;7.48;-89.82;-3.84
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+leaderboards:
+  Location: spawn;-18.52;82.0;66.51;62.73;-8.35
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+shoppingdistrict:
+  Location: shopdistrict;0.61;73.0;0.49;-89.3;3.89
+  Creator: 9804f6f4-a184-3512-ad5b-57a0240162e6
+event:
+  Location: event;-354.75;82.0;-104.8;90.82;2.62
+  ReqPerm: true
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+pvppinata:
+  Location: pvp;13.15;74.0;-271.47;89.09;1.76
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201
+pvpspectate:
+  Location: pvp;-24.49;77.0;-182.5;-90.64;9.55
+  Creator: 6c9b2a37-6470-3495-9d45-ba3302bc8491
+afkarea:
+  Location: spawn;40.35;88.0;32.57;119.87;-0.45
+  Creator: 449b116b-9c01-4775-b237-2e84126bb201

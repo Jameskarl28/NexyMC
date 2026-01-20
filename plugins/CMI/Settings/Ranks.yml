@@ -30,22 +30,33 @@
 #         Fall - has to fall
 #         Climb - has to climb
 #         Fly - has to fly
-#         Dive - has to walk under water
+#         Dive - has to swim under water
+#         WalkOn Water - has to walk on water
+#         WalkUnderWater - has to walk under water
 #         MinecartTravel - has to travel with minecart
 #         BoatTravel - has to travel with boat
 #         PigTravel - has to ride pig
 #         HorseTravel - has to ride horse
 #         ElytraTravel - has to fly with elytra
+#         GhastTravel - has to travel with ghast
+#         StriderTravel - has to travel with strider
 #       Time in sec:
 #         PlayTime - total play time
 #         FromLastDeath - from last death
 #         SneakTime - sneak time
+#         TotalWorldTime - total world time
 #       Amounts:
-#         GameQuit - how many times player left game
+#         LeaveGame - how many times player left game
 #         Jump - jump count
 #         DamageDealt - total damage made
 #         DamageTaken - total damage taken
+#         DamageDealtAbsorbed - total damage absorbed
+#         DamageDealtResisted - total damage resisted
+#         DamageBlockedByShield - total damage blocked with shield
+#         DamageAbsorbed - total damage absorbed
+#         DamageResisted - total damage resisted
 #         Deaths - count of deaths
+#         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
 #         MobKills - total amount of mobs killed by player
 #         PlayerKills - total amount of players killed. Indirect kills don't count
 #         ItemEnchanted - amount of enchanted items
@@ -58,14 +69,14 @@
 #         CouldronUsed - couldron used
 #         ArmorCleaned - times armor cleaned (leather armor)
 #         BannerCleaned - times banner cleaned
-#         BrewingstandInteractions - brewingstand interactions
-#         BeaconInteractions - beacon interactions
-#         CraftingTableInteractions - crafting table interactions
-#         FurnaceInteractions - furnace interactions
+#         BrewingStandInteraction - brewingstand interactions
+#         BeaconInteraction - beacon interactions
+#         CraftingTableInteraction - crafting table interactions
+#         FurnaceInteraction - furnace interactions
 #         DispenserInspected - dispenser inspected
 #         DropperInspected - dropper inspected
 #         HopperInspected - hopper inspected
-#         ChestOpen - chest open
+#         ChestOpened - chest open
 #         TrappedChestTriggered - trapped chest triggered
 #         EnderchestOpened - enderchest opened
 #         NoteblockPlayed - noteblock played
@@ -74,142 +85,354 @@
 #         RecordPlayed - record played
 #         SleeptInBed - sleept in bed
 #         ShulkerBoxOpened - shulker box opened
-#         ItemDropped - defines amount of dropped items. If specific item is not defined, then total amount is used
-#         ItemPickups - defines amount of picked up items. If specific item is not defined, then total amount is used
-#         BlocksMined - defines amount of blocks mined. If specific block is not defined, then total amount is used
-#         BlocksPlaced - defines amount of blocks placed. If specific block is not defined, then total amount is used
-#         ItemBreaks - defines amount of broken items. If specific item is not defined, then total amount is used
-#         ItemCrafts - defines amount of crafted items. If specific item is not defined, then total amount is used
-#         ItemsUsed - defines amount of item usage. like mining with pickaxe. If specific item is not defined, then total amount is used
-#         MonsterKills - defines amount of monster kills. If specific monster is not defined, then total amount is used
-#         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
+#         CleanShulkerBox - shulker box cleaned
+#         Drop - defines amount of dropped items. If specific item is not defined, then total amount is used
+#         MineBlock - defines amount of blocks mined. If specific block is not defined, then total amount is used
+#         PlaceBlock - defines amount of blocks placed. If specific block is not defined, then total amount is used
+#         BreakItem - defines amount of broken items. If specific item is not defined, then total amount is used
+#         CraftItem - defines amount of crafted items. If specific item is not defined, then total amount is used
+#         UseItem - defines amount of item usage. like mining with pickaxe. If specific item is not defined, then total amount is used
+#         Pickup - defines amount of picked up items. If specific item is not defined, then total amount is used
+#         KillEntity - defines amount of monster kills. If specific monster is not defined, then total amount is used
+#         InteractWithBlastFurnace - defines amount of interactions with blast furnace.
+#         InteractWithSmoker - defines amount of interactions with smoker.
+#         InteractWithLectern - defines amount of interactions with lectern.
+#         InteractWithCampfire - defines amount of interactions with campfire.
+#         InteractWithCartographyTable - defines amount of interactions with cartography table.
+#         InteractWithLoom - defines amount of interactions with loom.
+#         InteractWithStonecutter - defines amount of interactions with stonecutter.
+#         InteractWithAnvil - defines amount of interactions with anvil.
+#         InteractWithGrindstone - defines amount of interactions with grindstone.
+#         InteractWithSmithingTable - defines amount of interactions with smithing table.
+#         BellRing - defines amount of interactions with bell.
+#         RaidTrigger - defines amount of interactions with raid trigger.
+#         RaidWin - defines amount of interactions with raid win.
+#         TargetHit - defines amount of interactions with target hit.
+#         OpenBarrel - defines amount of interactions with open barrel.
+#         DropCount - defines amount of interactions with drop count.
 
-Newbie:
+Nexies:
   Enabled: true
-  DisplayName: '&2Newbie'
+  DisplayName: '&r'
   DefaultRank: true
-  AutoRankup: true
   NextRanks:
-  - Branch1
-  - Branch2
-Branch1:
+  - Sprinkle1
+Sprinkle1:
   Enabled: true
-  DisplayName: '&2Branch1'
-  AutoRankup: true
-  RankupConfirmation: true
-  Votes: 5
-  PermissionRequirement:
-  - cmi.command.fly:Fly
-  McMMORequirement:
-  - woodcutting:10
-  - power:20
-  JobsRequirement:
-  - miner:10
-  - totallevel:20
-  AuraSkillsRequirement:
-  - miner:10
-  - power:20
-  AureliumRequirement:
-  - fishing:10
-  - power:30
-  ItemRequirement:
-  - stone:10
-  - stone:1:20
-  - book:20
-  NextRanks:
-  - Branch1Rank1
-  MoneyCost: 100
+  DisplayName: '&r'
+  MoneyCost: 5000
   Commands:
-  - broadcast! &6[playerDisplayName] &eleveled up to Branch1 rank!
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Sprinkle1
+  - lp user %cmi_user_uuid% parent add sprinkle1
   StatsRequirements:
-  - PlayTime:3600
-  - travel:1000
+  - PlayTime:86400
+  - MineBlock:stone:10
+  - MineBlock:dirt:10
   - MonsterKills:zombie:10
-  - MonsterKills:slime:5
-  - MonsterKills:wolf:5
-  - AccountAge:1209600
-Branch1Rank1:
-  Enabled: true
-  DisplayName: '&2Branch1Rank1'
-  DefaultRank: false
-  AutoRankup: true
-  RankupConfirmation: false
-  PermissionRequirement:
-  - cmi.command.heal:Heal
+  - MonsterKills:skeleton:10
   NextRanks:
-  - Last
-  MoneyCost: 300
-  ExpCost: 350
-  Commands:
-  - broadcast! &6[playerDisplayName] &eleveled up to Branch1Rank1 rank!
-  StatsRequirements:
-  - travel:10000
-  - blocksmined:3000
-  - blocksmined:diamond_ore:30
-  - MonsterKills:1000
-  - AccountAge:1209600
-  McMMORequirement:
-  - taming:10
-  - unarmed:30
-Branch2:
+  - Sprinkle2
+Sprinkle2:
   Enabled: true
-  DisplayName: '&2Branch2'
-  AutoRankup: true
-  RankupConfirmation: true
-  MoneyCost: 150
+  DisplayName: '&r'
+  MoneyCost: 15000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Sprinkle2
+  - lp user %cmi_user_uuid% parent add sprinkle2
+  - lp user %cmi_user_uuid% parent remove sprinkle1
+  StatsRequirements:
+  - PlayTime:172800
+  - MineBlock:iron_ore:30
+  - MineBlock:coal_ore:30
+  - MonsterKills:creeper:15
+  - MonsterKills:spider:15
   NextRanks:
-  - Branch2Rank1
-  Commands:
-  - broadcast! &6[playerDisplayName] &eleveled up to Branch2 rank!
-  PermissionRequirement:
-  - cmi.command.tp:Teleport
-  StatsRequirements:
-  - PlayTime:3600
-  - travel:2000
-  - MonsterKills:zombie:15
-  - MonsterKills:slime:10
-Branch2Rank1:
+  - Sprinkle3
+Sprinkle3:
   Enabled: true
-  DisplayName: '&2Branch2Rank1'
-  AutoRankup: true
-  RankupConfirmation: false
-  MoneyCost: 100
-  ExpCost: 150
+  DisplayName: '&r'
+  MoneyCost: 35000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Sprinkle3
+  - lp user %cmi_user_uuid% parent add sprinkle3
+  - lp user %cmi_user_uuid% parent remove sprinkle2
+  StatsRequirements:
+  - PlayTime:259200
+  - MineBlock:gold_ore:30
+  - MineBlock:lapis_ore:30
+  - MonsterKills:phantom:30
+  - MonsterKills:glow_squid:30
   NextRanks:
-  - Branch2Rank2
-  Commands:
-  - broadcast! &6[playerDisplayName] &eleveled up to Branch1Rank1 rank!
-  StatsRequirements:
-  - PlayTime:4600
-  - Swim:1000
-  - SneakTime:180
-  - MonsterKills:100
-Branch2Rank2:
+  - Puffy1
+Puffy1:
   Enabled: true
-  DisplayName: '&2Branch2Rank2'
-  AutoRankup: true
-  RankupConfirmation: false
-  MoneyCost: 100
-  ExpCost: 150
+  DisplayName: '&r'
+  MoneyCost: 70000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Puffy1
+  - lp user %cmi_user_uuid% parent add puffy1
+  - lp user %cmi_user_uuid% parent remove sprinkle3
+  StatsRequirements:
+  - PlayTime:345600
+  - MineBlock:emerald_ore:20
+  - MonsterKills:pillager:10
+  - MonsterKills:vindicator:10
+  ItemRequirement:
+  - beehive:30
   NextRanks:
-  - Last
-  Commands:
-  - broadcast! &6[playerDisplayName] &eleveled up to Branch2Rank2 rank!
-  StatsRequirements:
-  - walk:15000
-  - HorseTravel:1000
-  - ItemsUsed:10000
-  - PlayerKills:10
-Last:
+  - Puffy2
+Puffy2:
   Enabled: true
-  DisplayName: '&2Last'
-  AutoRankup: true
-  StatsRequirements:
-  - PlayTime:21600
-  - walk:30000
-  - MonsterKills:1000
-  - blocksmined:30000
+  DisplayName: '&r'
+  MoneyCost: 120000
   Commands:
-  - broadcast! &6[playerDisplayName] &eleveled up to Last rank!
-  - cmi heal [playerName]
-  - money give [playerName] 100
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Puffy2
+  - lp user %cmi_user_uuid% parent add puffy2
+  - lp user %cmi_user_uuid% parent remove puffy1
+  StatsRequirements:
+  - PlayTime:432000
+  - MineBlock:redstone_ore:128
+  - MineBlock:lapis_ore:128
+  - MonsterKills:mooshroom:20
+  ItemRequirement:
+  - goat_horn:5
+  NextRanks:
+  - Puffy3
+Puffy3:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 200000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Puffy3
+  - lp user %cmi_user_uuid% parent add puffy3
+  - lp user %cmi_user_uuid% parent remove puffy2
+  StatsRequirements:
+  - PlayTime:604800
+  - MineBlock:nether_quartz_ore:500
+  - CraftItem:red_nether_bricks:64
+  - Pickup:wither_rose:10
+  - MonsterKills:wither:10
+  NextRanks:
+  - Glitter1
+Glitter1:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 300000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Glitter1
+  - lp user %cmi_user_uuid% parent add glitter1
+  - lp user %cmi_user_uuid% parent remove puffy3
+  StatsRequirements:
+  - PlayTime:691200
+  - CraftItem:music_disc_5:1
+  - MonsterKills:husk:100
+  - MonsterKills:stray:100
+  NextRanks:
+  - Glitter2
+Glitter2:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 450000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Glitter2
+  - lp user %cmi_user_uuid% parent add glitter2
+  - lp user %cmi_user_uuid% parent remove glitter1
+  StatsRequirements:
+  - PlayTime:777600
+  - MineBlock:bamboo:640
+  - MonsterKills:hoglin:50
+  - MonsterKills:ghast:10
+  ItemRequirement:
+  - ancient_debris:20
+  NextRanks:
+  - Glitter3
+Glitter3:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 600000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Glitter3
+  - lp user %cmi_user_uuid% parent add glitter3
+  - lp user %cmi_user_uuid% parent remove glitter2
+  StatsRequirements:
+  - PlayTime:864000
+  - MonsterKills:ravager:10
+  - MonsterKills:silverfish:10
+  ItemRequirement:
+  - emerald_ore:20
+  - crimson_fungus:40
+  NextRanks:
+  - Twinkle1
+Twinkle1:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 800000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Twinkle1
+  - lp user %cmi_user_uuid% parent add twinkle1
+  - lp user %cmi_user_uuid% parent remove glitter3
+  StatsRequirements:
+  - PlayTime:950400
+  - MineBlock:amethyst_block:256
+  - MineBlock:ancient_debris:75
+  - MonsterKills:magma_cube:100
+  - MonsterKills:ghast:50
+  NextRanks:
+  - Twinkle2
+Twinkle2:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 1000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Twinkle2
+  - lp user %cmi_user_uuid% parent add twinkle2
+  - lp user %cmi_user_uuid% parent remove twinkle1
+  StatsRequirements:
+  - PlayTime:1036800
+  - MonsterKills:piglin_brute:100
+  - MonsterKills:enderman:250
+  ItemRequirement:
+  - deepslate_diamond_ore:300
+  - obsidian:200
+  NextRanks:
+  - Twinkle3
+Twinkle3:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 1500000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Twinkle3
+  - lp user %cmi_user_uuid% parent add twinkle3
+  - lp user %cmi_user_uuid% parent remove twinkle2
+  StatsRequirements:
+  - PlayTime:1123200
+  - MonsterKills:wither:20
+  - MonsterKills:guardian:100
+  ItemRequirement:
+  - ancient_debris:100
+  - chorus_flower:250
+  NextRanks:
+  - Sparkle1
+Sparkle1:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 2000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Sparkle1
+  - lp user %cmi_user_uuid% parent add sparkle1
+  - lp user %cmi_user_uuid% parent remove twinkle3
+  StatsRequirements:
+  - PlayTime:1209600
+  - CraftItem:respawn_anchor:16
+  - MonsterKills:shulker:30
+  - MonsterKills:witch:30
+  ItemRequirement:
+  - torchflower:10
+  NextRanks:
+  - Sparkle2
+Sparkle2:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 3000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Sparkle2
+  - lp user %cmi_user_uuid% parent add sparkle2
+  - lp user %cmi_user_uuid% parent remove sparkle1
+  StatsRequirements:
+  - PlayTime:1296000
+  - MonsterKills:wither:30
+  - MonsterKills:warden:10
+  ItemRequirement:
+  - pitcher_plant:32
+  - gilded_blackstone:64
+  NextRanks:
+  - Sparkle3
+Sparkle3:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 4000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Sparkle3
+  - lp user %cmi_user_uuid% parent add sparkle3
+  - lp user %cmi_user_uuid% parent remove sparkle2
+  StatsRequirements:
+  - PlayTime:1382400
+  - MonsterKills:guardian:100
+  - MonsterKills:elder_guardian:5
+  ItemRequirement:
+  - deepslate_diamond_ore:550
+  - ancient_debris:300
+  NextRanks:
+  - Starlie1
+Starlie1:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 5000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Starlie1
+  - lp user %cmi_user_uuid% parent add starlie1
+  - lp user %cmi_user_uuid% parent remove sparkle3
+  StatsRequirements:
+  - PlayTime:1468800
+  - CraftItem:calibrated_sculk_sensor:50
+  - MonsterKills:vex:30
+  - MonsterKills:evoker:20
+  ItemRequirement:
+  - deepslate_diamond_ore:650
+  NextRanks:
+  - Starlie2
+Starlie2:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 10000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Starlie2
+  - lp user %cmi_user_uuid% parent add starlie2
+  - lp user %cmi_user_uuid% parent remove starlie1
+  StatsRequirements:
+  - PlayTime:1555200
+  - MonsterKills:shulker:75
+  - KillEntity:rabbit:64
+  - CraftItem:end_crystal:64
+  ItemRequirement:
+  - exposed_cut_copper:320
+  NextRanks:
+  - Starlie3
+Starlie3:
+  Enabled: true
+  DisplayName: '&r'
+  MoneyCost: 50000000
+  Commands:
+  - broadcast !&b[playerDisplayName] &fhas ranked up to &r &7(/ranks)
+  - cmi rankset %cmi_user_uuid% Starlie3
+  - lp user %cmi_user_uuid% parent add starlie3
+  - lp user %cmi_user_uuid% parent remove starlie2
+  StatsRequirements:
+  - PlayTime:1728000
+  - MonsterKills:shulker:100
+  - MonsterKills:rabbit:50
+  - MonsterKills:wither:100
+  - MonsterKills:zoglin:100
+  - MonsterKills:warden:50
+  - MonsterKills:ender_dragon:1
+  ItemRequirement:
+  - rabbit_foot:20
+  - conduit:10
+  - heart_of_the_sea:10

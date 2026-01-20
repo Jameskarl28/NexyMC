@@ -8,7 +8,7 @@ ChatFilter:
   Deny:
     ipBlock:
       # If not set to true, this filter will not be used
-      Enabled: true
+      Enabled: false
       # Defines filter group and defines required permission node to bypass this filter: cmi.chatfilter.bypass.[groupName]
       Group: Advertising
       # When set to true, each time player triggers filter, console will receive information about who triggered it, which filter and with what message
@@ -49,13 +49,14 @@ ChatFilter:
       Group: Swearing
       InformConsole: true
       Regex:
-      - \b(?i)(f+(\W|_)*(u?)+(\W|_)*(c?)+(\W|_)*k+)
+      - \b(?i)(f+(\W|_|\d)*(u?)+(\W|_|\d)*(c?)+(\W|_|\d)*k+| n+(\W|_|\d)*i+(\W|_|\d)*g+(\W|_|\d)*g+(\W|_|\d)*e+(\W|_|\d)*r+|
+        n+(\W|_|\d)*i+(\W|_|\d)*g+(\W|_|\d)*g+(\W|_|\d)*a+)\b
       ReplaceWith: not good
       BlockType: none
       includePrivateMessages: true
       msgToStaff: '&4!&6[playerName] &4swearing'
       Commands:
-      - msg [senderName] &eDon't swear!
+      - msg [senderName] &4&lAVOID SWEARING!
   # List of regex filter to exlude from block list. Usefull if you want to block all ip/host address but want to allow usage of your own server.
   WhiteList:
   - \bgoogle.\s?([a-zA-Z]{2,4})\b

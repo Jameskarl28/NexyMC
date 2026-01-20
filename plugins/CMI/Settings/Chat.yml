@@ -6,7 +6,7 @@ Chat:
     # Priority of public message format listener
     # Changed priority will only take effect on full server restart. Possible options: LOWEST, LOW, NORMAL, HIGH, HIGHEST
     # Default: NORMAL
-    Priority: NORMAL
+    Priority: HIGHEST
     # When set to true, regular and private messages (excludes clean messages) will have additional information when hovering over it (PlaceHolderAPI supported) and can be clicked for quick reply option
     # To change default hover over messages seen on sent message, go to your locale file to Chat section
     ClickHoverMessages: true
@@ -42,7 +42,7 @@ Chat:
   LinkRegex: (^| )((http|https|ftp|ftps)\:\/\/)?[a-zA-Z0-9\-]+\.[a-zA-Z]{2,3}(\/\S*)?([^\s|^\)]+)
   HoverItems:
     # When set to true, particular variables in chat will be translated into items player are holding. List of variables belove
-    Enabled: true
+    Enabled: false
     # Defines regex when replacing item line in chat with players item in hand information. Only works when CMI hover over chat format is enabled
     ItemRegex:
     - (\[i\])
@@ -63,7 +63,7 @@ Chat:
     StaffMessages: true
   # Used for simple chat messages. Optional variables: {displayName} {world} {prefix} {suffix} {group} {shout} {shoutcolor} {message} {nicknameprefix}. Supporting PlaceHolderAPI variables like %player_server% %cmi_user_chatcolor%
   # ATTENTION! Don't use gradient colors for {message} variable, if you want to apply gradient for it, utilize GeneralMessageFormat section
-  GeneralFormat: '{prefix}&f{displayName} &7» &r{message}'
+  GeneralFormat: '%eternaltags_tag% %luckperms_prefix%&f{displayName} &7» &r{message}'
   # Will define message format itself, this allows to have gradients in messages
   # It NEEDS to contain {message} otherwise we will ignore this setup
   # For 1.16+ servers you can use color gradients like '{#b3a28f>}{message}{#d7b8e6<}'

@@ -15,7 +15,9 @@ Economy:
   # ATTENTION! If you disabled CMI economy while server was running, you will need to perform a full server restart for this to take effect and avoid issues when retrieving players' balances.
   Enabled: true
   # Determines if player needs to confirm money payment by clicking on chat message
-  Confirmation: true
+  Confirmation: false
+  # Should we allow offline payments. This is primarily for pay command and will not block other payments like receiving money from other plugins
+  OfflinePayments: true
   # Set to true if you want to log money transfers between players
   LogEnabled: true
   log:
@@ -28,7 +30,7 @@ Economy:
     # Set it to 0 to remove the limit
     MaxValue: 1.0E8
     # If set to true, the player will be required to hold a piece of paper to create a cheque.
-    Paper: true
+    Paper: false
     # When set to true, the player will be required to have cmi.command.cheque.withdraw permission node to withdraw cheque
     Permission: false
     # Should we allow cheque usage in creative mode?
@@ -53,7 +55,6 @@ Economy:
     # List of players to exclude from baltop list
     Exclude:
     - LexyLuther
-    - Nekow
     # When enabled baltop list will show short money values, like 12.5M instead of 12501234
     DisplayWithShorts: false
     # List of names to exclude from baltop
@@ -70,6 +71,7 @@ Economy:
     IncludeFakes: false
     # Set to 0 or lower to disable this feature
     # Time in days of player being offline to exclude from being included in balance top list
+    # For full effect this will require server restart
     ExcludeInactive: 0
   Global:
     # Starting amount of money players will have
@@ -77,7 +79,7 @@ Economy:
     # Minimal amount, can go into negative if needed
     MinimalAmount: 0.0
     # Maximal amount of money player can have. Set to -1 to disable this limit
-    MaximumAmount: 1.0E8
+    MaximumAmount: -1
     # Defines amount until player can send to another player
     # This can prevent annoying spam some players would want to create by sending tiny amounts of money
     MinimalPay: 0.5
@@ -106,7 +108,7 @@ Economy:
     Placing: '[symbol][money]'
 FileSave:
   # Change this to true only if you have issues with drives I/O and you need to save players files in async mode to lower waiting time for mc server
-  Async: false
+  Async: true
 InteractiveCommands:
   # Regex used in recognizing public interactive commands used in signs
   # Default format is [ic:[icName]] in example [ic:trash]
@@ -121,17 +123,17 @@ Optimizations:
   InfiniteLoopDetection: true
   # When this set to true any message sent to console will be strip out of any colors
   # In case you have mohochrome console, keep this at true
-  MonochromeConsole: false
+  MonochromeConsole: true
   # Time in seconds we want to give for playes who joins server a immortality state
   # Set this to 0 to disable
   # Max 60 seconds
   ImmortalityOnJoin: 3
   # Enables or disables maintenance mode
-  Maintenance: false
+  Maintenance: true
   # Automatically kicks everyone from server when enabling maintenance mode who doesnt have cmi.command.maintenance.bypass permission node
   MaintenanceAutoKick: true
   # When enabled will show bossbar message informing about current maintenance mode being enabled
-  MaintenanceBossBar: true
+  MaintenanceBossBar: false
   # When this is set to true features like glow color, player collision, name plates will stop working and CMI will avoid doing anything related to player teams
   # Enable this if you are experiencing issue with other plugins which utilizes players teams for certain features
   DisableTeamManagement: false
@@ -140,8 +142,12 @@ Optimizations:
     # This can help out to minimize posibility for players to manipulate armor stands when they don't have build permission in area where armorstand is standing
     CheckBlockPlace: false
     # Minimal armorstand scale which can be set in armor stand editor
+    # This is base min scale, can be overriden with cmi.command.armorstand.scalemin.[value] permission node
+    # Keep in mind that min value will be taken from this setting and permission node if both are set
     MinScale: 0.5
     # Max armorstand scale which can be set in armor stand editor
+    # This is base max scale, can be overriden with cmi.command.armorstand.scalemax.[value] permission node
+    # Keep in mind that max value will be taken from this setting and permission node if both are set
     MaxScale: 3
     Templates:
       # When set to true, the player will be required to have cmi.command.armorstand.template.[templatename] permission node to deploy saved template
@@ -161,6 +167,7 @@ Optimizations:
   ElevatorIndicator:
   - '[CMIElevator]'
   - '[Elevator]'
+  - '[Floor]'
   SignEdit:
     # Defines sign top line by which player will not be able to edit sign with /cmi se command
     BlackList:
@@ -214,7 +221,7 @@ Optimizations:
   # Keep in mind that by default players have acces to permission node, so negate it if you want to hide missing permission nodes from them
   PermisionOnError: false
   # When set to true, each time player tries to use something he doesnthave permission, message will be shown in console
-  PermisionInConsole: true
+  PermisionInConsole: false
   Teleport:
     # Players need to have cmi.safeteleport permision node to be placed in a safe location when teleporting to target location
     # When true then while checking for safe location, we will try to determin it going down and if it fails, then up from target location
@@ -341,8 +348,6 @@ Optimizations:
   # Do you want to run auto top playtime updater
   # This is responsible for providing players current top playtimes which gets updated on consistent intervals, useful for placeholders
   PlayTimeAutoUpdater: true
-  # When set to true, playtimetop list will be loaded on server startup
-  PreloadTopPlaytime: false
   # Do you want to use CMI playtime tracking
   # While this is enabled, player play time will be record for each hour he playied in server
   # This doesnt have effect on rankup or /playtime commands, it will only show more specific playtime by hours when using /cplaytime command
@@ -358,7 +363,7 @@ Optimizations:
   ItemName:
     # For black listed materials check ItemRenaming.list section
 
-    # When set to true items which name got changed with /itemname command will be marked with NBT data as 'ModifiedName' boolean type
+        # When set to true items which name got changed with /itemname command will be marked with NBT data as 'ModifiedName' boolean type
     MarkChanged: false
   ItemLore:
     # Defines maximum length of item lore line excluding color codes for itemlore command
@@ -373,14 +378,14 @@ Optimizations:
     # Do you want to inform player when item durability gets lower than set threshold
     # Player should have cmi.informDurability
     Tools:
-      Use: true
+      Use: false
       Percentage: 10
     Armor:
-      Use: true
+      Use: false
       Percentage: 10
   OnLimitedItemUse:
     # Informs about left uses of item
-    Inform: true
+    Inform: false
   # Can prevent animals or monsters entering boats
   PreventEntityBoatEnter:
     Monsters: false
@@ -492,7 +497,7 @@ Sleeping:
     # Minimal amount of players sleeping in beds before speeding it up
     # Can be defined in 2 formats. When using clean number like 3, then 3 players will have to be sleeping before speedup kicks in
     # If amount is defined with % like 50% then half of server population will have to be sleeping before speedup kicks in
-    MinBeforeSpeeding: 50%
+    MinBeforeSpeeding: 5
     # When set to true online players will be informed about missing sleeping people count
     Inform: true
     # Time in seconds between information messages can be shown when player starts or stops sleeping
@@ -536,7 +541,7 @@ ExploitPatcher:
   NoCommandsInBed: false
   # Due to major exploit relating to oversized books this is recomended to be enabled
   # While this is set to true players will be limited in how many pages they can create
-  # Limitation is determined by cmi.book.pages.§f[20to100]§7 permission node and by default players can create 20 pages
+  # Limitation is determined by cmi.book.pages.§f[20to100]§x§f§f§c§0§c§b permission node and by default players can create 20 pages
   LimitBooks: true
   # While enabled we will prevent items being teleported with end portal and end beacons
   BlockEndPortalItemTransfers: true
@@ -634,9 +639,13 @@ Holograms:
     # Default value for hologram view range
     # This defines from how far holograms will appear for the player or when they will disapear
     viewRange: 16
-    # Defines default update interval
-    # Bigger this number is better performance we will have
+    # Default value for hologram update range
+    # This defines how close player should get for hologram to start updating its text
+    # Keep it at reasoble numbers as there is no point to update hologram across map
     updateRange: 8
+    # Defines default update interval
+    # Higher values means that holograms will be updated less often
+    # When value is set to 0 or lower, holograms will not be updated
     updateInterval: 0.0
     # Defines default page change interval
     # When value is set to 0 or lower, pages will not be changed
@@ -654,7 +663,7 @@ Votifier:
   # But if you need extra one to prevent rapid voting you can define time in seconds over here
   GeneralCooldown: 0
   # When set to false, commands on sucessfull vote will not be performed
-  PerformCommands: true
+  PerformCommands: false
   # Defines commands to be performed when player votes
   # Supports specialized commands and placeholders
   # [serviceName] variable can be used to insert address
@@ -674,7 +683,7 @@ Votifier:
     - cmi give [playerName] diamond 32
   # List of players to be excluded from top voter list
   ExcludeList:
-  - None
+  - LexyLuther
 Ranks:
   # If set to true we will check players rank by his access to rank by permission node and prioritize any rank which has more weight over current one
   # This means that in case player has access to third rank while recorded one is first one, we will prioritize third one
@@ -746,7 +755,8 @@ GroundClean:
     - itemType
     # List of item types not to be removed on ground clean action
     EntityType:
-    - entityType
+    - zombie_villager
+    - wither
 Command:
   CommandFilter:
     Duplicate:
@@ -825,6 +835,9 @@ NickName:
   MinLength: 4
   # Max length of nick name, can be bypassed with cmi.command.nick.bypass.length
   MaxLength: 16
+  # When enabled players will not be able to choose existing real player names
+  # Can be bypassed with cmi.command.nick.bypassrealname permission node
+  PreventRealNames: true
   # Adds prefix for players nickname to indicate that its not real name. This can be added to display name with {nicknameprefix}
   Prefix: '~'
   # When true, will only add nickname prefix when its not same as original name. This can allow colorization or capitalization change without adding prefix
@@ -1329,7 +1342,7 @@ WorldLimits:
   # If player will have cmi.worldlimit.god.bypass permission node, god mode wont be changed
   GodMode:
   - testWorld:False
-  # Prevents particular entity spawn reasons in defined worlds. All possible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, TRIAL_SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, DROWNED, SHEARED, EXPLOSION, RAID, PATROL, BEEHIVE, PIGLIN_ZOMBIFIED, SPELL, FROZEN, METAMORPHOSIS, DUPLICATION, COMMAND, ENCHANTMENT, OMINOUS_ITEM_SPAWNER, BUCKET, POTION_EFFECT, REHYDRATION, CUSTOM, DEFAULT
+  # Prevents particular entity spawn reasons in defined worlds. All possible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, TRIAL_SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_COPPERGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, DROWNED, SHEARED, EXPLOSION, RAID, PATROL, BEEHIVE, PIGLIN_ZOMBIFIED, SPELL, FROZEN, METAMORPHOSIS, DUPLICATION, COMMAND, ENCHANTMENT, OMINOUS_ITEM_SPAWNER, BUCKET, POTION_EFFECT, REANIMATE, REHYDRATION, CUSTOM, DEFAULT
   SpawnReasons:
     world:
     - None
@@ -1346,7 +1359,7 @@ CheckForNameChange:
   - 'asConsole! cmi broadcast !&2[oldname] logged in with new name: [newname]'
 inv:
   # Do you want to save the player's inventory on his death
-  SaveOnDeath: true
+  SaveOnDeath: false
   # When set to true, empty inventories (no items in inventory) will not be saved on players death
   IgnoreEmpty: false
   # If set to true then player should have cmi.saveinv permission node for inventory to be saved on death
@@ -1433,7 +1446,7 @@ ItemRepair:
     # When set to true, item repair with /cmi repair will cost money depending on setup
     # Player who performs command will pay repair cost
     # If command gets performed from console, then player whose items are repaired will be paying
-    CostsMoney: false
+    CostsMoney: true
     # Base price to repair item
     # If you have enabled durability check, then this value will wary depending on items condition
     BasePrice: 100.0
@@ -1466,6 +1479,8 @@ ShulkerBoxes:
   # When set to true, players will not have option to open shulker boxes while in combat
   # Combat timer can be defined under combat section
   PreventInCombat: true
+  # When set to true player will be required to have cmi.openshulker.edit permission to edit shulker box from inventory
+  RequirePermission: false
   # Money cost to open shulker box, if player doesn't have enough money then we will not allow to open shulker box from inventory
   # Setting this to 0 will disable money requirement
   # This can be bypassed with cmi.openshulker.free permission node
@@ -1535,6 +1550,7 @@ Player:
       InformDurability: true
       receivePets: true
       deathMessages: true
+      notarget: false
     Icons:
       visibleHolograms: BLACK_STAINED_GLASS
       shiftSignEdit: OAK_SIGN
@@ -1555,9 +1571,11 @@ Player:
       InformDurability: ANVIL
       receivePets: LEAD
       deathMessages: DEAD_BUSH
+      notarget: BEDROCK
 WarmUps:
   # You can enable any command warmup to prevent instant command usage
-  # tp:5:false means that when player performs /tp command he will need to wait 5 sec
+  # tp:5:false means that when player performs /tp command he will need to wait 5 sec and will not be able to move outside current block
+  # tp:5:false-3 means that when player performs /tp command he will need to wait 5 sec and will be limited to movement of no more than 3 blocks from original position
   # false variable is optional and when its set to false player cant move while warmup is counting
   # If you don't want to deny empty warp command but want to deny any extra variable after that, then just add space, in example 'warp :5:false'
   # When setting warmups for CMI commands, use full command name and not allias, in example 'cmi warp:5:false'
@@ -1583,17 +1601,17 @@ Jail:
   # Bigger numbers can help slightly lower server load
   CheckInterval: 500
   # Defines default jail time when time is not povided with command
-  DefaultTime: 300
+  DefaultTime: 600
   # Chat range in blocks while player is in jail
   # Set to 0 to allow talking
   # set to -1 to prevent talking in general while jailed
-  ChatRange: 20
+  ChatRange: -1
   # When set to true jail time will decreese while player is offline
   # When set to false jail time will only be counted while player is online
   CountWhileOffline: false
   # When set to true jail time will not decreese if player gets into afk mode while being jailed
   # When set to false, time will pass normally
-  NoAfk: false
+  NoAfk: true
   # Do you want to prevent players damage while he is in jail
   PreventDamage: true
   # Do you want to prevent players hunger while he is in jail

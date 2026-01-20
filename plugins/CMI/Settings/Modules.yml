@@ -31,15 +31,15 @@ firstJoinMessages: true
 #  
 # Handling of cuffed players
 # Applies for servers from 1.7.x and up
-cuffed: false
+cuffed: true
 #  
 # Handling of elevators
 # Applies for servers from 1.7.x and up
-elevator: false
+elevator: true
 #  
 # Handling of night speedup when players sleep in beds
 # Applies for servers from 1.7.x and up
-nightSpeedup: false
+nightSpeedup: true
 #  
 # Handling of damage control
 # Applies for servers from 1.7.x and up
@@ -83,7 +83,7 @@ cooldown: true
 #  
 # Handling of interactive commands
 # Applies for servers from 1.8.x and up
-interactiveCommands: true
+interactiveCommands: false
 #  
 # Handling of attached commands
 # Applies for servers from 1.8.x and up
@@ -98,7 +98,7 @@ armorEffects: false
 playerChatTag: false
 #  
 # Handling of chat bubbles
-# Applies for servers from 1.19.x and up
+# Applies for servers from 1.20.x and up
 chatBubble: false
 #  
 # Handling of tablist
@@ -115,7 +115,7 @@ vanish: true
 #  
 # Handles money cheques
 # Applies for servers from 1.7.x and up
-moneyCheque: false
+moneyCheque: true
 #  
 # Handles armor stand editor
 # Applies for servers from 1.8.x and up
@@ -155,7 +155,7 @@ noTarget: true
 #  
 # Handles rankup system
 # Applies for servers from 1.7.x and up
-ranks: false
+ranks: true
 #  
 # Handles votifier system
 # Applies for servers from 1.7.x and up
@@ -179,11 +179,11 @@ schedule: true
 #  
 # Handles player name plates
 # Applies for servers from 1.7.x and up
-namePlates: false
+namePlates: true
 #  
 # Handles jail system
 # Applies for servers from 1.7.x and up
-jail: false
+jail: true
 #  
 # Handles cmi flight charge system
 # Applies for servers from 1.7.x and up
@@ -223,7 +223,7 @@ eventCommands: false
 #  
 # Handling of disabled enchants in inventory
 # Applies for servers from 1.7.x and up
-disabledEnchants: false
+disabledEnchants: true
 #  
 # Handling of siting on blocks
 # Applies for servers from 1.8.x and up

@@ -1,111 +1,140 @@
-npcce:
-  Loc: spawn;176.5;67.18;32.5
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lCustom Enchant'
-  - '&7[/ce]'
-npcskill:
-  Loc: spawn;178.48;67.18;36.5
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lSkills'
-  - '&7[/skill]'
-npckeys1:
-  Loc: spawn;210.49;67.26;57.52
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lKeys'
-  - '&7[/starshop]'
-Spawn2:
-  Loc: spawn;208.6;66.83;19.97
+votetop:
+  Loc: spawn;-26.97;87.04;64.03
+  Range: 15
+  RangeExtra: 20
+  Filler: 245
   NewDisplay: true
   ND:
     Bill: FIXED
+    TAlpha: 240
+    Yaw: 125
     Double: true
     BAlpha: 0
     ScaleW: 1.1
     ScaleH: 1.2
   Lines:
-  - '&6&lINFO'
-  - =================================
-  - Stay updated! Join in our Discod Server
-  - to see the latest &6&lANNOUNCEMENTS&r &fand &6&lUPDATES
-  - Join now! &9&l/discord
-  - =================================
-npcrtp:
-  Loc: spawn;176.53;68.09;26.54
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lWilderness RTP'
-  - '&7[/rtp]'
-npckeys2:
-  Loc: spawn;210.48;67.19;0.42
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lKeys'
-  - '&7[/starshop]'
-lore:
-  Loc: spawn;171.5;73.22;65.69
-  Range: 20
-  RangeExtra: 30
+  - '#FFC0CBTop Vote'
+  - '&r'
+  - '#FFC0CB1.&r %cmi_votetop_1% &7- #ADD8E6%cmi_votetopcount_1%'
+  - '#FFC0CB2.&r %cmi_votetop_2% &7- #ADD8E6%cmi_votetopcount_2%'
+  - '#FFC0CB3.&r %cmi_votetop_3% &7- #ADD8E6%cmi_votetopcount_3%'
+  - '#FFC0CB4.&r %cmi_votetop_4% &7- #ADD8E6%cmi_votetopcount_4%'
+  - '#FFC0CB5.&r %cmi_votetop_5% &7- #ADD8E6%cmi_votetopcount_5%'
+  - '#FFC0CB6.&r %cmi_votetop_6% &7- #ADD8E6%cmi_votetopcount_6%'
+  - '#FFC0CB7.&r %cmi_votetop_7% &7- #ADD8E6%cmi_votetopcount_7%'
+  - '#FFC0CB8.&r %cmi_votetop_8% &7- #ADD8E6%cmi_votetopcount_8%'
+  - '#FFC0CB9.&r %cmi_votetop_9% &7- #ADD8E6%cmi_votetopcount_9%'
+  - '#FFC0CB10.&r %cmi_votetop_10% &7- #ADD8E6%cmi_votetopcount_10%'
+playtimetop:
+  Loc: spawn;-27.46;86.96;69.56
+  Range: 15
+  RangeExtra: 20
+  Filler: 245
   NewDisplay: true
   ND:
     Bill: FIXED
-    Yaw: 180
+    TAlpha: 240
+    Yaw: 75
+    Double: true
     BAlpha: 0
     ScaleW: 1.1
-    ScaleH: 1.4
-    SL: 15
-    BL: 15
+    ScaleH: 1.2
   Lines:
-  - '&6&lChapter 2: The Unexpected Challenge'
-  - ICON:air
-  - Upon arriving on Earth, the Orions landed in a remote, ancient forest, eager to
-    establish a hidden
-  - settlement. To their dismay, they discovered that Earth was not the barren wasteland
-    they had
-  - expected. The planet was home to a rich tapestry of life, including medieval human
-    societies struggling
-  - with their own challenges.
-  - ICON:air
-  - ICON:air
-  - 'Moreover, Earth harbored its own dark secrets: dungeons filled with dangerous
-    monsters and ancient'
-  - evils lurking in the shadows. As the Orions began to set up their new home, they
-    encountered these
-  - threats firsthand. The once serene forest was now a battleground of survival as
-    they faced creatures
-  - and dungeons that posed a serious risk to their safety.
-  - ICON:air
-  - ICON:air
-  - Realizing that their new refuge was fraught with peril, the Orions fortified their
-    settlement with a
-  - combination of their advanced technology and magical defenses. They navigated
-    the delicate balance
-  - of coexisting with Earth's medieval inhabitants while protecting themselves from
-    the monstrous threats
-  - that roamed the land. Their journey for peace had become a fight for survival
-    in a world teeming with
-  - danger and ancient mysteries.
-'&6&lWildRTP':
+  - '#FFC0CBTop Playtime'
+  - '&r'
+  - '#FFC0CB1.&r %cmi_playtimetop_name_1% &7- #ADD8E6%cmi_playtimetop_time_1%'
+  - '#FFC0CB2.&r %cmi_playtimetop_name_2% &7- #ADD8E6%cmi_playtimetop_time_2%'
+  - '#FFC0CB3.&r %cmi_playtimetop_name_3% &7- #ADD8E6%cmi_playtimetop_time_3%'
+  - '#FFC0CB4.&r %cmi_playtimetop_name_4% &7- #ADD8E6%cmi_playtimetop_time_4%'
+  - '#FFC0CB5.&r %cmi_playtimetop_name_5% &7- #ADD8E6%cmi_playtimetop_time_5%'
+  - '#FFC0CB6.&r %cmi_playtimetop_name_6% &7- #ADD8E6%cmi_playtimetop_time_6%'
+  - '#FFC0CB7.&r %cmi_playtimetop_name_7% &7- #ADD8E6%cmi_playtimetop_time_7%'
+  - '#FFC0CB8.&r %cmi_playtimetop_name_8% &7- #ADD8E6%cmi_playtimetop_time_8%'
+  - '#FFC0CB9.&r %cmi_playtimetop_name_9% &7- #ADD8E6%cmi_playtimetop_time_9%'
+  - '#FFC0CB10.&r %cmi_playtimetop_name_10% &7- #ADD8E6%cmi_playtimetop_time_10%'
+listofcommands:
+  Loc: spawn;-4.58;88.21;23.99
+  Range: 15
+  RangeExtra: 20
+  Filler: 245
+  NewDisplay: true
+  ND:
+    Bill: FIXED
+    Align: LEFT
+    TAlpha: 240
+    Yaw: 90
+    Double: true
+    BAlpha: 115
+    ScaleW: 1.1
+    ScaleH: 1.2
+  Lines:
+  - '       #FFC0CB&lList of Basic Commands'
+  - ICON:AIR
+  - '&7[#ADD8E6/profile&7] &8- #FFC0CBTo preview essential stats'
+  - '&7[#ADD8E6/help&7] &8- #FFC0CBFor basic help'
+  - '&7[#ADD8E6/ranks&7] &8- #FFC0CBPreview available ranks'
+  - '&7[#ADD8E6/shop&7] &8- #FFC0CBBuy and sell stuff'
+  - '&7[#ADD8E6/pw-/pwarp&7] &8- #FFC0CBPlayer warps'
+  - '&7[#ADD8E6/ah&7] &8- #FFC0CBOpen Auction House'
+  - '&7[#ADD8E6/jobs&7] &8- #FFC0CBPreview available jobs'
+  - '&7[#ADD8E6/vote&7] &8- #FFC0CBServer vote links'
+  - '&7[#ADD8E6/store&7] &8- #FFC0CBOpen server store'
+  - '&7[#ADD8E6/options&7] &8- #FFC0CBToggle some options'
+  - '&7[#ADD8E6/coinflip&7] &8- #FFC0CBOpen Coinflip menu'
+  - '&7[#ADD8E6/eglow&7] &8- #FFC0CB Open Glow menu'
+  - '&7[#ADD8E6/pp&7] &8- #FFC0CBOpen Playerparticles menu'
+  - '&7[#ADD8E6/cg toggle&7] &8- #FFC0CBToggle Chatgames'
+  - '&7[#ADD8E6/tags&7] &8- #FFC0CBOpen Tags Menu'
+  - '&7[#ADD8E6/ceitems&7] &8- #FFC0CBPurchase some CE items'
+  - '&7[#ADD8E6/mce&7] &8- #FFC0CBPurchase multiple CE'
+  - '&7[#ADD8E6/buystars&7] &8- #FFC0CBPurchase stars'
+Spawn:
+  Loc: spawn;0.46;89.94;6.46
+  Range: 15
+  RangeExtra: 20
+  Filler: 245
+  NewDisplay: true
+  ND:
+    Bill: FIXED
+    TAlpha: 240
+    Yaw: 180
+    Double: true
+    BAlpha: 0
+    ScaleW: 1.1
+    ScaleH: 1.2
+  Lines:
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
+  - '&r'
+  - '#FFC0CB&l🌸 &r#ADD8E6Welcome to #FFC0CBNexyMC &l🌸'
+  - '&7----------------------------------'
+  - '#FFC0CB&l✨&r #ADD8E6Start your adventure #FFC0CB&l✨'
+  - '#FFC0CB&l➤&r #ADD8E6Use /rtp to explore the world'
+  - '#FFC0CB&l➤&r #ADD8E6Or walk into the #FFC0CB&l🌸&r #ADD8E6Random Teleportation
+    Portal #FFC0CB&l🌸'
+  - '#ADD8E6in front of you!'
+  - '&7----------------------------------'
+communitychest:
+  Loc: spawn;72.22;80.0;7.47
+  Filler: 245
+  NewDisplay: true
+  ND:
+    Bill: FIXED
+    Yaw: 270
+    Pitch: -30
+    BAlpha: 0
+    ScaleW: 1.2
+    ScaleH: 1.3
+  Lines:
+  - '#FFC0CB&lCOMMUNITY CHEST'
+WildRTP:
   Loc: spawn;0.53;86.55;52.67
   Range: 20
   RangeExtra: 20
+  Filler: 245
   NewDisplay: true
   ND:
     Bill: FIXED
@@ -126,196 +155,25 @@ lore:
   - '#ADD8E6&lRANDOM TELEPORTATION PORTAL'
   - '#FFC0CBTeleports you on random places'
   - '#FFC0CBon the Overworld'
-communitychest:
-  Loc: spawn;-12.49;84.35;71.52
+baltop:
+  Loc: spawn;-20.02;86.81;75.01
+  Filler: 245
   NewDisplay: true
   ND:
     Bill: FIXED
-    Yaw: 180
-    Pitch: -10
+    Yaw: 200
     BAlpha: 0
-    ScaleW: 1.2
-    ScaleH: 1.3
+    SL: 15
   Lines:
-  - '#FFC0CB&lCOMMUNITY CHEST'
-npcjobs:
-  Loc: spawn;181.49;67.18;39.47
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lJobs'
-  - '&7[/jobs]'
-trade2:
-  Loc: spawn;205.53;67.12;0.53
-  NewDisplay: true
-  ND:
-    TAlpha: 255
-    BAlpha: 20
-  Lines:
-  - '&f'
-  - '&6&lTrade'
-  - '&7[trade]'
-economy:
-  Loc: spawn;208.5;66.72;32.32
-  NewDisplay: true
-  ND:
-    Bill: FIXED
-    TAlpha: 255
-    Yaw: 180
-    Double: true
-    BAlpha: 0
-  Lines:
-  - '&6&lECONOMY'
-  - =====================
-  - There are many ways to earn money
-  - you can earn in &6&lJobs&r, &6&lQuests&r, &6&lFishing
-  - participating in &6&lChatGames&r, &6&lVote&r etc.
-  - =====================
-trade1:
-  Loc: spawn;215.5;67.12;0.46
-  NewDisplay: true
-  ND:
-    TAlpha: 255
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lTrade'
-  - '&7[trade]'
-npchelp:
-  Loc: spawn;178.44;67.18;17.5
-  NewDisplay: true
-  ND:
-    TAlpha: 225
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lHelper'
-  - '&7[/help]'
-listofcommands:
-  Loc: spawn;-5.36;86.29;24.01
-  Range: 15
-  RangeExtra: 20
-  NewDisplay: true
-  ND:
-    Bill: FIXED
-    TAlpha: 240
-    Yaw: 90
-    Double: true
-    BAlpha: 0
-    ScaleW: 1.1
-    ScaleH: 1.2
-  Lines:
-  - '#FFC0CBList of commands you can check'
-  - ICON:air
-  - '&7[#ADD8E6/help&7] &8- #FFC0CBFor basic help'
-  - '&7[#ADD8E6/ranks&7] &8- #FFC0CBPreview available ranks'
-  - '&7[#ADD8E6/shop&7] &8- #FFC0CBBuy and sell stuff'
-  - '&7[#ADD8E6/pw-/pwarp&7] &8- #FFC0CBPlayer warps'
-  - '&7[#ADD8E6/tc toggle&7] &8- #FFC0CBToggle tree cutter'
-  - '&7[#ADD8E6/jobs&7] &8- #FFC0CBPreview available jobs'
-  - '&7[#ADD8E6/vote&7] &8- #FFC0CBServer vote links'
-  - '&7[#ADD8E6/store&7] &8- #FFC0CBOpen server store'
-Spawn:
-  Loc: spawn;0.46;89.94;6.46
-  Range: 15
-  RangeExtra: 20
-  NewDisplay: true
-  ND:
-    Bill: FIXED
-    TAlpha: 240
-    Yaw: 180
-    Double: true
-    BAlpha: 0
-    ScaleW: 1.1
-    ScaleH: 1.2
-  Lines:
-  - パ
+  - '#FFC0CBRichest Player'
   - '&r'
-  - '&r'
-  - '&r'
-  - '&r'
-  - '&r'
-  - '%luckperms_prefix%&f%player_name%'
-  - '#FFC0CB&l🌸 &r#ADD8E6Welcome to #FFC0CBNexyMC &l🌸'
-  - '----------------------'
-  - '#FFC0CB&l✨&r #ADD8E6Start your adventure #FFC0CB&l✨'
-  - '#FFC0CB&l➤&r #ADD8E6Use /rtp to explore the world'
-  - '#FFC0CB&l➤&r #ADD8E6Or walk into the #FFC0CB&l🌸&r #ADD8E6Random Teleportation
-    Portal #FFC0CB&l🌸'
-  - '#ADD8E6in front of you!'
-  - '----------------------'
-premiumcrates:
-  Loc: spawn;210.49;65.67;-8.25
-  NewDisplay: true
-  ND:
-    Bill: FIXED
-    Double: true
-    BAlpha: 0
-    ScaleW: 1.72
-    ScaleH: 1.7
-  Lines:
-  - '&6&lGrindable Crates'
-  - '&fGrab yours now!!!'
-  - Buy at &6/store &for &6/starshop
-crates:
-  Loc: spawn;215.5;65.76;64.48
-  NewDisplay: true
-  ND:
-    Bill: FIXED
-    Yaw: 180
-    Double: true
-    BAlpha: 5
-    ScaleW: 1.42
-    ScaleH: 1.62
-  Lines:
-  - '&6&lCrates'
-  - '&fGet some stuff and goods here'
-  - '&fBuy keys on &6/keys &for &6/starshop'
-starshop:
-  Loc: spawn;220.45;67.2;57.49
-  NewDisplay: true
-  ND:
-    TAlpha: 255
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lStar Shop'
-  - '&7[/starshop]'
-npcranks:
-  Loc: spawn;181.46;67.18;14.47
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lRanks'
-  - '&7[/ranks]'
-claim:
-  Loc: spawn;219.09;66.23;18.05
-  NewDisplay: true
-  ND:
-    Bill: FIXED
-    TAlpha: 255
-    Yaw: 45
-    Double: true
-    BAlpha: 0
-    ScaleW: 1.2
-    ScaleH: 1.2
-  Lines:
-  - '&6&lHOW TO CLAIM?'
-  - You can use &6golden shovel&r to claim your land
-  - do &6&l/kits&r to get the &6golden shovel&r starter kit
-  - '---------------'
-  - You will earn &6100 Claim Blocks&r per hour
-  - To inspeck land use &6Stick
-npcquests:
-  Loc: spawn;176.49;67.18;21.5
-  NewDisplay: true
-  ND:
-    BAlpha: 0
-  Lines:
-  - '&f'
-  - '&6&lQuests'
-  - '&7[/quests]'
+  - '#FFC0CB1.&r %cmi_baltop_name_1% &7- #ADD8E6%cmi_baltop_shortmoney_1%'
+  - '#FFC0CB2.&r %cmi_baltop_name_2% &7- #ADD8E6%cmi_baltop_shortmoney_2%'
+  - '#FFC0CB3.&r %cmi_baltop_name_3% &7- #ADD8E6%cmi_baltop_shortmoney_3%'
+  - '#FFC0CB4.&r %cmi_baltop_name_4% &7- #ADD8E6%cmi_baltop_shortmoney_4%'
+  - '#FFC0CB5.&r %cmi_baltop_name_5% &7- #ADD8E6%cmi_baltop_shortmoney_5%'
+  - '#FFC0CB6.&r %cmi_baltop_name_6% &7- #ADD8E6%cmi_baltop_shortmoney_6%'
+  - '#FFC0CB7.&r %cmi_baltop_name_7% &7- #ADD8E6%cmi_baltop_shortmoney_7%'
+  - '#FFC0CB8.&r %cmi_baltop_name_8% &7- #ADD8E6%cmi_baltop_shortmoney_8%'
+  - '#FFC0CB9.&r %cmi_baltop_name_9% &7- #ADD8E6%cmi_baltop_shortmoney_9%'
+  - '#FFC0CB10.&r %cmi_baltop_name_10% &7- #ADD8E6%cmi_baltop_shortmoney_10%'

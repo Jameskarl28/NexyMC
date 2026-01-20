@@ -23,27 +23,18 @@ CustomAlias:
   chatspy disable:
     Cmds:
     - options chatspy disable
-  jobs:
-    Cmds:
-    - jobs:jobs browse
   v:
     Cmds:
     - cmi vanish $1-
   h:
     Cmds:
     - cmi heal $1
-  pm:
-    Cmds:
-    - cmi msg $1
-  r:
-    Cmds:
-    - reply $1
   tps:
     Cmds:
     - spark tps
   check:
     Cmds:
-    - spark healthreport
+    - spark profiler start --timeout 30
   qshop:
     Cmds:
     - quickshop-hikari:shop
@@ -55,13 +46,34 @@ CustomAlias:
     - betterrtp world world
   size small:
     Cmds:
-    - cmi scale set [playerName] 0.5
+    - cmi scale set [playerName] 0.5 $1
   size normal:
     Cmds:
-    - cmi scale set [playerName] 1
-  pwarp:
+    - cmi scale set [playerName] 1 $1
+  stars top:
     Cmds:
-    - pwarp open all
-  store:
+    - points lead
+  stars:
     Cmds:
-    - buy
+    - points me
+  stars pay:
+    Cmds:
+    - points pay $1-
+  sm:
+    Cmds:
+    - staffmsg toggle
+  newslot:
+    Cmds:
+    - broadcast !&r
+    - broadcast !&r
+    - broadcast !&a&lGIVEAWAY ANNOUNCEMENT
+    - broadcast !&fHave some slot in your inventory!
+    - broadcast !&r
+    - broadcast !&r
+    - cmi sound itemgoathornsound1 -all
+  tac:
+    Cmds:
+    - team allychat
+  tc:
+    Cmds:
+    - team chat

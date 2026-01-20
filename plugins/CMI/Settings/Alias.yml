@@ -79,8 +79,8 @@ Alias:
     Tab: true
   # /cmi ban $1-
   ban:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi banlist $1-
   banlist:
     Enabled: true
@@ -134,16 +134,16 @@ Alias:
     Tab: true
   # /cmi chatcolor $1-
   chatcolor:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi checkaccount $1-
   checkaccount:
     Enabled: true
     Tab: true
   # /cmi checkban $1-
   checkban:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi checkcommand $1-
   checkcommand:
     Enabled: true
@@ -382,8 +382,8 @@ Alias:
     Tab: true
   # /cmi flyc $1-
   flyc:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi flyspeed $1-
   flyspeed:
     Enabled: true
@@ -571,8 +571,8 @@ Alias:
     Tab: true
   # /cmi ipban $1-
   ipban:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi ipbanlist $1-
   ipbanlist:
     Enabled: true
@@ -753,8 +753,8 @@ Alias:
     Tab: true
   # /cmi mute $1-
   mute:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi mutechat $1-
   mutechat:
     Enabled: true
@@ -1181,16 +1181,16 @@ Alias:
     Tab: true
   # /cmi tempban $1-
   tempban:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi tempipban $1-
   tempipban:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi tfly $1-
   tfly:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi tgod $1-
   tgod:
     Enabled: true
@@ -1291,10 +1291,14 @@ Alias:
   tree:
     Enabled: true
     Tab: true
-  # /cmi unban $1-
-  unban:
+  # /cmi trim $1-
+  trim:
     Enabled: true
     Tab: true
+  # /cmi unban $1-
+  unban:
+    Enabled: false
+    Tab: false
   # /cmi unbreakable $1-
   unbreakable:
     Enabled: true
@@ -1313,8 +1317,8 @@ Alias:
     Tab: true
   # /cmi unmute $1-
   unmute:
-    Enabled: true
-    Tab: true
+    Enabled: false
+    Tab: false
   # /cmi unmutechat $1-
   unmutechat:
     Enabled: true
@@ -1342,8 +1346,8 @@ Alias:
   version:
     Enabled: false
     Tab: true
-  # /cmi viewrange $1-
-  viewrange:
+  # /cmi viewdistance $1-
+  viewdistance:
     Enabled: true
     Tab: true
   # /cmi voteedit $1-

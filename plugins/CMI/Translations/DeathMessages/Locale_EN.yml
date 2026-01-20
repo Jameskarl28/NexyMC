@@ -138,6 +138,9 @@ Mob:
   Tnt_minecart:
     General:
     - '&2[playerDisplayName] &7blew up'
+  Area_effect_cloud:
+    General:
+    - '&2[playerDisplayName] &7was killed by magic cloud'
   Allay:
     General:
     - '&2[playerDisplayName] &7was lured into the abyss by the enchanting call of
@@ -221,6 +224,11 @@ Mob:
     Item:
     - '&2[playerDisplayName] &7succumbed to &2[mobName] &7and their hungry jaws, armed
       with &2[item]'
+  Copper_golem:
+    General:
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
+    Item:
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'
   Cow:
     General:
     - '&2[playerDisplayName] &7was milked dry by the relentless &2[mobName]'
@@ -378,6 +386,11 @@ Mob:
     Item:
     - '&2[playerDisplayName] &7met their end at the hands of &2[mobName] &7and their
       searing heat, armed with &2[item]'
+  Mannequin:
+    General:
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
+    Item:
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'
   Mooshroom:
     General:
     - '&2[playerDisplayName] &7killed by &2[mobName]'
